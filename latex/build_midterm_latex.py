@@ -276,7 +276,7 @@ intake hashes match final analysis copies (no transformation before Volatility~2
     body.append(
         ab(
             "A3",
-            "pslist versus psscan (hidden vs exited)",
+            "pslist versus psscan",
             r"Disagreement between \texttt{pslist} and \texttt{psscan} for WannaCry helpers reflects exited processes removed from ActiveProcessLinks, not DKOM rootkit hiding.",
             f'"{VOL}" -f "{DUMP_W}" --profile {PROFILE} psxview\n'
             f'"{VOL}" -f "{DUMP_W}" --profile {PROFILE} psscan',
@@ -818,8 +818,8 @@ Intake and final hashes match (see intake table). Full START/DONE command log wi
         + r"""
 \end{lstlisting}
 
-\section*{Method Map (six-step workflow, course slide 17)}
-One-page map placing Part~A/~B findings under the six investigation stages.
+\section*{Method Map}
+Maps Part~A/~B findings onto the six-step memory investigation workflow.
 
 {\footnotesize
 \begin{tabularx}{\textwidth}{@{}c l >{\RaggedRight\arraybackslash}Y@{}}

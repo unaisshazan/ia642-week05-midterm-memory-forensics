@@ -82,6 +82,9 @@ MITRE ATT\&CK software pages S0366 (WannaCry) and S0603 (Stuxnet) are used for t
         plus SIFT Workstation GUI captures (\texttt{fig\_SIFT\_*}).
   \item \textbf{Safety:} Lab IOCs defanged in this report; VirusTotal used hash-only (no sample upload);
         SIFT kept on NAT / isolated for analysis.
+  \item \textbf{Public evidence repo:} Analysis outputs, figures, and this PDF (memory dumps excluded;
+        SHA-256 hashes only):
+        \url{https://github.com/unaisshazan/ia642-week05-midterm-memory-forensics}
 \end{itemize}
 
 \section*{Evidence Intake and Scope}
@@ -174,7 +177,7 @@ Command line : C:\
 \noindent\textbf{Interpretation.} \texttt{explorer.exe} PID~1636 lists PPID~1608 (parent not in \texttt{pslist}: exited parent, common after userinit). \texttt{tasksche.exe} PID~1940 parent~1636 at 21:22:14~UTC; \texttt{@WanaDecryptor@} PID~740 parent~1940 at 21:22:22~UTC. EPROCESS ImageFileName is 16-character truncated; full path recovered via cmdline as \winpath{C:/Intel/ivecuqmanpnirkt615/tasksche.exe} (and \texttt{@WanaDecryptor@.exe}). Root under explorer supports user-session detonation rather than worm-only remote spawn as parent.
 \vspace{0.55em}
 
-\subsection*{A3. pslist versus psscan (hidden vs exited)}
+\subsection*{A3. pslist versus psscan}
 \textbf{Hypothesis.} Disagreement between \texttt{pslist} and \texttt{psscan} for WannaCry helpers reflects exited processes removed from ActiveProcessLinks, not DKOM rootkit hiding.
 \par\medskip\noindent\textbf{Exact command}
 \begin{lstlisting}
@@ -922,8 +925,8 @@ Offset(V)  Name                 Base             Size File
 ... (124 lines total; truncated)
 \end{lstlisting}
 
-\section*{Method Map (six-step workflow, course slide 17)}
-One-page map placing Part~A/~B findings under the six investigation stages.
+\section*{Method Map}
+Maps Part~A/~B findings onto the six-step memory investigation workflow.
 
 {\footnotesize
 \begin{tabularx}{\textwidth}{@{}c l >{\RaggedRight\arraybackslash}Y@{}}
