@@ -85,7 +85,7 @@ def ab(
         r"\begin{lstlisting}",
         verb(cmd.strip()),
         r"\end{lstlisting}",
-        r"\noindent\textbf{Supporting output (excerpt)}",
+        r"\noindent\textbf{Supporting output}",
         r"\begin{lstlisting}",
         verb(out.strip()),
         r"\end{lstlisting}",
@@ -236,7 +236,7 @@ intake hashes match final analysis copies (no transformation before Volatility~2
 """
 
     body = []
-    body.append(r"\section*{Part A: WannaCry (\texttt{wcry.vmem})}")
+    body.append(r"\section*{Part A: WannaCry}")
     body.append(
         ab(
             "A1",
@@ -386,7 +386,7 @@ intake hashes match final analysis copies (no transformation before Volatility~2
         )
     )
 
-    body.append(r"\section*{Part B: Stuxnet (\texttt{stuxnet.vmem})}")
+    body.append(r"\section*{Part B: Stuxnet}")
     body.append(
         r"\textit{Prerequisite reading (dossier):} Executive Summary; Stuxnet Architecture "
         r"(Bypassing Behavior Blocking When Loading DLLs; Injection Technique); Installation; Load Point; "
@@ -612,7 +612,7 @@ Analyst treats the dossier as a hypothesis generator; Volatility outputs are fal
 \textbf{DATE:} October 5, 2026
 \end{quote}
 
-\subsubsection*{Executive summary (non-technical)}
+\subsubsection*{Executive summary}
 We analyzed two public reference memory images to prove Meridian can find malware in RAM when disk
 artifacts are missing, encrypted, or hidden. The WannaCry image shows ransomware already encrypting a
 Windows XP lab machine in May~2017, with encryption helpers finishing seconds before the memory capture.
@@ -642,7 +642,7 @@ kernel drivers MRxCls/MRxNet registered seconds earlier. Capture time: 2011-06-0
   \item Kernel driver load order relative to user-mode counterfeit process creation.
 \end{itemize}
 
-\subsubsection*{Consolidated IOC table (defanged)}
+\subsubsection*{Consolidated IOC table}
 {\small
 \begin{tabularx}{\textwidth}{@{}P{0.75in} Y P{0.95in} P{0.7in}@{}}
 \toprule
@@ -661,7 +661,7 @@ Hash & 10f07b9f\ldots 3586 (VT Stuxnet/Duqu) & malfind + VT & Med \\
 \bottomrule
 \end{tabularx}}
 
-\noindent\textbf{Investigated and assessed as benign (not dropped silently):}
+\noindent\textbf{Investigated and assessed as benign:}
 {\small
 \begin{tabularx}{\textwidth}{@{}P{1.35in} Y P{1.7in}@{}}
 \toprule
@@ -765,7 +765,7 @@ Hygiene: defanged IOCs, hash-only VT, UTC timelines, attribution limits.
     body.append(
         r"""
 \section*{Evidence Appendix}
-\subsection*{Evidence log (summary)}
+\subsection*{Evidence log}
 Intake and final hashes match (see intake table). Full START/DONE command log with timestamps is retained under
 \texttt{work/output/command\_log.txt}. SIFT confirmation outputs are under \texttt{work/output/sift/}.
 
@@ -783,14 +783,14 @@ Intake and final hashes match (see intake table). Full START/DONE command log wi
             "SIFT vol.py pslist on stuxnet.vmem (lsass.exe rows) confirming the triple-lsass process set.",
         )
         + r"""
-\noindent\textbf{Command log (excerpt)}
+\noindent\textbf{Command log}
 \begin{lstlisting}
 """
         + verb(clog)
         + r"""
 \end{lstlisting}
 
-\noindent\textbf{WannaCry psscan (exited helpers)}
+\noindent\textbf{WannaCry psscan}
 \begin{lstlisting}
 """
         + verb(app_psscan)
@@ -811,7 +811,7 @@ Intake and final hashes match (see intake table). Full START/DONE command log wi
         + r"""
 \end{lstlisting}
 
-\noindent\textbf{Stuxnet modules (mrx*)}
+\noindent\textbf{Stuxnet modules}
 \begin{lstlisting}
 """
         + verb(app_mod)
@@ -842,7 +842,7 @@ socket bindings, and Volatility excerpts) originate from the analyst's own Volat
 (\texttt{vol26.exe} on the host and \texttt{vol.py} inside SIFT) on local copies of \texttt{wcry.vmem} and
 \texttt{stuxnet.vmem} captured October~5, 2026. AI did not replace hands-on plugin execution or hash verification.
 
-\section*{References (APA 7)}
+\section*{References}
 \begin{enumerate}[leftmargin=1.6em,itemsep=0.35em]
 \item Ligh, M.~H., Case, A., Levy, J., \& Walters, M. (2014). \textit{The art of memory forensics: Detecting malware and threats in Windows, Linux, and Mac memory}. Wiley.
 \item MITRE ATT\&CK. (n.d.). \textit{WannaCry} (Software S0366). \url{https://attack.mitre.org/software/S0366/}
