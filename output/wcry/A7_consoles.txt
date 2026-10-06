@@ -1,0 +1,30 @@
+﻿**************************************************
+ConsoleProcess: csrss.exe Pid: 596
+Console: 0x5023c0 CommandHistorySize: 50
+HistoryBufferCount: 1 HistoryBufferMax: 4
+OriginalTitle: ?P?PtemRoot%\system32\taskkill.exe
+Title: ?P?PINDOWS\system32\taskkill.exe
+**************************************************
+ConsoleProcess: csrss.exe Pid: 596
+Console: 0x504658 CommandHistorySize: 50
+HistoryBufferCount: 1 HistoryBufferMax: 4
+OriginalTitle: ??ystemRoot%\system32\taskkill.exe
+Title: 
+**************************************************
+ConsoleProcess: csrss.exe Pid: 596
+Console: 0x5062d0 CommandHistorySize: 50
+HistoryBufferCount: 1 HistoryBufferMax: 4
+OriginalTitle: %SystemRoot%\system32\taskkill.exe
+Title: ???PINDOWS\system32\taskkill.exe
+**************************************************
+ConsoleProcess: csrss.exe Pid: 596
+Console: 0x507fe0 CommandHistorySize: 50
+HistoryBufferCount: 1 HistoryBufferMax: 4
+OriginalTitle: ?PystemRoot%\system32\taskkill.exe
+Title: ?P\WINDOWS\system32\taskkill.exe
+**************************************************
+ConsoleProcess: csrss.exe Pid: 596
+Console: 0x1048c30 CommandHistorySize: 50
+HistoryBufferCount: 1 HistoryBufferMax: 4
+OriginalTitle: ?P?PtemRoot%\system32\taskkill.exe
+Title: C:\WINDOWS\system32\taskkill.exe

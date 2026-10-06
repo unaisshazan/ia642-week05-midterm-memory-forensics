@@ -1,0 +1,4 @@
+tasksche.exe pid:   1940
+Command line : "C:\Intel\ivecuqmanpnirkt615\tasksche.exe" 
+@WanaDecryptor@ pid:    740
+Command line : @WanaDecryptor@.exe

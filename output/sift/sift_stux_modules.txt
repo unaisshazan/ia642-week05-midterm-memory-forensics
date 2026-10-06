@@ -1,0 +1,5 @@
+Offset(V)  Name                 Base             Size File
+0x820a31a0 mrxsmb.sys           0xb2c49000    0x70000 \SystemRoot\system32\DRIVERS\mrxsmb.sys
+0x82306ad0 mrxdav.sys           0xb285e000    0x2d000 \SystemRoot\system32\DRIVERS\mrxdav.sys
+0x81f8cb60 mrxcls.sys           0xf895a000     0x5000 \??\C:\WINDOWS\system32\Drivers\mrxcls.sys
+0x81c2a530 mrxnet.sys           0xb21d8000     0x3000 \??\C:\WINDOWS\system32\Drivers\mrxnet.sys

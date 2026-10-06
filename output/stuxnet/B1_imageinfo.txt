@@ -1,0 +1,12 @@
+﻿          Suggested Profile(s) : WinXPSP2x86, WinXPSP3x86 (Instantiated with WinXPSP2x86)
+                     AS Layer1 : IA32PagedMemoryPae (Kernel AS)
+                     AS Layer2 : FileAddressSpace (C:\temp\midterm\dumps\stuxnet.vmem)
+                      PAE type : PAE
+                           DTB : 0x319000L
+                          KDBG : 0x80545ae0L
+          Number of Processors : 1
+     Image Type (Service Pack) : 3
+                KPCR for CPU 0 : 0xffdff000L
+             KUSER_SHARED_DATA : 0xffdf0000L
+           Image date and time : 2011-06-03 04:31:36 UTC+0000
+     Image local date and time : 2011-06-03 00:31:36 -0400

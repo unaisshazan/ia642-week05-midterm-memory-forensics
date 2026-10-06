@@ -1,0 +1,32 @@
+﻿**************************************************
+Instantiating KDBG using: Kernel AS WinXPSP2x86 (5.1.0 32bit)
+Offset (V)                    : 0x8054cf60
+Offset (P)                    : 0x54cf60
+KDBG owner tag check          : True
+Profile suggestion (KDBGHeader): WinXPSP3x86
+Version64                     : 0x8054cf38 (Major: 15, Minor: 2600)
+Service Pack (CmNtCSDVersion) : 3
+Build string (NtBuildLab)     : 2600.xpsp_sp3_qfe.130704-0421
+PsActiveProcessHead           : 0x805614d8 (20 processes)
+PsLoadedModuleList            : 0x8055b340 (101 modules)
+KernelBase                    : 0x804d7000 (Matches MZ: True)
+Major (OptionalHeader)        : 5
+Minor (OptionalHeader)        : 1
+KPCR                          : 0xffdff000 (CPU 0)
+
+**************************************************
+Instantiating KDBG using: Kernel AS WinXPSP2x86 (5.1.0 32bit)
+Offset (V)                    : 0x8054cf60
+Offset (P)                    : 0x54cf60
+KDBG owner tag check          : True
+Profile suggestion (KDBGHeader): WinXPSP2x86
+Version64                     : 0x8054cf38 (Major: 15, Minor: 2600)
+Service Pack (CmNtCSDVersion) : 3
+Build string (NtBuildLab)     : 2600.xpsp_sp3_qfe.130704-0421
+PsActiveProcessHead           : 0x805614d8 (20 processes)
+PsLoadedModuleList            : 0x8055b340 (101 modules)
+KernelBase                    : 0x804d7000 (Matches MZ: True)
+Major (OptionalHeader)        : 5
+Minor (OptionalHeader)        : 1
+KPCR                          : 0xffdff000 (CPU 0)
+

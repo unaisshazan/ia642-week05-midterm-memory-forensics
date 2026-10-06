@@ -1,0 +1,15 @@
+﻿************************************************************************
+lsass.exe pid:    868
+Command line : "C:\WINDOWS\\system32\\lsass.exe"
+Service Pack 3
+
+Base             Size  LoadCount Path
+---------- ---------- ---------- ----
+0x01000000     0x6000     0xffff C:\WINDOWS\system32\lsass.exe
+0x7c900000    0xaf000     0xffff C:\WINDOWS\system32\ntdll.dll
+0x7c800000    0xf6000     0xffff C:\WINDOWS\system32\kernel32.dll
+0x77dd0000    0x9b000     0xffff C:\WINDOWS\system32\ADVAPI32.dll
+0x77e70000    0x92000     0xffff C:\WINDOWS\system32\RPCRT4.dll
+0x77fe0000    0x11000     0xffff C:\WINDOWS\system32\Secur32.dll
+0x7e410000    0x91000     0xffff C:\WINDOWS\system32\USER32.dll
+0x77f10000    0x49000     0xffff C:\WINDOWS\system32\GDI32.dll

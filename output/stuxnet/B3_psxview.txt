@@ -1,0 +1,33 @@
+﻿Offset(P)  Name                    PID pslist psscan thrdproc pspcid csrss session deskthrd ExitTime
+---------- -------------------- ------ ------ ------ -------- ------ ----- ------- -------- --------
+0x01e47c00 lsass.exe              1928 True   True   True     True   True  True    True     
+0x021a5390 wmiprvse.exe           1872 True   True   True     True   True  True    True     
+0x021c5da0 VMwareTray.exe         1912 True   True   True     True   True  True    True     
+0x02479998 imapi.exe               756 True   True   True     True   True  True    True     
+0x02273020 services.exe            668 True   True   True     True   True  True    True     
+0x02018b28 svchost.exe            1080 True   True   True     True   True  True    True     
+0x021ee8b0 spoolsv.exe            1412 True   True   True     True   True  True    True     
+0x02061da0 svchost.exe             940 True   True   True     True   True  True    True     
+0x024b9a10 wuauclt.exe             976 True   True   True     True   True  True    True     
+0x0200eda0 jqs.exe                1580 True   True   True     True   True  True    True     
+0x021f7020 svchost.exe            1200 True   True   True     True   True  True    True     
+0x01e543a0 Procmon.exe             660 True   True   True     True   True  True    True     
+0x022ecc10 wscntfy.exe            2040 True   True   True     True   True  True    True     
+0x02070020 lsass.exe               680 True   True   True     True   True  True    True     
+0x01e498c8 lsass.exe               868 True   True   True     True   True  True    True     
+0x01fa5650 winlogon.exe            624 True   True   True     True   True  True    True     
+0x0230d478 jusched.exe            1712 True   True   True     True   True  True    True     
+0x025315d8 vmacthlp.exe            844 True   True   True     True   True  True    True     
+0x0206b660 VMwareUser.exe         1356 True   True   True     True   True  True    True     
+0x021e52d0 vmtoolsd.exe           1664 True   True   True     True   True  True    True     
+0x01fb8da0 svchost.exe             856 True   True   True     True   True  True    True     
+0x024843e8 svchost.exe            1032 True   True   True     True   True  True    True     
+0x0225ada0 alg.exe                 188 True   True   True     True   True  True    True     
+0x023a0568 VMUpgradeHelper        1816 True   True   True     True   True  True    True     
+0x022ec7e8 explorer.exe           1196 True   True   True     True   True  True    True     
+0x02086978 TSVNCache.exe           324 True   True   True     True   True  True    True     
+0x025c8830 System                    4 True   True   True     True   False False   False    
+0x02114938 ipconfig.exe            304 True   True   False    True   False False   False    2011-06-03 04:31:36 UTC+0000
+0x023a2da0 csrss.exe               600 True   True   True     True   False True    True     
+0x022df020 smss.exe                376 True   True   True     True   False False   False    
+0x01e0cda0 cmd.exe                 968 True   True   False    True   False False   False    2011-06-03 04:31:36 UTC+0000

@@ -1,0 +1,1430 @@
+Offset(P)            #Ptr   #Hnd Access Name
+------------------ ------ ------ ------ ----
+0x0000000001f40310      1      1 ------ \Device\Afd\Endpoint
+0x0000000001f65718      2      1 ------ \Device\Afd\Endpoint
+0x0000000001f66cd8      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\wbem\wmipcima.dll
+0x0000000001f67198      1      0 R----- \Device\HarddiskVolume1\WINDOWS\Prefetch\TASKDL.EXE-01687054.pf
+0x0000000001f67a70      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\security.dll
+0x0000000001f67c68      1      0 R--rwd \Device\HarddiskVolume1\boot.ini
+0x0000000001f67ef8      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\cfgmgr32.dll
+0x0000000001f684d0      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\wbem\framedyn.dll
+0x0000000001f686d8      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\wbem\cimwin32.dll
+0x0000000001f6a7f0      1      0 R--r-d \Device\HarddiskVolume1\WINDOWS\system32\kmddsp.tsp
+0x0000000001f6ae20      3      0 RWD--- \Device\HarddiskVolume1\$Directory
+0x0000000001f6b9b0      3      0 RWD--- \Device\HarddiskVolume1\$Directory
+0x0000000001f6bbf8      3      0 RWD--- \Device\HarddiskVolume1\$Directory
+0x0000000001f6bdc8      2      1 ------ \Device\NamedPipe\PIPE_EVENTROOT\CIMV2SCM EVENT PROVIDER
+0x0000000001f6be60      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\win.ini
+0x0000000001f6bf90      3      0 RWD--- \Device\HarddiskVolume1\$Directory
+0x0000000001f6c2a8      3      0 RWD--- \Device\HarddiskVolume1\$Directory
+0x0000000001f6c3b8      3      0 RWD--- \Device\HarddiskVolume1\$Directory
+0x0000000001f6cea0      3      0 RWD--- \Device\HarddiskVolume1\$Directory
+0x0000000001f6d158      2      1 ------ \Device\NamedPipe\lsass
+0x0000000001f6d4a8      3      0 RWD--- \Device\HarddiskVolume1\$Directory
+0x0000000001f6dba8      3      0 RWD--- \Device\HarddiskVolume1\$Directory
+0x0000000001f6e188      3      0 RWD--- \Device\HarddiskVolume1\$Directory
+0x0000000001f6e6a0      3      0 RWD--- \Device\HarddiskVolume1\$Directory
+0x0000000001f70708      1      0 R--r-d \Device\HarddiskVolume1\WINDOWS\system32\rastapi.dll
+0x0000000001f71190      3      0 RWD--- \Device\HarddiskVolume1\$Directory
+0x0000000001f71b88      1      0 -W-r-d \Device\HarddiskVolume1\WINDOWS\system32\wbem\Logs\wbemess.log
+0x0000000001f72f90      3      0 RWD--- \Device\HarddiskVolume1\$Directory
+0x0000000001f732b0      1      0 R--r-d \Device\HarddiskVolume1\WINDOWS\system32\uniplat.dll
+0x0000000001f735d8      3      0 RWD--- \Device\HarddiskVolume1\$Directory
+0x0000000001f753d8      1      1 R--rw- \Device\HarddiskVolume1\WINDOWS\system32
+0x0000000001f75888      3      0 RWD--- \Device\HarddiskVolume1\$Directory
+0x0000000001f75ba8      3      0 RWD--- \Device\HarddiskVolume1\$Directory
+0x0000000001f75df0      3      0 RWD--- \Device\HarddiskVolume1\$Directory
+0x0000000001f761a8      3      0 RWD--- \Device\HarddiskVolume1\$Directory
+0x0000000001f76368      3      0 RWD--- \Device\HarddiskVolume1\$Directory
+0x0000000001f769e0      3      0 RWD--- \Device\HarddiskVolume1\$Directory
+0x0000000001f76b10      3      0 RWD--- \Device\HarddiskVolume1\$Directory
+0x0000000001f76e58      1      0 R--rwd \Device\HarddiskVolume1\Documents and Settings\All Users\Start Menu\desktop.ini
+0x0000000001f76f48      3      0 RWD--- \Device\HarddiskVolume1\$Directory
+0x0000000001f77028      1      0 R--rwd \Device\HarddiskVolume1\Documents and Settings\donny\Start Menu\Programs\Accessories\Accessibility\desktop.ini
+0x0000000001f77298      3      0 RWD--- \Device\HarddiskVolume1\$Directory
+0x0000000001f77728      3      0 RWD--- \Device\HarddiskVolume1\$Directory
+0x0000000001f7a190      3      0 RWD--- \Device\HarddiskVolume1\$Directory
+0x0000000001f7a590      3      0 RWD--- \Device\HarddiskVolume1\$Directory
+0x0000000001f7a990      3      0 RWD--- \Device\HarddiskVolume1\$Directory
+0x0000000001f7aea0      3      0 RWD--- \Device\HarddiskVolume1\$Directory
+0x0000000001f7b308      3      0 RWD--- \Device\HarddiskVolume1\$Directory
+0x0000000001f7b748      3      0 RWD--- \Device\HarddiskVolume1\$Directory
+0x0000000001f7bbd0      3      0 RWD--- \Device\HarddiskVolume1\$Directory
+0x0000000001f7d518      3      0 RWD--- \Device\HarddiskVolume1\$Directory
+0x0000000001f7da18      1      0 R--rwd \Device\HarddiskVolume1\Documents and Settings\All Users\Application Data\Microsoft\User Account Pictures\Default Pictures\butterfly.bmp.WNCRY
+0x0000000001f7dae0      3      0 RWD--- \Device\HarddiskVolume1\$Directory
+0x0000000001f7f180      1      0 R--rwd \Device\HarddiskVolume1\Documents and Settings\donny\My Documents\My Pictures\Desktop.ini
+0x0000000001f7f218      1      0 R--r-d \Device\HarddiskVolume1\WINDOWS\system32\rasqec.dll
+0x0000000001f7f538      1      1 RW-rw- \Device\HarddiskVolume1\WINDOWS\WindowsUpdate.log
+0x0000000001f80bd8      3      0 RWD--- \Device\HarddiskVolume1\$Directory
+0x0000000001f81548      1      0 R--r-d \Device\HarddiskVolume1\WINDOWS\system32\wbem\framedyn.dll
+0x0000000001f83390      3      0 RWD--- \Device\HarddiskVolume1\$Directory
+0x0000000001f83758      1      0 R--r-d \Device\HarddiskVolume1\WINDOWS\Fonts\times.ttf
+0x0000000001f840a0      3      0 RWD--- \Device\HarddiskVolume1\$Directory
+0x0000000001f866b8      3      0 RWD--- \Device\HarddiskVolume1\$Directory
+0x0000000001f87028      1      0 R--r-- \Device\HarddiskVolume1\WINDOWS\system32\c_1258.nls
+0x0000000001f871a0      1      0 R--rw- \Device\HarddiskVolume1\Intel\ivecuqmanpnirkt615\@WanaDecryptor@.exe
+0x0000000001f87c10      1      0 R--r-d \Device\HarddiskVolume1\WINDOWS\Fonts\timesbd.ttf
+0x0000000001f87f08      1      0 R--r-d \Device\HarddiskVolume1\WINDOWS\system32\msls31.dll
+0x0000000001f88140      1      0 R--r-- \Device\HarddiskVolume1\WINDOWS\system32\c_1257.nls
+0x0000000001f885e8      1      0 R--r-- \Device\HarddiskVolume1\WINDOWS\system32\c_1256.nls
+0x0000000001f88d00      1      0 R--r-- \Device\HarddiskVolume1\WINDOWS\system32\c_1254.nls
+0x0000000001f8d548      3      0 RWD--- \Device\HarddiskVolume1\$Directory
+0x0000000001f8f798      3      0 RWD--- \Device\HarddiskVolume1\$Directory
+0x0000000001f8f9c0      3      0 RWD--- \Device\HarddiskVolume1\$Directory
+0x0000000001f8fbf8      3      0 RWD--- \Device\HarddiskVolume1\$Directory
+0x0000000001f90438      3      0 RWD--- \Device\HarddiskVolume1\$Directory
+0x0000000001f90a38      3      0 RWD--- \Device\HarddiskVolume1\$Directory
+0x0000000001f90ea0      3      0 RWD--- \Device\HarddiskVolume1\$Directory
+0x0000000001f92cf0      3      0 RWD--- \Device\HarddiskVolume1\$Directory
+0x0000000001f92d88      1      1 ------ \Device\NamedPipe\ROUTER
+0x0000000001f95c28      3      0 RWD--- \Device\HarddiskVolume1\$Directory
+0x0000000001f990d8      2      1 ------ \Device\NamedPipe\srvsvc
+0x0000000001f997c8      1      1 R--rw- \Device\HarddiskVolume1\WINDOWS\WinSxS\x86_Microsoft.Windows.Common-Controls_6595b64144ccf1df_6.0.2600.6028_x-ww_61e65202
+0x0000000001f99a18      1      1 R--rw- \Device\HarddiskVolume1\WINDOWS\WinSxS\x86_Microsoft.Windows.Common-Controls_6595b64144ccf1df_6.0.2600.6028_x-ww_61e65202
+0x0000000001f99ab0      1      1 ------ \Device\NamedPipe\trkwks
+0x0000000001f99d20      3      0 RWD--- \Device\HarddiskVolume1\$Directory
+0x0000000001f9a848      1      0 R--r-- \Device\HarddiskVolume1\WINDOWS\system32\c_1255.nls
+0x0000000001f9aea8      1      0 R--r-- \Device\HarddiskVolume1\WINDOWS\system32\c_1253.nls
+0x0000000001f9fe18      1      1 ------ \Device\NamedPipe\lsass
+0x0000000001fa1e60      1      1 R--rw- \Device\HarddiskVolume1\WINDOWS\WinSxS\x86_Microsoft.Windows.Common-Controls_6595b64144ccf1df_6.0.2600.6028_x-ww_61e65202
+0x0000000001fa1ef8      2      1 ------ \Device\NamedPipe\winreg
+0x0000000001fa1f90      1      1 R--rw- \Device\HarddiskVolume1\WINDOWS\WinSxS\x86_Microsoft.Windows.Common-Controls_6595b64144ccf1df_6.0.2600.6028_x-ww_61e65202
+0x0000000001fa2c88      1      1 RW-rw- \Device\HarddiskVolume1\WINDOWS\WindowsUpdate.log
+0x0000000001fa30c0      3      0 RWD--- \Device\HarddiskVolume1\$Directory
+0x0000000001fa55b0      3      0 RWD--- \Device\HarddiskVolume1\$Directory
+0x0000000001fa6960      3      0 RWD--- \Device\HarddiskVolume1\$Directory
+0x0000000001fa6ba8      3      0 RWD--- \Device\HarddiskVolume1\$Directory
+0x0000000001fa6df0      3      0 RWD--- \Device\HarddiskVolume1\$Directory
+0x0000000001fa8cc0      1      0 R--r-- \Device\HarddiskVolume1\WINDOWS\WinSxS\Manifests\x86_Microsoft.Windows.Common-Controls_6595b64144ccf1df_6.0.2600.6028_x-ww_61e65202.Manifest
+0x0000000001fac638      3      0 RWD--- \Device\HarddiskVolume1\$Directory
+0x0000000001facf28      3      0 RWD--- \Device\HarddiskVolume1\$Directory
+0x0000000001fb12c0      1      1 ------ \Device\KSENUM#00000001\{9B365890-165F-11D0-A195-0020AFD156E4}
+0x0000000001fb17a8      1      0 R--r-d \Device\HarddiskVolume1\Intel\ivecuqmanpnirkt615\@WanaDecryptor@.exe
+0x0000000001fb1880      1      0 -W-r-- \Device\HarddiskVolume1\WINDOWS\Debug\UserMode\userenv.log
+0x0000000001fb1a40      3      1 R--rwd \Device\HarddiskVolume1\WINDOWS\pchealth\helpctr\BATCH
+0x0000000001fb2278      1      0 R--r-d \Device\HarddiskVolume1\Intel\ivecuqmanpnirkt615\taskse.exe
+0x0000000001fb3d10      1      1 ------ \Device\NamedPipe\keysvc
+0x0000000001fb5620      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\wbem\wmipcima.dll
+0x0000000001fb6310      1      0 R--rwd \Device\HarddiskVolume1\Documents and Settings\donny\Start Menu\Programs\Startup\desktop.ini
+0x0000000001fb7650      1      0 R--r-d \Device\HarddiskVolume1\WINDOWS\system32\mfc42.dll
+0x0000000001fb78a0      3      0 RWD--- \Device\HarddiskVolume1\$Directory
+0x0000000001fb7eb8      2      1 ------ \Device\NamedPipe\keysvc
+0x0000000001fb7f50      2      1 ------ \Device\NamedPipe\DAV RPC SERVICE
+0x0000000001fb8350      1      1 ------ \Device\NamedPipe\srvsvc
+0x0000000001fb88c8      1      1 ------ \Device\NamedPipe\lsass
+0x0000000001fba540      1      0 -W-r-d \Device\HarddiskVolume1\WINDOWS\system32\wbem\Logs\wbemcore.log
+0x0000000001fbad10      2      1 ------ \Device\RawIp\47
+0x0000000001fbc250      3      0 RWD--- \Device\HarddiskVolume1\$Directory
+0x0000000001fbce00      1      1 R--rw- \Device\HarddiskVolume1\WINDOWS\WinSxS\x86_Microsoft.Windows.Common-Controls_6595b64144ccf1df_6.0.2600.6028_x-ww_61e65202
+0x0000000001fbcef8      1      0 -W---- \Device\HarddiskVolume1\Intel\ivecuqmanpnirkt615\u.wnry
+0x0000000001fde628      1      0 R--r-d \Device\HarddiskVolume1\WINDOWS\system32\ntlanman.dll
+0x0000000001fde6c0      1      0 R--r-d \Device\HarddiskVolume1\WINDOWS\system32\netui0.dll
+0x0000000001fe4f90      3      0 RWD--- \Device\HarddiskVolume1\$Directory
+0x0000000001fe5858      2      1 ------ \Device\Afd\Endpoint
+0x0000000001fe5a40      3      0 RWD--- \Device\HarddiskVolume1\$Directory
+0x0000000001fe5b50      3      0 RWD--- \Device\HarddiskVolume1\$Directory
+0x0000000001fe65c8      2      1 ------ \Device\NamedPipe\PIPE_EVENTROOT\CIMV2SCM EVENT PROVIDER
+0x0000000001fe6718      3      0 RWD--- \Device\HarddiskVolume1\$Directory
+0x0000000001fe6b40      3      0 RWD--- \Device\HarddiskVolume1\$Directory
+0x0000000001fe6d20      3      0 RWD--- \Device\HarddiskVolume1\$Directory
+0x0000000001fe7c48      1      0 ------ \Device\KSENUM#00000002\{9B365890-165F-11D0-A195-0020AFD156E4}
+0x0000000001fe7d00      1      1 ------ \Device\NamedPipe\winreg
+0x0000000001fe7f90      1      0 ------ \Device\KSENUM#00000002\{9B365890-165F-11D0-A195-0020AFD156E4}
+0x0000000001fe8390      2      1 ------ \Device\NamedPipe\PCHFaultRepExecPipe
+0x0000000001fe8940      3      0 RWD--- \Device\HarddiskVolume1\$Directory
+0x0000000001fec388      1      0 R--r-- \Device\HarddiskVolume1\WINDOWS\system32\c_1251.nls
+0x0000000001fec580      1      0 R--r-- \Device\HarddiskVolume1\WINDOWS\system32\c_949.nls
+0x0000000001fec6b8      3      0 RWD--- \Device\HarddiskVolume1\$Directory
+0x0000000001fee638      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\wbem\cimwin32.dll
+0x0000000001ff7c78      1      0 R--r-d \Device\HarddiskVolume1\WINDOWS\system32\h323.tsp
+0x0000000001ff7d10      1      0 R--r-d \Device\HarddiskVolume1\WINDOWS\system32\ipconf.tsp
+0x0000000001ff8bd8      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\security.dll
+0x0000000002004650      1      1 R--rw- \Device\HarddiskVolume1\WINDOWS\WinSxS\x86_Microsoft.Windows.Common-Controls_6595b64144ccf1df_6.0.2600.6028_x-ww_61e65202
+0x00000000020046e8      1      1 ------ \Device\NamedPipe\net\NtControlPipe7
+0x0000000002005848      1      1 ------ \Device\NamedPipe\SfcApi
+0x0000000002005930      2      1 ------ \Device\NamedPipe\SfcApi
+0x000000000200cd20      1      1 R--rw- \Device\HarddiskVolume1\WINDOWS\WinSxS\x86_Microsoft.Windows.Common-Controls_6595b64144ccf1df_6.0.2600.6028_x-ww_61e65202
+0x000000000200d6b0      3      1 RW-r-- \Device\HarddiskVolume1\WINDOWS\SchedLgU.Txt
+0x000000000200df90      5      1 ------ \Device\Afd\Endpoint
+0x00000000020147a8      1      0 RW-rw- \Device\HarddiskVolume1\WINDOWS\0.log
+0x0000000002014a38      2      1 ------ \Device\NamedPipe\PCHHangRepExecPipe
+0x0000000002014b30      1      1 ------ \Device\NamedPipe\srvsvc
+0x000000000201f820      2      1 R--rw- \Device\HarddiskVolume1\WINDOWS\system32\mui\041D
+0x000000000201f948      2      1 R--rw- \Device\HarddiskVolume1\WINDOWS\system32\mui\041b
+0x0000000002021820      2      1 R--rw- \Device\HarddiskVolume1\WINDOWS\system32\mui\0419
+0x0000000002021948      2      1 R--rw- \Device\HarddiskVolume1\WINDOWS\system32\mui\0416
+0x0000000002022678      3      0 RWD--- \Device\HarddiskVolume1\$Directory
+0x0000000002022720      3      0 RWD--- \Device\HarddiskVolume1\$Directory
+0x0000000002022998      1      0 R--rw- \Device\HarddiskVolume1\WINDOWS\system32\narrator.exe
+0x0000000002025870      2      1 R--rw- \Device\HarddiskVolume1\WINDOWS\system32\mui\0415
+0x0000000002025998      2      1 R--rw- \Device\HarddiskVolume1\WINDOWS\system32\mui\0414
+0x0000000002026818      2      1 R--rw- \Device\HarddiskVolume1\WINDOWS\system32\mui\0413
+0x0000000002026900      2      1 R--rw- \Device\HarddiskVolume1\WINDOWS\system32\mui\0412
+0x0000000002026998      1      1 R--rw- \Device\HarddiskVolume1\WINDOWS\WinSxS\x86_Microsoft.Windows.Common-Controls_6595b64144ccf1df_6.0.2600.6028_x-ww_61e65202
+0x00000000020288d8      2      1 R--rw- \Device\HarddiskVolume1\WINDOWS\Help\Tours\mmTour
+0x0000000002028998      2      1 R--rw- \Device\HarddiskVolume1\WINDOWS\system32\IME\TINTLGNT
+0x0000000002029848      2      1 R--rw- \Device\HarddiskVolume1\WINDOWS\system32\spool\drivers\color
+0x0000000002029970      2      1 R--rw- \Device\HarddiskVolume1\WINDOWS\PeerNet
+0x000000000202a6b0      2      1 R--rw- \Device\HarddiskVolume1\Program Files\Common Files\Microsoft Shared\Speech\1033
+0x000000000202a748      2      1 R--rw- \Device\HarddiskVolume1\Program Files\Common Files\SpeechEngines\Microsoft
+0x000000000202a870      2      1 R--rw- \Device\HarddiskVolume1\WINDOWS\system32\wbem\snmp
+0x000000000202a998      2      1 R--rw- \Device\HarddiskVolume1\WINDOWS\Resources\Themes\Luna\Shell\Metallic
+0x000000000202b638      2      1 R--rw- \Device\HarddiskVolume1\Program Files\Internet Explorer
+0x000000000202b8b0      2      1 R--rw- \Device\HarddiskVolume1\Program Files\Common Files\Microsoft Shared\VGX
+0x000000000202c938      4      1 RW---- \Device\HarddiskVolume1\Documents and Settings\LocalService\NTUSER.DAT
+0x000000000202d848      2      1 R--rw- \Device\HarddiskVolume1\Program Files\Common Files\MSSoap\Binaries\Resources\1033
+0x000000000202d998      2      1 R--rw- \Device\HarddiskVolume1\Program Files\Common Files\MSSoap\Binaries
+0x000000000202e820      2      1 R--rw- \Device\HarddiskVolume1\WINDOWS\system32\oobe
+0x000000000202e948      2      1 R--rw- \Device\HarddiskVolume1\Program Files\Outlook Express
+0x0000000002030998      2      1 ------ \Device\NamedPipe\spoolss
+0x0000000002031710      2      1 R--rw- \Device\HarddiskVolume1\WINDOWS\ime\chsime\applets
+0x0000000002031970      2      1 R--rw- \Device\HarddiskVolume1\Program Files\Windows NT\Pinball
+0x0000000002033748      2      1 R--rw- \Device\HarddiskVolume1\WINDOWS\ime\shared\res
+0x0000000002033870      2      1 R--rw- \Device\HarddiskVolume1\WINDOWS\system32\npp
+0x0000000002033998      2      1 R--rw- \Device\HarddiskVolume1\WINDOWS\mui
+0x00000000020348e8      3      1 ------ \Device\NamedPipe\net\NtControlPipe5
+0x0000000002037718      1      1 R--rw- \Device\HarddiskVolume1\WINDOWS\WinSxS\x86_Microsoft.Windows.Common-Controls_6595b64144ccf1df_6.0.2600.6028_x-ww_61e65202
+0x000000000203c918      1      1 R--rw- \Device\HarddiskVolume1\WINDOWS\system32
+0x000000000203f7b8      2      1 R--rw- \Device\HarddiskVolume1\Program Files\Common Files\SpeechEngines\Microsoft\TTS\1033
+0x000000000203f8e0      2      1 R--rw- \Device\HarddiskVolume1\WINDOWS\system32\Restore
+0x0000000002042718      4      1 RW---- \Device\HarddiskVolume1\Documents and Settings\LocalService\Local Settings\Application Data\Microsoft\Windows\UsrClass.dat
+0x00000000020456b8      2      1 R--rw- \Device\HarddiskVolume1\WINDOWS\Resources\Themes\Luna\Shell\Homestead
+0x0000000002045870      2      1 R--rw- \Device\HarddiskVolume1\WINDOWS\Resources\Themes\Luna\Shell\NormalColor
+0x0000000002045998      2      1 R--rw- \Device\HarddiskVolume1\Program Files\Common Files\Microsoft Shared\Speech
+0x0000000002084c78      1      0 R--r-d \Device\HarddiskVolume1\WINDOWS\system32\hidphone.tsp
+0x0000000002084d10      1      1 RW-r-- \Device\HarddiskVolume1\WINDOWS\system32\h323log.txt
+0x00000000020865f0      1      1 R--rw- \Device\HarddiskVolume1\WINDOWS\WinSxS\x86_Microsoft.Windows.Common-Controls_6595b64144ccf1df_6.0.2600.6028_x-ww_61e65202
+0x0000000002088ab8      1      1 R--rw- \Device\HarddiskVolume1\WINDOWS\WinSxS\x86_Microsoft.Windows.Common-Controls_6595b64144ccf1df_6.0.2600.6028_x-ww_61e65202
+0x0000000002088bf0      1      0 R--r-d \Device\HarddiskVolume1\Documents and Settings\All Users\Start Menu\Programs\Accessories\Communications\Wireless Network Setup Wizard.lnk
+0x0000000002089978      3      0 RWD--- \Device\HarddiskVolume1\$Directory
+0x0000000002089bd0      1      0 R--rw- \Device\HarddiskVolume1\WINDOWS\system32\magnify.exe
+0x000000000208b198      3      0 RWD--- \Device\HarddiskVolume1\$Directory
+0x000000000208b5d8      1      1 R--rw- \Device\HarddiskVolume1\WINDOWS\WinSxS\x86_Microsoft.Windows.Common-Controls_6595b64144ccf1df_6.0.2600.6028_x-ww_61e65202
+0x000000000208c5f8      2      1 R--rw- \Device\HarddiskVolume1\WINDOWS\system32\mui\0424
+0x000000000208c720      2      1 R--rw- \Device\HarddiskVolume1\WINDOWS\system32\mui\041f
+0x000000000208d238      1      1 ------ \Device\NamedPipe\EVENTLOG
+0x000000000209db50      1      0 R--r-- \Device\HarddiskVolume1\WINDOWS\WinSxS\Policies\x86_policy.6.0.Microsoft.Windows.Common-Controls_6595b64144ccf1df_x-ww_5ddad775\6.0.2600.6028.Policy
+0x000000000209dbe8      1      0 -W-r-- \Device\HarddiskVolume1\Intel\ivecuqmanpnirkt615\00000000.res
+0x000000000209ddb0      1      0 R--r-d \Device\HarddiskVolume1\WINDOWS\system32\wbem\wmiprvse.exe
+0x000000000209de48      1      0 R--r-- \Device\HarddiskVolume1\Intel\ivecuqmanpnirkt615\b.wnry
+0x000000000209e1c0      3      0 RWD--- \Device\HarddiskVolume1\$Directory
+0x000000000209e3a0      3      0 RWD--- \Device\HarddiskVolume1\$Directory
+0x000000000209e580      3      0 RWD--- \Device\HarddiskVolume1\$Directory
+0x00000000020a0e38      1      1 R--rw- \Device\HarddiskVolume1\WINDOWS\WinSxS\x86_Microsoft.Windows.Common-Controls_6595b64144ccf1df_6.0.2600.6028_x-ww_61e65202
+0x000000000215b838      1      1 ------ \Device\NamedPipe\browser
+0x000000000215c230      2      1 R--rw- \Device\HarddiskVolume1\WINDOWS\ime\imjp8_1\applets
+0x000000000215c418      1      1 R--rw- \Device\HarddiskVolume1\WINDOWS\WinSxS\x86_Microsoft.Windows.Common-Controls_6595b64144ccf1df_6.0.2600.6028_x-ww_61e65202
+0x000000000215cad0      1      0 R--rwd \Device\HarddiskVolume1\Documents and Settings\donny\Start Menu\Programs\Accessories\desktop.ini
+0x000000000215e330      3      0 RWD--- \Device\HarddiskVolume1\$Directory
+0x000000000215e648      3      0 RWD--- \Device\HarddiskVolume1\$Directory
+0x0000000002162028      3      1 ------ \Device\NamedPipe\net\NtControlPipe1
+0x0000000002162d50      3      0 RWD--- \Device\HarddiskVolume1\$Directory
+0x0000000002162df8      3      0 RWD--- \Device\HarddiskVolume1\$Directory
+0x0000000002162f90      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\wucltui.dll
+0x0000000002164698      3      0 RWD--- \Device\HarddiskVolume1\$Directory
+0x0000000002164740      3      0 RWD--- \Device\HarddiskVolume1\$Directory
+0x0000000002164ed0      3      0 RWD--- \Device\HarddiskVolume1\$Directory
+0x0000000002165a80      3      0 RWD--- \Device\HarddiskVolume1\$Directory
+0x0000000002167f90      3      0 RWD--- \Device\HarddiskVolume1\$Directory
+0x000000000216a028      1      1 ------ \Device\NamedPipe\atsvc
+0x000000000216a0d0      2      1 ------ \Device\NamedPipe\epmapper
+0x000000000216b038      3      0 RWD--- \Device\HarddiskVolume1\$Directory
+0x000000000216b310      4      1 RW---- \Device\HarddiskVolume1\WINDOWS\system32\config\system
+0x000000000216b3a8      4      1 RW---- \Device\HarddiskVolume1\WINDOWS\system32\config\SECURITY
+0x000000000216be98      3      0 RWD--- \Device\HarddiskVolume1\$Directory
+0x000000000216c270      1      0 R--r-d \Device\HarddiskVolume1\WINDOWS\system32\olesvr32.dll
+0x000000000216cc68      1      0 R--r-d \Device\HarddiskVolume1\WINDOWS\WinSxS\x86_Microsoft.Windows.GdiPlus_6595b64144ccf1df_1.0.6002.23084_x-ww_f3f35550\GdiPlus.dll
+0x000000000216cef8      1      0 R--r-d \Device\HarddiskVolume1\WINDOWS\system32\url.dll
+0x000000000216cf90      1      0 R--r-d \Device\HarddiskVolume1\WINDOWS\system32\olethk32.dll
+0x0000000002170b38      2      1 ------ \Device\Afd\Endpoint
+0x0000000002172038      3      0 RWD--- \Device\HarddiskVolume1\$Directory
+0x0000000002172198      1      1 ------ \Device\Afd\Endpoint
+0x0000000002175038      3      0 RWD--- \Device\HarddiskVolume1\$Directory
+0x0000000002179038      3      0 RWD--- \Device\HarddiskVolume1\$Directory
+0x0000000002179f90      3      0 RWD--- \Device\HarddiskVolume1\$Directory
+0x000000000217a028      1      1 R--rw- \Device\HarddiskVolume1\WINDOWS\WinSxS\x86_Microsoft.Windows.Common-Controls_6595b64144ccf1df_6.0.2600.6028_x-ww_61e65202
+0x000000000217cef8      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\$winnt$.inf
+0x000000000217e028      2      1 ------ \Device\NamedPipe\scerpc
+0x000000000217e138      1      1 ------ \Device\NamedPipe\scerpc
+0x000000000217e378      3      0 RWD--- \Device\HarddiskVolume1\$Directory
+0x000000000217ef90      3      0 RWD--- \Device\HarddiskVolume1\$Directory
+0x0000000002180320      3      0 RWD--- \Device\HarddiskVolume1\$Directory
+0x0000000002183038      3      0 RWD--- \Device\HarddiskVolume1\$Directory
+0x0000000002184128      1      1 R--rw- \Device\HarddiskVolume1\WINDOWS\system32
+0x0000000002184318      3      0 RWD--- \Device\HarddiskVolume1\$Directory
+0x0000000002185320      3      0 RWD--- \Device\HarddiskVolume1\$Directory
+0x0000000002187f90      1      0 R--r-d \Device\HarddiskVolume1\WINDOWS\system32\olecnv32.dll
+0x00000000021885d8      1      0 R--r-d \Device\HarddiskVolume1\WINDOWS\system32\ndptsp.tsp
+0x0000000002189238      3      1 R--rwd \Device\HarddiskVolume1\WINDOWS\Tasks
+0x000000000218b028      1      1 R--rw- \Device\HarddiskVolume1\WINDOWS\system32\dllcache
+0x000000000218b690      3      1 ------ \Device\NamedPipe\net\NtControlPipe6
+0x000000000218b848      3      1 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\drivers\etc
+0x000000000218b8e0      1      0 R--r-d \Device\HarddiskVolume1\Documents and Settings\donny\Start Menu\Programs\Accessories\Address Book.lnk
+0x000000000218c320      1      1 ------ \Device\NamedPipe\epmapper
+0x000000000218ce08      1      1 R--rw- \Device\HarddiskVolume1\WINDOWS\WinSxS\x86_Microsoft.Windows.Common-Controls_6595b64144ccf1df_6.0.2600.6028_x-ww_61e65202
+0x000000000218cf90      3      0 RWD--- \Device\HarddiskVolume1\$Directory
+0x000000000218de68      3      1 ------ \Device\NamedPipe\net\NtControlPipe3
+0x000000000218e0c8      2      1 ------ \Device\Afd\Endpoint
+0x000000000218ff10      3      0 RWD--- \Device\HarddiskVolume1\$Directory
+0x0000000002190038      3      0 RWD--- \Device\HarddiskVolume1\$Directory
+0x0000000002191038      3      0 RWD--- \Device\HarddiskVolume1\$Directory
+0x0000000002192d78      3      0 RWD--- \Device\HarddiskVolume1\$Directory
+0x0000000002194840      3      0 RWD--- \Device\HarddiskVolume1\$Directory
+0x00000000021948d8      1      0 R--r-d \Device\HarddiskVolume1\WINDOWS\system32\olecli32.dll
+0x0000000002194d00      3      0 RWD--- \Device\HarddiskVolume1\$Directory
+0x0000000002195038      3      0 RWD--- \Device\HarddiskVolume1\$Directory
+0x0000000002199418      1      0 R--r-d \Device\HarddiskVolume1\WINDOWS\system32\unimdm.tsp
+0x000000000219a130      2      1 ------ \Device\NamedPipe\ntsvcs
+0x000000000219be98      2      1 ------ \Device\NamedPipe\TerminalServer\AutoReconnect
+0x000000000219c198      1      1 ------ \Device\NamedPipe\wkssvc
+0x000000000219cee8      3      0 RWD--- \Device\HarddiskVolume1\$Directory
+0x000000000219d028      1      0 R--r-d \Device\HarddiskVolume1\Documents and Settings\All Users\Start Menu\Programs\Games\Minesweeper.lnk
+0x000000000219d1c0      1      1 RW-rw- \Device\HarddiskVolume1\Documents and Settings\LocalService\Cookies\index.dat
+0x000000000219d908      1      0 R--rwd \Device\HarddiskVolume1\Documents and Settings\All Users\Application Data\Microsoft\User Account Pictures\Default Pictures\chess.bmp.WNCRY
+0x000000000219e120      1      1 R--rw- \Device\HarddiskVolume1\WINDOWS\WinSxS\x86_Microsoft.Windows.Common-Controls_6595b64144ccf1df_6.0.2600.6028_x-ww_61e65202
+0x000000000219e320      3      0 RWD--- \Device\HarddiskVolume1\$Directory
+0x000000000219f320      1      0 R--rw- \Device\HarddiskVolume1\WINDOWS\system32\hnetwiz.dll
+0x000000000219f750      1      0 R--r-- \Device\HarddiskVolume1\WINDOWS\system32\ipnathlp.dll
+0x000000000219fb70      1      1 ------ \Device\Afd\Endpoint
+0x000000000219fdf0      3      0 RWD--- \Device\HarddiskVolume1\$Directory
+0x00000000021a0028      2      1 ------ \Device\NamedPipe\ROUTER
+0x00000000021a0848      1      1 ------ \Device\NamedPipe\net\NtControlPipe11
+0x00000000021a2320      3      0 RWD--- \Device\HarddiskVolume1\$Directory
+0x00000000021a45a8      3      0 RWD--- \Device\HarddiskVolume1\$Directory
+0x00000000021a5668      3      0 RWD--- \Device\HarddiskVolume1\$Directory
+0x00000000021a6c68      2      1 RW--w- \Device\HarddiskVolume1\pagefile.sys
+0x00000000021a6d00      1      0 R--r-d \Device\HarddiskVolume1\WINDOWS\system32\wow32.dll
+0x00000000021a7500      3      0 RWD--- \Device\HarddiskVolume1\$Directory
+0x00000000021a75a8      3      0 RWD--- \Device\HarddiskVolume1\$Directory
+0x00000000021a7f10      4      1 RW---- \Device\HarddiskVolume1\Documents and Settings\NetworkService\NTUSER.DAT
+0x00000000021a88d8      1      1 RW---- \Device\HarddiskVolume1\Documents and Settings\NetworkService\ntuser.dat.LOG
+0x00000000021a8f90      1      1 ------ \Device\NamedPipe\winlogonrpc
+0x00000000021a98f0      2      1 ------ \Device\NamedPipe\atsvc
+0x00000000021aaef8      1      1 RW-r-- \Device\HarddiskVolume1\WINDOWS\system32\config\Internet.evt
+0x00000000021aaf90      2      1 R--rw- \Device\HarddiskVolume1\Program Files\Common Files\Microsoft Shared\web server extensions\40\isapi\_vti_adm
+0x00000000021ac5e0      2      1 R--rw- \Device\HarddiskVolume1\WINDOWS\system32\mui\0411
+0x00000000021adf90      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\repair\setup.log
+0x00000000021ae220      1      1 ------ \Device\NamedPipe\net\NtControlPipe2
+0x00000000021aff90      1      0 R--rwd \Device\HarddiskVolume1\Documents and Settings\donny\Start Menu\Programs\desktop.ini
+0x00000000021b0320      1      1 ------ \Device\NamedPipe\net\NtControlPipe4
+0x00000000021b0f90      1      0 R----- \Device\HarddiskVolume1\WINDOWS\Prefetch\@WANADECRYPTOR@.EXE-06F053F5.pf
+0x00000000021b1e68      2      1 R--rw- \Device\HarddiskVolume1\WINDOWS\system32\mui\041a
+0x00000000021b1f90      2      1 R--rw- \Device\HarddiskVolume1\WINDOWS\system32\mui\0418
+0x00000000021b2028      2      1 R--rw- \Device\HarddiskVolume1\WINDOWS\system32\mui\0406
+0x00000000021b2108      2      1 R--rw- \Device\HarddiskVolume1\WINDOWS\system32\mui\0407
+0x00000000021b2c48      1      0 R--r-d \Device\HarddiskVolume1\WINDOWS\system32\rasppp.dll
+0x00000000021b3e90      2      1 R--rw- \Device\HarddiskVolume1\WINDOWS\system32\mui\0425
+0x00000000021b3f90      2      1 R--rw- \Device\HarddiskVolume1\WINDOWS\system32\mui\041e
+0x00000000021b6028      2      1 R--rw- \Device\HarddiskVolume1\Program Files\xerox\nwwia
+0x00000000021b6438      2      1 R--rw- \Device\HarddiskVolume1\WINDOWS\system32\mui\0816
+0x00000000021b6560      2      1 R--rw- \Device\HarddiskVolume1\WINDOWS\system32\mui\0804
+0x00000000021b72c0      3      1 ------ \Device\NamedPipe\net\NtControlPipe2
+0x00000000021b7e40      2      1 R--rw- \Device\HarddiskVolume1\WINDOWS\system32\mui\0402
+0x00000000021b7f68      2      1 R--rw- \Device\HarddiskVolume1\WINDOWS\system32\mui\0C0A
+0x00000000021b8028      1      1 ------ \Device\Afd\Endpoint
+0x00000000021b8ec0      3      1 ------ \Device\NamedPipe\net\NtControlPipe0
+0x00000000021b9028      1      1 RW---- \Device\HarddiskVolume1\Documents and Settings\LocalService\ntuser.dat.LOG
+0x00000000021b9318      2      1 R--rw- \Device\HarddiskVolume1\WINDOWS\system32\IME\CINTLGNT
+0x00000000021b9748      1      1 R--rw- \Device\HarddiskVolume1\WINDOWS\WinSxS\x86_Microsoft.Windows.Common-Controls_6595b64144ccf1df_6.0.2600.6028_x-ww_61e65202
+0x00000000021ba868      1      0 R--r-d \Device\HarddiskVolume1\WINDOWS\system32\davclnt.dll
+0x00000000021bb028      1      1 RW---- \Device\HarddiskVolume1\Documents and Settings\LocalService\Local Settings\Application Data\Microsoft\Windows\UsrClass.dat.LOG
+0x00000000021bc068      1      1 R--rw- \Device\HarddiskVolume1\WINDOWS\WinSxS\x86_Microsoft.Windows.Common-Controls_6595b64144ccf1df_6.0.2600.6028_x-ww_61e65202
+0x00000000021be198      3      2 ------ \Device\RawIp\255
+0x00000000021bf230      2      1 R--rw- \Device\HarddiskVolume1\WINDOWS\system32\Setup
+0x00000000021bf318      2      1 R--rw- \Device\HarddiskVolume1\WINDOWS\system32\Com
+0x00000000021bf758      1      1 ------ \Device\NamedPipe\Ctx_WinStation_API_service
+0x00000000021bfc08      2      1 R--rw- \Device\HarddiskVolume1\WINDOWS\ime\imkr6_1\applets
+0x00000000021c0dd0      1      1 R--rw- \Device\HarddiskVolume1\WINDOWS\WinSxS\x86_Microsoft.Windows.Common-Controls_6595b64144ccf1df_6.0.2600.6028_x-ww_61e65202
+0x00000000021c1198      1      1 R--rw- \Device\HarddiskVolume1\WINDOWS\system32
+0x00000000021c1318      2      1 R--rw- \Device\HarddiskVolume1\Program Files\Internet Explorer\Connection Wizard
+0x00000000021c13f0      2      1 R--rw- \Device\HarddiskVolume1\WINDOWS\system32\xircom
+0x00000000021c1688      2      1 R--rw- \Device\HarddiskVolume1\WINDOWS\ime\imkr6_1
+0x00000000021c1720      2      1 R--rw- \Device\HarddiskVolume1\Program Files\Common Files\Microsoft Shared\MSInfo
+0x00000000021c1a98      2      1 R--rw- \Device\HarddiskVolume1\Program Files\Common Files\SpeechEngines\Microsoft\Lexicon\1033
+0x00000000021c1bc0      2      1 R--rw- \Device\HarddiskVolume1\WINDOWS\system32\IME\PINTLGNT
+0x00000000021c1c80      2      1 R--rw- \Device\HarddiskVolume1\WINDOWS\ime\shared
+0x00000000021c21f0      2      1 R--rw- \Device\HarddiskVolume1\Program Files\Common Files\System
+0x00000000021c2288      2      1 R--rw- \Device\HarddiskVolume1\Program Files\Windows NT
+0x00000000021c2830      2      1 R--rw- \Device\HarddiskVolume1\WINDOWS\srchasst
+0x00000000021c28c8      2      1 R--rw- \Device\HarddiskVolume1\WINDOWS\ime
+0x00000000021c2960      2      1 R--rw- \Device\HarddiskVolume1\Program Files\Movie Maker
+0x00000000021c29f8      2      1 R--rw- \Device\HarddiskVolume1\WINDOWS\Resources\Themes\Luna
+0x00000000021c2ad0      1      1 RW---- \Device\HarddiskVolume1\Documents and Settings\NetworkService\Local Settings\Application Data\Microsoft\Windows\UsrClass.dat.LOG
+0x00000000021c2ef8      2      1 R--rw- \Device\HarddiskVolume1\Program Files\Windows Media Player
+0x00000000021c2f90      2      1 R--rw- \Device\HarddiskVolume1\Program Files\Common Files\Microsoft Shared\DAO
+0x00000000021c3238      1      0 R--r-d \Device\HarddiskVolume1\WINDOWS\system32\wbem\wmiprvse.exe
+0x00000000021c3610      2      1 R--rw- \Device\HarddiskVolume1\WINDOWS\pchealth\UploadLB\Binaries
+0x00000000021c3c58      3      0 RWD--- \Device\HarddiskVolume1\$Directory
+0x00000000021c3d00      3      0 RWD--- \Device\HarddiskVolume1\$Directory
+0x00000000021c3ea8      2      1 R--rw- \Device\HarddiskVolume1\WINDOWS\system32\mui\0427
+0x00000000021c3f90      2      1 R--rw- \Device\HarddiskVolume1\WINDOWS\system32\mui\0426
+0x00000000021c4c58      3      0 RWD--- \Device\HarddiskVolume1\$Directory
+0x00000000021c4d00      3      0 RWD--- \Device\HarddiskVolume1\$Directory
+0x00000000021c59a0      2      1 R--rw- \Device\HarddiskVolume1\WINDOWS
+0x00000000021c5f90      2      1 R--rw- \Device\HarddiskVolume1\WINDOWS\system32\wbem\xml
+0x00000000021c6028      2      1 R--rw- \Device\HarddiskVolume1\WINDOWS\system32\mui\0405
+0x00000000021c61c8      2      1 R--rw- \Device\HarddiskVolume1\Program Files\Common Files\Microsoft Shared\Triedit
+0x00000000021c62f0      2      1 R--rw- \Device\HarddiskVolume1\WINDOWS\ime\imjp8_1
+0x00000000021c6f90      1      0 R--r-- \Device\HarddiskVolume1\WINDOWS\system32\upnp.dll
+0x00000000021c7108      2      1 R--rw- \Device\HarddiskVolume1\WINDOWS\system32\mui\0404
+0x00000000021c72f0      2      1 ------ \Device\NamedPipe\winlogonrpc
+0x00000000021c8320      1      1 ------ \Device\NamedPipe\winlogonrpc
+0x00000000021c8c68      1      1 R--rw- \Device\HarddiskVolume1\Documents and Settings\donny
+0x00000000021c9c68      1      0 R--rw- \Device\HarddiskVolume1\WINDOWS\system32\filemgmt.dll
+0x00000000021ca028      2      1 ------ \Device\Afd\Endpoint
+0x00000000021cb198      1      1 R--rw- \Device\HarddiskVolume1\WINDOWS\system32
+0x00000000021cc870      1      0 R--r-d \Device\HarddiskVolume1\Documents and Settings\donny\Start Menu\Programs\Accessories\Tour Windows XP.lnk
+0x00000000021cd108      2      1 R--rw- \Device\HarddiskVolume1\WINDOWS\system32\mui\0408
+0x00000000021cd438      1      0 R--r-d \Device\HarddiskVolume1\Documents and Settings\donny\Start Menu\Programs\Accessories\Command Prompt.lnk
+0x00000000021cd508      1      0 R--rw- \Device\HarddiskVolume1\Program Files\Outlook Express\msimn.exe
+0x00000000021cdbc8      2      1 R--rw- \Device\HarddiskVolume1\Program Files\Common Files\Microsoft Shared\web server extensions\40\isapi
+0x00000000021cdc60      2      1 R--rw- \Device\HarddiskVolume1\Program Files\Common Files\Microsoft Shared\web server extensions\40\bin\1033
+0x00000000021cde18      2      1 R--rw- \Device\HarddiskVolume1\WINDOWS\system32\mui\040b
+0x00000000021ce1d0      2      1 R--rw- \Device\HarddiskVolume1\WINDOWS\system32\mui\0410
+0x00000000021ce2f8      2      1 R--rw- \Device\HarddiskVolume1\WINDOWS\system32\mui\040e
+0x00000000021ce898      2      1 R--rw- \Device\HarddiskVolume1\Program Files\Common Files\Microsoft Shared\web server extensions\40\_vti_bin
+0x00000000021ceba0      1      0 R--rw- \Device\HarddiskVolume1\Program Files\MSN Gaming Zone\Windows\bckgzm.exe
+0x00000000021cf260      2      1 R--rw- \Device\HarddiskVolume1\WINDOWS\system32\usmt
+0x00000000021cf3f0      2      1 R--rw- \Device\HarddiskVolume1\WINDOWS\system32\mui\0401
+0x00000000021cf4b0      2      1 R--rw- \Device\HarddiskVolume1\Program Files\Windows NT\Accessories
+0x00000000021cfb68      1      1 -W-rw- \Device\HarddiskVolume1\WINDOWS\Debug\PASSWD.LOG
+0x00000000021d08d8      1      1 R--rw- \Device\HarddiskVolume1\WINDOWS\WinSxS\x86_Microsoft.Windows.Common-Controls_6595b64144ccf1df_6.0.2600.6028_x-ww_61e65202
+0x00000000021d0d00      2      1 R--rw- \Device\HarddiskVolume1\Program Files\microsoft frontpage\version3.0\bin
+0x00000000021d0dd0      3      1 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\wbem\mof
+0x00000000021d1028      1      1 ------ \Device\Afd\Endpoint
+0x00000000021d15a8      2      1 R--rw- \Device\HarddiskVolume1\Program Files\Common Files\Microsoft Shared\web server extensions\40\bots\vinavbar
+0x00000000021d1d60      1      1 R--rw- \Device\HarddiskVolume1\WINDOWS\WinSxS\x86_Microsoft.Windows.Common-Controls_6595b64144ccf1df_6.0.2600.6028_x-ww_61e65202
+0x00000000021d2138      1      1 R--rw- \Device\HarddiskVolume1\WINDOWS\WinSxS\x86_Microsoft.Windows.Common-Controls_6595b64144ccf1df_6.0.2600.6028_x-ww_61e65202
+0x00000000021d2238      2      1 R--rw- \Device\HarddiskVolume1\Program Files\Common Files\Microsoft Shared\web server extensions\40\admisapi\scripts
+0x00000000021d26a8      2      1 R--rw- \Device\HarddiskVolume1\Program Files\Common Files\Microsoft Shared\web server extensions\40\servsupp
+0x00000000021d2740      2      1 R--rw- \Device\HarddiskVolume1\WINDOWS\system32\drivers
+0x00000000021d2f50      2      1 R--rw- \Device\HarddiskVolume1\WINDOWS\Fonts
+0x00000000021d3378      2      1 R--rw- \Device\HarddiskVolume1\Program Files\Common Files\Microsoft Shared\web server extensions\40\bin
+0x00000000021d3410      2      1 R--rw- \Device\HarddiskVolume1\WINDOWS\system32\inetsrv
+0x00000000021d3850      2      1 ------ \Device\NamedPipe\Ctx_WinStation_API_service
+0x00000000021d3c60      2      1 R--rw- \Device\HarddiskVolume1\Program Files\Common Files\Microsoft Shared\web server extensions\40\_vti_bin\_vti_aut
+0x00000000021d4028      2      1 ------ \Device\Afd\Endpoint
+0x00000000021d4550      1      1 RW---- \Device\HarddiskVolume1\WINDOWS\SoftwareDistribution\DataStore\Logs\edb.log
+0x00000000021d5028      1      1 R--rw- \Device\HarddiskVolume1\WINDOWS\WinSxS\x86_Microsoft.Windows.Common-Controls_6595b64144ccf1df_6.0.2600.6028_x-ww_61e65202
+0x00000000021d5198      1      0 R--r-d \Device\HarddiskVolume1\WINDOWS\system32\netui1.dll
+0x00000000021d6218      2      1 R--rw- \Device\HarddiskVolume1\Program Files\Common Files\Microsoft Shared\web server extensions\40\admcgi\scripts
+0x00000000021d6318      2      1 R--rw- \Device\HarddiskVolume1\WINDOWS\system32\1033
+0x00000000021d69d8      1      0 R--r-- \Device\HarddiskVolume1\WINDOWS\WinSxS\Manifests\x86_Microsoft.Windows.SystemCompatible_6595b64144ccf1df_5.1.2600.2000_x-ww_bcc9a281.Manifest
+0x00000000021d7908      1      0 R--r-- \Device\HarddiskVolume1\WINDOWS\WinSxS\Manifests\x86_Microsoft.Windows.Networking.RtcRes_6595b64144ccf1df_5.2.2.3_en_16a24bc0.Manifest
+0x00000000021d79a0      1      0 R--r-- \Device\HarddiskVolume1\WINDOWS\WinSxS\Manifests\x86_Microsoft.Windows.Networking.RtcDll_6595b64144ccf1df_5.2.2.3_x-ww_d6bd8b95.Manifest
+0x00000000021d7e08      1      0 R--r-d \Device\HarddiskVolume1\Documents and Settings\All Users\Start Menu\Microsoft Update Catalog.lnk
+0x00000000021d7f90      1      0 R--r-- \Device\HarddiskVolume1\WINDOWS\system32\es.dll
+0x00000000021d8690      1      1 R--rw- \Device\HarddiskVolume1\WINDOWS\WinSxS\x86_Microsoft.Windows.Common-Controls_6595b64144ccf1df_6.0.2600.6028_x-ww_61e65202
+0x00000000021d8ac0      1      0 -W---- \Device\HarddiskVolume1\Intel\ivecuqmanpnirkt615\s.wnry
+0x00000000021da708      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\OEMINFO.INI
+0x00000000021dac68      1      0 R--rw- \Device\HarddiskVolume1\WINDOWS\Installer\{20C31435-2A0A-4580-BE8B-AC06FC243CA4}\python_icon.exe
+0x00000000021dad60      2      1 R--rw- \Device\HarddiskVolume1\WINDOWS\Help
+0x00000000021dadf8      2      1 R--rw- \Device\HarddiskVolume1\Program Files\Common Files\Microsoft Shared\web server extensions\40\_vti_bin\_vti_adm
+0x00000000021db7b0      2      1 R--rw- \Device\HarddiskVolume1\WINDOWS\system32
+0x00000000021dc028      1      0 R--r-d \Device\HarddiskVolume1\Intel\ivecuqmanpnirkt615\taskdl.exe
+0x00000000021dc3a8      1      0 R--r-d \Device\HarddiskVolume1\Documents and Settings\All Users\Start Menu\Programs\Accessories\System Tools\Character Map.lnk
+0x00000000021dc440      1      0 R--r-d \Device\HarddiskVolume1\Documents and Settings\donny\Start Menu\Programs\Accessories\Notepad.lnk
+0x00000000021dc578      1      0 R--r-d \Device\HarddiskVolume1\Documents and Settings\All Users\Start Menu\Programs\Administrative Tools\Local Security Policy.lnk
+0x00000000021dc940      1      0 R--rw- \Device\HarddiskVolume1\WINDOWS\system32\rcimlby.exe
+0x00000000021dc9d8      1      0 R--rw- \Device\HarddiskVolume1\WINDOWS\explorer.exe
+0x00000000021dcb68      2      1 ------ \Device\Afd\Endpoint
+0x00000000021dce00      1      0 R--r-d \Device\HarddiskVolume1\Documents and Settings\donny\Start Menu\Programs\Accessories\Program Compatibility Wizard.lnk
+0x00000000021dcf90      4      1 RW---- \Device\HarddiskVolume1\Documents and Settings\NetworkService\Local Settings\Application Data\Microsoft\Windows\UsrClass.dat
+0x00000000021dd238      1      0 R--r-d \Device\HarddiskVolume1\WINDOWS\system32\davclnt.dll
+0x00000000021dd440      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\mfc42.dll
+0x00000000021dd4d8      1      0 R--rwd \Device\HarddiskVolume1\Documents and Settings\All Users\Start Menu\Programs\desktop.ini
+0x00000000021dd6a8      2      1 ------ \Device\NamedPipe\protected_storage
+0x00000000021ddb80      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\wucltui.dll.mui
+0x00000000021ddf90      1      0 R--rw- \Device\HarddiskVolume1\WINDOWS\system32\taskkill.exe
+0x00000000021de828      1      0 R--r-d \Device\HarddiskVolume1\WINDOWS\Fonts\arialbd.ttf
+0x00000000021df420      1      0 R--r-d \Device\HarddiskVolume1\Documents and Settings\donny\Start Menu\Programs\Remote Assistance.lnk
+0x00000000021e0988      1      0 R--rw- \Device\HarddiskVolume1\WINDOWS\system32\attrib.exe
+0x00000000021e0c20      3      0 RWD--- \Device\HarddiskVolume1\$Directory
+0x00000000021e0d98      1      0 R--r-d \Device\HarddiskVolume1\Documents and Settings\All Users\Start Menu\Programs\Accessories\Accessibility\Accessibility Wizard.lnk
+0x00000000021e16b0      1      1 ------ \Device\Afd\Endpoint
+0x00000000021e1748      1      0 R--r-d \Device\HarddiskVolume1\Documents and Settings\All Users\Start Menu\Programs\Python 2.7\Python Manuals.lnk
+0x00000000021e2760      1      0 R--r-d \Device\HarddiskVolume1\Documents and Settings\All Users\Start Menu\Programs\Games\Internet Checkers.lnk
+0x00000000021e28f8      1      0 R--r-- \Device\HarddiskVolume1\WINDOWS\system32\fldrclnr.dll
+0x00000000021e2ad8      3      1 RW-r-- \Device\HarddiskVolume1\WINDOWS\system32\wbem\Repository\FS\INDEX.BTR
+0x00000000021e2b70      3      1 RW-r-- \Device\HarddiskVolume1\WINDOWS\system32\wbem\Repository\FS\OBJECTS.MAP
+0x00000000021e5098      1      1 R--rw- \Device\HarddiskVolume1\WINDOWS\WinSxS\x86_Microsoft.Windows.Common-Controls_6595b64144ccf1df_6.0.2600.6028_x-ww_61e65202
+0x00000000021e5418      1      0 R--r-d \Device\HarddiskVolume1\WINDOWS\system32\rundll32.exe
+0x00000000021e55c0      2      1 ------ \Device\NamedPipe\Winsock2\CatalogChangeListener-400-0
+0x00000000021e5be8      1      0 R--r-- \Device\HarddiskVolume1\WINDOWS\system32\oembios.bin
+0x00000000021e5d20      2      1 R--rwd \Device\HarddiskVolume1\$Extend\$ObjId
+0x00000000021e7038      3      0 RWD--- \Device\HarddiskVolume1\$Directory
+0x00000000021e72e0      1      1 R--rw- \Device\HarddiskVolume1\WINDOWS\WinSxS\x86_Microsoft.Windows.Common-Controls_6595b64144ccf1df_6.0.2600.6028_x-ww_61e65202
+0x00000000021e7418      1      1 ------ \Device\Afd\Endpoint
+0x00000000021e75a8      1      0 RW-rwd \Device\HarddiskVolume1\Documents and Settings\LocalService\Local Settings\desktop.ini
+0x00000000021e7c68      1      1 ------ \Device\NamedPipe\spoolss
+0x00000000021e7df8      2      1 RW-r-- \Device\HarddiskVolume1\WINDOWS\system32\config\SysEvent.Evt
+0x00000000021e8740      1      1 RW-r-- \Device\HarddiskVolume1\WINDOWS\system32\config\SecEvent.Evt
+0x00000000021e88b0      1      0 R--r-d \Device\HarddiskVolume1\Documents and Settings\All Users\Start Menu\Programs\Accessories\System Tools\System Information.lnk
+0x00000000021e8980      1      0 R--rw- \Device\HarddiskVolume1\Program Files\MSN Gaming Zone\Windows\hrtzzm.exe
+0x00000000021e8b38      2      1 R--rw- \Device\HarddiskVolume1\WINDOWS\WinSxS
+0x00000000021e8f28      2      1 R--rw- \Device\HarddiskVolume1\Program Files\Common Files\System\msadc
+0x00000000021e9c28      1      1 ------ \Device\Afd\Endpoint
+0x00000000021eaf90      1      0 R--rw- \Device\HarddiskVolume1\WINDOWS\system32\els.dll
+0x00000000021eb250      1      0 R--r-- \Device\HarddiskVolume1\WINDOWS\WinSxS\Policies\x86_policy.5.2.Microsoft.Windows.Networking.Rtcdll_6595b64144ccf1df_x-ww_c7b7206f\5.2.2.3.Policy
+0x00000000021eb2e8      1      0 R--r-- \Device\HarddiskVolume1\WINDOWS\WinSxS\Policies\x86_policy.5.2.Microsoft.Windows.Networking.Dxmrtp_6595b64144ccf1df_x-ww_362e60dd\5.2.2.3.Policy
+0x00000000021eb420      1      0 R--rw- \Device\HarddiskVolume1\Program Files\Common Files\Microsoft Shared\MSInfo\msinfo32.exe
+0x00000000021ec748      1      1 ------ \Device\NamedPipe\wkssvc
+0x00000000021ec970      1      1 R--rw- \Device\HarddiskVolume1\WINDOWS\WinSxS\x86_Microsoft.Windows.Common-Controls_6595b64144ccf1df_6.0.2600.6028_x-ww_61e65202
+0x00000000021ed748      2      1 ------ \Device\NamedPipe\wkssvc
+0x00000000021ed810      1      0 R--r-- \Device\HarddiskVolume1\WINDOWS\WinSxS\Manifests\x86_Microsoft.Windows.Networking.Dxmrtp_6595b64144ccf1df_5.2.2.3_x-ww_468466a7.Manifest
+0x00000000021ed9e0      1      0 R--r-- \Device\HarddiskVolume1\WINDOWS\WinSxS\Manifests\x86_Microsoft.Windows.GdiPlus_6595b64144ccf1df_1.0.6002.23084_x-ww_f3f35550.Manifest
+0x00000000021ee698      1      0 R--rw- \Device\HarddiskVolume1\WINDOWS\system32\freecell.exe
+0x00000000021eeaf0      1      0 R--r-d \Device\HarddiskVolume1\WINDOWS\system32\drprov.dll
+0x00000000021eef90      2      1 ------ \Device\NamedPipe\ntsvcs
+0x00000000021ef980      1      0 R--rw- \Device\HarddiskVolume1\WINDOWS\system32\netshell.dll
+0x00000000021efc80      1      1 ------ \Device\NamedPipe\protected_storage
+0x00000000021f02b8      3      0 RWD--- \Device\HarddiskVolume1\$Directory
+0x00000000021f0b70      3      0 RWD--- \Device\HarddiskVolume1\$Directory
+0x00000000021f1418      1      0 R--r-d \Device\HarddiskVolume1\Documents and Settings\All Users\Start Menu\Programs\Accessories\System Tools\Files and Settings Transfer Wizard.lnk
+0x00000000021f1700      2      1 R--rw- \Device\HarddiskVolume1\Program Files\Common Files\Microsoft Shared\web server extensions\40\isapi\_vti_aut
+0x00000000021f18d8      1      0 R--rw- \Device\HarddiskVolume1\WINDOWS\system32\msiexec.exe
+0x00000000021f1c88      1      0 R--r-d \Device\HarddiskVolume1\Documents and Settings\donny\Start Menu\Programs\Outlook Express.lnk
+0x00000000021f1f90      1      1 RW---- \Device\HarddiskVolume1\WINDOWS\SoftwareDistribution\DataStore\DataStore.edb
+0x00000000021f2368      1      1 RW-rw- \Device\HarddiskVolume1\Documents and Settings\LocalService\Local Settings\Temporary Internet Files\Content.IE5\index.dat
+0x00000000021f2400      1      0 R--rwd \Device\HarddiskVolume1\Documents and Settings\donny\My Documents\desktop.ini
+0x00000000021f2910      3      0 RWD--- \Device\HarddiskVolume1\$Directory
+0x00000000021f2b70      3      0 RWD--- \Device\HarddiskVolume1\$Directory
+0x00000000021f3870      1      0 R--rw- \Device\HarddiskVolume1\Intel\ivecuqmanpnirkt615\tasksche.exe
+0x00000000021f3d00      1      1 R--rw- \Device\HarddiskVolume1\WINDOWS\WinSxS\x86_Microsoft.Windows.Common-Controls_6595b64144ccf1df_6.0.2600.6028_x-ww_61e65202
+0x00000000021f3d98      1      0 R--r-d \Device\HarddiskVolume1\Documents and Settings\donny\Start Menu\Programs\Accessories\Entertainment\Windows Media Player.lnk
+0x00000000021f4f90      3      1 R--rwd \Device\HarddiskVolume1\Documents and Settings\donny\Start Menu
+0x000000000220ea70      5      1 RWDr-- \Device\HarddiskVolume1\System Volume Information\tracking.log
+0x000000000220ec40      1      0 -W---- \Device\HarddiskVolume1\Intel\ivecuqmanpnirkt615\msg\m_turkish.wnry
+0x000000000220feb8      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\MSCTF.dll
+0x0000000002210278      1      1 RW---- \Device\HarddiskVolume1\WINDOWS\system32\config\software.LOG
+0x00000000022109d0      2      1 R--rw- \Device\HarddiskVolume1\WINDOWS\AppPatch
+0x0000000002210df0      3      0 RWD--- \Device\HarddiskVolume1\$Directory
+0x0000000002211028      1      0 R--r-d \Device\HarddiskVolume1\Documents and Settings\All Users\Start Menu\Programs\Accessories\Communications\Network Connections.lnk
+0x00000000022118f8      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\msnsspc.dll
+0x0000000002211d20      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\winipsec.dll
+0x0000000002211f90      1      0 R--r-d \Device\HarddiskVolume1\Documents and Settings\All Users\Start Menu\Programs\Accessories\System Tools\System Restore.lnk
+0x0000000002212028      1      0 -W---- \Device\HarddiskVolume1\Intel\ivecuqmanpnirkt615\msg\m_russian.wnry
+0x0000000002212668      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\oakley.dll
+0x0000000002212a90      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\ipsecsvc.dll
+0x0000000002212eb8      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\srvsvc.dll
+0x00000000022133b8      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\dhcpcsvc.dll
+0x0000000002213c28      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\digest.dll
+0x00000000022148f8      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\credssp.dll
+0x00000000022159a0      1      0 R--r-- \Device\HarddiskVolume1\WINDOWS\WinSxS\Policies\x86_policy.1.0.Microsoft.Windows.GdiPlus_6595b64144ccf1df_x-ww_4e8510ac\1.0.6002.23084.Policy
+0x0000000002215c28      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\netlogon.dll
+0x0000000002216028      1      0 R--rwd \Device\HarddiskVolume1\Documents and Settings\All Users\Start Menu\Programs\Accessories\System Tools\desktop.ini
+0x0000000002216510      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\pstorsvc.dll
+0x00000000022168f8      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\wdigest.dll
+0x0000000002216f28      1      0 R--r-d \Device\HarddiskVolume1\WINDOWS\system32\msxml3r.dll
+0x0000000002217200      2      1 R--rw- \Device\HarddiskVolume1\WINDOWS\system32\wbem
+0x0000000002217528      1      0 -W---- \Device\HarddiskVolume1\Intel\ivecuqmanpnirkt615\msg\m_spanish.wnry
+0x0000000002217668      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\netmsg.dll
+0x0000000002217a90      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\iphlpapi.dll
+0x0000000002217cd0      1      0 R--r-d \Device\HarddiskVolume1\WINDOWS\system32\rasmans.dll
+0x0000000002217f90      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\pchealth\helpctr\binaries\pchsvc.dll
+0x0000000002218320      1      0 R--r-d \Device\HarddiskVolume1\Documents and Settings\All Users\Start Menu\Programs\Accessories\Entertainment\Volume Control.lnk
+0x00000000022184b0      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\netman.dll
+0x0000000002218800      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\winspool.drv
+0x0000000002218c28      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\schannel.dll
+0x00000000022193f0      3      0 RWD--- \Device\HarddiskVolume1\$Directory
+0x00000000022195a8      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\dmserver.dll
+0x00000000022199d0      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\certcli.dll
+0x0000000002219b30      1      0 -W---- \Device\HarddiskVolume1\Intel\ivecuqmanpnirkt615\msg\m_slovak.wnry
+0x0000000002219df8      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\themeui.dll
+0x000000000221aa90      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\msapsspc.dll
+0x000000000221aeb8      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\lmhsvc.dll
+0x000000000221b3d8      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\uxtheme.dll
+0x000000000221b800      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\msacm32.dll
+0x000000000221bc28      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\winmm.dll
+0x000000000221ceb8      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\msvcrt40.dll
+0x000000000221d3d8      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\w32time.dll
+0x000000000221dad8      1      0 R--r-d \Device\HarddiskVolume1\Documents and Settings\All Users\Start Menu\Programs\Games\Freecell.lnk
+0x000000000221dd00      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\es.dll
+0x000000000221e4b0      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\scesrv.dll
+0x000000000221ed20      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\kerberos.dll
+0x000000000221f668      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\AppPatch\AcGenral.dll
+0x000000000221fb90      1      0 R--r-d \Device\HarddiskVolume1\Documents and Settings\All Users\Start Menu\Programs\Games\Internet Hearts.lnk
+0x000000000221fd20      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\dnsrslvr.dll
+0x0000000002220668      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\shgina.dll
+0x0000000002220a90      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\comres.dll
+0x0000000002220e98      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\umpnpmgr.dll
+0x00000000022213d8      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\cryptdll.dll
+0x0000000002221800      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\samsrv.dll
+0x0000000002221c28      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\samlib.dll
+0x0000000002222028      2      1 R--rw- \Device\HarddiskVolume1\WINDOWS\ime\imkr6_1\dicts
+0x00000000022239d0      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\rasapi32.dll
+0x0000000002223df8      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\adsldpc.dll
+0x00000000022243b8      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\activeds.dll
+0x0000000002225128      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\crypt32.dll
+0x00000000022259d0      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\mprapi.dll
+0x0000000002225df8      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\cryptui.dll
+0x0000000002226740      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\rastls.dll
+0x0000000002226ab0      1      0 R--r-- \Device\HarddiskVolume1\WINDOWS\system32\drivers\fips.sys
+0x0000000002226eb8      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\userinit.exe
+0x0000000002227128      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\msasn1.dll
+0x0000000002227d20      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\powrprof.dll
+0x0000000002228668      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\cscui.dll
+0x0000000002228eb8      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\atl.dll
+0x0000000002229158      2      1 R--rw- \Device\HarddiskVolume1\WINDOWS\system
+0x0000000002229320      1      0 R--rw- \Device\HarddiskVolume1\WINDOWS\system32\ctfmon.exe
+0x00000000022293d8      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\logonui.exe
+0x0000000002229748      1      0 -W---- \Device\HarddiskVolume1\Intel\ivecuqmanpnirkt615\msg\m_vietnamese.wnry
+0x00000000022298d8      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\eappcfg.dll
+0x0000000002229c28      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\tspkg.dll
+0x000000000222a028      2      1 ------ \Device\Afd\Endpoint
+0x000000000222a4d0      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\mswsock.dll
+0x000000000222a8f8      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\rtutils.dll
+0x000000000222ad20      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\wlnotify.dll
+0x000000000222b220      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\dimsntfy.dll
+0x000000000222b648      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\cscdll.dll
+0x000000000222ba90      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\oleacc.dll
+0x000000000222bc68      1      1 R--r-- \Device\HarddiskVolume1\WINDOWS\system32\ega.cpi
+0x000000000222beb8      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\msimg32.dll
+0x000000000222c320      1      0 R--r-d \Device\HarddiskVolume1\Documents and Settings\All Users\Start Menu\Programs\Accessories\System Tools\Backup.lnk
+0x000000000222c3d8      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\rasadhlp.dll
+0x000000000222c800      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\winrnr.dll
+0x000000000222d028      1      0 R--rw- \Device\HarddiskVolume1\WINDOWS\system32\muweb.dll
+0x000000000222d4b0      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\clbcatq.dll
+0x000000000222d8f8      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\wzcsvc.dll
+0x000000000222dd20      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\eventlog.dll
+0x000000000222e340      1      0 R--r-d \Device\HarddiskVolume1\WINDOWS\system32\dbghelp.dll
+0x000000000222e800      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\dnsapi.dll
+0x000000000222ec08      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\wshtcpip.dll
+0x000000000222f028      1      0 R--rwd \Device\HarddiskVolume1\Documents and Settings\All Users\Start Menu\Programs\Games\desktop.ini
+0x000000000222f4b0      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\dot3api.dll
+0x000000000222f8d8      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\hnetcfg.dll
+0x000000000222fc10      1      1 RW-rw- \Device\HarddiskVolume1\Documents and Settings\LocalService\Local Settings\History\History.IE5\index.dat
+0x0000000002230668      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\wmi.dll
+0x0000000002230ab0      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\eapolqec.dll
+0x0000000002230eb8      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\qutil.dll
+0x0000000002231158      2      1 R--rw- \Device\HarddiskVolume1\WINDOWS\msagent
+0x00000000022313d8      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\esent.dll
+0x00000000022316b0      1      0 -W---- \Device\HarddiskVolume1\System Volume Information\_restore{915C6505-6DED-4903-B727-F8B5C05262FF}\drivetable.txt
+0x0000000002231800      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\xpsp2res.dll
+0x0000000002231c28      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\rpcss.dll
+0x0000000002232418      1      0 -W---- \Device\HarddiskVolume1\Intel\ivecuqmanpnirkt615\msg\m_swedish.wnry
+0x00000000022324d0      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\ntmarta.dll
+0x00000000022328f8      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\svchost.exe
+0x0000000002232d20      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\scecli.dll
+0x0000000002232f28      1      0 R--r-d \Device\HarddiskVolume1\Documents and Settings\All Users\Start Menu\Programs\Administrative Tools\Computer Management.lnk
+0x0000000002233240      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\wtsapi32.dll
+0x0000000002233518      1      0 R----- \Device\HarddiskVolume1\WINDOWS\system32\wbem\Repository\$WinMgmt.CFG
+0x0000000002233668      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\winscard.dll
+0x0000000002233d20      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\ntdsapi.dll
+0x0000000002233f18      1      1 R--rw- \Device\HarddiskVolume1\Intel\ivecuqmanpnirkt615
+0x0000000002234028      1      0 R--r-d \Device\HarddiskVolume1\WINDOWS\system32\drprov.dll
+0x00000000022345c0      1      0 R--r-d \Device\HarddiskVolume1\WINDOWS\system32\attrib.exe
+0x0000000002234688      1      0 R--r-d \Device\HarddiskVolume1\Documents and Settings\All Users\Start Menu\Programs\Games\Spider Solitaire.lnk
+0x0000000002234808      1      0 R--r-d \Device\HarddiskVolume1\WINDOWS\system32\rundll32.exe
+0x0000000002234b68      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\cryptsvc.dll
+0x0000000002234f90      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\webclnt.dll
+0x00000000022354b0      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\midimap.dll
+0x00000000022358d8      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\msacm32.drv
+0x0000000002235e00      1      0 R--r-d \Device\HarddiskVolume1\Documents and Settings\donny\Local Settings\Temp\24d004a104d4d54034dbcffc2a4b19a11f39008a575aa614ea04703480b1022c.bin
+0x0000000002235f90      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\wdmaud.drv
+0x0000000002236320      1      0 R--r-d \Device\HarddiskVolume1\Documents and Settings\All Users\Start Menu\Programs\Accessories\Internet Browser Choice.lnk
+0x00000000022364b0      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\wkssvc.dll
+0x00000000022368d8      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\audiosrv.dll
+0x0000000002236d78      1      0 R----- \Device\HarddiskVolume1\WINDOWS\Prefetch\TASKSE.EXE-02A1B304.pf
+0x0000000002236f90      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\spoolsv.exe
+0x0000000002237158      2      1 R--rw- \Device\HarddiskVolume1\WINDOWS\msagent\intl
+0x0000000002237320      1      0 R--rw- \Device\HarddiskVolume1\WINDOWS\system32\shell32.dll
+0x00000000022374b0      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\msidle.dll
+0x00000000022378d8      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\schedsvc.dll
+0x0000000002238028      3      1 R--rwd \Device\HarddiskVolume1\Documents and Settings\donny\NetHood
+0x0000000002238758      1      1 R--rw- \Device\HarddiskVolume1\WINDOWS\WinSxS\x86_Microsoft.Windows.Common-Controls_6595b64144ccf1df_6.0.2600.6028_x-ww_61e65202
+0x00000000022389d0      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\wbem\wmisvc.dll
+0x0000000002238df8      3      0 RWD--- \Device\HarddiskVolume1\$Directory
+0x0000000002238ef8      1      0 R--r-d \Device\HarddiskVolume1\Documents and Settings\All Users\Start Menu\Programs\Accessories\WordPad.lnk
+0x0000000002238f90      1      0 R--r-d \Device\HarddiskVolume1\Documents and Settings\All Users\Start Menu\Programs\Accessories\Remote Desktop Connection.lnk
+0x0000000002239028      1      0 R--r-d \Device\HarddiskVolume1\WINDOWS\system32\ulib.dll
+0x0000000002239668      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\msv1_0.dll
+0x0000000002239f90      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\desk.cpl
+0x000000000223a320      1      1 R--rw- \Device\HarddiskVolume1\WINDOWS\WinSxS\x86_Microsoft.Windows.Common-Controls_6595b64144ccf1df_6.0.2600.6028_x-ww_61e65202
+0x000000000223a4b0      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\shdocvw.dll
+0x000000000223a8d8      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\wzcsapi.dll
+0x000000000223ab70      1      0 R--r-d \Device\HarddiskVolume1\WINDOWS\system32\rasmans.dll
+0x000000000223ad00      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\eappprxy.dll
+0x000000000223b028      1      0 R--r-- \Device\HarddiskVolume1\System Volume Information\_restore{915C6505-6DED-4903-B727-F8B5C05262FF}\RP3\rp.log
+0x000000000223b320      1      0 R--r-d \Device\HarddiskVolume1\Documents and Settings\donny\Start Menu\Programs\Accessories\System Tools\Internet Explorer (No Add-ons).lnk
+0x000000000223b4d0      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\dpcdll.dll
+0x000000000223b9d0      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\vssapi.dll
+0x000000000223bad0      1      1 R--rw- \Device\HarddiskVolume1\WINDOWS\WinSxS\x86_Microsoft.Windows.Common-Controls_6595b64144ccf1df_6.0.2600.6028_x-ww_61e65202
+0x000000000223bdf8      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\netshell.dll
+0x000000000223c478      1      0 R--r-d \Device\HarddiskVolume1\Documents and Settings\All Users\Start Menu\Programs\Accessories\Communications\Network Setup Wizard.lnk
+0x000000000223c518      1      0 R--rw- \Device\HarddiskVolume1\WINDOWS\system32\comres.dll
+0x000000000223c5b0      1      1 R--rw- \Device\HarddiskVolume1\WINDOWS\WinSxS\x86_Microsoft.Windows.Common-Controls_6595b64144ccf1df_6.0.2600.6028_x-ww_61e65202
+0x000000000223c740      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\tapi32.dll
+0x000000000223c8a0      1      0 R--r-d \Device\HarddiskVolume1\Documents and Settings\All Users\Start Menu\Programs\Accessories\Communications\HyperTerminal.lnk
+0x000000000223cb68      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\rasman.dll
+0x000000000223cf90      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\termsrv.dll
+0x000000000223d8d8      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\wbem\ncprov.dll
+0x000000000223dd00      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\wuapi.dll
+0x000000000223e028      1      0 R--r-d \Device\HarddiskVolume1\Documents and Settings\donny\Start Menu\Programs\Accessories\Accessibility\On-Screen Keyboard.lnk
+0x000000000223e3e8      3      0 RWD--- \Device\HarddiskVolume1\$Directory
+0x000000000223e5a8      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\onex.dll
+0x000000000223e9d0      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\dot3dlg.dll
+0x000000000223edf8      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\credui.dll
+0x000000000223fb68      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\explorer.exe
+0x000000000223ff90      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\raschap.dll
+0x00000000022404b0      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\riched20.dll
+0x0000000002240800      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\dssenh.dll
+0x0000000002240c08      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\wuauclt.exe
+0x0000000002240f90      3      0 RWD--- \Device\HarddiskVolume1\$Directory
+0x00000000022415a8      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\browseui.dll
+0x0000000002241708      1      1 ------ \Device\NamedPipe\DAV RPC SERVICE
+0x0000000002241d00      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\wbem\wbemprox.dll
+0x0000000002242240      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\msi.dll
+0x0000000002242478      1      0 R--r-d \Device\HarddiskVolume1\Documents and Settings\donny\Start Menu\Programs\Accessories\Windows Explorer.lnk
+0x0000000002242648      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\colbact.dll
+0x00000000022428a0      1      0 R--r-d \Device\HarddiskVolume1\Documents and Settings\All Users\Start Menu\Programs\Accessories\Paint.lnk
+0x0000000002242a90      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\comsvcs.dll
+0x0000000002242c10      1      0 R--r-d \Device\HarddiskVolume1\Documents and Settings\All Users\Start Menu\Programs\7-Zip\7-Zip Help.lnk
+0x0000000002242d40      1      0 R--r-d \Device\HarddiskVolume1\Documents and Settings\All Users\Start Menu\Programs\Accessories\System Tools\Disk Defragmenter.lnk
+0x0000000002242dd8      1      0 R--rwd \Device\HarddiskVolume1\Documents and Settings\donny\Start Menu\desktop.ini
+0x0000000002242eb8      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\wbem\wbemcons.dll
+0x0000000002243320      1      0 R--rw- \Device\HarddiskVolume1\WINDOWS\system32\sysmon.ocx
+0x00000000022434b0      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\msutb.dll
+0x0000000002243d00      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\actxprxy.dll
+0x0000000002244648      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\icaapi.dll
+0x0000000002244a70      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\mstlsapi.dll
+0x0000000002244bd8      1      1 ------ \Device\Afd\Endpoint
+0x00000000022453d8      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\tcpmon.dll
+0x00000000022456e0      1      1 R--rw- \Device\HarddiskVolume1\Intel\ivecuqmanpnirkt615
+0x0000000002245800      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\wbem\repdrvfs.dll
+0x0000000002245d00      3      0 RWD--- \Device\HarddiskVolume1\$Directory
+0x0000000002246028      1      0 R--r-d \Device\HarddiskVolume1\Documents and Settings\All Users\Start Menu\Programs\Accessories\Entertainment\Sound Recorder.lnk
+0x00000000022464b0      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\wbem\wmiutils.dll
+0x00000000022468f8      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\wbem\wbemsvc.dll
+0x0000000002246a88      1      0 R--r-d \Device\HarddiskVolume1\Documents and Settings\All Users\Start Menu\Set Program Access and Defaults.lnk
+0x0000000002246c68      3      0 RWD--- \Device\HarddiskVolume1\$Directory
+0x0000000002246d20      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\winhttp.dll
+0x0000000002246f90      2      1 ------ \Device\NamedPipe\trkwks
+0x00000000022473f0      1      0 R--r-d \Device\HarddiskVolume1\Documents and Settings\donny\Start Menu\Programs\Windows Media Player.lnk
+0x0000000002247488      1      1 R--rw- \Device\HarddiskVolume1\WINDOWS\system32
+0x00000000022475c0      1      0 R--rw- \Device\HarddiskVolume1\Program Files\Internet Explorer\IEXPLORE.EXE
+0x0000000002247840      1      0 R--rw- \Device\HarddiskVolume1\WINDOWS\system32\sndvol32.exe
+0x0000000002247a90      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\wuaueng.dll
+0x0000000002247ca0      1      0 R--r-d \Device\HarddiskVolume1\Documents and Settings\All Users\Start Menu\Programs\Games\Internet Backgammon.lnk
+0x0000000002247e70      3      1 RW-r-- \Device\HarddiskVolume1\WINDOWS\system32\wbem\Repository\FS\INDEX.MAP
+0x0000000002247f08      3      1 RW-r-- \Device\HarddiskVolume1\WINDOWS\system32\wbem\Repository\FS\MAPPING.VER
+0x0000000002248028      1      0 R--rw- \Device\HarddiskVolume1\WINDOWS\Media\Windows XP Startup.wav
+0x0000000002248b08      3      1 RW-r-- \Device\HarddiskVolume1\WINDOWS\system32\wbem\Repository\FS\MAPPING2.MAP
+0x0000000002248ef8      2      1 ------ \Device\NamedPipe\W32TIME
+0x0000000002248f90      1      1 ------ \Device\NamedPipe\W32TIME
+0x00000000022490c0      1      0 R--rw- \Device\HarddiskVolume1\WINDOWS\system32\mshearts.exe
+0x0000000002249a90      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\wuauserv.dll
+0x0000000002249eb8      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\wbem\fastprox.dll
+0x000000000224a938      1      0 R--r-- \Device\HarddiskVolume1\WINDOWS\system32\c_1250.nls
+0x000000000224b4d0      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\cnbjmon.dll
+0x000000000224b8f8      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\spoolss.dll
+0x000000000224bd00      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\ssdpapi.dll
+0x000000000224c028      1      0 R--r-d \Device\HarddiskVolume1\Documents and Settings\All Users\Start Menu\Programs\Python 2.7\Python (command line).lnk
+0x000000000224c740      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\browser.dll
+0x000000000224ce98      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\wups2.dll
+0x000000000224d320      1      0 R--rw- \Device\HarddiskVolume1\WINDOWS\system32\wsecedit.dll
+0x000000000224d3d8      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\wups.dll
+0x000000000224d800      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\wbem\wbemess.dll
+0x000000000224db70      2      1 ------ \Device\NamedPipe\PIPE_EVENTROOT\CIMV2SCM EVENT PROVIDER
+0x000000000224dc28      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\wbem\wmiprvsd.dll
+0x000000000224e4d0      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\mspatcha.dll
+0x000000000224e708      3      0 RWD--- \Device\HarddiskVolume1\$Directory
+0x000000000224e8f8      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\cabinet.dll
+0x000000000224ea80      1      0 R--r-d \Device\HarddiskVolume1\Documents and Settings\All Users\Start Menu\Programs\Games\Hearts.lnk
+0x000000000224eb18      1      1 R--rw- \Device\HarddiskVolume1\WINDOWS\WinSxS\x86_Microsoft.Windows.Common-Controls_6595b64144ccf1df_6.0.2600.6028_x-ww_61e65202
+0x000000000224ed40      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\ime\SPTIP.dll
+0x000000000224f240      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\sens.dll
+0x000000000224f418      1      0 R--r-d \Device\HarddiskVolume1\Documents and Settings\All Users\Start Menu\Programs\Accessories\Calculator.lnk
+0x000000000224f668      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\trkwks.dll
+0x000000000224fa90      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\srsvc.dll
+0x000000000224fca8      1      0 R--r-d \Device\HarddiskVolume1\WINDOWS\system32\tapisrv.dll
+0x000000000224fd68      1      1 R--rw- \Device\HarddiskVolume1\WINDOWS\WinSxS\x86_Microsoft.Windows.Common-Controls_6595b64144ccf1df_6.0.2600.6028_x-ww_61e65202
+0x000000000224fe00      1      0 R--r-d \Device\HarddiskVolume1\WINDOWS\system32\ntlanman.dll
+0x000000000224feb8      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\seclogon.dll
+0x00000000022503d8      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\psbase.dll
+0x00000000022505b0      1      0 R--rw- \Device\HarddiskVolume1\WINDOWS\system32\cleanmgr.exe
+0x0000000002250820      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\wscntfy.exe
+0x0000000002250c28      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\ctfmon.exe
+0x00000000022512c0      1      0 R--r-d \Device\HarddiskVolume1\Documents and Settings\All Users\Start Menu\Programs\Accessories\System Tools\Scheduled Tasks.lnk
+0x0000000002251840      1      1 R--rw- \Device\HarddiskVolume1\Documents and Settings\donny
+0x00000000022518d8      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\upnp.dll
+0x0000000002251d40      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\alg.exe
+0x0000000002251f28      1      0 R--rw- \Device\HarddiskVolume1\WINDOWS\system32\winmine.exe
+0x00000000022524d0      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\verclsid.exe
+0x00000000022528f8      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\resutils.dll
+0x0000000002252d20      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\clusapi.dll
+0x0000000002253240      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\wbem\wbemcomn.dll
+0x00000000022535b0      1      0 R--r-d \Device\HarddiskVolume1\WINDOWS\system32\msxml3.dll
+0x0000000002253668      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\wbem\esscli.dll
+0x0000000002254028      3      1 RW-rw- \Device\HarddiskVolume1\WINDOWS\WindowsUpdate.log
+0x00000000022552f0      3      1 RW-r-- \Device\HarddiskVolume1\WINDOWS\system32\wbem\Repository\FS\MAPPING1.MAP
+0x0000000002255a60      3      1 R--rwd \Device\HarddiskVolume1\Documents and Settings\All Users\Start Menu
+0x00000000022562d8      1      0 R--rw- \Device\HarddiskVolume1\Program Files\MSN Gaming Zone\Windows\Rvsezm.exe
+0x0000000002256700      1      0 R--r-d \Device\HarddiskVolume1\Documents and Settings\All Users\Start Menu\Programs\Python 2.7\IDLE (Python GUI).lnk
+0x0000000002256c88      1      0 -W---- \Device\HarddiskVolume1\Intel\ivecuqmanpnirkt615\t.wnry
+0x0000000002257b30      1      1 R--rw- \Device\HarddiskVolume1\WINDOWS\WinSxS\x86_Microsoft.Windows.Common-Controls_6595b64144ccf1df_6.0.2600.6028_x-ww_61e65202
+0x0000000002257f90      3      1 ------ \Device\NamedPipe\net\NtControlPipe8
+0x00000000022586a0      1      1 R--rw- \Device\HarddiskVolume1\WINDOWS\WinSxS\x86_Microsoft.Windows.Common-Controls_6595b64144ccf1df_6.0.2600.6028_x-ww_61e65202
+0x0000000002258930      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\ersvc.dll
+0x0000000002258a68      1      0 R--rwd \Device\HarddiskVolume1\Documents and Settings\All Users\Start Menu\Programs\Accessories\Entertainment\desktop.ini
+0x0000000002258b88      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\wscsvc.dll
+0x0000000002258eb8      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\regsvc.dll
+0x0000000002259408      1      0 R--rw- \Device\HarddiskVolume1\Program Files\MSN Gaming Zone\Windows\chkrzm.exe
+0x0000000002259600      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\ipnathlp.dll
+0x0000000002259858      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\localspl.dll
+0x0000000002259b88      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\ssdpsrv.dll
+0x0000000002259d60      1      0 R--rw- \Device\HarddiskVolume1\Program Files\Windows Media Player\wmplayer.exe
+0x000000000225a858      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\rsaenh.dll
+0x000000000225aba8      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\netcfgx.dll
+0x000000000225b390      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\wsock32.dll
+0x000000000225b6c0      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\mtxclu.dll
+0x000000000225b9f0      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\wbem\wbemcore.dll
+0x000000000225bba0      1      0 R--rw- \Device\HarddiskVolume1\Python27\DLLs\py.ico
+0x000000000225ee10      4      1 RW---- \Device\HarddiskVolume1\Documents and Settings\donny\NTUSER.DAT
+0x000000000225ef90      1      1 R--rw- \Device\HarddiskVolume1\WINDOWS\WinSxS\x86_Microsoft.Windows.Common-Controls_6595b64144ccf1df_6.0.2600.6028_x-ww_61e65202
+0x000000000225f548      1      0 R--r-- \Device\HarddiskVolume1\WINDOWS\system32\wpa.dbl
+0x000000000225fb50      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\cfgmgr32.dll
+0x0000000002262900      1      1 R--rw- \Device\HarddiskVolume1\WINDOWS\WinSxS\x86_Microsoft.Windows.Common-Controls_6595b64144ccf1df_6.0.2600.6028_x-ww_61e65202
+0x0000000002264808      2      1 R--rw- \Device\HarddiskVolume1\Program Files\NetMeeting
+0x00000000022648a0      2      1 R--rw- \Device\HarddiskVolume1\WINDOWS\pchealth\helpctr\binaries
+0x0000000002265a40      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\batmeter.dll
+0x0000000002277d10      1      0 R--r-d \Device\HarddiskVolume1\WINDOWS\system32\hid.dll
+0x00000000022783f0      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system.ini
+0x000000000227b780      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\wucltui.dll
+0x000000000227e338      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\pjlmon.dll
+0x000000000227f950      1      0 R--rwd \Device\HarddiskVolume1\Documents and Settings\All Users\Start Menu\Programs\Accessories\Accessibility\desktop.ini
+0x000000000227fb28      1      1 R--rw- \Device\HarddiskVolume1\WINDOWS\WinSxS\x86_Microsoft.Windows.Common-Controls_6595b64144ccf1df_6.0.2600.6028_x-ww_61e65202
+0x0000000002280478      1      0 R--r-d \Device\HarddiskVolume1\Documents and Settings\All Users\Start Menu\Programs\Administrative Tools\Services.lnk
+0x0000000002280810      1      0 R--rw- \Device\HarddiskVolume1\WINDOWS\system32\moricons.dll
+0x0000000002280b60      1      0 R--r-d \Device\HarddiskVolume1\Documents and Settings\donny\Start Menu\Programs\Accessories\Accessibility\Utility Manager.lnk
+0x0000000002282728      1      0 RW-rwd \Device\HarddiskVolume1\Documents and Settings\NetworkService\Local Settings\desktop.ini
+0x0000000002282ae8      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\rasdlg.dll
+0x0000000002282f90      3      1 ------ \Device\NamedPipe\net\NtControlPipe11
+0x0000000002284448      1      1 ------ \Device\NamedPipe\net\NtControlPipe0
+0x0000000002285518      1      1 ------ \Device\NamedPipe\net\NtControlPipe1
+0x0000000002285eb8      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\msprivs.dll
+0x00000000022862a0      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\webcheck.dll
+0x0000000002286460      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\usbmon.dll
+0x0000000002286cc0      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\inetpp.dll
+0x0000000002288980      1      1 R--rw- \Device\HarddiskVolume1\WINDOWS\WinSxS\x86_Microsoft.Windows.Common-Controls_6595b64144ccf1df_6.0.2600.6028_x-ww_61e65202
+0x000000000228af90      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\vga.dll
+0x000000000228f988      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\authz.dll
+0x000000000228faf0      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\winlogon.exe
+0x000000000228fbe0      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\vga64k.dll
+0x000000000228fcd8      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\vga256.dll
+0x000000000228fde8      3      0 RWD--- \Device\HarddiskVolume1\$Directory
+0x0000000002291f38      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\framebuf.dll
+0x0000000002292c40      1      1 R--rw- \Device\HarddiskVolume1\WINDOWS\WinSxS\x86_Microsoft.Windows.Common-Controls_6595b64144ccf1df_6.0.2600.6028_x-ww_61e65202
+0x000000000229a308      1      1 R--rw- \Device\HarddiskVolume1\WINDOWS\system32
+0x000000000229ba88      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\nddeapi.dll
+0x000000000229e338      3      0 RWD--- \Device\HarddiskVolume1\$Directory
+0x000000000229ec48      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\winsta.dll
+0x000000000229ed70      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\setupapi.dll
+0x000000000229f028      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\sfc.dll
+0x000000000229f198      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\regapi.dll
+0x000000000229f270      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\psapi.dll
+0x000000000229fa60      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\netapi32.dll
+0x000000000229ff90      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\profmap.dll
+0x00000000022a0f90      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\msgina.dll
+0x00000000022a1028      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\lsass.exe
+0x00000000022a1110      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\MSCTFIME.IME
+0x00000000022a1238      2      1 ------ \Device\NamedPipe\Winsock2\CatalogChangeListener-388-0
+0x00000000022a1620      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\kbdus.dll
+0x00000000022a1740      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\imm32.dll
+0x00000000022a1850      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\ws2help.dll
+0x00000000022a32e8      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\ws2_32.dll
+0x00000000022a3830      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\wintrust.dll
+0x00000000022a4110      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\services.exe
+0x00000000022a50e0      3      0 RWD--- \Device\HarddiskVolume1\$Directory
+0x00000000022a6d20      1      0 R--r-d \Device\HarddiskVolume1\Documents and Settings\All Users\Start Menu\Programs\Python 2.7\Module Docs.lnk
+0x00000000022a6f28      1      0 R--r-d \Device\HarddiskVolume1\Documents and Settings\donny\Start Menu\Programs\Accessories\Synchronize.lnk
+0x00000000022a7148      1      0 R--rw- \Device\HarddiskVolume1\WINDOWS\system32\notepad.exe
+0x00000000022a7340      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\linkinfo.dll
+0x00000000022a7568      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\Fonts\framd.ttf
+0x00000000022a7b98      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\rasdlg.dll
+0x00000000022a7e60      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\inetpp.dll
+0x00000000022a8088      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\netrap.dll
+0x00000000022a82a8      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\win32spl.dll
+0x00000000022a84d8      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\batmeter.dll
+0x00000000022a86f8      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\stobject.dll
+0x00000000022a8960      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\mlang.dll
+0x00000000022a8bb8      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\webcheck.dll
+0x00000000022a8f28      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\Media\Windows XP Balloon.wav
+0x00000000022a9150      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\usbmon.dll
+0x00000000022a9368      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\tcpmon.dll
+0x00000000022a9590      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\pjlmon.dll
+0x00000000022a9760      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\cnbjmon.dll
+0x00000000022a9930      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\localspl.dll
+0x00000000022a9be8      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\spoolss.dll
+0x00000000022a9e48      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\ssdpsrv.dll
+0x00000000022aa350      2      1 R--rw- \Device\HarddiskVolume1\WINDOWS\system32\drivers\disdn
+0x00000000022aa4e0      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\ssdpapi.dll
+0x00000000022aa728      1      0 R--r-d \Device\HarddiskVolume1\WINDOWS\system32\tapisrv.dll
+0x00000000022aab28      3      0 RWD--- \Device\HarddiskVolume1\$Directory
+0x00000000022aabc0      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\ime\SPTIP.dll
+0x00000000022aaeb0      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\wscntfy.exe
+0x00000000022ab1e8      1      0 R--rwd \Device\HarddiskVolume1\Documents and Settings\All Users\Start Menu\Programs\Startup\desktop.ini
+0x00000000022ab418      1      0 R--r-d \Device\HarddiskVolume1\Documents and Settings\All Users\Start Menu\Programs\Accessories\System Tools\Security Center.lnk
+0x00000000022ab610      1      0 R--r-d \Device\HarddiskVolume1\Documents and Settings\All Users\Start Menu\Programs\Accessories\System Tools\Disk Cleanup.lnk
+0x00000000022abb70      3      0 RWD--- \Device\HarddiskVolume1\$Directory
+0x00000000022abe00      1      1 RW-r-- \Device\HarddiskVolume1\WINDOWS\SoftwareDistribution\ReportingEvents.log
+0x00000000022ac060      3      0 RWD--- \Device\HarddiskVolume1\$Directory
+0x00000000022ac0f8      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\en-US\ieframe.dll.mui
+0x00000000022ac450      3      0 RWD--- \Device\HarddiskVolume1\$Directory
+0x00000000022ac4e8      1      0 R--r-d \Device\HarddiskVolume1\Documents and Settings\All Users\Start Menu\Programs\Python 2.7\Uninstall Python.lnk
+0x00000000022ac6e0      1      0 R--rwd \Device\HarddiskVolume1\Documents and Settings\All Users\Documents\desktop.ini
+0x00000000022ac8d8      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\netcfgx.dll
+0x00000000022acb00      3      0 RWD--- \Device\HarddiskVolume1\$Directory
+0x00000000022acc68      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\alg.exe
+0x00000000022aceb8      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\verclsid.exe
+0x00000000022ad258      3      0 RWD--- \Device\HarddiskVolume1\$Directory
+0x00000000022ad2f0      1      0 R--rw- \Device\HarddiskVolume1\WINDOWS\system32\calc.exe
+0x00000000022ad620      3      0 RWD--- \Device\HarddiskVolume1\$Directory
+0x00000000022ad6b8      1      0 R--rw- \Device\HarddiskVolume1\WINDOWS\system32\ntbackup.exe
+0x00000000022ad9e8      3      0 RWD--- \Device\HarddiskVolume1\$Directory
+0x00000000022ada80      1      0 R--rw- \Device\HarddiskVolume1\WINDOWS\system32\sndrec32.exe
+0x00000000022adc78      1      0 R--rwd \Device\HarddiskVolume1\Documents and Settings\donny\Recent\Desktop.ini
+0x00000000022ae028      1      0 R--r-d \Device\HarddiskVolume1\Documents and Settings\All Users\Start Menu\Programs\Administrative Tools\Performance.lnk
+0x00000000022ae218      3      0 RWD--- \Device\HarddiskVolume1\$Directory
+0x00000000022ae2b0      1      0 R--rw- \Device\HarddiskVolume1\WINDOWS\system32\shimgvw.dll
+0x00000000022ae5e0      3      0 RWD--- \Device\HarddiskVolume1\$Directory
+0x00000000022aea68      1      0 R--rw- \Device\HarddiskVolume1\Program Files\Outlook Express\wab.exe
+0x00000000022aed98      3      0 RWD--- \Device\HarddiskVolume1\$Directory
+0x00000000022aee30      1      1 R--rw- \Device\HarddiskVolume1\WINDOWS\WinSxS\x86_Microsoft.Windows.GdiPlus_6595b64144ccf1df_1.0.6002.23084_x-ww_f3f35550
+0x00000000022af208      1      0 R--rwd \Device\HarddiskVolume1\Documents and Settings\donny\My Documents\My Music\Desktop.ini
+0x00000000022af400      1      0 R--rw- \Device\HarddiskVolume1\WINDOWS\system32\compatUI.dll
+0x00000000022af5f8      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\ntshrui.dll
+0x00000000022af978      3      0 RWD--- \Device\HarddiskVolume1\$Directory
+0x00000000022afa10      1      0 R--rw- \Device\HarddiskVolume1\WINDOWS\system32\utilman.exe
+0x00000000022afbe0      1      0 R--r-d \Device\HarddiskVolume1\WINDOWS\system32\taskkill.exe
+0x00000000022afdd8      1      0 R--r-d \Device\HarddiskVolume1\Documents and Settings\All Users\Start Menu\Programs\Windows Movie Maker.lnk
+0x00000000022aff90      1      0 R--r-d \Device\HarddiskVolume1\Documents and Settings\donny\Start Menu\Programs\Internet Explorer.lnk
+0x00000000022b02b0      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\resutils.dll
+0x00000000022b04d8      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\clusapi.dll
+0x00000000022b0700      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\wsock32.dll
+0x00000000022b0920      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\mtxclu.dll
+0x00000000022b0b50      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\colbact.dll
+0x00000000022b0d78      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\comsvcs.dll
+0x00000000022b1148      3      0 RWD--- \Device\HarddiskVolume1\$Directory
+0x00000000022b11e0      1      0 R--r-d \Device\HarddiskVolume1\WINDOWS\system32\ntlsapi.dll
+0x00000000022b1520      1      0 R--r-d \Device\HarddiskVolume1\WINDOWS\system32\lz32.dll
+0x00000000022b15b8      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\wbem\wbemcons.dll
+0x00000000022b17b8      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\msutb.dll
+0x00000000022b1af8      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\actxprxy.dll
+0x00000000022b1cc8      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\mstlsapi.dll
+0x00000000022b1e98      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\icaapi.dll
+0x00000000022b2028      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\wuauclt.exe
+0x00000000022b20e8      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\termsrv.dll
+0x00000000022b2448      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\wbem\ncprov.dll
+0x00000000022b2698      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\wuapi.dll
+0x00000000022b2a18      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\browser.dll
+0x00000000022b2c80      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\dssenh.dll
+0x00000000022b3508      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\wups2.dll
+0x00000000022b3750      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\wups.dll
+0x00000000022b3b78      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\wbem\wbemess.dll
+0x00000000022b3d00      2      1 R--rw- \Device\HarddiskVolume1\WINDOWS\system32\mui\040D
+0x00000000022b3dc0      2      1 R--rw- \Device\HarddiskVolume1\WINDOWS\system32\mui\040C
+0x00000000022b3f28      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\wbem\wmiprvsd.dll
+0x00000000022b4810      1      0 R--r-d \Device\HarddiskVolume1\WINDOWS\system32\fldrclnr.dll
+0x00000000022b5028      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\cabinet.dll
+0x00000000022b52a0      3      0 RWD--- \Device\HarddiskVolume1\$Directory
+0x00000000022b5338      3      1 RW-r-- \Device\HarddiskVolume1\WINDOWS\system32\wbem\Repository\FS\OBJECTS.DATA
+0x00000000022b5530      1      1 R--rw- \Device\HarddiskVolume1\WINDOWS\WinSxS\x86_Microsoft.Windows.Common-Controls_6595b64144ccf1df_6.0.2600.6028_x-ww_61e65202
+0x00000000022b5728      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\wbem\repdrvfs.dll
+0x00000000022b5a50      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\wbem\wmiutils.dll
+0x00000000022b5c20      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\wbem\wbemsvc.dll
+0x00000000022b5e70      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\mspatcha.dll
+0x00000000022b6028      1      1 ------ \Device\Afd\Endpoint
+0x00000000022b62d8      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\winhttp.dll
+0x00000000022b65f0      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\wuaueng.dll
+0x00000000022b6e70      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\wuauserv.dll
+0x00000000022b7330      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\wbem\fastprox.dll
+0x00000000022b77f8      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\wbem\esscli.dll
+0x00000000022b7b38      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\wbem\wbemcore.dll
+0x00000000022b7f90      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\wbem\wbemcomn.dll
+0x00000000022b8028      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\seclogon.dll
+0x00000000022b8280      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\wbem\wbemprox.dll
+0x00000000022b84a8      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\msi.dll
+0x00000000022b8740      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\wscsvc.dll
+0x00000000022b8938      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\trkwks.dll
+0x00000000022b8b88      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\srsvc.dll
+0x00000000022b8e40      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\sens.dll
+0x00000000022b9288      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\regsvc.dll
+0x00000000022b94b0      2      1 RW-rw- \Device\NamedPipe\
+0x00000000022b9960      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\psbase.dll
+0x00000000022b9b88      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\pstorsvc.dll
+0x00000000022b9db0      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\netmsg.dll
+0x00000000022b9f90      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\winipsec.dll
+0x00000000022ba1f8      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\oakley.dll
+0x00000000022ba450      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\ipsecsvc.dll
+0x00000000022ba6a8      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\srvsvc.dll
+0x00000000022baa88      3      0 RWD--- \Device\HarddiskVolume1\$Directory
+0x00000000022bab20      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\pchealth\helpctr\binaries\pchsvc.dll
+0x00000000022bad60      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\ersvc.dll
+0x00000000022baf90      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\dmserver.dll
+0x00000000022bb1d0      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\certcli.dll
+0x00000000022bb400      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\cryptsvc.dll
+0x00000000022bb7f8      1      0 R--r-- \Device\HarddiskVolume1\Intel\ivecuqmanpnirkt615\00000000.pky
+0x00000000022bb9c8      1      0 R--rwd \Device\HarddiskVolume1\Documents and Settings\LocalService\Local Settings\History\History.IE5\index.dat
+0x00000000022bbbd8      1      0 R--rwd \Device\HarddiskVolume1\Documents and Settings\LocalService\Cookies\index.dat
+0x00000000022bbde8      1      0 R--rwd \Device\HarddiskVolume1\Documents and Settings\LocalService\Local Settings\Temporary Internet Files\Content.IE5\index.dat
+0x00000000022bbf90      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\webclnt.dll
+0x00000000022bc200      1      1 ------ \Device\NamedPipe\net\NtControlPipe8
+0x00000000022bc310      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\sfc_os.dll
+0x00000000022bc688      3      0 RWD--- \Device\HarddiskVolume1\$Directory
+0x00000000022bcc50      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\midimap.dll
+0x00000000022bce70      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\msacm32.drv
+0x00000000022bd0d0      1      0 R--rw- \Device\HarddiskVolume1\WINDOWS\system32\mstsc.exe
+0x00000000022bd2c8      1      0 R--rw- \Device\HarddiskVolume1\WINDOWS\system32\BrowserChoice.exe
+0x00000000022bd3d0      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\odbc32.dll
+0x00000000022bd610      1      0 R--rw- \Device\HarddiskVolume1\WINDOWS\system32\mspaint.exe
+0x00000000022bd868      2      1 ------ \Device\NTPNP_PCI0006\Topology
+0x00000000022bdac8      1      0 R--rw- \Device\HarddiskVolume1\WINDOWS\system32\mydocs.dll
+0x00000000022bddd0      1      0 ------ \Device\KSENUM#00000002\{9B365890-165F-11D0-A195-0020AFD156E4}
+0x00000000022bdf90      1      0 R--rw- \Device\HarddiskVolume1\WINDOWS\system32\accwiz.exe
+0x00000000022be268      1      1 ------ \Device\KSENUM#00000001\{9B365890-165F-11D0-A195-0020AFD156E4}
+0x00000000022be500      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\wdmaud.drv
+0x00000000022be730      1      0 R--rwd \Device\HarddiskVolume1\Documents and Settings\donny\Application Data\Microsoft\Protect\CREDHIST
+0x00000000022bea60      3      0 RWD--- \Device\HarddiskVolume1\$Directory
+0x00000000022beaf8      1      0 R--rwd \Device\HarddiskVolume1\Documents and Settings\donny\Application Data\Microsoft\Protect\S-1-5-21-602162358-764733703-1957994488-1003\f6ef8b17-2d2e-43f2-ad8d-55572ca41909
+0x00000000022becf0      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\wkssvc.dll
+0x00000000022bee00      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\WinSxS\x86_Microsoft.Windows.Common-Controls_6595b64144ccf1df_6.0.2600.6028_x-ww_61e65202\comctl32.dll
+0x00000000022bef28      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\audiosrv.dll
+0x00000000022bf038      3      0 RWD--- \Device\HarddiskVolume1\$Directory
+0x00000000022bf350      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\spoolsv.exe
+0x00000000022bf598      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\msidle.dll
+0x00000000022bf9a0      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\schedsvc.dll
+0x00000000022c0110      1      0 R--r-- \Device\HarddiskVolume1\WINDOWS\system32\stdole2.tlb
+0x00000000022c02e0      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\vssapi.dll
+0x00000000022c05e8      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\wbem\wmisvc.dll
+0x00000000022c08d0      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\Fonts\framdit.ttf
+0x00000000022c0b00      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\MSIMTF.dll
+0x00000000022c0cf8      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\themeui.dll
+0x00000000022c1028      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\eappcfg.dll
+0x00000000022c10d8      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\desk.cpl
+0x00000000022c12a8      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\shdocvw.dll
+0x00000000022c16f0      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\browseui.dll
+0x00000000022c1808      3      0 RWD--- \Device\HarddiskVolume1\$Directory
+0x00000000022c1950      1      0 R--r-- \Device\HarddiskVolume1\WINDOWS\Resources\Themes\Luna\luna.msstyles
+0x00000000022c1bf0      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\wzcsapi.dll
+0x00000000022c1e20      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\eappprxy.dll
+0x00000000022c2028      1      0 R--r-d \Device\HarddiskVolume1\Documents and Settings\donny\Start Menu\Programs\Accessories\Accessibility\Narrator.lnk
+0x00000000022c22d8      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\onex.dll
+0x00000000022c2508      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\dot3dlg.dll
+0x00000000022c26d8      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\credui.dll
+0x00000000022c2930      1      0 R--r-d \Device\HarddiskVolume1\Documents and Settings\All Users\Start Menu\Programs\Accessories\Communications\New Connection Wizard.lnk
+0x00000000022c2d60      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\netman.dll
+0x00000000022c3028      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\rasapi32.dll
+0x00000000022c34e0      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\raschap.dll
+0x00000000022c3740      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\riched20.dll
+0x00000000022c3968      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\Fonts\arialbi.ttf
+0x00000000022c3bc8      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\tapi32.dll
+0x00000000022c3df8      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\rasman.dll
+0x00000000022c4240      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\adsldpc.dll
+0x00000000022c4480      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\activeds.dll
+0x00000000022c46b8      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\mprapi.dll
+0x00000000022c48e8      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\cryptui.dll
+0x00000000022c4b30      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\rastls.dll
+0x00000000022c4d98      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\Microsoft\Protect\S-1-5-18\User\68fa1b6e-57a3-4316-98e3-8fa780aa107b
+0x00000000022c4f90      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\Fonts\arial.ttf
+0x00000000022c5290      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\userinit.exe
+0x00000000022c54d0      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\secupd.dat
+0x00000000022c56d0      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\secupd.sig
+0x00000000022c58d0      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\oembios.dat
+0x00000000022c5ad0      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\oembios.sig
+0x00000000022c5cd0      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\dpcdll.dll
+0x00000000022c5f90      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\powrprof.dll
+0x00000000022c6c80      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\cscui.dll
+0x00000000022c6f90      3      0 RWD--- \Device\HarddiskVolume1\$Directory
+0x00000000022c70e0      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\Web\Wallpaper\Bliss.bmp
+0x00000000022c72b0      1      0 R----- \Device\HarddiskVolume1\Intel\ivecuqmanpnirkt615\msg\m_english.wnry
+0x00000000022c74a8      1      0 RW-rwd \Device\HarddiskVolume1\Documents and Settings\donny\Local Settings\desktop.ini
+0x00000000022c75b8      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\shsvcs.dll
+0x00000000022c7720      1      0 R--r-d \Device\HarddiskVolume1\Documents and Settings\All Users\Start Menu\Windows Catalog.lnk
+0x00000000022c7e18      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\shgina.dll
+0x00000000022c8190      3      0 RWD--- \Device\HarddiskVolume1\$Directory
+0x00000000022c8228      1      1 R--rw- \Device\HarddiskVolume1\WINDOWS\WinSxS\x86_Microsoft.Windows.Common-Controls_6595b64144ccf1df_6.0.2600.6028_x-ww_61e65202
+0x00000000022c8448      1      0 R--r-d \Device\HarddiskVolume1\Documents and Settings\All Users\Start Menu\Programs\Administrative Tools\Data Sources (ODBC).lnk
+0x00000000022c8668      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\clbcatq.dll
+0x00000000022c8960      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\esent.dll
+0x00000000022c8ab8      1      1 RW---- \Device\HarddiskVolume1\Documents and Settings\donny\NTUSER.DAT.LOG
+0x00000000022c8e58      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\dot3api.dll
+0x00000000022c90b8      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\qutil.dll
+0x00000000022c9318      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\atl.dll
+0x00000000022c9558      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\eapolqec.dll
+0x00000000022c9728      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\wmi.dll
+0x00000000022c9930      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\rtutils.dll
+0x00000000022c9b60      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\wzcsvc.dll
+0x00000000022c9f28      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\lmhsvc.dll
+0x00000000022ca028      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\msimg32.dll
+0x00000000022ca188      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\oleaccrc.dll
+0x00000000022ca578      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\winspool.drv
+0x00000000022ca7c0      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\wlnotify.dll
+0x00000000022ca990      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\dimsntfy.dll
+0x00000000022cabb8      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\cscdll.dll
+0x00000000022cadf0      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\oleacc.dll
+0x00000000022cb5d8      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\duser.dll
+0x00000000022cb968      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\ntkrnlpa.exe
+0x00000000022cbb68      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\Fonts\micross.ttf
+0x00000000022cbe00      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\logonui.exe.manifest
+0x00000000022cbf90      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\logonui.exe
+0x00000000022ccad8      1      0 R--r-d \Device\HarddiskVolume1\WINDOWS\system32\shimgvw.dll
+0x00000000022cd120      4      1 RW---- \Device\HarddiskVolume1\Documents and Settings\donny\Local Settings\Application Data\Microsoft\Windows\UsrClass.dat
+0x00000000022cf208      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\dnsrslvr.dll
+0x00000000022cf3d8      1      1 ------ \Device\NamedPipe\net\NtControlPipe6
+0x00000000022cf5d0      2      1 R--rw- \Device\HarddiskVolume1\WINDOWS\system32\mui\0009
+0x00000000022cf6e0      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\odbcint.dll
+0x00000000022cf848      1      1 RW---- \Device\HarddiskVolume1\Documents and Settings\donny\Local Settings\Application Data\Microsoft\Windows\UsrClass.dat.LOG
+0x00000000022cfbf8      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\dhcpcsvc.dll
+0x00000000022cfec0      1      1 R--rw- \Device\HarddiskVolume1\WINDOWS\system32
+0x00000000022d0740      3      0 RWD--- \Device\HarddiskVolume1\$Directory
+0x00000000022d07d8      2      1 R--rw- \Device\HarddiskVolume1\Program Files\Common Files\System\ado
+0x00000000022d09d0      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\rasadhlp.dll
+0x00000000022d0be0      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\winrnr.dll
+0x00000000022d0e00      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\wshtcpip.dll
+0x00000000022d1028      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\config\SysEvent.Evt
+0x00000000022d10d8      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\hnetcfg.dll
+0x00000000022d12a8      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\mswsock.dll
+0x00000000022d1478      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\ntoskrnl.exe
+0x00000000022d1678      2      1 R--rw- \Device\HarddiskVolume1\Program Files\MSN Gaming Zone\Windows
+0x00000000022d1870      2      1 R--rw- \Device\HarddiskVolume1\WINDOWS\inf
+0x00000000022d1a68      2      1 R--rw- \Device\HarddiskVolume1\Program Files\Common Files\System\Ole DB
+0x00000000022d1ce0      1      1 ------ \Device\NamedPipe\net\NtControlPipe5
+0x00000000022d2120      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\ncobjapi.dll
+0x00000000022d23a8      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\config\SecEvent.Evt
+0x00000000022d25a0      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\config\Internet.evt
+0x00000000022d28d0      3      0 RWD--- \Device\HarddiskVolume1\$Directory
+0x00000000022d2968      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\config\AppEvent.Evt
+0x00000000022d2b78      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\netevent.dll
+0x00000000022d2d80      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\eventlog.dll
+0x00000000022d2f28      1      0 R--r-d \Device\HarddiskVolume1\Intel\ivecuqmanpnirkt615\tasksche.exe
+0x00000000022d3198      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\rpcss.dll
+0x00000000022d3548      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\ntmarta.dll
+0x00000000022d3780      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\svchost.exe
+0x00000000022d39a0      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\scecli.dll
+0x00000000022d3bd0      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\wtsapi32.dll
+0x00000000022d3da0      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\winscard.dll
+0x00000000022d3f90      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\tspkg.dll
+0x00000000022d4240      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\rsaenh.dll
+0x00000000022d4710      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\wdigest.dll
+0x00000000022d48e0      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\w32time.dll
+0x00000000022d4bd0      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\netlogon.dll
+0x00000000022d4e00      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\iphlpapi.dll
+0x00000000022d4f90      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\msv1_0.dll
+0x00000000022d5598      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\kerberos.dll
+0x00000000022d5850      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\msprivs.dll
+0x00000000022d5a50      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\WindowsLogon.manifest
+0x00000000022d5c48      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\MSCTF.dll
+0x00000000022d61b0      3      0 RWD--- \Device\HarddiskVolume1\$Directory
+0x00000000022d6440      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\msnsspc.dll
+0x00000000022d6610      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\digest.dll
+0x00000000022d6878      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\credssp.dll
+0x00000000022d6a48      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\schannel.dll
+0x00000000022d6c18      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\msvcrt40.dll
+0x00000000022d6de8      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\msapsspc.dll
+0x00000000022d6f90      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\uxtheme.dll
+0x00000000022d71c8      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\msacm32.dll
+0x00000000022d7398      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\winmm.dll
+0x00000000022d7568      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\AppPatch\AcGenral.dll
+0x00000000022d7840      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\cryptdll.dll
+0x00000000022d7a78      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\samsrv.dll
+0x00000000022d7d58      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\samlib.dll
+0x00000000022d7f28      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\dnsapi.dll
+0x00000000022d8388      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\ntdsapi.dll
+0x00000000022d8558      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\AppPatch\AcAdProc.dll
+0x00000000022d8728      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\shimeng.dll
+0x00000000022d88f8      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\umpnpmgr.dll
+0x00000000022d8ac8      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\scesrv.dll
+0x00000000022d8d18      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\msvcp60.dll
+0x00000000022d8ec0      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\ncobjapi.dll
+0x00000000022d9160      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\lsasrv.dll
+0x00000000022d9330      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\lsass.exe
+0x00000000022d9748      1      0 R--r-- \Device\HarddiskVolume1\WINDOWS\WinSxS\Policies\x86_policy.5.1.Microsoft.Windows.SystemCompatible_6595b64144ccf1df_x-ww_a0111510\5.1.2600.2000.Policy
+0x00000000022d9940      1      0 RW---- \Device\HarddiskVolume1\WINDOWS\bootstat.dat
+0x00000000022d9b38      1      1 R--rw- \Device\HarddiskVolume1\WINDOWS\WinSxS\x86_Microsoft.Windows.Common-Controls_6595b64144ccf1df_6.0.2600.6028_x-ww_61e65202
+0x00000000022d9e68      3      0 RWD--- \Device\HarddiskVolume1\$Directory
+0x00000000022da2c0      3      0 RWD--- \Device\HarddiskVolume1\$Directory
+0x00000000022da688      3      0 RWD--- \Device\HarddiskVolume1\$Directory
+0x00000000022da720      1      1 R--rw- \Device\HarddiskVolume1\WINDOWS\system32
+0x00000000022da918      1      1 R--rw- \Device\HarddiskVolume1\WINDOWS\system32
+0x00000000022dab10      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\services.exe
+0x00000000022dace0      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\AppPatch\sysmain.sdb
+0x00000000022db618      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\sfc_os.dll
+0x00000000022db7e8      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\sfc.dll
+0x00000000022db9f8      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\shsvcs.dll
+0x00000000022dbcf0      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\odbcint.dll
+0x00000000022dbf00      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\WindowsShell.Manifest
+0x00000000022dc180      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\WinSxS\x86_Microsoft.Windows.Common-Controls_6595b64144ccf1df_6.0.2600.6028_x-ww_61e65202\comctl32.dll
+0x00000000022dc488      3      0 RWD--- \Device\HarddiskVolume1\$Directory
+0x00000000022dc520      1      1 ------ \Device\NamedPipe\InitShutdown
+0x00000000022dc850      3      0 RWD--- \Device\HarddiskVolume1\$Directory
+0x00000000022dc8e8      2      1 ------ \Device\NamedPipe\InitShutdown
+0x00000000022dcae0      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\sxs.dll
+0x00000000022dcd50      3      0 RWD--- \Device\HarddiskVolume1\$Directory
+0x00000000022dceb8      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\odbc32.dll
+0x00000000022dd168      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\msgina.dll
+0x00000000022dd3b8      1      1 R--rw- \Device\HarddiskVolume1\WINDOWS\system32
+0x00000000022dd520      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\MSCTFIME.IME
+0x00000000022dd6f0      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\Fonts\marlett.ttf
+0x00000000022dd8c0      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\Fonts\tahoma.ttf
+0x00000000022ddb88      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\Fonts\tahomabd.ttf
+0x00000000022ddd58      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\Fonts\trebucbd.ttf
+0x00000000022ddf28      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\Fonts\serife.fon
+0x00000000022de160      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\Fonts\sserife.fon
+0x00000000022de380      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\Fonts\coure.fon
+0x00000000022de588      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\Fonts\wst_swed.fon
+0x00000000022de788      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\Fonts\wst_span.fon
+0x00000000022de988      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\Fonts\wst_ital.fon
+0x00000000022deb88      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\Fonts\wst_germ.fon
+0x00000000022ded58      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\Fonts\wst_fren.fon
+0x00000000022def28      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\Fonts\wst_engl.fon
+0x00000000022df0e8      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\Fonts\wst_czec.fon
+0x00000000022df2b8      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\Fonts\symbole.fon
+0x00000000022df4d8      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\Fonts\smalle.fon
+0x00000000022df6a8      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\Fonts\modern.fon
+0x00000000022df878      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\Fonts\script.fon
+0x00000000022dfa80      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\Fonts\roman.fon
+0x00000000022dfc90      1      0 R--r-- \Device\HarddiskVolume1\WINDOWS\system32\kbdus.dll
+0x00000000022e0038      3      0 RWD--- \Device\HarddiskVolume1\$Directory
+0x00000000022e0278      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\sortkey.nls
+0x00000000022e0488      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\imm32.dll
+0x00000000022e0658      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\ctype.nls
+0x00000000022e0828      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\ws2help.dll
+0x00000000022e09f8      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\ws2_32.dll
+0x00000000022e0c60      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\wintrust.dll
+0x00000000022e0e30      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\winsta.dll
+0x00000000022e1278      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\setupapi.dll
+0x00000000022e1448      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\regapi.dll
+0x00000000022e1680      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\psapi.dll
+0x00000000022e1850      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\netapi32.dll
+0x00000000022e1b60      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\profmap.dll
+0x00000000022e1d30      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\nddeapi.dll
+0x00000000022e1f00      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\msasn1.dll
+0x00000000022e2118      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\crypt32.dll
+0x00000000022e22e8      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\authz.dll
+0x00000000022e2520      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\winlogon.exe
+0x00000000022e2a80      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\Fonts\cga40woa.fon
+0x00000000022e2c78      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\Fonts\cga80woa.fon
+0x00000000022e2e70      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\Fonts\ega40woa.fon
+0x00000000022e39c8      3      1 ------ \Device\NamedPipe\net\NtControlPipe7
+0x00000000022e3f90      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\win32k.sys
+0x00000000022e4298      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\Fonts\ega80woa.fon
+0x00000000022e4490      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\Fonts\dosapp.fon
+0x00000000022e4858      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\vga64k.dll
+0x00000000022e4a28      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\vga256.dll
+0x00000000022e4bf8      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\framebuf.dll
+0x00000000022e4e00      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\vga.dll
+0x00000000022e4f90      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\Fonts\vgafix.fon
+0x00000000022e6560      1      0 R--r-d \Device\HarddiskVolume1\Documents and Settings\All Users\Start Menu\Programs\Games\Solitaire.lnk
+0x00000000022e67e8      1      1 R--rw- \Device\HarddiskVolume1\WINDOWS\WinSxS\x86_Microsoft.Windows.Common-Controls_6595b64144ccf1df_6.0.2600.6028_x-ww_61e65202
+0x00000000022e7598      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\Fonts\vgaoem.fon
+0x00000000022e8208      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\lz32.dll
+0x00000000022e89e8      1      0 R--rw- \Device\HarddiskVolume1\WINDOWS\system32\mycomput.dll
+0x00000000022e8e00      1      0 R--rwd \Device\HarddiskVolume1\Documents and Settings\All Users\Start Menu\Programs\Administrative Tools\desktop.ini
+0x00000000022e8f90      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\netrap.dll
+0x00000000022e9228      1      0 R--rwd \Device\HarddiskVolume1\Documents and Settings\donny\Start Menu\Programs\Accessories\Entertainment\desktop.ini
+0x00000000022e92e0      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\ntshrui.dll
+0x00000000022e94b8      3      1 R--rwd \Device\HarddiskVolume1\Documents and Settings\donny\Local Settings\Application Data\Microsoft\CD Burning
+0x00000000022ea158      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\duser.dll
+0x00000000022ea310      1      0 R--r-d \Device\HarddiskVolume1\Documents and Settings\All Users\Start Menu\Programs\Games\Internet Spades.lnk
+0x00000000022eaa90      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\linkinfo.dll
+0x00000000022eac68      3      1 R--rwd \Device\HarddiskVolume1\Documents and Settings\All Users\Desktop
+0x00000000022eaf90      1      0 R--rw- \Device\HarddiskVolume1\WINDOWS\system32\mstask.dll
+0x00000000022eb408      2      1 ------ \Device\NamedPipe\browser
+0x00000000022eb4a8      1      0 R--r-- \Device\HarddiskVolume1\WINDOWS\Registration\R000000000007.clb
+0x00000000022eb660      1      0 R--r-d \Device\HarddiskVolume1\Documents and Settings\All Users\Start Menu\Programs\Games\Internet Reversi.lnk
+0x00000000022eba78      1      0 R--rw- \Device\HarddiskVolume1\WINDOWS\system32\charmap.exe
+0x00000000022ec358      1      0 R--r-d \Device\HarddiskVolume1\Documents and Settings\All Users\Start Menu\Programs\Games\Pinball.lnk
+0x00000000022ec718      1      0 R--rw- \Device\HarddiskVolume1\Intel\ivecuqmanpnirkt615\c.wnry
+0x00000000022ecb80      1      0 R--rwd \Device\HarddiskVolume1\Documents and Settings\All Users\Start Menu\Programs\Accessories\Communications\desktop.ini
+0x00000000022ecf90      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\drivers\dxg.sys
+0x00000000022ed0a8      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\Fonts\vgasys.fon
+0x00000000022ed530      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\usp10.dll
+0x00000000022ed9c0      1      0 R--rw- \Device\HarddiskVolume1\WINDOWS\system32\Restore\rstrui.exe
+0x00000000022ee398      1      0 R--rw- \Device\HarddiskVolume1\WINDOWS\system32\osk.exe
+0x00000000022ee620      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\sxs.dll
+0x00000000022ee9a8      1      0 R--rw- \Device\HarddiskVolume1\WINDOWS\system32\odbcad32.exe
+0x00000000022eeec0      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\lpk.dll
+0x00000000022ef0c8      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\FNTCACHE.DAT
+0x00000000022ef3e0      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\sorttbls.nls
+0x00000000022ef8d8      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\locale.nls
+0x00000000022f04b0      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\unicode.nls
+0x00000000022f06f8      1      0 -W---- \Device\HarddiskVolume1\Intel\ivecuqmanpnirkt615\msg\m_romanian.wnry
+0x00000000022f0840      1      0 R--r-d \Device\HarddiskVolume1\WINDOWS\system32\riched32.dll
+0x00000000022f08f8      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\AppPatch\AcAdProc.dll
+0x00000000022f0b10      1      0 R--rwd \Device\HarddiskVolume1\Documents and Settings\All Users\Start Menu\Programs\Accessories\desktop.ini
+0x00000000022f0d50      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\winsrv.dll
+0x00000000022f0f28      1      0 R--rw- \Device\HarddiskVolume1\WINDOWS\system32\spider.exe
+0x00000000022f1390      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\basesrv.dll
+0x00000000022f1578      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\csrsrv.dll
+0x00000000022f18c8      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\csrss.exe
+0x00000000022f2028      3      0 RWD--- \Device\HarddiskVolume1\$Directory
+0x00000000022f2258      4      1 RW---- \Device\HarddiskVolume1\WINDOWS\system32\config\software
+0x00000000022f2490      1      1 RW---- \Device\HarddiskVolume1\WINDOWS\system32\config\SECURITY.LOG
+0x00000000022f2a38      1      1 R--rw- \Device\HarddiskVolume1\WINDOWS\system32
+0x00000000022f2b70      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\kernel32.dll
+0x00000000022f3028      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\shimeng.dll
+0x00000000022f3510      3      0 RWD--- \Device\HarddiskVolume1\$Directory
+0x00000000022f3cb8      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\msvcp60.dll
+0x00000000022f3e58      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\drivers\dxg.sys
+0x00000000022f60f8      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\lsasrv.dll
+0x00000000022f66a0      1      0 R--r-d \Device\HarddiskVolume1\Documents and Settings\donny\Start Menu\Programs\Accessories\Accessibility\Magnifier.lnk
+0x00000000022f6738      1      1 R--rw- \Device\HarddiskVolume1\WINDOWS\WinSxS\x86_Microsoft.Windows.Common-Controls_6595b64144ccf1df_6.0.2600.6028_x-ww_61e65202
+0x00000000022f6978      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\imagehlp.dll
+0x00000000022f6c98      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\gdi32.dll
+0x0000000002328270      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\autochk.exe
+0x0000000002328308      3      0 RWD--- \Device\HarddiskVolume1\$Directory
+0x00000000023286e8      3      0 RWD--- \Device\HarddiskVolume1\$Mft
+0x00000000023287f0      3      0 RWD--- \Device\HarddiskVolume1\$Directory
+0x0000000002328888      3      0 RWD--- \Device\HarddiskVolume1\$Directory
+0x0000000002328920      1      0 R--r-- \Device\HarddiskVolume1\WINDOWS\system32\ntdll.dll
+0x0000000002328b20      1      1 ------ \Device\NamedPipe\net\NtControlPipe3
+0x0000000002328bb8      2      1 R--rw- \Device\HarddiskVolume1\WINDOWS\ime\CHTIME\Applets
+0x0000000002329450      1      0 R--rw- \Device\HarddiskVolume1\WINDOWS\system32\cmd.exe
+0x0000000002329638      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\cmd.exe
+0x0000000002329aa8      3      0 RWD--- \Device\HarddiskVolume1\$Directory
+0x0000000002329f28      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\ntvdm.exe
+0x000000000232a1a0      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\msvcrt.dll
+0x000000000232a370      3      0 RWD--- \Device\HarddiskVolume1\$Directory
+0x000000000232a530      1      0 R--r-d \Device\HarddiskVolume1\Documents and Settings\All Users\Start Menu\Programs\7-Zip\7-Zip File Manager.lnk
+0x000000000232a5c8      1      0 R--r-d \Device\HarddiskVolume1\Documents and Settings\All Users\Start Menu\Programs\Administrative Tools\Event Viewer.lnk
+0x000000000232a820      1      0 R--rw- \Device\HarddiskVolume1\WINDOWS\system32\xpsp2res.dll
+0x000000000232aa10      1      0 R--rw- \Device\HarddiskVolume1\Program Files\Windows NT\hypertrm.exe
+0x000000000232acd0      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\olecnv32.dll
+0x000000000232b1d0      3      0 RWD--- \Device\HarddiskVolume1\$Directory
+0x000000000232b5e8      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\wininet.dll
+0x000000000232b680      1      1 R--rw- \Device\HarddiskVolume1\WINDOWS\system32
+0x000000000232bb30      1      1 RW---- \Device\HarddiskVolume1\WINDOWS\system32\config\default.LOG
+0x000000000235c3c0      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\AppPatch\drvmain.sdb
+0x000000000235cc80      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\win32spl.dll
+0x000000000235e950      3      0 RWD--- \Device\HarddiskVolume1\$BitMap
+0x000000000235ede0      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\secur32.dll
+0x000000000235ee78      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\shlwapi.dll
+0x000000000235ef90      3      0 RWD--- \Device\HarddiskVolume1\$Directory
+0x00000000023637d8      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\mpr.dll
+0x00000000023644e8      3      0 RWD--- \Device\HarddiskVolume1\$Directory
+0x0000000002364a50      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\wldap32.dll
+0x0000000002364b60      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\mpr.dll
+0x0000000002364e98      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\olesvr32.dll
+0x0000000002365848      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\win32k.sys
+0x0000000002367640      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\shell32.dll
+0x0000000002368b98      3      0 RWD--- \Device\HarddiskVolume1\$Directory
+0x0000000002368cc0      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\oleaut32.dll
+0x0000000002368f90      3      1 ------ \Device\NamedPipe\net\NtControlPipe4
+0x000000000236d328      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\userenv.dll
+0x000000000236d660      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\ole32.dll
+0x000000000236d860      3      0 RWD--- \Device\HarddiskVolume1\$MftMirr
+0x000000000236de80      1      1 R--rw- \Device\HarddiskVolume1\WINDOWS\WinSxS\x86_Microsoft.Windows.Common-Controls_6595b64144ccf1df_6.0.2600.6028_x-ww_61e65202
+0x000000000236df90      1      0 R--rw- \Device\HarddiskVolume1\WINDOWS\system32\drivers\etc\hosts
+0x000000000236e1b8      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\csrss.exe
+0x000000000236e388      3      0 RWD--- \Device\HarddiskVolume1\$Directory
+0x000000000236ef90      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\wow32.dll
+0x00000000023704f8      3      0 RWD--- \Device\HarddiskVolume1\$Directory
+0x0000000002370888      4      1 RW---- \Device\HarddiskVolume1\WINDOWS\system32\config\default
+0x0000000002370c00      3      0 RWD--- \Device\HarddiskVolume1\$Directory
+0x0000000002370cd0      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\urlmon.dll
+0x0000000002370e78      3      0 RWD--- \Device\HarddiskVolume1\$Directory
+0x0000000002370f90      1      1 RW---- \Device\HarddiskVolume1\WINDOWS\system32\config\system.LOG
+0x00000000023711d8      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\wininet.dll
+0x00000000023716e8      3      0 RWD--- \Device\HarddiskVolume1\$Directory
+0x0000000002371820      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\url.dll
+0x0000000002371bb8      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\csrsrv.dll
+0x0000000002371cd0      1      1 R--rw- \Device\HarddiskVolume1\WINDOWS\system32
+0x0000000002371e10      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\comdlg32.dll
+0x00000000023728b0      1      0 R--rw- \Device\HarddiskVolume1\Program Files\Movie Maker\moviemk.exe
+0x0000000002372f90      3      0 RWD--- \Device\HarddiskVolume1\$Directory
+0x0000000002373438      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\comdlg32.dll
+0x0000000002373550      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\advapi32.dll
+0x0000000002373618      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\sfcfiles.dll
+0x0000000002373708      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\lpk.dll
+0x0000000002373e90      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\ole32.dll
+0x0000000002373f28      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\ntdll.dll
+0x00000000023753b0      1      1 R--rw- \Device\HarddiskVolume1\WINDOWS\WinSxS\x86_Microsoft.Windows.Common-Controls_6595b64144ccf1df_6.0.2600.6028_x-ww_61e65202
+0x00000000023756b0      1      1 R--rw- \Device\HarddiskVolume1\WINDOWS
+0x0000000002375d30      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\stobject.dll
+0x0000000002377078      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\version.dll
+0x0000000002377298      3      0 RWD--- \Device\HarddiskVolume1\$Directory
+0x00000000023774e0      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\iertutil.dll
+0x0000000002377608      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\gdi32.dll
+0x0000000002377770      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\msvcrt.dll
+0x0000000002377870      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\user32.dll
+0x0000000002388178      1      0 R--r-- \Device\HarddiskVolume1\WINDOWS\system32\wuaucpl.cpl
+0x0000000002388488      3      0 RWD--- \Device\HarddiskVolume1\$Directory
+0x0000000002388578      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\userenv.dll
+0x0000000002388748      3      0 RWD--- \Device\HarddiskVolume1\$Directory
+0x0000000002388918      3      0 RWD--- \Device\HarddiskVolume1\$Mft
+0x0000000002389168      3      0 RWD--- \Device\HarddiskVolume1\$Directory
+0x0000000002389288      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\urlmon.dll
+0x00000000023895b0      3      0 RWD--- \Device\HarddiskVolume1\$Directory
+0x0000000002389f90      3      0 RWD--- \Device\HarddiskVolume1\$Directory
+0x000000000238a0b8      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\comctl32.dll
+0x000000000238a150      3      0 RWD--- \Device\HarddiskVolume1\$Directory
+0x000000000238ac88      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\ieframe.dll
+0x000000000238ae58      3      0 RWD--- \Device\HarddiskVolume1\$Directory
+0x000000000238b440      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\shlwapi.dll
+0x000000000238b4d8      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\wldap32.dll
+0x0000000002390178      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\rpcrt4.dll
+0x00000000023903b0      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\apphelp.dll
+0x00000000023904b0      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\kernel32.dll
+0x00000000023906a8      3      0 RWD--- \Device\HarddiskVolume1\$Directory
+0x0000000002391d30      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\smss.exe
+0x0000000002392238      3      0 RWD--- \Device\HarddiskVolume1\$Directory
+0x0000000002392618      1      0 R--rw- \Device\HarddiskVolume1\Program Files\Windows NT\Pinball\PINBALL.EXE
+0x00000000023927a0      1      0 R--rw- \Device\HarddiskVolume1\WINDOWS\system32\mobsync.exe
+0x0000000002392870      1      0 R--rw- \Device\HarddiskVolume1\Program Files\7-Zip\7zFM.exe
+0x0000000002393370      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\rpcrt4.dll
+0x0000000002393518      3      0 RWD--- \Device\HarddiskVolume1\$Directory
+0x0000000002393d38      1      1 RW---- \Device\HarddiskVolume1\WINDOWS\SoftwareDistribution\DataStore\Logs\tmp.edb
+0x00000000023941a8      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\usp10.dll
+0x0000000002394c48      3      0 RWD--- \Device\HarddiskVolume1\$Directory
+0x00000000023952a8      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\iertutil.dll
+0x00000000023954b8      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\olecli32.dll
+0x00000000023956a8      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\version.dll
+0x0000000002395830      2      1 RW-r-- \Device\HarddiskVolume1\WINDOWS\system32\config\AppEvent.Evt
+0x0000000002395bc0      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\user32.dll
+0x0000000002395f90      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\olethk32.dll
+0x000000000239a3d0      3      0 RWD--- \Device\HarddiskVolume1\$Directory
+0x000000000239b410      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\comctl32.dll
+0x000000000239b5c0      3      0 RWD--- \Device\HarddiskVolume1\$Directory
+0x000000000239b6d0      3      0 RWD--- \Device\HarddiskVolume1\$Directory
+0x000000000239b928      1      1 RW---- \Device\HarddiskVolume1\WINDOWS\system32\config\SAM.LOG
+0x000000000239bb80      4      1 RW---- \Device\HarddiskVolume1\WINDOWS\system32\config\SAM
+0x000000000239c690      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\sfcfiles.dll
+0x000000000239c790      3      0 RWD--- \Device\HarddiskVolume1\$Directory
+0x000000000239f478      1      0 R--rw- \Device\HarddiskVolume1\WINDOWS\system32\dfrgres.dll
+0x000000000239f6d0      3      1 R--rwd \Device\HarddiskVolume1\Documents and Settings\donny\Desktop
+0x000000000239f928      3      1 R--rwd \Device\HarddiskVolume1\Documents and Settings\donny\PrintHood
+0x000000000239fb80      1      1 R--rw- \Device\HarddiskVolume1\WINDOWS\WinSxS\x86_Microsoft.Windows.Common-Controls_6595b64144ccf1df_6.0.2600.6028_x-ww_61e65202
+0x000000000239fc78      3      0 RWD--- \Device\HarddiskVolume1\$Directory
+0x000000000239ff28      1      1 R--rw- \Device\HarddiskVolume1\WINDOWS\system32
+0x00000000023a0238      1      0 R--rw- \Device\HarddiskVolume1\WINDOWS\system32\tourstart.exe
+0x00000000023a0370      1      0 R--rw- \Device\HarddiskVolume1\WINDOWS\hh.exe
+0x00000000023a0788      1      0 R--r-d \Device\HarddiskVolume1\Documents and Settings\All Users\Start Menu\Microsoft Update.lnk
+0x00000000023a0820      1      0 R--r-d \Device\HarddiskVolume1\WINDOWS\system32\msxml3.dll
+0x00000000023a0cd0      1      1 R--rw- \Device\HarddiskVolume1\WINDOWS\WinSxS\x86_Microsoft.Windows.Common-Controls_6595b64144ccf1df_6.0.2600.6028_x-ww_61e65202
+0x00000000023a1aa0      1      0 R--rw- \Device\HarddiskVolume1\Program Files\MSN Gaming Zone\Windows\shvlzm.exe
+0x00000000023a1c28      1      0 R--rw- \Device\HarddiskVolume1\Documents and Settings\donny\Desktop\PIL-1.1.7.win32-py2.7.exe
+0x00000000023a2330      1      0 R--rw- \Device\HarddiskVolume1\WINDOWS\system32\sol.exe
+0x00000000023a2aa0      1      0 R--rw- \Device\HarddiskVolume1\WINDOWS\system32\usmt\migwiz.exe
+0x00000000023a2bc0      1      0 R--r-d \Device\HarddiskVolume1\Documents and Settings\All Users\Start Menu\Programs\Administrative Tools\Component Services.lnk
+0x00000000023a2c90      1      0 R--rw- \Device\HarddiskVolume1\Program Files\Windows NT\Accessories\wordpad.exe
+0x00000000023a72f8      3      0 RWD--- \Device\HarddiskVolume1\$Directory
+0x00000000023a7458      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\ieframe.dll
+0x00000000023a7558      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\advapi32.dll
+0x00000000023aa0c0      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\autochk.exe
+0x00000000023aa360      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\basesrv.dll
+0x00000000023aa668      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\winsrv.dll
+0x00000000023aac88      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\apphelp.dll
+0x00000000023aadc0      3      0 RWD--- \Device\HarddiskVolume1\$Directory
+0x00000000023aae58      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\normaliz.dll
+0x00000000023cd490      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\mlang.dll
+0x00000000023ce268      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\normaliz.dll
+0x00000000023ce300      3      0 RWD--- \Device\HarddiskVolume1\$Directory
+0x00000000023ce698      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\imagehlp.dll
+0x00000000023ceb60      3      0 RWD--- \Device\HarddiskVolume1\$LogFile
+0x00000000023cec88      3      0 RWD--- \Device\HarddiskVolume1\$Directory
+0x00000000023ced58      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\oleaut32.dll
+0x00000000023cee58      1      0 R--rwd \Device\HarddiskVolume1\WINDOWS\system32\secur32.dll
+0x00000000023cef90      3      0 RWD--- \Device\HarddiskVolume1\$Directory
+0x00000000023eb8e8      1      0 ------ \Device\KSENUM#00000002\{9B365890-165F-11D0-A195-0020AFD156E4}

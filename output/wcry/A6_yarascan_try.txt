@@ -1,0 +1,23 @@
+No suitable address space mapping found
+Tried to open image as:
+ MachOAddressSpace: mac: need base
+ LimeAddressSpace: lime: need base
+ WindowsHiberFileSpace32: No base Address Space
+ WindowsCrashDumpSpace64BitMap: No base Address Space
+ WindowsCrashDumpSpace64: No base Address Space
+ HPAKAddressSpace: No base Address Space
+ VMWareMetaAddressSpace: No base Address Space
+ VirtualBoxCoreDumpElf64: No base Address Space
+ VMWareAddressSpace: No base Address Space
+ QemuCoreDumpElf: No base Address Space
+ WindowsCrashDumpSpace32: No base Address Space
+ Win10AMD64PagedMemory: No base Address Space
+ WindowsAMD64PagedMemory: No base Address Space
+ LinuxAMD64PagedMemory: No base Address Space
+ AMD64PagedMemory: No base Address Space
+ IA32PagedMemoryPae: No base Address Space
+ IA32PagedMemory: No base Address Space
+ OSXPmemELF: No base Address Space
+ FileAddressSpace - EXCEPTION: [Errno 13] Permission denied: 'C:\\Users\\unais\\OneDrive'
+ ArmAddressSpace: No base Address Space
+

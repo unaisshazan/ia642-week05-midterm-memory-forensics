@@ -1,0 +1,7 @@
+# Git ignore extras
+*.vmem
+*.raw
+*.dmp
+*.zip
+__MACOSX/
+.DS_Store

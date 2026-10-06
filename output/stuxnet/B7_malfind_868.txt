@@ -1,0 +1,82 @@
+﻿Process: lsass.exe Pid: 868 Address: 0x80000
+Vad Tag: Vad  Protection: PAGE_EXECUTE_READWRITE
+Flags: Protection: 6
+
+0x00080000  4d 5a 90 00 03 00 00 00 04 00 00 00 ff ff 00 00   MZ..............
+0x00080010  b8 00 00 00 00 00 00 00 40 00 00 00 00 00 00 00   ........@.......
+0x00080020  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0x00080030  00 00 00 00 00 00 00 00 00 00 00 00 08 01 00 00   ................
+
+0x00080000 4d               DEC EBP
+0x00080001 5a               POP EDX
+0x00080002 90               NOP
+0x00080003 0003             ADD [EBX], AL
+0x00080005 0000             ADD [EAX], AL
+0x00080007 000400           ADD [EAX+EAX], AL
+0x0008000a 0000             ADD [EAX], AL
+0x0008000c ff               DB 0xff
+0x0008000d ff00             INC DWORD [EAX]
+0x0008000f 00b800000000     ADD [EAX+0x0], BH
+0x00080015 0000             ADD [EAX], AL
+0x00080017 004000           ADD [EAX+0x0], AL
+0x0008001a 0000             ADD [EAX], AL
+0x0008001c 0000             ADD [EAX], AL
+0x0008001e 0000             ADD [EAX], AL
+0x00080020 0000             ADD [EAX], AL
+0x00080022 0000             ADD [EAX], AL
+0x00080024 0000             ADD [EAX], AL
+0x00080026 0000             ADD [EAX], AL
+0x00080028 0000             ADD [EAX], AL
+0x0008002a 0000             ADD [EAX], AL
+0x0008002c 0000             ADD [EAX], AL
+0x0008002e 0000             ADD [EAX], AL
+0x00080030 0000             ADD [EAX], AL
+0x00080032 0000             ADD [EAX], AL
+0x00080034 0000             ADD [EAX], AL
+0x00080036 0000             ADD [EAX], AL
+0x00080038 0000             ADD [EAX], AL
+0x0008003a 0000             ADD [EAX], AL
+0x0008003c 0801             OR [ECX], AL
+0x0008003e 0000             ADD [EAX], AL
+
+Process: lsass.exe Pid: 868 Address: 0x1000000
+Vad Tag: Vad  Protection: PAGE_EXECUTE_READWRITE
+Flags: CommitCharge: 2, Protection: 6
+
+0x01000000  4d 5a 90 00 03 00 00 00 04 00 00 00 ff ff 00 00   MZ..............
+0x01000010  b8 00 00 00 00 00 00 00 40 00 00 00 00 00 00 00   ........@.......
+0x01000020  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0x01000030  00 00 00 00 00 00 00 00 00 00 00 00 d0 00 00 00   ................
+
+0x01000000 4d               DEC EBP
+0x01000001 5a               POP EDX
+0x01000002 90               NOP
+0x01000003 0003             ADD [EBX], AL
+0x01000005 0000             ADD [EAX], AL
+0x01000007 000400           ADD [EAX+EAX], AL
+0x0100000a 0000             ADD [EAX], AL
+0x0100000c ff               DB 0xff
+0x0100000d ff00             INC DWORD [EAX]
+0x0100000f 00b800000000     ADD [EAX+0x0], BH
+0x01000015 0000             ADD [EAX], AL
+0x01000017 004000           ADD [EAX+0x0], AL
+0x0100001a 0000             ADD [EAX], AL
+0x0100001c 0000             ADD [EAX], AL
+0x0100001e 0000             ADD [EAX], AL
+0x01000020 0000             ADD [EAX], AL
+0x01000022 0000             ADD [EAX], AL
+0x01000024 0000             ADD [EAX], AL
+0x01000026 0000             ADD [EAX], AL
+0x01000028 0000             ADD [EAX], AL
+0x0100002a 0000             ADD [EAX], AL
+0x0100002c 0000             ADD [EAX], AL
+0x0100002e 0000             ADD [EAX], AL
+0x01000030 0000             ADD [EAX], AL
+0x01000032 0000             ADD [EAX], AL
+0x01000034 0000             ADD [EAX], AL
+0x01000036 0000             ADD [EAX], AL
+0x01000038 0000             ADD [EAX], AL
+0x0100003a 0000             ADD [EAX], AL
+0x0100003c d000             ROL BYTE [EAX], 0x1
+0x0100003e 0000             ADD [EAX], AL
+

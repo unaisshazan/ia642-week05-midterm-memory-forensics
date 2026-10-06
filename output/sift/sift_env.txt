@@ -1,0 +1,13 @@
+siftworkstation
+sansforensics
+Volatility Foundation Volatility Framework 2.6.1
+
+
+Profiles
+--------
+total 1048592
+drwxr-xr-x 2 sansforensics sansforensics      4096 Oct  5 23:22 .
+drwxr-xr-x 3 sansforensics sansforensics      4096 Oct  5 23:22 ..
+-rwxr-xr-x 1 sansforensics sansforensics 536870912 Oct  5 23:22 stuxnet.vmem
+-rwxr-xr-x 1 sansforensics sansforensics 536870912 Oct  5 23:22 wcry.vmem
+Mon 05 Oct 2026 11:35:27 PM UTC

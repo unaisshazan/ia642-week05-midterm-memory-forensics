@@ -1,0 +1,2680 @@
+﻿Offset: 0x381e90
+Order: 1
+Start: SERVICE_DISABLED
+Process ID: -
+Service Name: Abiosdsk
+Display Name: Abiosdsk
+Service Type: SERVICE_KERNEL_DRIVER
+Service State: SERVICE_STOPPED
+Binary Path: -
+
+Offset: 0x381f20
+Order: 2
+Start: SERVICE_DISABLED
+Process ID: -
+Service Name: abp480n5
+Display Name: abp480n5
+Service Type: SERVICE_KERNEL_DRIVER
+Service State: SERVICE_STOPPED
+Binary Path: -
+
+Offset: 0x381fb0
+Order: 3
+Start: SERVICE_BOOT_START
+Process ID: -
+Service Name: ACPI
+Display Name: Microsoft ACPI Driver
+Service Type: SERVICE_KERNEL_DRIVER
+Service State: SERVICE_RUNNING
+Binary Path: \Driver\ACPI
+
+Offset: 0x382038
+Order: 4
+Start: SERVICE_DISABLED
+Process ID: -
+Service Name: ACPIEC
+Display Name: ACPIEC
+Service Type: SERVICE_KERNEL_DRIVER
+Service State: SERVICE_STOPPED
+Binary Path: -
+
+Offset: 0x3820c8
+Order: 5
+Start: SERVICE_DISABLED
+Process ID: -
+Service Name: adpu160m
+Display Name: adpu160m
+Service Type: SERVICE_KERNEL_DRIVER
+Service State: SERVICE_STOPPED
+Binary Path: -
+
+Offset: 0x382158
+Order: 6
+Start: SERVICE_DEMAND_START
+Process ID: -
+Service Name: aec
+Display Name: Microsoft Kernel Acoustic Echo Canceller
+Service Type: SERVICE_KERNEL_DRIVER
+Service State: SERVICE_STOPPED
+Binary Path: -
+
+Offset: 0x3821e0
+Order: 7
+Start: SERVICE_SYSTEM_START
+Process ID: -
+Service Name: AFD
+Display Name: AFD
+Service Type: SERVICE_KERNEL_DRIVER
+Service State: SERVICE_RUNNING
+Binary Path: \Driver\AFD
+
+Offset: 0x382268
+Order: 8
+Start: SERVICE_BOOT_START
+Process ID: -
+Service Name: agp440
+Display Name: Intel AGP Bus Filter
+Service Type: SERVICE_KERNEL_DRIVER
+Service State: SERVICE_RUNNING
+Binary Path: \Driver\agp440
+
+Offset: 0x3822f8
+Order: 9
+Start: SERVICE_DISABLED
+Process ID: -
+Service Name: Aha154x
+Display Name: Aha154x
+Service Type: SERVICE_KERNEL_DRIVER
+Service State: SERVICE_STOPPED
+Binary Path: -
+
+Offset: 0x382388
+Order: 10
+Start: SERVICE_DISABLED
+Process ID: -
+Service Name: aic78u2
+Display Name: aic78u2
+Service Type: SERVICE_KERNEL_DRIVER
+Service State: SERVICE_STOPPED
+Binary Path: -
+
+Offset: 0x382418
+Order: 11
+Start: SERVICE_DISABLED
+Process ID: -
+Service Name: aic78xx
+Display Name: aic78xx
+Service Type: SERVICE_KERNEL_DRIVER
+Service State: SERVICE_STOPPED
+Binary Path: -
+
+Offset: 0x3824a8
+Order: 12
+Start: SERVICE_DISABLED
+Process ID: -
+Service Name: Alerter
+Display Name: Alerter
+Service Type: SERVICE_WIN32_SHARE_PROCESS
+Service State: SERVICE_STOPPED
+Binary Path: -
+
+Offset: 0x382538
+Order: 13
+Start: SERVICE_DEMAND_START
+Process ID: 188
+Service Name: ALG
+Display Name: Application Layer Gateway Service
+Service Type: SERVICE_WIN32_OWN_PROCESS
+Service State: SERVICE_RUNNING
+Binary Path: C:\WINDOWS\System32\alg.exe
+
+Offset: 0x3825c0
+Order: 14
+Start: SERVICE_DISABLED
+Process ID: -
+Service Name: AliIde
+Display Name: AliIde
+Service Type: SERVICE_KERNEL_DRIVER
+Service State: SERVICE_STOPPED
+Binary Path: -
+
+Offset: 0x382650
+Order: 15
+Start: SERVICE_DISABLED
+Process ID: -
+Service Name: amsint
+Display Name: amsint
+Service Type: SERVICE_KERNEL_DRIVER
+Service State: SERVICE_STOPPED
+Binary Path: -
+
+Offset: 0x3826e0
+Order: 16
+Start: SERVICE_DEMAND_START
+Process ID: -
+Service Name: AppMgmt
+Display Name: Application Management
+Service Type: SERVICE_WIN32_SHARE_PROCESS
+Service State: SERVICE_STOPPED
+Binary Path: -
+
+Offset: 0x382770
+Order: 17
+Start: SERVICE_DISABLED
+Process ID: -
+Service Name: asc
+Display Name: asc
+Service Type: SERVICE_KERNEL_DRIVER
+Service State: SERVICE_STOPPED
+Binary Path: -
+
+Offset: 0x3827f8
+Order: 18
+Start: SERVICE_DISABLED
+Process ID: -
+Service Name: asc3350p
+Display Name: asc3350p
+Service Type: SERVICE_KERNEL_DRIVER
+Service State: SERVICE_STOPPED
+Binary Path: -
+
+Offset: 0x382888
+Order: 19
+Start: SERVICE_DISABLED
+Process ID: -
+Service Name: asc3550
+Display Name: asc3550
+Service Type: SERVICE_KERNEL_DRIVER
+Service State: SERVICE_STOPPED
+Binary Path: -
+
+Offset: 0x382918
+Order: 20
+Start: SERVICE_DEMAND_START
+Process ID: -
+Service Name: aspnet_state
+Display Name: ASP.NET State Service
+Service Type: SERVICE_WIN32_OWN_PROCESS
+Service State: SERVICE_STOPPED
+Binary Path: -
+
+Offset: 0x3829b0
+Order: 21
+Start: SERVICE_DEMAND_START
+Process ID: -
+Service Name: AsyncMac
+Display Name: RAS Asynchronous Media Driver
+Service Type: SERVICE_KERNEL_DRIVER
+Service State: SERVICE_STOPPED
+Binary Path: -
+
+Offset: 0x382a40
+Order: 22
+Start: SERVICE_BOOT_START
+Process ID: -
+Service Name: atapi
+Display Name: Standard IDE/ESDI Hard Disk Controller
+Service Type: SERVICE_KERNEL_DRIVER
+Service State: SERVICE_RUNNING
+Binary Path: \Driver\atapi
+
+Offset: 0x382ac8
+Order: 23
+Start: SERVICE_DISABLED
+Process ID: -
+Service Name: Atdisk
+Display Name: Atdisk
+Service Type: SERVICE_KERNEL_DRIVER
+Service State: SERVICE_STOPPED
+Binary Path: -
+
+Offset: 0x382b58
+Order: 24
+Start: SERVICE_DEMAND_START
+Process ID: -
+Service Name: Atmarpc
+Display Name: ATM ARP Client Protocol
+Service Type: SERVICE_KERNEL_DRIVER
+Service State: SERVICE_STOPPED
+Binary Path: -
+
+Offset: 0x382be8
+Order: 25
+Start: SERVICE_AUTO_START
+Process ID: 1032
+Service Name: AudioSrv
+Display Name: Windows Audio
+Service Type: SERVICE_WIN32_SHARE_PROCESS
+Service State: SERVICE_RUNNING
+Binary Path: C:\WINDOWS\System32\svchost.exe -k netsvcs
+
+Offset: 0x382c78
+Order: 26
+Start: SERVICE_DEMAND_START
+Process ID: -
+Service Name: audstub
+Display Name: Audio Stub Driver
+Service Type: SERVICE_KERNEL_DRIVER
+Service State: SERVICE_RUNNING
+Binary Path: \Driver\audstub
+
+Offset: 0x382d08
+Order: 27
+Start: SERVICE_SYSTEM_START
+Process ID: -
+Service Name: Beep
+Display Name: Beep
+Service Type: SERVICE_KERNEL_DRIVER
+Service State: SERVICE_RUNNING
+Binary Path: \Driver\Beep
+
+Offset: 0x382d90
+Order: 28
+Start: SERVICE_DEMAND_START
+Process ID: -
+Service Name: BITS
+Display Name: Background Intelligent Transfer Service
+Service Type: SERVICE_WIN32_SHARE_PROCESS
+Service State: SERVICE_STOPPED
+Binary Path: -
+
+Offset: 0x382e18
+Order: 29
+Start: SERVICE_AUTO_START
+Process ID: -
+Service Name: Browser
+Display Name: Computer Browser
+Service Type: SERVICE_WIN32_SHARE_PROCESS
+Service State: SERVICE_STOPPED
+Binary Path: -
+
+Offset: 0x382ea8
+Order: 30
+Start: SERVICE_DISABLED
+Process ID: -
+Service Name: cbidf2k
+Display Name: cbidf2k
+Service Type: SERVICE_KERNEL_DRIVER
+Service State: SERVICE_STOPPED
+Binary Path: -
+
+Offset: 0x382f38
+Order: 31
+Start: SERVICE_DISABLED
+Process ID: -
+Service Name: cd20xrnt
+Display Name: cd20xrnt
+Service Type: SERVICE_KERNEL_DRIVER
+Service State: SERVICE_STOPPED
+Binary Path: -
+
+Offset: 0x382fc8
+Order: 32
+Start: SERVICE_SYSTEM_START
+Process ID: -
+Service Name: Cdaudio
+Display Name: Cdaudio
+Service Type: SERVICE_KERNEL_DRIVER
+Service State: SERVICE_STOPPED
+Binary Path: -
+
+Offset: 0x383058
+Order: 33
+Start: SERVICE_DISABLED
+Process ID: -
+Service Name: Cdfs
+Display Name: Cdfs
+Service Type: SERVICE_FILE_SYSTEM_DRIVER
+Service State: SERVICE_RUNNING
+Binary Path: \FileSystem\Cdfs
+
+Offset: 0x3830e0
+Order: 34
+Start: SERVICE_SYSTEM_START
+Process ID: -
+Service Name: Cdrom
+Display Name: CD-ROM Driver
+Service Type: SERVICE_KERNEL_DRIVER
+Service State: SERVICE_RUNNING
+Binary Path: \Driver\Cdrom
+
+Offset: 0x383168
+Order: 35
+Start: SERVICE_SYSTEM_START
+Process ID: -
+Service Name: Changer
+Display Name: Changer
+Service Type: SERVICE_KERNEL_DRIVER
+Service State: SERVICE_STOPPED
+Binary Path: -
+
+Offset: 0x3831f8
+Order: 36
+Start: SERVICE_DEMAND_START
+Process ID: -
+Service Name: CiSvc
+Display Name: Indexing Service
+Service Type: SERVICE_INTERACTIVE_PROCESS, SERVICE_WIN32_SHARE_PROCESS
+Service State: SERVICE_STOPPED
+Binary Path: -
+
+Offset: 0x383280
+Order: 37
+Start: SERVICE_DISABLED
+Process ID: -
+Service Name: ClipSrv
+Display Name: ClipBook
+Service Type: SERVICE_WIN32_OWN_PROCESS
+Service State: SERVICE_STOPPED
+Binary Path: -
+
+Offset: 0x383310
+Order: 38
+Start: SERVICE_DEMAND_START
+Process ID: -
+Service Name: clr_optimization_v2.0.50727_32
+Display Name: .NET Runtime Optimization Service v2.0.50727_X86
+Service Type: SERVICE_WIN32_OWN_PROCESS
+Service State: SERVICE_STOPPED
+Binary Path: -
+
+Offset: 0x3833d0
+Order: 39
+Start: SERVICE_AUTO_START
+Process ID: -
+Service Name: clr_optimization_v4.0.30319_32
+Display Name: Microsoft .NET Framework NGEN v4.0.30319_X86
+Service Type: SERVICE_WIN32_OWN_PROCESS
+Service State: SERVICE_STOPPED
+Binary Path: -
+
+Offset: 0x383490
+Order: 40
+Start: SERVICE_DEMAND_START
+Process ID: -
+Service Name: CmBatt
+Display Name: Microsoft AC Adapter Driver
+Service Type: SERVICE_KERNEL_DRIVER
+Service State: SERVICE_RUNNING
+Binary Path: \Driver\CmBatt
+
+Offset: 0x383520
+Order: 41
+Start: SERVICE_DISABLED
+Process ID: -
+Service Name: CmdIde
+Display Name: CmdIde
+Service Type: SERVICE_KERNEL_DRIVER
+Service State: SERVICE_STOPPED
+Binary Path: -
+
+Offset: 0x3835b0
+Order: 42
+Start: SERVICE_BOOT_START
+Process ID: -
+Service Name: Compbatt
+Display Name: Microsoft Composite Battery Driver
+Service Type: SERVICE_KERNEL_DRIVER
+Service State: SERVICE_RUNNING
+Binary Path: \Driver\Compbatt
+
+Offset: 0x383640
+Order: 43
+Start: SERVICE_DEMAND_START
+Process ID: -
+Service Name: COMSysApp
+Display Name: COM+ System Application
+Service Type: SERVICE_WIN32_OWN_PROCESS
+Service State: SERVICE_STOPPED
+Binary Path: -
+
+Offset: 0x3836d0
+Order: 44
+Start: SERVICE_DISABLED
+Process ID: -
+Service Name: Cpqarray
+Display Name: Cpqarray
+Service Type: SERVICE_KERNEL_DRIVER
+Service State: SERVICE_STOPPED
+Binary Path: -
+
+Offset: 0x383760
+Order: 45
+Start: SERVICE_AUTO_START
+Process ID: 1032
+Service Name: CryptSvc
+Display Name: Cryptographic Services
+Service Type: SERVICE_WIN32_SHARE_PROCESS
+Service State: SERVICE_RUNNING
+Binary Path: C:\WINDOWS\System32\svchost.exe -k netsvcs
+
+Offset: 0x3837f0
+Order: 46
+Start: SERVICE_DISABLED
+Process ID: -
+Service Name: dac960nt
+Display Name: dac960nt
+Service Type: SERVICE_KERNEL_DRIVER
+Service State: SERVICE_STOPPED
+Binary Path: -
+
+Offset: 0x383880
+Order: 47
+Start: SERVICE_AUTO_START
+Process ID: 856
+Service Name: DcomLaunch
+Display Name: DCOM Server Process Launcher
+Service Type: SERVICE_WIN32_SHARE_PROCESS
+Service State: SERVICE_RUNNING
+Binary Path: C:\WINDOWS\system32\svchost -k DcomLaunch
+
+Offset: 0x383918
+Order: 48
+Start: SERVICE_AUTO_START
+Process ID: 1032
+Service Name: Dhcp
+Display Name: DHCP Client
+Service Type: SERVICE_WIN32_SHARE_PROCESS
+Service State: SERVICE_RUNNING
+Binary Path: C:\WINDOWS\System32\svchost.exe -k netsvcs
+
+Offset: 0x3839a0
+Order: 49
+Start: SERVICE_BOOT_START
+Process ID: -
+Service Name: Disk
+Display Name: Disk Driver
+Service Type: SERVICE_KERNEL_DRIVER
+Service State: SERVICE_RUNNING
+Binary Path: \Driver\Disk
+
+Offset: 0x383a28
+Order: 50
+Start: SERVICE_DEMAND_START
+Process ID: -
+Service Name: dmadmin
+Display Name: Logical Disk Manager Administrative Service
+Service Type: SERVICE_WIN32_SHARE_PROCESS
+Service State: SERVICE_STOPPED
+Binary Path: -
+
+Offset: 0x383ab8
+Order: 51
+Start: SERVICE_DISABLED
+Process ID: -
+Service Name: dmboot
+Display Name: dmboot
+Service Type: SERVICE_KERNEL_DRIVER
+Service State: SERVICE_STOPPED
+Binary Path: -
+
+Offset: 0x383b48
+Order: 52
+Start: SERVICE_BOOT_START
+Process ID: -
+Service Name: dmio
+Display Name: Logical Disk Manager Driver
+Service Type: SERVICE_KERNEL_DRIVER
+Service State: SERVICE_RUNNING
+Binary Path: \Driver\dmio
+
+Offset: 0x383bd0
+Order: 53
+Start: SERVICE_BOOT_START
+Process ID: -
+Service Name: dmload
+Display Name: dmload
+Service Type: SERVICE_KERNEL_DRIVER
+Service State: SERVICE_RUNNING
+Binary Path: \Driver\dmload
+
+Offset: 0x383c60
+Order: 54
+Start: SERVICE_AUTO_START
+Process ID: 1032
+Service Name: dmserver
+Display Name: Logical Disk Manager
+Service Type: SERVICE_WIN32_SHARE_PROCESS
+Service State: SERVICE_RUNNING
+Binary Path: C:\WINDOWS\System32\svchost.exe -k netsvcs
+
+Offset: 0x383cf0
+Order: 55
+Start: SERVICE_DEMAND_START
+Process ID: -
+Service Name: DMusic
+Display Name: Microsoft Kernel DLS Syntheiszer
+Service Type: SERVICE_KERNEL_DRIVER
+Service State: SERVICE_STOPPED
+Binary Path: -
+
+Offset: 0x383d80
+Order: 56
+Start: SERVICE_AUTO_START
+Process ID: 1080
+Service Name: Dnscache
+Display Name: DNS Client
+Service Type: SERVICE_WIN32_SHARE_PROCESS
+Service State: SERVICE_RUNNING
+Binary Path: C:\WINDOWS\system32\svchost.exe -k NetworkService
+
+Offset: 0x383e10
+Order: 57
+Start: SERVICE_DEMAND_START
+Process ID: -
+Service Name: Dot3svc
+Display Name: Wired AutoConfig
+Service Type: SERVICE_WIN32_SHARE_PROCESS
+Service State: SERVICE_STOPPED
+Binary Path: -
+
+Offset: 0x383ea0
+Order: 58
+Start: SERVICE_DISABLED
+Process ID: -
+Service Name: dpti2o
+Display Name: dpti2o
+Service Type: SERVICE_KERNEL_DRIVER
+Service State: SERVICE_STOPPED
+Binary Path: -
+
+Offset: 0x383f30
+Order: 59
+Start: SERVICE_DEMAND_START
+Process ID: -
+Service Name: drmkaud
+Display Name: Microsoft Kernel DRM Audio Descrambler
+Service Type: SERVICE_KERNEL_DRIVER
+Service State: SERVICE_STOPPED
+Binary Path: -
+
+Offset: 0x383fc0
+Order: 60
+Start: SERVICE_DEMAND_START
+Process ID: -
+Service Name: EapHost
+Display Name: Extensible Authentication Protocol Service
+Service Type: SERVICE_WIN32_SHARE_PROCESS
+Service State: SERVICE_STOPPED
+Binary Path: -
+
+Offset: 0x384050
+Order: 61
+Start: SERVICE_AUTO_START
+Process ID: 1032
+Service Name: ERSvc
+Display Name: Error Reporting Service
+Service Type: SERVICE_WIN32_SHARE_PROCESS
+Service State: SERVICE_RUNNING
+Binary Path: C:\WINDOWS\System32\svchost.exe -k netsvcs
+
+Offset: 0x3840d8
+Order: 62
+Start: SERVICE_DEMAND_START
+Process ID: -
+Service Name: es1371
+Display Name: Creative AudioPCI (ES1371,ES1373) (WDM)
+Service Type: SERVICE_KERNEL_DRIVER
+Service State: SERVICE_RUNNING
+Binary Path: \Driver\es1371
+
+Offset: 0x384168
+Order: 63
+Start: SERVICE_AUTO_START
+Process ID: 668
+Service Name: Eventlog
+Display Name: Event Log
+Service Type: SERVICE_WIN32_SHARE_PROCESS
+Service State: SERVICE_RUNNING
+Binary Path: C:\WINDOWS\system32\services.exe
+
+Offset: 0x3841f8
+Order: 64
+Start: SERVICE_DEMAND_START
+Process ID: 1032
+Service Name: EventSystem
+Display Name: COM+ Event System
+Service Type: SERVICE_WIN32_SHARE_PROCESS
+Service State: SERVICE_RUNNING
+Binary Path: C:\WINDOWS\System32\svchost.exe -k netsvcs
+
+Offset: 0x384290
+Order: 65
+Start: SERVICE_DISABLED
+Process ID: -
+Service Name: Fastfat
+Display Name: Fastfat
+Service Type: SERVICE_FILE_SYSTEM_DRIVER
+Service State: SERVICE_STOPPED
+Binary Path: -
+
+Offset: 0x384320
+Order: 66
+Start: SERVICE_DEMAND_START
+Process ID: 1032
+Service Name: FastUserSwitchingCompatibility
+Display Name: Fast User Switching Compatibility
+Service Type: SERVICE_WIN32_SHARE_PROCESS
+Service State: SERVICE_RUNNING
+Binary Path: C:\WINDOWS\System32\svchost.exe -k netsvcs
+
+Offset: 0x3843e0
+Order: 67
+Start: SERVICE_DEMAND_START
+Process ID: -
+Service Name: Fdc
+Display Name: Floppy Disk Controller Driver
+Service Type: SERVICE_KERNEL_DRIVER
+Service State: SERVICE_RUNNING
+Binary Path: \Driver\Fdc
+
+Offset: 0x384468
+Order: 68
+Start: SERVICE_SYSTEM_START
+Process ID: -
+Service Name: Fips
+Display Name: Fips
+Service Type: SERVICE_KERNEL_DRIVER
+Service State: SERVICE_RUNNING
+Binary Path: \Driver\Fips
+
+Offset: 0x3844f0
+Order: 69
+Start: SERVICE_DEMAND_START
+Process ID: -
+Service Name: Flpydisk
+Display Name: Floppy Disk Driver
+Service Type: SERVICE_KERNEL_DRIVER
+Service State: SERVICE_RUNNING
+Binary Path: \Driver\Flpydisk
+
+Offset: 0x384580
+Order: 70
+Start: SERVICE_BOOT_START
+Process ID: -
+Service Name: FltMgr
+Display Name: FltMgr
+Service Type: SERVICE_FILE_SYSTEM_DRIVER
+Service State: SERVICE_RUNNING
+Binary Path: \FileSystem\FltMgr
+
+Offset: 0x384610
+Order: 71
+Start: SERVICE_BOOT_START
+Process ID: -
+Service Name: Ftdisk
+Display Name: Volume Manager Driver
+Service Type: SERVICE_KERNEL_DRIVER
+Service State: SERVICE_RUNNING
+Binary Path: \Driver\Ftdisk
+
+Offset: 0x3846a0
+Order: 72
+Start: SERVICE_DEMAND_START
+Process ID: -
+Service Name: gameenum
+Display Name: Game Port Enumerator
+Service Type: SERVICE_KERNEL_DRIVER
+Service State: SERVICE_RUNNING
+Binary Path: \Driver\gameenum
+
+Offset: 0x384730
+Order: 73
+Start: SERVICE_DEMAND_START
+Process ID: -
+Service Name: Gpc
+Display Name: Generic Packet Classifier
+Service Type: SERVICE_KERNEL_DRIVER
+Service State: SERVICE_RUNNING
+Binary Path: \Driver\Gpc
+
+Offset: 0x3847b8
+Order: 74
+Start: SERVICE_AUTO_START
+Process ID: 1032
+Service Name: helpsvc
+Display Name: Help and Support
+Service Type: SERVICE_WIN32_SHARE_PROCESS
+Service State: SERVICE_RUNNING
+Binary Path: C:\WINDOWS\System32\svchost.exe -k netsvcs
+
+Offset: 0x384848
+Order: 75
+Start: SERVICE_DISABLED
+Process ID: -
+Service Name: HidServ
+Display Name: Human Interface Device Access
+Service Type: SERVICE_WIN32_SHARE_PROCESS
+Service State: SERVICE_STOPPED
+Binary Path: -
+
+Offset: 0x3848d8
+Order: 76
+Start: SERVICE_DEMAND_START
+Process ID: -
+Service Name: hidusb
+Display Name: Microsoft HID Class Driver
+Service Type: SERVICE_KERNEL_DRIVER
+Service State: SERVICE_RUNNING
+Binary Path: \Driver\hidusb
+
+Offset: 0x384968
+Order: 77
+Start: SERVICE_DEMAND_START
+Process ID: -
+Service Name: hkmsvc
+Display Name: Health Key and Certificate Management Service
+Service Type: SERVICE_WIN32_SHARE_PROCESS
+Service State: SERVICE_STOPPED
+Binary Path: -
+
+Offset: 0x3849f8
+Order: 78
+Start: SERVICE_DISABLED
+Process ID: -
+Service Name: hpn
+Display Name: hpn
+Service Type: SERVICE_KERNEL_DRIVER
+Service State: SERVICE_STOPPED
+Binary Path: -
+
+Offset: 0x384a80
+Order: 79
+Start: SERVICE_DEMAND_START
+Process ID: -
+Service Name: HTTP
+Display Name: HTTP
+Service Type: SERVICE_KERNEL_DRIVER
+Service State: SERVICE_RUNNING
+Binary Path: \Driver\HTTP
+
+Offset: 0x384b08
+Order: 80
+Start: SERVICE_DEMAND_START
+Process ID: -
+Service Name: HTTPFilter
+Display Name: HTTP SSL
+Service Type: SERVICE_WIN32_SHARE_PROCESS
+Service State: SERVICE_STOPPED
+Binary Path: -
+
+Offset: 0x384ba0
+Order: 81
+Start: SERVICE_SYSTEM_START
+Process ID: -
+Service Name: i2omgmt
+Display Name: i2omgmt
+Service Type: SERVICE_KERNEL_DRIVER
+Service State: SERVICE_STOPPED
+Binary Path: -
+
+Offset: 0x384c30
+Order: 82
+Start: SERVICE_DISABLED
+Process ID: -
+Service Name: i2omp
+Display Name: i2omp
+Service Type: SERVICE_KERNEL_DRIVER
+Service State: SERVICE_STOPPED
+Binary Path: -
+
+Offset: 0x384cb8
+Order: 83
+Start: SERVICE_SYSTEM_START
+Process ID: -
+Service Name: i8042prt
+Display Name: i8042 Keyboard and PS/2 Mouse Port Driver
+Service Type: SERVICE_KERNEL_DRIVER
+Service State: SERVICE_RUNNING
+Binary Path: \Driver\i8042prt
+
+Offset: 0x384d48
+Order: 84
+Start: SERVICE_SYSTEM_START
+Process ID: -
+Service Name: Imapi
+Display Name: CD-Burning Filter Driver
+Service Type: SERVICE_KERNEL_DRIVER
+Service State: SERVICE_RUNNING
+Binary Path: \Driver\Imapi
+
+Offset: 0x384dd0
+Order: 85
+Start: SERVICE_DEMAND_START
+Process ID: 756
+Service Name: ImapiService
+Display Name: IMAPI CD-Burning COM Service
+Service Type: SERVICE_WIN32_OWN_PROCESS
+Service State: SERVICE_RUNNING
+Binary Path: C:\WINDOWS\system32\imapi.exe
+
+Offset: 0x384e68
+Order: 86
+Start: SERVICE_DISABLED
+Process ID: -
+Service Name: ini910u
+Display Name: ini910u
+Service Type: SERVICE_KERNEL_DRIVER
+Service State: SERVICE_STOPPED
+Binary Path: -
+
+Offset: 0x384ef8
+Order: 87
+Start: SERVICE_BOOT_START
+Process ID: -
+Service Name: IntelIde
+Display Name: IntelIde
+Service Type: SERVICE_KERNEL_DRIVER
+Service State: SERVICE_RUNNING
+Binary Path: \Driver\IntelIde
+
+Offset: 0x384f88
+Order: 88
+Start: SERVICE_SYSTEM_START
+Process ID: -
+Service Name: intelppm
+Display Name: Intel Processor Driver
+Service Type: SERVICE_KERNEL_DRIVER
+Service State: SERVICE_RUNNING
+Binary Path: \Driver\intelppm
+
+Offset: 0x385018
+Order: 89
+Start: SERVICE_DEMAND_START
+Process ID: -
+Service Name: Ip6Fw
+Display Name: IPv6 Windows Firewall Driver
+Service Type: SERVICE_KERNEL_DRIVER
+Service State: SERVICE_STOPPED
+Binary Path: -
+
+Offset: 0x3850a0
+Order: 90
+Start: SERVICE_DEMAND_START
+Process ID: -
+Service Name: IpFilterDriver
+Display Name: IP Traffic Filter Driver
+Service Type: SERVICE_KERNEL_DRIVER
+Service State: SERVICE_STOPPED
+Binary Path: -
+
+Offset: 0x385140
+Order: 91
+Start: SERVICE_DEMAND_START
+Process ID: -
+Service Name: IpInIp
+Display Name: IP in IP Tunnel Driver
+Service Type: SERVICE_KERNEL_DRIVER
+Service State: SERVICE_STOPPED
+Binary Path: -
+
+Offset: 0x3851d0
+Order: 92
+Start: SERVICE_DEMAND_START
+Process ID: -
+Service Name: IpNat
+Display Name: IP Network Address Translator
+Service Type: SERVICE_KERNEL_DRIVER
+Service State: SERVICE_RUNNING
+Binary Path: \Driver\IpNat
+
+Offset: 0x385258
+Order: 93
+Start: SERVICE_SYSTEM_START
+Process ID: -
+Service Name: IPSec
+Display Name: IPSEC driver
+Service Type: SERVICE_KERNEL_DRIVER
+Service State: SERVICE_RUNNING
+Binary Path: \Driver\IPSec
+
+Offset: 0x3852e0
+Order: 94
+Start: SERVICE_DEMAND_START
+Process ID: -
+Service Name: IRENUM
+Display Name: IR Enumerator Service
+Service Type: SERVICE_KERNEL_DRIVER
+Service State: SERVICE_STOPPED
+Binary Path: -
+
+Offset: 0x385370
+Order: 95
+Start: SERVICE_BOOT_START
+Process ID: -
+Service Name: isapnp
+Display Name: PnP ISA/EISA Bus Driver
+Service Type: SERVICE_KERNEL_DRIVER
+Service State: SERVICE_RUNNING
+Binary Path: \Driver\isapnp
+
+Offset: 0x385400
+Order: 96
+Start: SERVICE_AUTO_START
+Process ID: 1580
+Service Name: JavaQuickStarterService
+Display Name: Java Quick Starter
+Service Type: SERVICE_WIN32_OWN_PROCESS
+Service State: SERVICE_RUNNING
+Binary Path: "C:\Program Files\Java\jre6\bin\jqs.exe" -service -config "C:\Program Files\Java\jre6\lib\deploy\jqs\jqs.conf"
+
+Offset: 0x3854b0
+Order: 97
+Start: SERVICE_SYSTEM_START
+Process ID: -
+Service Name: Kbdclass
+Display Name: Keyboard Class Driver
+Service Type: SERVICE_KERNEL_DRIVER
+Service State: SERVICE_RUNNING
+Binary Path: \Driver\Kbdclass
+
+Offset: 0x385540
+Order: 98
+Start: SERVICE_DEMAND_START
+Process ID: -
+Service Name: kmixer
+Display Name: Microsoft Kernel Wave Audio Mixer
+Service Type: SERVICE_KERNEL_DRIVER
+Service State: SERVICE_STOPPED
+Binary Path: -
+
+Offset: 0x3855d0
+Order: 99
+Start: SERVICE_BOOT_START
+Process ID: -
+Service Name: KSecDD
+Display Name: KSecDD
+Service Type: SERVICE_KERNEL_DRIVER
+Service State: SERVICE_RUNNING
+Binary Path: \Driver\KSecDD
+
+Offset: 0x385660
+Order: 100
+Start: SERVICE_AUTO_START
+Process ID: 1032
+Service Name: LanmanServer
+Display Name: Server
+Service Type: SERVICE_WIN32_SHARE_PROCESS
+Service State: SERVICE_RUNNING
+Binary Path: C:\WINDOWS\System32\svchost.exe -k netsvcs
+
+Offset: 0x3856f8
+Order: 101
+Start: SERVICE_AUTO_START
+Process ID: 1032
+Service Name: lanmanworkstation
+Display Name: Workstation
+Service Type: SERVICE_WIN32_SHARE_PROCESS
+Service State: SERVICE_RUNNING
+Binary Path: C:\WINDOWS\System32\svchost.exe -k netsvcs
+
+Offset: 0x385798
+Order: 102
+Start: SERVICE_SYSTEM_START
+Process ID: -
+Service Name: lbrtfdc
+Display Name: lbrtfdc
+Service Type: SERVICE_KERNEL_DRIVER
+Service State: SERVICE_STOPPED
+Binary Path: -
+
+Offset: 0x385828
+Order: 103
+Start: SERVICE_AUTO_START
+Process ID: 1200
+Service Name: LmHosts
+Display Name: TCP/IP NetBIOS Helper
+Service Type: SERVICE_WIN32_SHARE_PROCESS
+Service State: SERVICE_RUNNING
+Binary Path: C:\WINDOWS\system32\svchost.exe -k LocalService
+
+Offset: 0x3858b8
+Order: 104
+Start: SERVICE_DISABLED
+Process ID: -
+Service Name: Messenger
+Display Name: Messenger
+Service Type: SERVICE_WIN32_SHARE_PROCESS
+Service State: SERVICE_STOPPED
+Binary Path: -
+
+Offset: 0x385948
+Order: 105
+Start: SERVICE_SYSTEM_START
+Process ID: -
+Service Name: mnmdd
+Display Name: mnmdd
+Service Type: SERVICE_KERNEL_DRIVER
+Service State: SERVICE_RUNNING
+Binary Path: \Driver\mnmdd
+
+Offset: 0x3859d0
+Order: 106
+Start: SERVICE_DEMAND_START
+Process ID: -
+Service Name: mnmsrvc
+Display Name: NetMeeting Remote Desktop Sharing
+Service Type: SERVICE_INTERACTIVE_PROCESS, SERVICE_WIN32_OWN_PROCESS
+Service State: SERVICE_STOPPED
+Binary Path: -
+
+Offset: 0x385a60
+Order: 107
+Start: SERVICE_DEMAND_START
+Process ID: -
+Service Name: Modem
+Display Name: Modem
+Service Type: SERVICE_KERNEL_DRIVER
+Service State: SERVICE_STOPPED
+Binary Path: -
+
+Offset: 0x385ae8
+Order: 108
+Start: SERVICE_SYSTEM_START
+Process ID: -
+Service Name: Mouclass
+Display Name: Mouse Class Driver
+Service Type: SERVICE_KERNEL_DRIVER
+Service State: SERVICE_RUNNING
+Binary Path: \Driver\Mouclass
+
+Offset: 0x385b78
+Order: 109
+Start: SERVICE_DEMAND_START
+Process ID: -
+Service Name: mouhid
+Display Name: Mouse HID Driver
+Service Type: SERVICE_KERNEL_DRIVER
+Service State: SERVICE_RUNNING
+Binary Path: \Driver\mouhid
+
+Offset: 0x385c08
+Order: 110
+Start: SERVICE_BOOT_START
+Process ID: -
+Service Name: MountMgr
+Display Name: MountMgr
+Service Type: SERVICE_KERNEL_DRIVER
+Service State: SERVICE_RUNNING
+Binary Path: \Driver\MountMgr
+
+Offset: 0x385c98
+Order: 111
+Start: SERVICE_DISABLED
+Process ID: -
+Service Name: mraid35x
+Display Name: mraid35x
+Service Type: SERVICE_KERNEL_DRIVER
+Service State: SERVICE_STOPPED
+Binary Path: -
+
+Offset: 0x385d28
+Order: 112
+Start: SERVICE_DEMAND_START
+Process ID: -
+Service Name: MRxDAV
+Display Name: WebDav Client Redirector
+Service Type: SERVICE_FILE_SYSTEM_DRIVER
+Service State: SERVICE_RUNNING
+Binary Path: \FileSystem\MRxDAV
+
+Offset: 0x385db8
+Order: 113
+Start: SERVICE_SYSTEM_START
+Process ID: -
+Service Name: MRxSmb
+Display Name: MRxSmb
+Service Type: SERVICE_FILE_SYSTEM_DRIVER
+Service State: SERVICE_RUNNING
+Binary Path: \FileSystem\MRxSmb
+
+Offset: 0x385e48
+Order: 114
+Start: SERVICE_DEMAND_START
+Process ID: -
+Service Name: MSDTC
+Display Name: Distributed Transaction Coordinator
+Service Type: SERVICE_WIN32_OWN_PROCESS
+Service State: SERVICE_STOPPED
+Binary Path: -
+
+Offset: 0x385ed0
+Order: 115
+Start: SERVICE_SYSTEM_START
+Process ID: -
+Service Name: Msfs
+Display Name: Msfs
+Service Type: SERVICE_FILE_SYSTEM_DRIVER
+Service State: SERVICE_RUNNING
+Binary Path: \FileSystem\Msfs
+
+Offset: 0x385f58
+Order: 116
+Start: SERVICE_DEMAND_START
+Process ID: -
+Service Name: MSIServer
+Display Name: Windows Installer
+Service Type: SERVICE_WIN32_SHARE_PROCESS
+Service State: SERVICE_STOPPED
+Binary Path: -
+
+Offset: 0x385fe8
+Order: 117
+Start: SERVICE_DEMAND_START
+Process ID: -
+Service Name: MSKSSRV
+Display Name: Microsoft Streaming Service Proxy
+Service Type: SERVICE_KERNEL_DRIVER
+Service State: SERVICE_STOPPED
+Binary Path: -
+
+Offset: 0x386078
+Order: 118
+Start: SERVICE_DEMAND_START
+Process ID: -
+Service Name: MSPCLOCK
+Display Name: Microsoft Streaming Clock Proxy
+Service Type: SERVICE_KERNEL_DRIVER
+Service State: SERVICE_STOPPED
+Binary Path: -
+
+Offset: 0x386108
+Order: 119
+Start: SERVICE_DEMAND_START
+Process ID: -
+Service Name: MSPQM
+Display Name: Microsoft Streaming Quality Manager Proxy
+Service Type: SERVICE_KERNEL_DRIVER
+Service State: SERVICE_STOPPED
+Binary Path: -
+
+Offset: 0x386190
+Order: 120
+Start: SERVICE_DEMAND_START
+Process ID: -
+Service Name: mssmbios
+Display Name: Microsoft System Management BIOS Driver
+Service Type: SERVICE_KERNEL_DRIVER
+Service State: SERVICE_RUNNING
+Binary Path: \Driver\mssmbios
+
+Offset: 0x386220
+Order: 121
+Start: SERVICE_BOOT_START
+Process ID: -
+Service Name: Mup
+Display Name: Mup
+Service Type: SERVICE_FILE_SYSTEM_DRIVER
+Service State: SERVICE_RUNNING
+Binary Path: \FileSystem\Mup
+
+Offset: 0x3862a8
+Order: 122
+Start: SERVICE_DEMAND_START
+Process ID: -
+Service Name: napagent
+Display Name: Network Access Protection Agent
+Service Type: SERVICE_WIN32_SHARE_PROCESS
+Service State: SERVICE_STOPPED
+Binary Path: -
+
+Offset: 0x386338
+Order: 123
+Start: SERVICE_BOOT_START
+Process ID: -
+Service Name: NDIS
+Display Name: NDIS System Driver
+Service Type: SERVICE_KERNEL_DRIVER
+Service State: SERVICE_RUNNING
+Binary Path: \Driver\NDIS
+
+Offset: 0x3863c0
+Order: 124
+Start: SERVICE_DEMAND_START
+Process ID: -
+Service Name: NdisTapi
+Display Name: Remote Access NDIS TAPI Driver
+Service Type: SERVICE_KERNEL_DRIVER
+Service State: SERVICE_RUNNING
+Binary Path: \Driver\NdisTapi
+
+Offset: 0x386450
+Order: 125
+Start: SERVICE_DEMAND_START
+Process ID: -
+Service Name: Ndisuio
+Display Name: NDIS Usermode I/O Protocol
+Service Type: SERVICE_KERNEL_DRIVER
+Service State: SERVICE_RUNNING
+Binary Path: \Driver\Ndisuio
+
+Offset: 0x3864e0
+Order: 126
+Start: SERVICE_DEMAND_START
+Process ID: -
+Service Name: NdisWan
+Display Name: Remote Access NDIS WAN Driver
+Service Type: SERVICE_KERNEL_DRIVER
+Service State: SERVICE_RUNNING
+Binary Path: \Driver\NdisWan
+
+Offset: 0x386570
+Order: 127
+Start: SERVICE_DEMAND_START
+Process ID: -
+Service Name: NDProxy
+Display Name: NDIS Proxy
+Service Type: SERVICE_KERNEL_DRIVER
+Service State: SERVICE_RUNNING
+Binary Path: \Driver\NDProxy
+
+Offset: 0x386600
+Order: 128
+Start: SERVICE_SYSTEM_START
+Process ID: -
+Service Name: NetBIOS
+Display Name: NetBIOS Interface
+Service Type: SERVICE_FILE_SYSTEM_DRIVER
+Service State: SERVICE_RUNNING
+Binary Path: \FileSystem\NetBIOS
+
+Offset: 0x386690
+Order: 129
+Start: SERVICE_SYSTEM_START
+Process ID: -
+Service Name: NetBT
+Display Name: NetBios over Tcpip
+Service Type: SERVICE_KERNEL_DRIVER
+Service State: SERVICE_RUNNING
+Binary Path: \Driver\NetBT
+
+Offset: 0x386718
+Order: 130
+Start: SERVICE_DISABLED
+Process ID: -
+Service Name: NetDDE
+Display Name: Network DDE
+Service Type: SERVICE_WIN32_SHARE_PROCESS
+Service State: SERVICE_STOPPED
+Binary Path: -
+
+Offset: 0x3867a8
+Order: 131
+Start: SERVICE_DISABLED
+Process ID: -
+Service Name: NetDDEdsdm
+Display Name: Network DDE DSDM
+Service Type: SERVICE_WIN32_SHARE_PROCESS
+Service State: SERVICE_STOPPED
+Binary Path: -
+
+Offset: 0x386840
+Order: 132
+Start: SERVICE_DEMAND_START
+Process ID: -
+Service Name: Netlogon
+Display Name: Net Logon
+Service Type: SERVICE_WIN32_SHARE_PROCESS
+Service State: SERVICE_STOPPED
+Binary Path: -
+
+Offset: 0x3868d0
+Order: 133
+Start: SERVICE_DEMAND_START
+Process ID: 1032
+Service Name: Netman
+Display Name: Network Connections
+Service Type: SERVICE_INTERACTIVE_PROCESS, SERVICE_WIN32_SHARE_PROCESS
+Service State: SERVICE_RUNNING
+Binary Path: C:\WINDOWS\System32\svchost.exe -k netsvcs
+
+Offset: 0x386960
+Order: 134
+Start: SERVICE_DISABLED
+Process ID: -
+Service Name: NetTcpPortSharing
+Display Name: Net.Tcp Port Sharing Service
+Service Type: SERVICE_WIN32_SHARE_PROCESS
+Service State: SERVICE_STOPPED
+Binary Path: -
+
+Offset: 0x386a00
+Order: 135
+Start: SERVICE_DEMAND_START
+Process ID: 1032
+Service Name: Nla
+Display Name: Network Location Awareness (NLA)
+Service Type: SERVICE_WIN32_SHARE_PROCESS
+Service State: SERVICE_RUNNING
+Binary Path: C:\WINDOWS\System32\svchost.exe -k netsvcs
+
+Offset: 0x386a88
+Order: 136
+Start: SERVICE_AUTO_START
+Process ID: -
+Service Name: NPF
+Display Name: NetGroup Packet Filter Driver
+Service Type: SERVICE_KERNEL_DRIVER
+Service State: SERVICE_RUNNING
+Binary Path: \Driver\NPF
+
+Offset: 0x386b10
+Order: 137
+Start: SERVICE_SYSTEM_START
+Process ID: -
+Service Name: Npfs
+Display Name: Npfs
+Service Type: SERVICE_FILE_SYSTEM_DRIVER
+Service State: SERVICE_RUNNING
+Binary Path: \FileSystem\Npfs
+
+Offset: 0x386b98
+Order: 138
+Start: SERVICE_DISABLED
+Process ID: -
+Service Name: Ntfs
+Display Name: Ntfs
+Service Type: SERVICE_FILE_SYSTEM_DRIVER
+Service State: SERVICE_RUNNING
+Binary Path: \FileSystem\Ntfs
+
+Offset: 0x386c20
+Order: 139
+Start: SERVICE_DEMAND_START
+Process ID: -
+Service Name: NtLmSsp
+Display Name: NT LM Security Support Provider
+Service Type: SERVICE_WIN32_SHARE_PROCESS
+Service State: SERVICE_STOPPED
+Binary Path: -
+
+Offset: 0x386cb0
+Order: 140
+Start: SERVICE_DEMAND_START
+Process ID: -
+Service Name: NtmsSvc
+Display Name: Removable Storage
+Service Type: SERVICE_WIN32_SHARE_PROCESS
+Service State: SERVICE_STOPPED
+Binary Path: -
+
+Offset: 0x386d40
+Order: 141
+Start: SERVICE_SYSTEM_START
+Process ID: -
+Service Name: Null
+Display Name: Null
+Service Type: SERVICE_KERNEL_DRIVER
+Service State: SERVICE_RUNNING
+Binary Path: \Driver\Null
+
+Offset: 0x386dc8
+Order: 142
+Start: SERVICE_DEMAND_START
+Process ID: -
+Service Name: NwlnkFlt
+Display Name: IPX Traffic Filter Driver
+Service Type: SERVICE_KERNEL_DRIVER
+Service State: SERVICE_STOPPED
+Binary Path: -
+
+Offset: 0x386e58
+Order: 143
+Start: SERVICE_DEMAND_START
+Process ID: -
+Service Name: NwlnkFwd
+Display Name: IPX Traffic Forwarder Driver
+Service Type: SERVICE_KERNEL_DRIVER
+Service State: SERVICE_STOPPED
+Binary Path: -
+
+Offset: 0x386ee8
+Order: 144
+Start: SERVICE_DEMAND_START
+Process ID: -
+Service Name: odserv
+Display Name: Microsoft Office Diagnostics Service
+Service Type: SERVICE_WIN32_OWN_PROCESS
+Service State: SERVICE_STOPPED
+Binary Path: -
+
+Offset: 0x386f78
+Order: 145
+Start: SERVICE_DEMAND_START
+Process ID: -
+Service Name: ose
+Display Name: Office Source Engine
+Service Type: SERVICE_WIN32_OWN_PROCESS
+Service State: SERVICE_STOPPED
+Binary Path: -
+
+Offset: 0x387000
+Order: 146
+Start: SERVICE_DEMAND_START
+Process ID: -
+Service Name: Parport
+Display Name: Parallel port driver
+Service Type: SERVICE_KERNEL_DRIVER
+Service State: SERVICE_RUNNING
+Binary Path: \Driver\Parport
+
+Offset: 0x387090
+Order: 147
+Start: SERVICE_BOOT_START
+Process ID: -
+Service Name: PartMgr
+Display Name: PartMgr
+Service Type: SERVICE_KERNEL_DRIVER
+Service State: SERVICE_RUNNING
+Binary Path: \Driver\PartMgr
+
+Offset: 0x387120
+Order: 148
+Start: SERVICE_AUTO_START
+Process ID: -
+Service Name: ParVdm
+Display Name: ParVdm
+Service Type: SERVICE_KERNEL_DRIVER
+Service State: SERVICE_RUNNING
+Binary Path: \Driver\ParVdm
+
+Offset: 0x3871b0
+Order: 149
+Start: SERVICE_BOOT_START
+Process ID: -
+Service Name: PCI
+Display Name: PCI Bus Driver
+Service Type: SERVICE_KERNEL_DRIVER
+Service State: SERVICE_RUNNING
+Binary Path: \Driver\PCI
+
+Offset: 0x387238
+Order: 150
+Start: SERVICE_SYSTEM_START
+Process ID: -
+Service Name: PCIDump
+Display Name: PCIDump
+Service Type: SERVICE_KERNEL_DRIVER
+Service State: SERVICE_STOPPED
+Binary Path: -
+
+Offset: 0x3872c8
+Order: 151
+Start: SERVICE_DISABLED
+Process ID: -
+Service Name: PCIIde
+Display Name: PCIIde
+Service Type: SERVICE_KERNEL_DRIVER
+Service State: SERVICE_STOPPED
+Binary Path: -
+
+Offset: 0x387358
+Order: 152
+Start: SERVICE_DISABLED
+Process ID: -
+Service Name: Pcmcia
+Display Name: Pcmcia
+Service Type: SERVICE_KERNEL_DRIVER
+Service State: SERVICE_STOPPED
+Binary Path: -
+
+Offset: 0x3873e8
+Order: 153
+Start: SERVICE_DEMAND_START
+Process ID: -
+Service Name: PCnet
+Display Name: AMD PCNET Compatable Adapter Driver
+Service Type: SERVICE_KERNEL_DRIVER
+Service State: SERVICE_STOPPED
+Binary Path: -
+
+Offset: 0x387470
+Order: 154
+Start: SERVICE_DEMAND_START
+Process ID: -
+Service Name: PDCOMP
+Display Name: PDCOMP
+Service Type: SERVICE_KERNEL_DRIVER
+Service State: SERVICE_STOPPED
+Binary Path: -
+
+Offset: 0x387500
+Order: 155
+Start: SERVICE_DEMAND_START
+Process ID: -
+Service Name: PDFRAME
+Display Name: PDFRAME
+Service Type: SERVICE_KERNEL_DRIVER
+Service State: SERVICE_STOPPED
+Binary Path: -
+
+Offset: 0x387590
+Order: 156
+Start: SERVICE_DEMAND_START
+Process ID: -
+Service Name: PDRELI
+Display Name: PDRELI
+Service Type: SERVICE_KERNEL_DRIVER
+Service State: SERVICE_STOPPED
+Binary Path: -
+
+Offset: 0x387620
+Order: 157
+Start: SERVICE_DEMAND_START
+Process ID: -
+Service Name: PDRFRAME
+Display Name: PDRFRAME
+Service Type: SERVICE_KERNEL_DRIVER
+Service State: SERVICE_STOPPED
+Binary Path: -
+
+Offset: 0x3876b0
+Order: 158
+Start: SERVICE_DISABLED
+Process ID: -
+Service Name: perc2
+Display Name: perc2
+Service Type: SERVICE_KERNEL_DRIVER
+Service State: SERVICE_STOPPED
+Binary Path: -
+
+Offset: 0x387738
+Order: 159
+Start: SERVICE_DISABLED
+Process ID: -
+Service Name: perc2hib
+Display Name: perc2hib
+Service Type: SERVICE_KERNEL_DRIVER
+Service State: SERVICE_STOPPED
+Binary Path: -
+
+Offset: 0x3877c8
+Order: 160
+Start: SERVICE_AUTO_START
+Process ID: 668
+Service Name: PlugPlay
+Display Name: Plug and Play
+Service Type: SERVICE_WIN32_SHARE_PROCESS
+Service State: SERVICE_RUNNING
+Binary Path: C:\WINDOWS\system32\services.exe
+
+Offset: 0x387858
+Order: 161
+Start: SERVICE_AUTO_START
+Process ID: 680
+Service Name: PolicyAgent
+Display Name: IPSEC Services
+Service Type: SERVICE_WIN32_SHARE_PROCESS
+Service State: SERVICE_RUNNING
+Binary Path: C:\WINDOWS\system32\lsass.exe
+
+Offset: 0x3878f0
+Order: 162
+Start: SERVICE_DEMAND_START
+Process ID: -
+Service Name: PptpMiniport
+Display Name: WAN Miniport (PPTP)
+Service Type: SERVICE_KERNEL_DRIVER
+Service State: SERVICE_RUNNING
+Binary Path: \Driver\PptpMiniport
+
+Offset: 0x387988
+Order: 163
+Start: SERVICE_AUTO_START
+Process ID: 680
+Service Name: ProtectedStorage
+Display Name: Protected Storage
+Service Type: SERVICE_INTERACTIVE_PROCESS, SERVICE_WIN32_SHARE_PROCESS
+Service State: SERVICE_RUNNING
+Binary Path: C:\WINDOWS\system32\lsass.exe
+
+Offset: 0x387a28
+Order: 164
+Start: SERVICE_DEMAND_START
+Process ID: -
+Service Name: PSched
+Display Name: QoS Packet Scheduler
+Service Type: SERVICE_KERNEL_DRIVER
+Service State: SERVICE_RUNNING
+Binary Path: \Driver\PSched
+
+Offset: 0x387ab8
+Order: 165
+Start: SERVICE_DEMAND_START
+Process ID: -
+Service Name: Ptilink
+Display Name: Direct Parallel Link Driver
+Service Type: SERVICE_KERNEL_DRIVER
+Service State: SERVICE_RUNNING
+Binary Path: \Driver\Ptilink
+
+Offset: 0x387b48
+Order: 166
+Start: SERVICE_DISABLED
+Process ID: -
+Service Name: ql1080
+Display Name: ql1080
+Service Type: SERVICE_KERNEL_DRIVER
+Service State: SERVICE_STOPPED
+Binary Path: -
+
+Offset: 0x387bd8
+Order: 167
+Start: SERVICE_DISABLED
+Process ID: -
+Service Name: Ql10wnt
+Display Name: Ql10wnt
+Service Type: SERVICE_KERNEL_DRIVER
+Service State: SERVICE_STOPPED
+Binary Path: -
+
+Offset: 0x387c68
+Order: 168
+Start: SERVICE_DISABLED
+Process ID: -
+Service Name: ql12160
+Display Name: ql12160
+Service Type: SERVICE_KERNEL_DRIVER
+Service State: SERVICE_STOPPED
+Binary Path: -
+
+Offset: 0x387cf8
+Order: 169
+Start: SERVICE_DISABLED
+Process ID: -
+Service Name: ql1240
+Display Name: ql1240
+Service Type: SERVICE_KERNEL_DRIVER
+Service State: SERVICE_STOPPED
+Binary Path: -
+
+Offset: 0x387d88
+Order: 170
+Start: SERVICE_DISABLED
+Process ID: -
+Service Name: ql1280
+Display Name: ql1280
+Service Type: SERVICE_KERNEL_DRIVER
+Service State: SERVICE_STOPPED
+Binary Path: -
+
+Offset: 0x387e18
+Order: 171
+Start: SERVICE_SYSTEM_START
+Process ID: -
+Service Name: RasAcd
+Display Name: Remote Access Auto Connection Driver
+Service Type: SERVICE_KERNEL_DRIVER
+Service State: SERVICE_RUNNING
+Binary Path: \Driver\RasAcd
+
+Offset: 0x387ea8
+Order: 172
+Start: SERVICE_DEMAND_START
+Process ID: -
+Service Name: RasAuto
+Display Name: Remote Access Auto Connection Manager
+Service Type: SERVICE_WIN32_SHARE_PROCESS
+Service State: SERVICE_STOPPED
+Binary Path: -
+
+Offset: 0x387f38
+Order: 173
+Start: SERVICE_DEMAND_START
+Process ID: -
+Service Name: Rasl2tp
+Display Name: WAN Miniport (L2TP)
+Service Type: SERVICE_KERNEL_DRIVER
+Service State: SERVICE_RUNNING
+Binary Path: \Driver\Rasl2tp
+
+Offset: 0x387fc8
+Order: 174
+Start: SERVICE_DEMAND_START
+Process ID: -
+Service Name: RasMan
+Display Name: Remote Access Connection Manager
+Service Type: SERVICE_WIN32_SHARE_PROCESS
+Service State: SERVICE_STOPPED
+Binary Path: -
+
+Offset: 0x388058
+Order: 175
+Start: SERVICE_DEMAND_START
+Process ID: -
+Service Name: RasPppoe
+Display Name: Remote Access PPPOE Driver
+Service Type: SERVICE_KERNEL_DRIVER
+Service State: SERVICE_RUNNING
+Binary Path: \Driver\RasPppoe
+
+Offset: 0x3880e8
+Order: 176
+Start: SERVICE_DEMAND_START
+Process ID: -
+Service Name: Raspti
+Display Name: Direct Parallel
+Service Type: SERVICE_KERNEL_DRIVER
+Service State: SERVICE_RUNNING
+Binary Path: \Driver\Raspti
+
+Offset: 0x388178
+Order: 177
+Start: SERVICE_SYSTEM_START
+Process ID: -
+Service Name: Rdbss
+Display Name: Rdbss
+Service Type: SERVICE_FILE_SYSTEM_DRIVER
+Service State: SERVICE_RUNNING
+Binary Path: \FileSystem\Rdbss
+
+Offset: 0x388200
+Order: 178
+Start: SERVICE_SYSTEM_START
+Process ID: -
+Service Name: RDPCDD
+Display Name: RDPCDD
+Service Type: SERVICE_KERNEL_DRIVER
+Service State: SERVICE_RUNNING
+Binary Path: \Driver\RDPCDD
+
+Offset: 0x388290
+Order: 179
+Start: SERVICE_DEMAND_START
+Process ID: -
+Service Name: rdpdr
+Display Name: Terminal Server Device Redirector Driver
+Service Type: SERVICE_KERNEL_DRIVER
+Service State: SERVICE_RUNNING
+Binary Path: \Driver\rdpdr
+
+Offset: 0x388318
+Order: 180
+Start: SERVICE_DEMAND_START
+Process ID: -
+Service Name: RDPWD
+Display Name: RDPWD
+Service Type: SERVICE_KERNEL_DRIVER
+Service State: SERVICE_STOPPED
+Binary Path: -
+
+Offset: 0x3883a0
+Order: 181
+Start: SERVICE_DEMAND_START
+Process ID: -
+Service Name: RDSessMgr
+Display Name: Remote Desktop Help Session Manager
+Service Type: SERVICE_WIN32_OWN_PROCESS
+Service State: SERVICE_STOPPED
+Binary Path: -
+
+Offset: 0x388430
+Order: 182
+Start: SERVICE_SYSTEM_START
+Process ID: -
+Service Name: redbook
+Display Name: Digital CD Audio Playback Filter Driver
+Service Type: SERVICE_KERNEL_DRIVER
+Service State: SERVICE_RUNNING
+Binary Path: \Driver\redbook
+
+Offset: 0x3884c0
+Order: 183
+Start: SERVICE_DISABLED
+Process ID: -
+Service Name: RemoteAccess
+Display Name: Routing and Remote Access
+Service Type: SERVICE_WIN32_SHARE_PROCESS
+Service State: SERVICE_STOPPED
+Binary Path: -
+
+Offset: 0x388558
+Order: 184
+Start: SERVICE_AUTO_START
+Process ID: 1200
+Service Name: RemoteRegistry
+Display Name: Remote Registry
+Service Type: SERVICE_WIN32_SHARE_PROCESS
+Service State: SERVICE_RUNNING
+Binary Path: C:\WINDOWS\system32\svchost.exe -k LocalService
+
+Offset: 0x3885f8
+Order: 185
+Start: SERVICE_DEMAND_START
+Process ID: -
+Service Name: rpcapd
+Display Name: Remote Packet Capture Protocol v.0 (experimental)
+Service Type: SERVICE_WIN32_OWN_PROCESS
+Service State: SERVICE_STOPPED
+Binary Path: -
+
+Offset: 0x388688
+Order: 186
+Start: SERVICE_DEMAND_START
+Process ID: -
+Service Name: RpcLocator
+Display Name: Remote Procedure Call (RPC) Locator
+Service Type: SERVICE_WIN32_OWN_PROCESS
+Service State: SERVICE_STOPPED
+Binary Path: -
+
+Offset: 0x388720
+Order: 187
+Start: SERVICE_AUTO_START
+Process ID: 940
+Service Name: RpcSs
+Display Name: Remote Procedure Call (RPC)
+Service Type: SERVICE_WIN32_SHARE_PROCESS
+Service State: SERVICE_RUNNING
+Binary Path: C:\WINDOWS\system32\svchost -k rpcss
+
+Offset: 0x3887a8
+Order: 188
+Start: SERVICE_DEMAND_START
+Process ID: -
+Service Name: RSVP
+Display Name: QoS RSVP
+Service Type: SERVICE_WIN32_OWN_PROCESS
+Service State: SERVICE_STOPPED
+Binary Path: -
+
+Offset: 0x388830
+Order: 189
+Start: SERVICE_AUTO_START
+Process ID: 680
+Service Name: SamSs
+Display Name: Security Accounts Manager
+Service Type: SERVICE_WIN32_SHARE_PROCESS
+Service State: SERVICE_RUNNING
+Binary Path: C:\WINDOWS\system32\lsass.exe
+
+Offset: 0x3888b8
+Order: 190
+Start: SERVICE_DEMAND_START
+Process ID: -
+Service Name: SCardSvr
+Display Name: Smart Card
+Service Type: SERVICE_WIN32_SHARE_PROCESS
+Service State: SERVICE_STOPPED
+Binary Path: -
+
+Offset: 0x388948
+Order: 191
+Start: SERVICE_AUTO_START
+Process ID: 1032
+Service Name: Schedule
+Display Name: Task Scheduler
+Service Type: SERVICE_WIN32_SHARE_PROCESS
+Service State: SERVICE_RUNNING
+Binary Path: C:\WINDOWS\System32\svchost.exe -k netsvcs
+
+Offset: 0x3889d8
+Order: 192
+Start: SERVICE_DEMAND_START
+Process ID: -
+Service Name: Secdrv
+Display Name: Secdrv
+Service Type: SERVICE_KERNEL_DRIVER
+Service State: SERVICE_STOPPED
+Binary Path: -
+
+Offset: 0x388a68
+Order: 193
+Start: SERVICE_AUTO_START
+Process ID: 1032
+Service Name: seclogon
+Display Name: Secondary Logon
+Service Type: SERVICE_INTERACTIVE_PROCESS, SERVICE_WIN32_SHARE_PROCESS
+Service State: SERVICE_RUNNING
+Binary Path: C:\WINDOWS\System32\svchost.exe -k netsvcs
+
+Offset: 0x388af8
+Order: 194
+Start: SERVICE_AUTO_START
+Process ID: 1032
+Service Name: SENS
+Display Name: System Event Notification
+Service Type: SERVICE_WIN32_SHARE_PROCESS
+Service State: SERVICE_RUNNING
+Binary Path: C:\WINDOWS\System32\svchost.exe -k netsvcs
+
+Offset: 0x388b80
+Order: 195
+Start: SERVICE_DEMAND_START
+Process ID: -
+Service Name: serenum
+Display Name: Serenum Filter Driver
+Service Type: SERVICE_KERNEL_DRIVER
+Service State: SERVICE_RUNNING
+Binary Path: \Driver\serenum
+
+Offset: 0x388c10
+Order: 196
+Start: SERVICE_SYSTEM_START
+Process ID: -
+Service Name: Serial
+Display Name: Serial port driver
+Service Type: SERVICE_KERNEL_DRIVER
+Service State: SERVICE_RUNNING
+Binary Path: \Driver\Serial
+
+Offset: 0x388ca0
+Order: 197
+Start: SERVICE_SYSTEM_START
+Process ID: -
+Service Name: Sfloppy
+Display Name: Sfloppy
+Service Type: SERVICE_KERNEL_DRIVER
+Service State: SERVICE_STOPPED
+Binary Path: -
+
+Offset: 0x388d30
+Order: 198
+Start: SERVICE_AUTO_START
+Process ID: 1032
+Service Name: SharedAccess
+Display Name: Windows Firewall/Internet Connection Sharing (ICS)
+Service Type: SERVICE_WIN32_SHARE_PROCESS
+Service State: SERVICE_RUNNING
+Binary Path: C:\WINDOWS\System32\svchost.exe -k netsvcs
+
+Offset: 0x388dc8
+Order: 199
+Start: SERVICE_AUTO_START
+Process ID: 1032
+Service Name: ShellHWDetection
+Display Name: Shell Hardware Detection
+Service Type: SERVICE_WIN32_SHARE_PROCESS
+Service State: SERVICE_RUNNING
+Binary Path: C:\WINDOWS\System32\svchost.exe -k netsvcs
+
+Offset: 0x388e68
+Order: 200
+Start: SERVICE_DISABLED
+Process ID: -
+Service Name: Simbad
+Display Name: Simbad
+Service Type: SERVICE_KERNEL_DRIVER
+Service State: SERVICE_STOPPED
+Binary Path: -
+
+Offset: 0x388ef8
+Order: 201
+Start: SERVICE_DISABLED
+Process ID: -
+Service Name: Sparrow
+Display Name: Sparrow
+Service Type: SERVICE_KERNEL_DRIVER
+Service State: SERVICE_STOPPED
+Binary Path: -
+
+Offset: 0x388f88
+Order: 202
+Start: SERVICE_DEMAND_START
+Process ID: -
+Service Name: splitter
+Display Name: Microsoft Kernel Audio Splitter
+Service Type: SERVICE_KERNEL_DRIVER
+Service State: SERVICE_STOPPED
+Binary Path: -
+
+Offset: 0x389018
+Order: 203
+Start: SERVICE_AUTO_START
+Process ID: 1412
+Service Name: Spooler
+Display Name: Print Spooler
+Service Type: SERVICE_INTERACTIVE_PROCESS, SERVICE_WIN32_OWN_PROCESS
+Service State: SERVICE_RUNNING
+Binary Path: C:\WINDOWS\system32\spoolsv.exe
+
+Offset: 0x3890a8
+Order: 204
+Start: SERVICE_BOOT_START
+Process ID: -
+Service Name: sr
+Display Name: System Restore Filter Driver
+Service Type: SERVICE_FILE_SYSTEM_DRIVER
+Service State: SERVICE_RUNNING
+Binary Path: \FileSystem\sr
+
+Offset: 0x389130
+Order: 205
+Start: SERVICE_AUTO_START
+Process ID: 1032
+Service Name: srservice
+Display Name: System Restore Service
+Service Type: SERVICE_WIN32_SHARE_PROCESS
+Service State: SERVICE_RUNNING
+Binary Path: C:\WINDOWS\System32\svchost.exe -k netsvcs
+
+Offset: 0x3891c0
+Order: 206
+Start: SERVICE_DEMAND_START
+Process ID: -
+Service Name: Srv
+Display Name: Srv
+Service Type: SERVICE_FILE_SYSTEM_DRIVER
+Service State: SERVICE_RUNNING
+Binary Path: \FileSystem\Srv
+
+Offset: 0x389248
+Order: 207
+Start: SERVICE_DEMAND_START
+Process ID: 1200
+Service Name: SSDPSRV
+Display Name: SSDP Discovery Service
+Service Type: SERVICE_WIN32_SHARE_PROCESS
+Service State: SERVICE_RUNNING
+Binary Path: C:\WINDOWS\system32\svchost.exe -k LocalService
+
+Offset: 0x3892d8
+Order: 208
+Start: SERVICE_DEMAND_START
+Process ID: -
+Service Name: stisvc
+Display Name: Windows Image Acquisition (WIA)
+Service Type: SERVICE_WIN32_SHARE_PROCESS
+Service State: SERVICE_STOPPED
+Binary Path: -
+
+Offset: 0x389368
+Order: 209
+Start: SERVICE_DEMAND_START
+Process ID: -
+Service Name: swenum
+Display Name: Software Bus Driver
+Service Type: SERVICE_KERNEL_DRIVER
+Service State: SERVICE_RUNNING
+Binary Path: \Driver\swenum
+
+Offset: 0x3893f8
+Order: 210
+Start: SERVICE_DEMAND_START
+Process ID: -
+Service Name: swmidi
+Display Name: Microsoft Kernel GS Wavetable Synthesizer
+Service Type: SERVICE_KERNEL_DRIVER
+Service State: SERVICE_STOPPED
+Binary Path: -
+
+Offset: 0x389488
+Order: 211
+Start: SERVICE_DEMAND_START
+Process ID: -
+Service Name: SwPrv
+Display Name: MS Software Shadow Copy Provider
+Service Type: SERVICE_WIN32_OWN_PROCESS
+Service State: SERVICE_STOPPED
+Binary Path: -
+
+Offset: 0x389510
+Order: 212
+Start: SERVICE_DISABLED
+Process ID: -
+Service Name: symc810
+Display Name: symc810
+Service Type: SERVICE_KERNEL_DRIVER
+Service State: SERVICE_STOPPED
+Binary Path: -
+
+Offset: 0x3895a0
+Order: 213
+Start: SERVICE_DISABLED
+Process ID: -
+Service Name: symc8xx
+Display Name: symc8xx
+Service Type: SERVICE_KERNEL_DRIVER
+Service State: SERVICE_STOPPED
+Binary Path: -
+
+Offset: 0x389630
+Order: 214
+Start: SERVICE_DISABLED
+Process ID: -
+Service Name: sym_hi
+Display Name: sym_hi
+Service Type: SERVICE_KERNEL_DRIVER
+Service State: SERVICE_STOPPED
+Binary Path: -
+
+Offset: 0x3896c0
+Order: 215
+Start: SERVICE_DISABLED
+Process ID: -
+Service Name: sym_u3
+Display Name: sym_u3
+Service Type: SERVICE_KERNEL_DRIVER
+Service State: SERVICE_STOPPED
+Binary Path: -
+
+Offset: 0x389750
+Order: 216
+Start: SERVICE_DEMAND_START
+Process ID: -
+Service Name: sysaudio
+Display Name: Microsoft Kernel System Audio Device
+Service Type: SERVICE_KERNEL_DRIVER
+Service State: SERVICE_RUNNING
+Binary Path: \Driver\sysaudio
+
+Offset: 0x3897e0
+Order: 217
+Start: SERVICE_DEMAND_START
+Process ID: -
+Service Name: SysmonLog
+Display Name: Performance Logs and Alerts
+Service Type: SERVICE_WIN32_OWN_PROCESS
+Service State: SERVICE_STOPPED
+Binary Path: -
+
+Offset: 0x389870
+Order: 218
+Start: SERVICE_DEMAND_START
+Process ID: -
+Service Name: TapiSrv
+Display Name: Telephony
+Service Type: SERVICE_WIN32_SHARE_PROCESS
+Service State: SERVICE_STOPPED
+Binary Path: -
+
+Offset: 0x389900
+Order: 219
+Start: SERVICE_SYSTEM_START
+Process ID: -
+Service Name: Tcpip
+Display Name: TCP/IP Protocol Driver
+Service Type: SERVICE_KERNEL_DRIVER
+Service State: SERVICE_RUNNING
+Binary Path: \Driver\Tcpip
+
+Offset: 0x389988
+Order: 220
+Start: SERVICE_DEMAND_START
+Process ID: -
+Service Name: TDPIPE
+Display Name: TDPIPE
+Service Type: SERVICE_KERNEL_DRIVER
+Service State: SERVICE_STOPPED
+Binary Path: -
+
+Offset: 0x389a18
+Order: 221
+Start: SERVICE_DEMAND_START
+Process ID: -
+Service Name: TDTCP
+Display Name: TDTCP
+Service Type: SERVICE_KERNEL_DRIVER
+Service State: SERVICE_STOPPED
+Binary Path: -
+
+Offset: 0x389aa0
+Order: 222
+Start: SERVICE_SYSTEM_START
+Process ID: -
+Service Name: TermDD
+Display Name: Terminal Device Driver
+Service Type: SERVICE_KERNEL_DRIVER
+Service State: SERVICE_RUNNING
+Binary Path: \Driver\TermDD
+
+Offset: 0x389b30
+Order: 223
+Start: SERVICE_DEMAND_START
+Process ID: 856
+Service Name: TermService
+Display Name: Terminal Services
+Service Type: SERVICE_WIN32_SHARE_PROCESS
+Service State: SERVICE_RUNNING
+Binary Path: C:\WINDOWS\system32\svchost -k DcomLaunch
+
+Offset: 0x389bc8
+Order: 224
+Start: SERVICE_AUTO_START
+Process ID: 1032
+Service Name: Themes
+Display Name: Themes
+Service Type: SERVICE_WIN32_SHARE_PROCESS
+Service State: SERVICE_RUNNING
+Binary Path: C:\WINDOWS\System32\svchost.exe -k netsvcs
+
+Offset: 0x389c58
+Order: 225
+Start: SERVICE_DISABLED
+Process ID: -
+Service Name: TlntSvr
+Display Name: Telnet
+Service Type: SERVICE_WIN32_OWN_PROCESS
+Service State: SERVICE_STOPPED
+Binary Path: -
+
+Offset: 0x389ce8
+Order: 226
+Start: SERVICE_DISABLED
+Process ID: -
+Service Name: TosIde
+Display Name: TosIde
+Service Type: SERVICE_KERNEL_DRIVER
+Service State: SERVICE_STOPPED
+Binary Path: -
+
+Offset: 0x389d78
+Order: 227
+Start: SERVICE_DEMAND_START
+Process ID: -
+Service Name: TPAutoConnSvc
+Display Name: TP AutoConnect Service
+Service Type: SERVICE_WIN32_OWN_PROCESS
+Service State: SERVICE_STOPPED
+Binary Path: -
+
+Offset: 0x389e10
+Order: 228
+Start: SERVICE_DEMAND_START
+Process ID: -
+Service Name: TPVCGateway
+Display Name: TP VC Gateway Service
+Service Type: SERVICE_WIN32_OWN_PROCESS
+Service State: SERVICE_STOPPED
+Binary Path: -
+
+Offset: 0x389ea8
+Order: 229
+Start: SERVICE_AUTO_START
+Process ID: 1032
+Service Name: TrkWks
+Display Name: Distributed Link Tracking Client
+Service Type: SERVICE_WIN32_SHARE_PROCESS
+Service State: SERVICE_RUNNING
+Binary Path: C:\WINDOWS\System32\svchost.exe -k netsvcs
+
+Offset: 0x389f38
+Order: 230
+Start: SERVICE_DISABLED
+Process ID: -
+Service Name: Udfs
+Display Name: Udfs
+Service Type: SERVICE_FILE_SYSTEM_DRIVER
+Service State: SERVICE_STOPPED
+Binary Path: -
+
+Offset: 0x389fc0
+Order: 231
+Start: SERVICE_DISABLED
+Process ID: -
+Service Name: ultra
+Display Name: ultra
+Service Type: SERVICE_KERNEL_DRIVER
+Service State: SERVICE_STOPPED
+Binary Path: -
+
+Offset: 0x38a048
+Order: 232
+Start: SERVICE_DEMAND_START
+Process ID: -
+Service Name: Update
+Display Name: Microcode Update Driver
+Service Type: SERVICE_KERNEL_DRIVER
+Service State: SERVICE_RUNNING
+Binary Path: \Driver\Update
+
+Offset: 0x38a0d8
+Order: 233
+Start: SERVICE_DEMAND_START
+Process ID: -
+Service Name: upnphost
+Display Name: Universal Plug and Play Device Host
+Service Type: SERVICE_WIN32_SHARE_PROCESS
+Service State: SERVICE_STOPPED
+Binary Path: -
+
+Offset: 0x38a168
+Order: 234
+Start: SERVICE_DEMAND_START
+Process ID: -
+Service Name: UPS
+Display Name: Uninterruptible Power Supply
+Service Type: SERVICE_WIN32_OWN_PROCESS
+Service State: SERVICE_STOPPED
+Binary Path: -
+
+Offset: 0x38a1f0
+Order: 235
+Start: SERVICE_DEMAND_START
+Process ID: -
+Service Name: usbccgp
+Display Name: Microsoft USB Generic Parent Driver
+Service Type: SERVICE_KERNEL_DRIVER
+Service State: SERVICE_RUNNING
+Binary Path: \Driver\usbccgp
+
+Offset: 0x38a280
+Order: 236
+Start: SERVICE_DEMAND_START
+Process ID: -
+Service Name: usbehci
+Display Name: Microsoft USB 2.0 Enhanced Host Controller Miniport Driver
+Service Type: SERVICE_KERNEL_DRIVER
+Service State: SERVICE_RUNNING
+Binary Path: \Driver\usbehci
+
+Offset: 0x38a310
+Order: 237
+Start: SERVICE_DEMAND_START
+Process ID: -
+Service Name: usbhub
+Display Name: Microsoft USB Standard Hub Driver
+Service Type: SERVICE_KERNEL_DRIVER
+Service State: SERVICE_RUNNING
+Binary Path: \Driver\usbhub
+
+Offset: 0x38a3a0
+Order: 238
+Start: SERVICE_DEMAND_START
+Process ID: -
+Service Name: usbuhci
+Display Name: Microsoft USB Universal Host Controller Miniport Driver
+Service Type: SERVICE_KERNEL_DRIVER
+Service State: SERVICE_RUNNING
+Binary Path: \Driver\usbuhci
+
+Offset: 0x38a430
+Order: 239
+Start: SERVICE_SYSTEM_START
+Process ID: -
+Service Name: VgaSave
+Display Name: VgaSave
+Service Type: SERVICE_KERNEL_DRIVER
+Service State: SERVICE_RUNNING
+Binary Path: \Driver\VgaSave
+
+Offset: 0x38a4c0
+Order: 240
+Start: SERVICE_DISABLED
+Process ID: -
+Service Name: ViaIde
+Display Name: ViaIde
+Service Type: SERVICE_KERNEL_DRIVER
+Service State: SERVICE_STOPPED
+Binary Path: -
+
+Offset: 0x38a550
+Order: 241
+Start: SERVICE_DEMAND_START
+Process ID: -
+Service Name: vmci
+Display Name: VMware VMCI Bus Driver
+Service Type: SERVICE_KERNEL_DRIVER
+Service State: SERVICE_RUNNING
+Binary Path: \Driver\vmci
+
+Offset: 0x38a5d8
+Order: 242
+Start: SERVICE_SYSTEM_START
+Process ID: -
+Service Name: vmdebug
+Display Name: VMware Replay Debugging Helper
+Service Type: SERVICE_KERNEL_DRIVER
+Service State: SERVICE_STOPPED
+Binary Path: -
+
+Offset: 0x38a668
+Order: 243
+Start: SERVICE_SYSTEM_START
+Process ID: -
+Service Name: vmhgfs
+Display Name: vmhgfs
+Service Type: SERVICE_FILE_SYSTEM_DRIVER
+Service State: SERVICE_RUNNING
+Binary Path: \FileSystem\vmhgfs
+
+Offset: 0x38a6f8
+Order: 244
+Start: SERVICE_AUTO_START
+Process ID: -
+Service Name: VMMEMCTL
+Display Name: Memory Control Driver
+Service Type: SERVICE_KERNEL_DRIVER
+Service State: SERVICE_RUNNING
+Binary Path: \Driver\VMMEMCTL
+
+Offset: 0x38a788
+Order: 245
+Start: SERVICE_DEMAND_START
+Process ID: -
+Service Name: vmmouse
+Display Name: VMware Pointing Device
+Service Type: SERVICE_KERNEL_DRIVER
+Service State: SERVICE_RUNNING
+Binary Path: \Driver\vmmouse
+
+Offset: 0x38a818
+Order: 246
+Start: SERVICE_BOOT_START
+Process ID: -
+Service Name: vmscsi
+Display Name: vmscsi
+Service Type: SERVICE_KERNEL_DRIVER
+Service State: SERVICE_RUNNING
+Binary Path: \Driver\vmscsi
+
+Offset: 0x38a8a8
+Order: 247
+Start: SERVICE_AUTO_START
+Process ID: 1664
+Service Name: VMTools
+Display Name: VMware Tools Service
+Service Type: SERVICE_INTERACTIVE_PROCESS, SERVICE_WIN32_OWN_PROCESS
+Service State: SERVICE_RUNNING
+Binary Path: "C:\Program Files\VMware\VMware Tools\vmtoolsd.exe"
+
+Offset: 0x38a938
+Order: 248
+Start: SERVICE_AUTO_START
+Process ID: 1816
+Service Name: VMUpgradeHelper
+Display Name: VMware Upgrade Helper
+Service Type: SERVICE_WIN32_OWN_PROCESS
+Service State: SERVICE_RUNNING
+Binary Path: "C:\Program Files\VMware\VMware Tools\VMUpgradeHelper.exe" /service
+
+Offset: 0x38a9d8
+Order: 249
+Start: SERVICE_AUTO_START
+Process ID: 844
+Service Name: VMware Physical Disk Helper Service
+Display Name: VMware Physical Disk Helper Service
+Service Type: SERVICE_WIN32_OWN_PROCESS
+Service State: SERVICE_RUNNING
+Binary Path: "C:\Program Files\VMware\VMware Tools\vmacthlp.exe"
+
+Offset: 0x38aaa0
+Order: 250
+Start: SERVICE_DEMAND_START
+Process ID: -
+Service Name: vmxnet
+Display Name: VMware Ethernet Adapter Driver
+Service Type: SERVICE_KERNEL_DRIVER
+Service State: SERVICE_RUNNING
+Binary Path: \Driver\vmxnet
+
+Offset: 0x38ab30
+Order: 251
+Start: SERVICE_DEMAND_START
+Process ID: -
+Service Name: vmx_svga
+Display Name: vmx_svga
+Service Type: SERVICE_KERNEL_DRIVER
+Service State: SERVICE_RUNNING
+Binary Path: \Driver\vmx_svga
+
+Offset: 0x38abc0
+Order: 252
+Start: SERVICE_BOOT_START
+Process ID: -
+Service Name: VolSnap
+Display Name: VolSnap
+Service Type: SERVICE_KERNEL_DRIVER
+Service State: SERVICE_RUNNING
+Binary Path: \Driver\VolSnap
+
+Offset: 0x38ac50
+Order: 253
+Start: SERVICE_DEMAND_START
+Process ID: -
+Service Name: VSS
+Display Name: Volume Shadow Copy
+Service Type: SERVICE_WIN32_OWN_PROCESS
+Service State: SERVICE_STOPPED
+Binary Path: -
+
+Offset: 0x38acd8
+Order: 254
+Start: SERVICE_AUTO_START
+Process ID: 1032
+Service Name: W32Time
+Display Name: Windows Time
+Service Type: SERVICE_WIN32_SHARE_PROCESS
+Service State: SERVICE_RUNNING
+Binary Path: C:\WINDOWS\System32\svchost.exe -k netsvcs
+
+Offset: 0x38ad68
+Order: 255
+Start: SERVICE_DEMAND_START
+Process ID: -
+Service Name: Wanarp
+Display Name: Remote Access IP ARP Driver
+Service Type: SERVICE_KERNEL_DRIVER
+Service State: SERVICE_RUNNING
+Binary Path: \Driver\Wanarp
+
+Offset: 0x38adf8
+Order: 256
+Start: SERVICE_DEMAND_START
+Process ID: -
+Service Name: WDICA
+Display Name: WDICA
+Service Type: SERVICE_KERNEL_DRIVER
+Service State: SERVICE_STOPPED
+Binary Path: -
+
+Offset: 0x38ae80
+Order: 257
+Start: SERVICE_DEMAND_START
+Process ID: -
+Service Name: wdmaud
+Display Name: Microsoft WINMM WDM Audio Compatibility Driver
+Service Type: SERVICE_KERNEL_DRIVER
+Service State: SERVICE_RUNNING
+Binary Path: \Driver\wdmaud
+
+Offset: 0x38af10
+Order: 258
+Start: SERVICE_AUTO_START
+Process ID: 1200
+Service Name: WebClient
+Display Name: WebClient
+Service Type: SERVICE_WIN32_SHARE_PROCESS
+Service State: SERVICE_RUNNING
+Binary Path: C:\WINDOWS\system32\svchost.exe -k LocalService
+
+Offset: 0x38afa0
+Order: 259
+Start: SERVICE_AUTO_START
+Process ID: 1032
+Service Name: winmgmt
+Display Name: Windows Management Instrumentation
+Service Type: SERVICE_WIN32_SHARE_PROCESS
+Service State: SERVICE_RUNNING
+Binary Path: C:\WINDOWS\System32\svchost.exe -k netsvcs
+
+Offset: 0x38b030
+Order: 260
+Start: SERVICE_DEMAND_START
+Process ID: -
+Service Name: WmdmPmSN
+Display Name: Portable Media Serial Number Service
+Service Type: SERVICE_WIN32_SHARE_PROCESS
+Service State: SERVICE_STOPPED
+Binary Path: -
+
+Offset: 0x38b0c0
+Order: 261
+Start: SERVICE_DEMAND_START
+Process ID: -
+Service Name: Wmi
+Display Name: Windows Management Instrumentation Driver Extensions
+Service Type: SERVICE_WIN32_SHARE_PROCESS
+Service State: SERVICE_STOPPED
+Binary Path: -
+
+Offset: 0x38b148
+Order: 262
+Start: SERVICE_DEMAND_START
+Process ID: -
+Service Name: WmiApSrv
+Display Name: WMI Performance Adapter
+Service Type: SERVICE_WIN32_OWN_PROCESS
+Service State: SERVICE_STOPPED
+Binary Path: -
+
+Offset: 0x38b1d8
+Order: 263
+Start: SERVICE_DEMAND_START
+Process ID: -
+Service Name: WPFFontCache_v0400
+Display Name: Windows Presentation Foundation Font Cache 4.0.0.0
+Service Type: SERVICE_WIN32_OWN_PROCESS
+Service State: SERVICE_STOPPED
+Binary Path: -
+
+Offset: 0x38b280
+Order: 264
+Start: SERVICE_SYSTEM_START
+Process ID: -
+Service Name: WS2IFSL
+Display Name: Windows Socket 2.0 Non-IFS Service Provider Support Environment
+Service Type: SERVICE_KERNEL_DRIVER
+Service State: SERVICE_RUNNING
+Binary Path: \Driver\WS2IFSL
+
+Offset: 0x38b310
+Order: 265
+Start: SERVICE_AUTO_START
+Process ID: 1032
+Service Name: wscsvc
+Display Name: Security Center
+Service Type: SERVICE_WIN32_SHARE_PROCESS
+Service State: SERVICE_RUNNING
+Binary Path: C:\WINDOWS\System32\svchost.exe -k netsvcs
+
+Offset: 0x38b3a0
+Order: 266
+Start: SERVICE_AUTO_START
+Process ID: 1032
+Service Name: wuauserv
+Display Name: Automatic Updates
+Service Type: SERVICE_WIN32_SHARE_PROCESS
+Service State: SERVICE_RUNNING
+Binary Path: C:\WINDOWS\System32\svchost.exe -k netsvcs
+
+Offset: 0x38b430
+Order: 267
+Start: SERVICE_AUTO_START
+Process ID: 1032
+Service Name: WZCSVC
+Display Name: Wireless Zero Configuration
+Service Type: SERVICE_WIN32_SHARE_PROCESS
+Service State: SERVICE_RUNNING
+Binary Path: C:\WINDOWS\System32\svchost.exe -k netsvcs
+
+Offset: 0x38b4c0
+Order: 268
+Start: SERVICE_DEMAND_START
+Process ID: -
+Service Name: xmlprov
+Display Name: Network Provisioning Service
+Service Type: SERVICE_WIN32_SHARE_PROCESS
+Service State: SERVICE_STOPPED
+Binary Path: -
+

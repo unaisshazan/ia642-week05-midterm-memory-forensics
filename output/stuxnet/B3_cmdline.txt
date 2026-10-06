@@ -1,0 +1,90 @@
+﻿************************************************************************
+System pid:      4
+************************************************************************
+smss.exe pid:    376
+Command line : \SystemRoot\System32\smss.exe
+************************************************************************
+csrss.exe pid:    600
+Command line : C:\WINDOWS\system32\csrss.exe ObjectDirectory=\Windows SharedSection=1024,3072,512 Windows=On SubSystemType=Windows ServerDll=basesrv,1 ServerDll=winsrv:UserServerDllInitialization,3 ServerDll=winsrv:ConServerDllInitialization,2 ProfileControl=Off MaxRequestThreads=16
+************************************************************************
+winlogon.exe pid:    624
+Command line : winlogon.exe
+************************************************************************
+services.exe pid:    668
+Command line : C:\WINDOWS\system32\services.exe
+************************************************************************
+lsass.exe pid:    680
+Command line : C:\WINDOWS\system32\lsass.exe
+************************************************************************
+vmacthlp.exe pid:    844
+Command line : "C:\Program Files\VMware\VMware Tools\vmacthlp.exe"
+************************************************************************
+svchost.exe pid:    856
+Command line : C:\WINDOWS\system32\svchost -k DcomLaunch
+************************************************************************
+svchost.exe pid:    940
+Command line : C:\WINDOWS\system32\svchost -k rpcss
+************************************************************************
+svchost.exe pid:   1032
+Command line : C:\WINDOWS\System32\svchost.exe -k netsvcs
+************************************************************************
+svchost.exe pid:   1080
+Command line : C:\WINDOWS\system32\svchost.exe -k NetworkService
+************************************************************************
+svchost.exe pid:   1200
+Command line : C:\WINDOWS\system32\svchost.exe -k LocalService
+************************************************************************
+spoolsv.exe pid:   1412
+Command line : C:\WINDOWS\system32\spoolsv.exe
+************************************************************************
+jqs.exe pid:   1580
+Command line : "C:\Program Files\Java\jre6\bin\jqs.exe" -service -config "C:\Program Files\Java\jre6\lib\deploy\jqs\jqs.conf"
+************************************************************************
+vmtoolsd.exe pid:   1664
+Command line : "C:\Program Files\VMware\VMware Tools\vmtoolsd.exe"
+************************************************************************
+VMUpgradeHelper pid:   1816
+Command line : "C:\Program Files\VMware\VMware Tools\VMUpgradeHelper.exe" /service
+************************************************************************
+alg.exe pid:    188
+Command line : C:\WINDOWS\System32\alg.exe
+************************************************************************
+explorer.exe pid:   1196
+Command line : C:\WINDOWS\Explorer.EXE
+************************************************************************
+wscntfy.exe pid:   2040
+Command line : C:\WINDOWS\system32\wscntfy.exe
+************************************************************************
+TSVNCache.exe pid:    324
+Command line : "C:\Program Files\TortoiseSVN\bin\TSVNCache.exe"
+************************************************************************
+VMwareTray.exe pid:   1912
+Command line : "C:\Program Files\VMware\VMware Tools\VMwareTray.exe" 
+************************************************************************
+VMwareUser.exe pid:   1356
+Command line : "C:\Program Files\VMware\VMware Tools\VMwareUser.exe" 
+************************************************************************
+jusched.exe pid:   1712
+Command line : "C:\Program Files\Common Files\Java\Java Update\jusched.exe" 
+************************************************************************
+imapi.exe pid:    756
+Command line : C:\WINDOWS\system32\imapi.exe
+************************************************************************
+wuauclt.exe pid:    976
+Command line : "C:\WINDOWS\system32\wuauclt.exe"
+************************************************************************
+Procmon.exe pid:    660
+Command line : "C:\Documents and Settings\Administrator\Desktop\SysinternalsSuite\Procmon.exe" 
+************************************************************************
+wmiprvse.exe pid:   1872
+Command line : C:\WINDOWS\system32\wbem\wmiprvse.exe
+************************************************************************
+lsass.exe pid:    868
+Command line : "C:\WINDOWS\\system32\\lsass.exe"
+************************************************************************
+lsass.exe pid:   1928
+Command line : "C:\WINDOWS\\system32\\lsass.exe"
+************************************************************************
+cmd.exe pid:    968
+************************************************************************
+ipconfig.exe pid:    304

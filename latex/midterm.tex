@@ -1,0 +1,960 @@
+
+\documentclass[11pt,letterpaper]{article}
+\usepackage[margin=1in]{geometry}
+\sloppy\emergencystretch=4em
+\usepackage{array,booktabs,tabularx,enumitem,parskip,ragged2e,titlesec,microtype,xcolor,listings,needspace,xurl,fancyhdr,graphicx,float,seqsplit}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage[colorlinks=true,linkcolor=blue,urlcolor=blue]{hyperref}
+\hypersetup{pdfauthor={Unais Ali}, pdftitle={IA 642 Midterm Memory Forensics}}
+\definecolor{tblhead}{HTML}{1F4E79}
+\definecolor{codebg}{HTML}{F7FAFC}
+\setlength{\parindent}{0pt}
+\renewcommand{\arraystretch}{1.3}
+\setlist[itemize]{leftmargin=1.2em,itemsep=0.25em,topsep=0.3em}
+\setlist[enumerate]{leftmargin=1.3em,itemsep=0.3em,topsep=0.3em}
+\newcolumntype{Y}{>{\RaggedRight\arraybackslash}X}
+\newcolumntype{P}[1]{>{\RaggedRight\arraybackslash}p{#1}}
+\titleformat{name=\section,numberless}{\large\bfseries\color{tblhead}}{}{0em}{}
+\titleformat{name=\subsection,numberless}{\normalsize\bfseries\color{tblhead}}{}{0em}{}
+\lstset{
+  basicstyle=\ttfamily\footnotesize,
+  backgroundcolor=\color{codebg},
+  frame=single,
+  rulecolor=\color{tblhead},
+  breaklines=true,
+  breakatwhitespace=false,
+  columns=fullflexible,
+  keepspaces=true,
+  showstringspaces=false,
+  aboveskip=0.5em,
+  belowskip=0.5em,
+  xleftmargin=2pt,
+  xrightmargin=2pt,
+  literate=*{\\}{{\textbackslash\allowbreak}}1
+}
+\newcommand{\winpath}[1]{\texttt{\seqsplit{#1}}}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot[L]{\footnotesize Unais Ali | IA 642 Midterm}
+\fancyfoot[R]{\footnotesize Page \thepage}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0.4pt}
+\begin{document}
+\begin{center}
+{\LARGE\bfseries IA 642 Defensive Security}\\[0.25em]
+{\Large Midterm Project: Memory Forensics}\\[0.15em]
+{\large WannaCry and Stuxnet from RAM}\\[0.3em]
+\end{center}
+
+\begin{tabularx}{\textwidth}{@{}l Y l l@{}}
+\toprule
+\textbf{Student} & Unais Ali & \textbf{EID} & E02805019 \\
+\textbf{Course} & IA 642 Defensive Security & \textbf{Week} & 05 Midterm \\
+\textbf{Date} & October 5, 2026 & \textbf{Format} & Individual \\
+\textbf{Filename} & \texttt{Ali\_IA642\_Midterm\_MemoryForensics.pdf} & \textbf{Tooling} & Volatility 2.6 \\
+\bottomrule
+\end{tabularx}
+
+\vspace{0.5em}
+\section*{Lab overview}
+This midterm investigates two Windows XP classroom memory images: WannaCry (\texttt{wcry.vmem}, May 2017)
+and Stuxnet (\texttt{stuxnet.vmem}, June 2011). Analysis uses Volatility~2.6 plugins equivalent to the course SIFT
+\texttt{vol.py} workflow. Values below come from live plugin runs on local copies extracted from
+\texttt{memory\_dump.zip}. The Symantec \textit{W32.Stuxnet Dossier} v1.3 is required reading for Parts~B and~C.
+MITRE ATT\&CK software pages S0366 (WannaCry) and S0603 (Stuxnet) are used for technique mapping.
+
+\section*{Environment and tooling}
+\begin{itemize}
+  \item \textbf{Evidence:} \texttt{wcry.vmem} and \texttt{stuxnet.vmem} from Canvas Week~05 Midterm /
+        \texttt{memory\_dump.zip}; dossier PDF from the same module.
+  \item \textbf{SIFT Workstation:} Course \texttt{SIFT-Workstation.ova} imported into VirtualBox as VM
+        \texttt{SIFT-Workstation} (Ubuntu~20.04, 4~GB RAM, 4~vCPU, NAT NIC host port~2225$\rightarrow$guest~22,
+        snapshot \texttt{clean-after-import}). Long-mode/64-bit enabled after OVA import.
+        Volatility~2.6.1 is available inside SIFT as \texttt{/usr/local/bin/vol.py} (Module~02 workflow).
+  \item \textbf{Analysis runs:} Graded plugin excerpts use Volatility~2.6 profile \texttt{WinXPSP2x86}.
+        The same dumps were re-run inside SIFT with \texttt{vol.py} (pslist/pstree/psscan/cmdline/dlllist/
+        filescan/modules/modscan/ssdt/driverscan/connections/sockets) and matched the host findings
+        (WannaCry \texttt{tasksche.exe}/PID~1940 and \texttt{@WanaDecryptor@}/PID~740; Stuxnet triple
+        \texttt{lsass.exe} PIDs). Volatility~3 was not used for graded XP net answers.
+  \item \textbf{Screenshots:} Question-labeled terminal figures (A1, A2, A3, A5, B2, B5/B6, B7, B8, B10)
+        plus SIFT Workstation GUI captures (\texttt{fig\_SIFT\_*}).
+  \item \textbf{Safety:} Lab IOCs defanged in this report; VirusTotal used hash-only (no sample upload);
+        SIFT kept on NAT / isolated for analysis.
+\end{itemize}
+
+\section*{Evidence Intake and Scope}
+All timestamps in analysis are UTC unless noted as host-local from \texttt{imageinfo}.
+
+{\footnotesize
+\begin{tabularx}{\textwidth}{@{}l >{\ttfamily\scriptsize}Y r@{}}
+\toprule
+\textbf{Artifact} & \textbf{SHA-256} & \textbf{Size (bytes)} \\
+\midrule
+wcry.vmem & 76E8BE1A3761878325FDFF39A5AB1FF84922A0B18947E5268DD9175795AD2BF0 & 536870912 \\
+stuxnet.vmem & 5F19FF1333FC3901FBF3FAFB50D2ADB0C495CF6D33789E5A959499A92AEEFE77 & 536870912 \\
+memory\_dump.zip & 0F73E7C15F16A6073EDE0F228D33F53996953FAC63844E33AF5253478994601C & n/a \\
+dossier PDF & 85F536DB77070DC2228824D27DCBDD07DB73C36E2652DCCB9F99569C3D1AEA3E & n/a \\
+\bottomrule
+\end{tabularx}}
+
+\noindent\textbf{Chain of custody:} Analyst Unais Ali; received via Canvas Week~05 Midterm module;
+intake hashes match final analysis copies (no transformation before Volatility~2.6 runs).
+\section*{Part A: WannaCry (\texttt{wcry.vmem})}
+\subsection*{A1. Identify the image and choose a profile}
+\textbf{Hypothesis.} WinXPSP2x86 is the correct operational profile: \texttt{imageinfo} suggests WinXPSP2x86 and WinXPSP3x86; I instantiate WinXPSP2x86 when Image Type reports SP3. DTB/KDBG must align before process parsing.
+\par\medskip\noindent\textbf{Exact command}
+\begin{lstlisting}
+"C:\temp\midterm\tools\vol26.exe" -f "C:\temp\midterm\dumps\wcry.vmem" imageinfo
+\end{lstlisting}
+\noindent\textbf{Supporting output (excerpt)}
+\begin{lstlisting}
+Suggested Profile(s) : WinXPSP2x86, WinXPSP3x86 (Instantiated with WinXPSP2x86)
+                     AS Layer1 : IA32PagedMemory (Kernel AS)
+                     AS Layer2 : FileAddressSpace (C:\temp\midterm\dumps\wcry.vmem)
+                      PAE type : No PAE
+                           DTB : 0x39000L
+                          KDBG : 0x8054cf60L
+          Number of Processors : 1
+     Image Type (Service Pack) : 3
+                KPCR for CPU 0 : 0xffdff000L
+             KUSER_SHARED_DATA : 0xffdf0000L
+           Image date and time : 2017-05-12 21:26:32 UTC+0000
+     Image local date and time : 2017-05-13 02:56:32 +0530
+\end{lstlisting}
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.98\textwidth]{figures/fig_A1_imageinfo.png}
+\caption{A1 screenshot: imageinfo on wcry.vmem (live Volatility 2.6).}
+\end{figure}
+\noindent\textbf{Interpretation.} Suggested profiles include WinXPSP2x86 and WinXPSP3x86 (instantiated WinXPSP2x86). Address space is IA32PagedMemory with PAE No and Image Type (Service Pack)~3. Image date and time 2017-05-12 21:26:32~UTC marks capture near the end of encryption activity. Local time +0530 reflects host timezone configuration in the VM, not attacker geography. Verification: \texttt{pslist} succeeds under both SP2 and SP3 profile suggestions; WinXPSP2x86 retained for consistency.
+\vspace{0.55em}
+
+\subsection*{A2. The malicious lineage}
+\textbf{Hypothesis.} WannaCry detonation chain runs under \texttt{explorer.exe} (interactive session), not as an SMB-spawned System child visible in this snapshot.
+\par\medskip\noindent\textbf{Exact command}
+\begin{lstlisting}
+"C:\temp\midterm\tools\vol26.exe" -f "C:\temp\midterm\dumps\wcry.vmem" --profile WinXPSP2x86 pstree
+"C:\temp\midterm\tools\vol26.exe" -f "C:\temp\midterm\dumps\wcry.vmem" --profile WinXPSP2x86 cmdline
+\end{lstlisting}
+\noindent\textbf{Supporting output (excerpt)}
+\begin{lstlisting}
+Name                                                  Pid   PPid   Thds   Hnds Time
+-------------------------------------------------- ------ ------ ------ ------ ----
+ 0x823c8830:System                                      4      0     51    244 1970-01-01 00:00:00 UTC+0000
+. 0x82169020:smss.exe                                 348      4      3     19 2017-05-12 21:21:55 UTC+0000
+.. 0x8216e020:winlogon.exe                            620    348     23    536 2017-05-12 21:22:01 UTC+0000
+... 0x82191658:lsass.exe                              676    620     23    353 2017-05-12 21:22:01 UTC+0000
+... 0x821937f0:services.exe                           664    620     15    265 2017-05-12 21:22:01 UTC+0000
+.... 0x821af7e8:svchost.exe                          1024    664     79   1366 2017-05-12 21:22:03 UTC+0000
+..... 0x81f747c0:wuauclt.exe                         1768   1024      7    132 2017-05-12 21:22:52 UTC+0000
+..... 0x81fea8a0:wscntfy.exe                         1168   1024      1     37 2017-05-12 21:22:56 UTC+0000
+.... 0x821bea78:svchost.exe                          1152    664     10    173 2017-05-12 21:22:06 UTC+0000
+.... 0x81fb95d8:svchost.exe                           260    664      5    105 2017-05-12 21:22:18 UTC+0000
+.... 0x821b5230:svchost.exe                           904    664      9    227 2017-05-12 21:22:03 UTC+0000
+... (22 lines total; truncated)
+--- cmdline (filtered) ---
+Command line : \SystemRoot\System32\smss.exe
+Command line : C:\WINDOWS\system32\csrss.exe ObjectDirectory=\Windows SharedSection=1024,3072,512 Windows=On SubSystemType=Windows ServerDll=basesrv,1 ServerDll=winsrv:UserServerDllInitialization,3 ServerDll=winsrv:ConServerDllInitialization,2 ProfileControl=Off MaxRequestThreads=16
+Command line : winlogon.exe
+Command line : C:\WINDOWS\system32\services.exe
+Command line : C:\WINDOWS\system32\lsass.exe
+Command line : C:\WINDOWS\system32\svchost -k DcomLaunch
+Command line : C:\WINDOWS\system32\svchost -k rpcss
+Command line : C:\WINDOWS\System32\svchost.exe -k netsvcs
+Command line : C:\WINDOWS\system32\svchost.exe -k NetworkService
+Command line : C:\
+\end{lstlisting}
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.98\textwidth]{figures/fig_A2_pstree.png}
+\caption{A2 screenshot: pstree lineage on wcry.vmem.}
+\end{figure}
+\noindent\textbf{Interpretation.} \texttt{explorer.exe} PID~1636 lists PPID~1608 (parent not in \texttt{pslist}: exited parent, common after userinit). \texttt{tasksche.exe} PID~1940 parent~1636 at 21:22:14~UTC; \texttt{@WanaDecryptor@} PID~740 parent~1940 at 21:22:22~UTC. EPROCESS ImageFileName is 16-character truncated; full path recovered via cmdline as \winpath{C:/Intel/ivecuqmanpnirkt615/tasksche.exe} (and \texttt{@WanaDecryptor@.exe}). Root under explorer supports user-session detonation rather than worm-only remote spawn as parent.
+\vspace{0.55em}
+
+\subsection*{A3. pslist versus psscan (hidden vs exited)}
+\textbf{Hypothesis.} Disagreement between \texttt{pslist} and \texttt{psscan} for WannaCry helpers reflects exited processes removed from ActiveProcessLinks, not DKOM rootkit hiding.
+\par\medskip\noindent\textbf{Exact command}
+\begin{lstlisting}
+"C:\temp\midterm\tools\vol26.exe" -f "C:\temp\midterm\dumps\wcry.vmem" --profile WinXPSP2x86 psxview
+"C:\temp\midterm\tools\vol26.exe" -f "C:\temp\midterm\dumps\wcry.vmem" --profile WinXPSP2x86 psscan
+\end{lstlisting}
+\noindent\textbf{Supporting output (excerpt)}
+\begin{lstlisting}
+Offset(P)  Name                    PID pslist psscan thrdproc pspcid csrss session deskthrd ExitTime
+0x02218da0 tasksche.exe           1940 True   True   False    True   True  True    True
+0x021d9da0 explorer.exe           1636 True   True   False    True   True  True    True
+0x01fde308 @WanaDecryptor@         740 True   True   False    True   True  True    True
+\end{lstlisting}
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.98\textwidth]{figures/fig_A3_psxview.png}
+\caption{A3 screenshot: psxview showing exited helpers (pslist False / psscan True).}
+\end{figure}
+\noindent\textbf{Interpretation.} \texttt{psxview} shows \texttt{taskse.exe}~(536) and \texttt{taskdl.exe}~(860) False in pslist, True in psscan, with ExitTime 2017-05-12 21:26:23~UTC. Exited \texttt{@WanaDecryptor@} instances also appear only in psscan with ExitTime. Kernel mechanism: pslist walks the linked EPROCESS list; psscan searches pool tags for \_EPROCESS remnants. ExitTime populated means terminated, not stealth-hidden. On a clean system the same disagreement can occur for recently exited processes.
+\vspace{0.55em}
+
+\subsection*{A4. UTC timeline and ATT\&CK S0366 mapping}
+\textbf{Hypothesis.} Encryptor and helper processes cluster just before image acquisition; map to S0366 impact and recovery-inhibition techniques.
+\par\medskip\noindent\textbf{Exact command}
+\begin{lstlisting}
+"C:\temp\midterm\tools\vol26.exe" -f "C:\temp\midterm\dumps\wcry.vmem" --profile WinXPSP2x86 pstree
+"C:\temp\midterm\tools\vol26.exe" -f "C:\temp\midterm\dumps\wcry.vmem" --profile WinXPSP2x86 psxview
+\end{lstlisting}
+\noindent\textbf{Supporting output (excerpt)}
+\begin{lstlisting}
+2017-05-12 21:22:14 UTC  tasksche.exe (1940)
+2017-05-12 21:22:22 UTC  @WanaDecryptor@ (740)
+2017-05-12 21:25:53 UTC  @WanaDecryptor@ (424) ExitTime (psscan)
+2017-05-12 21:26:23 UTC  taskse/taskdl exited; @WanaDecryptor@ (576) ExitTime
+2017-05-12 21:26:32 UTC  image acquisition (imageinfo)
+\end{lstlisting}
+\noindent\textbf{Interpretation.} \textbf{Memory-observed mapping (MITRE ATT\&CK S0366):} T1486 Data Encrypted for Impact (\texttt{@WanaDecryptor@}, tasksche orchestration); T1490 Inhibit System Recovery (shadow deletion helpers \texttt{taskse}/\texttt{taskdl}). Timeline shows encryption activity within about four minutes of tasksche start, immediately prior to dump.
+\vspace{0.55em}
+
+\subsection*{A5. Network artifacts and MS17-010 context}
+\textbf{Hypothesis.} TCP 445 listener on System PID~4 is consistent with SMB exposure used by WannaCry propagation (CVE-2017-0144 / MS17-010); absence of connscan rows for WannaCry PIDs does not disprove spread attempts.
+\par\medskip\noindent\textbf{Exact command}
+\begin{lstlisting}
+"C:\temp\midterm\tools\vol26.exe" -f "C:\temp\midterm\dumps\wcry.vmem" --profile WinXPSP2x86 sockets
+"C:\temp\midterm\tools\vol26.exe" -f "C:\temp\midterm\dumps\wcry.vmem" --profile WinXPSP2x86 connscan
+\end{lstlisting}
+\noindent\textbf{Supporting output (excerpt)}
+\begin{lstlisting}
+Offset(V)       PID   Port  Proto Protocol        Address         Create Time
+---------- -------- ------ ------ --------------- --------------- -----------
+0x8223d3b8        4    138     17 UDP             192.168.56.101  2017-05-12 21:21:56 UTC+0000
+0x81fb4890        4      0     47 GRE             0.0.0.0         2017-05-12 21:22:55 UTC+0000
+0x81f707c0     1024   1025     17 UDP             127.0.0.1       2017-05-12 21:22:53 UTC+0000
+0x81f74c18      676    500     17 UDP             0.0.0.0         2017-05-12 21:22:53 UTC+0000
+0x82188658     1024    123     17 UDP             192.168.56.101  2017-05-12 21:22:53 UTC+0000
+0x8219b3b8        4    445      6 TCP             0.0.0.0         2017-05-12 21:21:55 UTC+0000
+0x821824b0      904    135      6 TCP             0.0.0.0         2017-05-12 21:22:03 UTC+0000
+0x81ffb890        4   1027      6 TCP             0.0.0.0         2017-05-12 21:22:55 UTC+0000
+0x81f6a360     1024    123     17 UDP             127.0.0.1       2017-05-12 21:22:53 UTC+0000
+... (19 lines total; truncated)
+--- connscan ---
+Offset(P)  Local Address             Remote Address            Pid
+---------- ------------------------- ------------------------- ---
+\end{lstlisting}
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.98\textwidth]{figures/fig_A5_sockets.png}
+\caption{A5 screenshot: sockets showing TCP/445 on System PID 4.}
+\end{figure}
+\noindent\textbf{Interpretation.} sockets shows TCP port 445 bound to PID~4 (System) and host IP 192.168[.]56[.]101 (VirtualBox host-only). No WannaCry PID owns connscan-visible connections at capture time. MS17-010 (EternalBlue) is the documented propagation vector for S0366; empty connection tables may reflect timing, closed sockets, or lab isolation, not evidence that the malware family lacks network capability.
+\vspace{0.55em}
+
+\subsection*{A6. Safety, defanged IOCs, and kill-switch reasoning}
+\textbf{Hypothesis.} Kill-switch DNS logic (tasksche/mssecsvc) can explain global slowdown when the domain registered May~12 2017; this VM was still encrypted (unreachable DNS, race after encryptor start, or local detonation under explorer).
+\par\medskip\noindent\textbf{Exact command}
+\begin{lstlisting}
+"C:\temp\midterm\tools\vol26.exe" -f "C:\temp\midterm\dumps\wcry.vmem" --profile WinXPSP2x86 strings / yarascan (supporting)
+Manual IOC review with defanging for report.
+\end{lstlisting}
+\noindent\textbf{Supporting output (excerpt)}
+\begin{lstlisting}
+Defanged IOCs (representative):
+  URL: hxxp://www[.]iuqerfsodp9ifjaposdfjhgosurijfaewrwergwea[.]com
+  BTC: 12t9YDPgwueZ9NyMgw519p7AA8isjr6SMw ; 13AM4VW2dhxYgXeQepoHkHSQuy6NgaEb94
+Kill-switch: malware checks domain; if resolves, exit. Registration slowed outbreak globally.
+\end{lstlisting}
+\noindent\textbf{Interpretation.} Host encrypted anyway, so the kill-switch likely failed from this VM (isolated lab DNS), the check raced after encryption began, or the sample path ignored the switch. Lineage under explorer supports local detonation. Limitations: strings/yarascan lack process ownership without correlation; paged-out content may be absent.
+\vspace{0.55em}
+
+\subsection*{A7. Path attribution via cmdline}
+\textbf{Hypothesis.} Full filesystem paths for WannaCry binaries are recovered from EPROCESS command-line arguments, not truncated ImageFileName.
+\par\medskip\noindent\textbf{Exact command}
+\begin{lstlisting}
+"C:\temp\midterm\tools\vol26.exe" -f "C:\temp\midterm\dumps\wcry.vmem" --profile WinXPSP2x86 cmdline
+\end{lstlisting}
+\noindent\textbf{Supporting output (excerpt)}
+\begin{lstlisting}
+tasksche.exe pid:   1940
+Command line : "C:\Intel\ivecuqmanpnirkt615\tasksche.exe"
+
+@WanaDecryptor@ pid:    740
+Command line : @WanaDecryptor@.exe
+\end{lstlisting}
+\noindent\textbf{Interpretation.} cmdline confirms staging under \winpath{C:/Intel/.../} consistent with WannaCry dropper layout. Additional strings hits require PID correlation via cmdline, dlllist, or process-specific dumps.
+\vspace{0.55em}
+
+\subsection*{A8. ATT\&CK S0366: observed vs intel-only; attribution limits}
+\textbf{Hypothesis.} Separate memory-observed techniques from intelligence-only claims; single-image analysis cannot prove nation-state attribution.
+\par\medskip\noindent\textbf{Exact command}
+\begin{lstlisting}
+"C:\temp\midterm\tools\vol26.exe" -f "C:\temp\midterm\dumps\wcry.vmem" --profile WinXPSP2x86 pslist / cmdline / psxview (technique evidence)
+\end{lstlisting}
+\noindent\textbf{Supporting output (excerpt)}
+\begin{lstlisting}
+Observed in memory: T1486 (encryptor processes), execution chain under explorer, T1490 helpers
+(taskse/taskdl exited near acquisition), SMB surface via 445 listener (environment).
+Intel-only: exact exploit chain byte sequence, BTC attribution, kill-switch registration details,
+campaign-wide lateral movement counts.
+\end{lstlisting}
+\noindent\textbf{Interpretation.} (1)~T1486 Observed (\texttt{@WanaDecryptor@}). (2)~T1490 Observed helpers (exited taskse/taskdl timing). (3)~T1059 Observed (task/execution chain). (4)~T1047 Intel-primary unless WMI artifacts are explicitly carved. Public governments attributed WannaCry to Lazarus/DPRK, but this memory image alone cannot substantiate nation-state attribution.
+\vspace{0.55em}
+
+\section*{Part B: Stuxnet (\texttt{stuxnet.vmem})}
+\textit{Prerequisite reading (dossier):} Executive Summary; Stuxnet Architecture (Bypassing Behavior Blocking When Loading DLLs; Injection Technique); Installation; Load Point; Windows Rootkit Functionality.
+\subsection*{B1. Identify the image and its time context}
+\textbf{Hypothesis.} Same WinXPSP2x86 profile operates on the PAE-enabled Stuxnet image; compare AS layer and capture timestamps to wcry.
+\par\medskip\noindent\textbf{Exact command}
+\begin{lstlisting}
+"C:\temp\midterm\tools\vol26.exe" -f "C:\temp\midterm\dumps\stuxnet.vmem" imageinfo
+\end{lstlisting}
+\noindent\textbf{Supporting output (excerpt)}
+\begin{lstlisting}
+Suggested Profile(s) : WinXPSP2x86, WinXPSP3x86 (Instantiated with WinXPSP2x86)
+                     AS Layer1 : IA32PagedMemoryPae (Kernel AS)
+                     AS Layer2 : FileAddressSpace (C:\temp\midterm\dumps\stuxnet.vmem)
+                      PAE type : PAE
+                           DTB : 0x319000L
+                          KDBG : 0x80545ae0L
+          Number of Processors : 1
+     Image Type (Service Pack) : 3
+                KPCR for CPU 0 : 0xffdff000L
+             KUSER_SHARED_DATA : 0xffdf0000L
+           Image date and time : 2011-06-03 04:31:36 UTC+0000
+     Image local date and time : 2011-06-03 00:31:36 -0400
+\end{lstlisting}
+\noindent\textbf{Interpretation.} Stuxnet: WinXPSP2x86 instantiated; AS Layer IA32PagedMemoryPae (PAE Yes) versus wcry No~PAE. Image 2011-06-03 04:31:36~UTC; local 2011-06-03 00:31:36 $-$0400. Process \texttt{pslist} shows boot-era timestamps (2010-10-29) on some processes versus infection-day 2011-06-03 on counterfeit lsass, consistent with a snapshot/resumed VM rather than a fresh boot on infection day alone.
+\vspace{0.55em}
+
+\subsection*{B2. Identifying genuine vs counterfeit lsass.exe}
+\textbf{Hypothesis.} Exactly one lsass (PID~680) matches Windows XP expectations: parent winlogon, full LSA modules, clean malfind, and socket ownership.
+\par\medskip\noindent\textbf{Exact command}
+\begin{lstlisting}
+"C:\temp\midterm\tools\vol26.exe" -f "C:\temp\midterm\dumps\stuxnet.vmem" --profile WinXPSP2x86 pslist
+"C:\temp\midterm\tools\vol26.exe" -f "C:\temp\midterm\dumps\stuxnet.vmem" --profile WinXPSP2x86 pstree
+\end{lstlisting}
+\noindent\textbf{Supporting output (excerpt)}
+\begin{lstlisting}
+0x81e70020 lsass.exe  680  624  ... 2010-10-29 17:08:54 UTC
+0x81c498c8 lsass.exe  868  668  ... 2011-06-03 04:26:55 UTC
+0x81c47c00 lsass.exe 1928  668  ... 2011-06-03 04:26:55 UTC
+\end{lstlisting}
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.98\textwidth]{figures/fig_B2_pslist.png}
+\caption{B2 screenshot: pslist showing three lsass.exe instances.}
+\end{figure}
+\noindent\textbf{Interpretation.} Evidence bundle beyond slide~22: (1)~Parent PID~624 winlogon for 680 vs 668 services.exe for counterfeits. (2)~dlllist counts 57~/~8~/~28 (B5). (3)~malfind: 0 regions on 680 vs injected MZ on 868/1928 (B7). (4)~UDP 500/4500 sockets only on PID~680 (B4). XP norm: one legitimate lsass under winlogon.
+\vspace{0.55em}
+
+\subsection*{B3. Infection-day process context}
+\textbf{Hypothesis.} Distinguish Stuxnet artifacts from analysis tooling captured in the same memory image.
+\par\medskip\noindent\textbf{Exact command}
+\begin{lstlisting}
+"C:\temp\midterm\tools\vol26.exe" -f "C:\temp\midterm\dumps\stuxnet.vmem" --profile WinXPSP2x86 pslist
+"C:\temp\midterm\tools\vol26.exe" -f "C:\temp\midterm\dumps\stuxnet.vmem" --profile WinXPSP2x86 cmdline
+\end{lstlisting}
+\noindent\textbf{Supporting output (excerpt)}
+\begin{lstlisting}
+Offset(V)  Name                    PID   PPID   Thds     Hnds   Sess  Wow64 Start                          Exit
+---------- -------------------- ------ ------ ------ -------- ------ ------ ------------------------------ ------------------------------
+0x823c8830 System                    4      0     59      403 ------      0
+0x820df020 smss.exe                376      4      3       19 ------      0 2010-10-29 17:08:53 UTC+0000
+0x821a2da0 csrss.exe               600    376     11      395      0      0 2010-10-29 17:08:54 UTC+0000
+0x81da5650 winlogon.exe            624    376     19      570      0      0 2010-10-29 17:08:54 UTC+0000
+0x82073020 services.exe            668    624     21      431      0      0 2010-10-29 17:08:54 UTC+0000
+0x81e70020 lsass.exe               680    624     19      342      0      0 2010-10-29 17:08:54 UTC+0000
+0x823315d8 vmacthlp.exe            844    668      1       25      0      0 2010-10-29 17:08:55 UTC+0000
+0x81db8da0 svchost.exe             856    668     17      193      0      0 2010-10-29 17:08:55 UTC+0000
+0x81e61da0 svchost.exe             940    668     13      312      0      0 2010-10-29 17:08:55 UTC+0000
+0x822843e8 svchost.exe            1032    668     61     1169      0      0 2010-10-29 17:08:55 UTC+0000
+0x81e18b28 svchost.exe            1080    668      5       80      0      0 2010-10-29 17:08:55 UTC+0000
+... (33 lines total; truncated)
+\end{lstlisting}
+\noindent\textbf{Interpretation.} Infection-day (2011-06-03): counterfeit lsass 868/1928, wmiprvse activity, short-lived cmd/ipconfig. Procmon PID~660 indicates Process Monitor was running (lab capture with live monitoring); treat as environmental artifact, not Stuxnet TTP.
+\vspace{0.55em}
+
+\subsection*{B4. Socket ownership corroboration}
+\textbf{Hypothesis.} Network bindings on lsass differentiate the genuine instance; supportive evidence, not sole proof.
+\par\medskip\noindent\textbf{Exact command}
+\begin{lstlisting}
+"C:\temp\midterm\tools\vol26.exe" -f "C:\temp\midterm\dumps\stuxnet.vmem" --profile WinXPSP2x86 sockets
+\end{lstlisting}
+\noindent\textbf{Supporting output (excerpt)}
+\begin{lstlisting}
+Offset(V)       PID   Port  Proto Protocol        Address         Create Time
+---------- -------- ------ ------ --------------- --------------- -----------
+0x81dc2008      680    500     17 UDP             0.0.0.0         2010-10-29 17:09:05 UTC+0000
+0x82061c08        4    445      6 TCP             0.0.0.0         2010-10-29 17:08:53 UTC+0000
+0x82294aa8      940    135      6 TCP             0.0.0.0         2010-10-29 17:08:55 UTC+0000
+0x821a5008      188   1025      6 TCP             127.0.0.1       2010-10-29 17:09:09 UTC+0000
+0x81cb3d70     1080   1141     17 UDP             0.0.0.0         2010-10-31 16:36:16 UTC+0000
+0x81da4d18      680      0    255 Reserved        0.0.0.0         2010-10-29 17:09:05 UTC+0000
+0x81fdbe98     1032    123     17 UDP             127.0.0.1       2011-06-03 04:25:47 UTC+0000
+... (14 lines total; truncated)
+\end{lstlisting}
+\noindent\textbf{Interpretation.} Only PID~680 owns UDP~500 and UDP~4500 (IPsec/IKE-related legitimate lsass behavior). Counterfeit PIDs 868 and 1928 have no parallel socket rows. Corroborates B2; a socket-only heuristic would fail if malware hooked networking elsewhere.
+\vspace{0.55em}
+
+\subsection*{B5. DLL inventory counts and DFIR-07 critique}
+\textbf{Hypothesis.} Count dlllist module rows (0x-prefixed bases), not \texttt{wc -l} on raw output (counts header lines).
+\par\medskip\noindent\textbf{Exact command}
+\begin{lstlisting}
+"C:\temp\midterm\tools\vol26.exe" -f "C:\temp\midterm\dumps\stuxnet.vmem" --profile WinXPSP2x86 dlllist -p 680
+"C:\temp\midterm\tools\vol26.exe" -f "C:\temp\midterm\dumps\stuxnet.vmem" --profile WinXPSP2x86 dlllist -p 868
+"C:\temp\midterm\tools\vol26.exe" -f "C:\temp\midterm\dumps\stuxnet.vmem" --profile WinXPSP2x86 dlllist -p 1928
+\end{lstlisting}
+\noindent\textbf{Supporting output (excerpt)}
+\begin{lstlisting}
+dlllist 0x-base row counts: PID 680 -> 57 ; PID 868 -> 8 ; PID 1928 -> 28.
+(Critique: dlllist | wc -l includes banners/separators; invalid for module counts.)
+\end{lstlisting}
+\noindent\textbf{Interpretation.} Counterfeits load far fewer modules because hollowed/injected images do not complete full LSA initialization (dossier Injection Technique). Genuine 680 loads LSASRV, SAMSRV, msv1\_0, kerberos, and related packages (B6).
+\vspace{0.55em}
+
+\subsection*{B6. LSA security modules on genuine lsass only}
+\textbf{Hypothesis.} LSA authentication stack DLLs should appear only in the real lsass process.
+\par\medskip\noindent\textbf{Exact command}
+\begin{lstlisting}
+"C:\temp\midterm\tools\vol26.exe" -f "C:\temp\midterm\dumps\stuxnet.vmem" --profile WinXPSP2x86 dlllist -p 680
+\end{lstlisting}
+\noindent\textbf{Supporting output (excerpt)}
+\begin{lstlisting}
+************************************************************************
+lsass.exe pid:    680
+Command line : C:\WINDOWS\system32\lsass.exe
+Service Pack 3
+
+Base             Size  LoadCount Path
+---------- ---------- ---------- ----
+0x01000000     0x6000     0xffff C:\WINDOWS\system32\lsass.exe
+0x7c900000    0xaf000     0xffff C:\WINDOWS\system32\ntdll.dll
+0x7c800000    0xf6000     0xffff C:\WINDOWS\system32\kernel32.dll
+0x77dd0000    0x9b000     0xffff C:\WINDOWS\system32\ADVAPI32.dll
+0x77e70000    0x92000     0xffff C:\WINDOWS\system32\RPCRT4.dll
+0x77fe0000    0x11000     0xffff C:\WINDOWS\system32\Secur32.dll
+0x75730000    0xb5000     0xffff C:\WINDOWS\system32\LSASRV.dll
+0x71b20000    0x12000     0xffff C:\WINDOWS\system32\MPR.dll
+... (64 lines total; truncated)
+\end{lstlisting}
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.98\textwidth]{figures/fig_B5_dlllist_680.png}
+\caption{B5/B6 screenshot: dlllist on genuine lsass PID 680.}
+\end{figure}
+\noindent\textbf{Interpretation.} PID~680 maps LSASRV.dll, SAMSRV.dll, cryptdll.dll, and related security packages. Counterfeit instances lack this full stack, consistent with process injection posing as lsass.exe.
+\vspace{0.55em}
+
+\subsection*{B7. malfind: injected regions and disassembly caveat}
+\textbf{Hypothesis.} PAGE\_EXECUTE\_READWRITE private VADs with MZ headers indicate injection; disassembly of PE header bytes is not shellcode.
+\par\medskip\noindent\textbf{Exact command}
+\begin{lstlisting}
+"C:\temp\midterm\tools\vol26.exe" -f "C:\temp\midterm\dumps\stuxnet.vmem" --profile WinXPSP2x86 malfind -p 680
+"C:\temp\midterm\tools\vol26.exe" -f "C:\temp\midterm\dumps\stuxnet.vmem" --profile WinXPSP2x86 malfind -p 868
+"C:\temp\midterm\tools\vol26.exe" -f "C:\temp\midterm\dumps\stuxnet.vmem" --profile WinXPSP2x86 malfind -p 1928
+\end{lstlisting}
+\noindent\textbf{Supporting output (excerpt)}
+\begin{lstlisting}
+Process: lsass.exe Pid: 868 Address: 0x80000
+Vad Tag: Vad  Protection: PAGE_EXECUTE_READWRITE
+Flags: Protection: 6
+
+0x00080000  4d 5a 90 00 03 00 00 00 04 00 00 00 ff ff 00 00   MZ..............
+0x00080010  b8 00 00 00 00 00 00 00 40 00 00 00 00 00 00 00   ........@.......
+0x00080020  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0x00080030  00 00 00 00 00 00 00 00 00 00 00 00 08 01 00 00   ................
+
+0x00080000 4d               DEC EBP
+0x00080001 5a               POP EDX
+0x00080002 90               NOP
+0x00080003 0003             ADD [EBX], AL
+0x00080005 0000             ADD [EAX], AL
+0x00080007 000400           ADD [EAX+EAX], AL
+... (82 lines total; truncated)
+--- PID 1928 ---
+Process: lsass.exe Pid: 1928 Address: 0x80000
+Vad Tag: Vad  Protection: PAGE_EXECUTE_READWRITE
+Flags: Protection: 6
+
+0x00080000  4d 5a 90 00 03 00 00 00 04 00 00 00 ff ff 00 00   MZ..............
+0x00080010  b8 00 00 00 00 00 00 00 40 00 00 00 00 00 00 00   ........@.......
+0x00080020  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0x00080030  00 00 00 00 00 00 00 00 00 00 00 00 08 01 00 00   ................
+
+0x00080000 4d               DEC EBP
+0x00080001 5a               POP EDX
+0x00080002 90               NOP
+0x00080003 0003             ADD [EBX], AL
+... (197 lines total; truncated)
+\end{lstlisting}
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.98\textwidth]{figures/fig_B7_malfind_868.png}
+\caption{B7 screenshot: malfind RWX/MZ region in counterfeit lsass PID 868.}
+\end{figure}
+\noindent\textbf{Interpretation.} PID~680: 0 malfind regions (control). PID~868: 2 regions (0x80000, 0x1000000). PID~1928: 5 regions. Signals: PAGE\_EXECUTE\_READWRITE, no file backing, MZ \texttt{4d 5a}. Volatility disassembly showing DEC EBP; POP EDX; NOP is PE header misinterpreted, not Stuxnet shellcode. Control comparison on genuine lsass is required.
+\vspace{0.55em}
+
+\subsection*{B8. Process dump naming and hash correlation}
+\textbf{Hypothesis.} \texttt{malfind -D} dumps use \texttt{process.<EPROCESS>.<VAD start>.dmp}; six unique SHA-256 values across regions.
+\par\medskip\noindent\textbf{Exact command}
+\begin{lstlisting}
+"C:\temp\midterm\tools\vol26.exe" -f "C:\temp\midterm\dumps\stuxnet.vmem" --profile WinXPSP2x86 malfind -D dumps/ -p 868
+"C:\temp\midterm\tools\vol26.exe" -f "C:\temp\midterm\dumps\stuxnet.vmem" --profile WinXPSP2x86 malfind -D dumps/ -p 1928
+sha256sum process.*.dmp
+\end{lstlisting}
+\noindent\textbf{Supporting output (excerpt)}
+\begin{lstlisting}
+e97d61f7393ac5838a1800f3e9aa22c6205f4d7e2bde494573d35c57bc9b7819  process.0x81c47c00.0x1000000.dmp
+163b7da37df4ae6dafbfb5bf88b319dabf7846cee73d4192c6a7593e835857a8  process.0x81c47c00.0x680000.dmp
+abce3e79e26b5116fe7f3d40d21eaa4c8563e433b6086f9ec07c2925593f69dc  process.0x81c47c00.0x6f0000.dmp
+2b2945f7cc7cf5b30ccdf37e2adbb236594208e409133bcd56f57f7c009ffe6d  process.0x81c47c00.0x80000.dmp
+10f07b9fbbc6a8c6dc4abf7a3d31a01e478accd115b33ec94fe885cb296a3586  process.0x81c47c00.0x870000.dmp
+a4b4b29f0df45283b629203b080c09ddb5bc6eb4cd8e9b725f75121a8b7e728e  process.0x81c498c8.0x1000000.dmp
+2b2945f7cc7cf5b30ccdf37e2adbb236594208e409133bcd56f57f7c009ffe6d  process.0x81c498c8.0x80000.dmp
+\end{lstlisting}
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.98\textwidth]{figures/fig_B8_hashes.png}
+\caption{B8 screenshot: SHA-256 hashes of malfind -D region dumps.}
+\end{figure}
+\noindent\textbf{Interpretation.} Seven dump files, six unique hashes (0x80000 shared across both PIDs). 0x1000000 aligns with typical ImageBase / injection layout described in the dossier Injection Technique section.
+\vspace{0.55em}
+
+\subsection*{B9. VirusTotal hash lookup and OPSEC}
+\textbf{Hypothesis.} Hash-not-upload preserves Meridian/lab OPSEC; VT labels vary (Stuxnet vs Duqu families).
+\par\medskip\noindent\textbf{Exact command}
+\begin{lstlisting}
+Browser: VirusTotal GUI hash search (no upload) on B8 SHA-256 values.
+\end{lstlisting}
+\noindent\textbf{Supporting output (excerpt)}
+\begin{lstlisting}
+2b2945f7cc7cf5b30ccdf37e2adbb236594208e409133bcd56f57f7c009ffe6d -> 61/71 worm.stuxnet
+10f07b9fbbc6a8c6dc4abf7a3d31a01e478accd115b33ec94fe885cb296a3586 -> 48/70 trojan.stuxnet / duqu
+\end{lstlisting}
+\noindent\textbf{Interpretation.} Divergent vendor labels reflect shared code artifacts between Stuxnet and Duqu clusters. Reporting uses hash lookup only (no sample upload) for OPSEC.
+\vspace{0.55em}
+
+\subsection*{B10. ldrmodules, drivers, and registry timeline}
+\textbf{Hypothesis.} Stuxnet load-order anomalies and kernel drivers precede counterfeit lsass creation.
+\par\medskip\noindent\textbf{Exact command}
+\begin{lstlisting}
+"C:\temp\midterm\tools\vol26.exe" -f "C:\temp\midterm\dumps\stuxnet.vmem" --profile WinXPSP2x86 ldrmodules -p 1928
+"C:\temp\midterm\tools\vol26.exe" -f "C:\temp\midterm\dumps\stuxnet.vmem" --profile WinXPSP2x86 driverscan
+"C:\temp\midterm\tools\vol26.exe" -f "C:\temp\midterm\dumps\stuxnet.vmem" --profile WinXPSP2x86 svcscan
+\end{lstlisting}
+\noindent\textbf{Supporting output (excerpt)}
+\begin{lstlisting}
+Pid      Process              Base       InLoad InInit InMem MappedPath
+-------- -------------------- ---------- ------ ------ ----- ----------
+    1928 lsass.exe            0x00080000 False  False  False
+    1928 lsass.exe            0x7c900000 True   True   True  \WINDOWS\system32\ntdll.dll
+    1928 lsass.exe            0x773d0000 True   True   True  \WINDOWS\WinSxS\x86_Microsoft.Windows.Common-Controls_6595b64144ccf1df_6.0.2600.5512_x-ww_35d4ce83\comctl32.dll
+    1928 lsass.exe            0x77f60000 True   True   True  \WINDOWS\system32\shlwapi.dll
+    1928 lsass.exe            0x771b0000 True   True   True  \WINDOWS\system32\wininet.dll
+    1928 lsass.exe            0x77a80000 True   True   True  \WINDOWS\system32\crypt32.dll
+    1928 lsass.exe            0x77fe0000 True   True   True  \WINDOWS\system32\secur32.dll
+    1928 lsass.exe            0x77c00000 True   True   True  \WINDOWS\system32\version.dll
+    1928 lsass.exe            0x01000000 True   False  True
+... (31 lines total; truncated)
+--- driverscan ---
+MRxCls / MRxNet present
+Registry Services MRxCls/MRxNet LastWrite 2011-06-03 04:26:47 UTC
+\end{lstlisting}
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.98\textwidth]{figures/fig_B10_ldrmodules.png}
+\caption{B10 screenshot: ldrmodules on counterfeit lsass PID 1928.}
+\end{figure}
+\noindent\textbf{Interpretation.} ldrmodules PID~1928: 0x80000 InLoad/InInit/InMem False (unlinked injection). Impossible KERNEL32.DLL.ASLR-style name matches dossier section ``Bypassing Behavior Blocking When Loading DLLs.'' Registry Services MRxCls/MRxNet last updated 2011-06-03 04:26:47~UTC, before counterfeit lsass at 04:26:55~UTC (driver-first installation sequence; dossier Load Point / Windows Rootkit Functionality).
+\vspace{0.55em}
+
+
+\section*{Part C: The Dossier on Trial}
+\subsection*{C1. Claims against evidence}
+At least six testable claims from four or more dossier sections. Verdicts use assignment vocabulary:
+\textit{Confirmed in memory} / \textit{Consistent but not proven} / \textit{Not observable in RAM} / \textit{Contradicted}.
+
+{\footnotesize
+\begin{tabularx}{\textwidth}{@{}c >{\RaggedRight\arraybackslash}p{1.7in} >{\RaggedRight\arraybackslash}p{1.15in} c >{\RaggedRight\arraybackslash}Y@{}}
+\toprule
+\# & Dossier section / quoted claim & Memory verdict & Conf. & Basis \\
+\midrule
+1 & \textbf{Injection Technique:} ``The potential target processes for the injection are as follows: Lsass.exe\ldots'' & Confirmed in memory & High & malfind MZ/RWX on PIDs 868/1928; ldrmodules unlinked 0x80000 \\
+2 & \textbf{Installation / Export 16:} ``injects itself into the services.exe process\ldots'' & Consistent but not proven & Med & PPID 668 services.exe + malfind MZ at 0x13f0000 in services.exe (C2) \\
+3 & \textbf{Load Point:} ``Mrxcls.sys is a driver that allows Stuxnet to be executed every time an infected system boots\ldots'' & Confirmed in memory & High & driverscan/modules list mrxcls.sys; Services MRxCls key \\
+4 & \textbf{Windows Rootkit Functionality / Table~4:} Resource 242 ``MRxnet.sys rootkit driver'' & Confirmed in memory & High & driverscan/modules list mrxnet.sys / MRxNet \\
+5 & \textbf{Bypassing Behavior Blocking:} crafted names ``KERNEL32.DLL.ASLR.[HEXADECIMAL]'' & Confirmed in memory & High & ldrmodules shows ASLR-style impossible module strings \\
+6 & \textbf{Executive Summary / WinCC:} copies/executes on systems running a WinCC database server; PLC rootkit claims & Not observable in RAM & N/A & No WinCC/PLC artifacts in this guest VMEM \\
+7 & \textbf{Injection Technique:} suspended-process / template PE injection into trusted processes & Confirmed in memory & High & Multiple lsass ImageFileName with divergent dlllist/malfind (680 vs 868/1928) \\
+\bottomrule
+\end{tabularx}}
+
+\noindent\textbf{Memory more precise than dossier:} exact PIDs 680/868/1928, dll counts 57/8/28, and second-resolution
+driver LastWrite vs counterfeit create times. \textbf{Claim~6} is the required not-observable case (ICS/PLC/WinCC
+scope needs disk, network, or PLC evidence outside this VMEM).
+
+\subsection*{C2. Hypothesis: services.exe as injector}
+\textbf{Hypothesis (stated before testing):} Counterfeit lsass processes (PPID~668 \texttt{services.exe}) imply
+\texttt{services.exe} participated in injection or staging, matching Installation (``injects itself into the services.exe process'')
+and Load Point (services.exe as injection target).
+
+\textbf{Predictions if true:} (1)~\texttt{malfind -p 668} shows private RWX/MZ regions;
+(2)~if false (parentage only), malfind on 668 is empty while counterfeit lsass still show injection.
+
+\noindent\textbf{Exact command}
+\begin{lstlisting}
+"C:\temp\midterm\tools\vol26.exe" -f "C:\temp\midterm\dumps\stuxnet.vmem" --profile WinXPSP2x86 malfind -p 668
+"C:\temp\midterm\tools\vol26.exe" -f "C:\temp\midterm\dumps\stuxnet.vmem" --profile WinXPSP2x86 pslist | findstr services
+\end{lstlisting}
+\noindent\textbf{Observed / verdict:} malfind on services.exe reveals MZ header at 0x13f0000 (RWX private VAD).
+Verdict: \textit{Consistent but not proven} that services.exe performed the hollowing (could be residual payload
+or related tooling). Parentage alone remains circumstantial; positive malfind elevates services.exe as a
+loader/orchestrator candidate. Drivers already registered (B10), so user-mode hollowing may occur without a
+user-visible reboot in a resumed VM.
+
+\subsection*{C3. Source critique}
+The Symantec \textit{W32.Stuxnet Dossier} v1.3 (November 2010) predates this image's capture date (2011-06-03)
+and is primary-sourced technical intelligence from static reverse engineering and field telemetry.
+\textbf{Strengths:} precise injection narrative, driver names (MRxCls/MRxNet), trusted-process targets, WinCC/PLC context.
+\textbf{Limits:} publication lag relative to later variants; vendor-centric attribution language; air-gapped PLC spread
+cannot be confirmed or denied from one XP VMEM alone.
+\textbf{Untestable from RAM alone (example):} PLC project modification / ``PLC rootkit'' claims require PLC/project
+backups or engineering-station disk artifacts, not guest RAM alone.
+Analyst treats the dossier as a hypothesis generator; Volatility outputs are falsifiable tests
+(\texttt{malfind}, \texttt{ldrmodules}, \texttt{dlllist}). Conflicts require tiering: memory-observed $>$ correlated disk/network $>$ dossier-only.
+
+
+\section*{Part D: From Evidence to Action}
+\subsection*{D1. Findings memo to Meridian's CISO}
+\begin{quote}
+\small
+\textbf{TO:} Meridian Energy CISO and SOC Lead\\
+\textbf{FROM:} Unais Ali, Memory Forensics Analyst (IA~642)\\
+\textbf{SUBJECT:} Dual-incident memory triage: WannaCry lab image and Stuxnet reference image\\
+\textbf{DATE:} October 5, 2026
+\end{quote}
+
+\subsubsection*{Executive summary (non-technical)}
+We analyzed two public reference memory images to prove Meridian can find malware in RAM when disk
+artifacts are missing, encrypted, or hidden. The WannaCry image shows ransomware already encrypting a
+Windows XP lab machine in May~2017, with encryption helpers finishing seconds before the memory capture.
+Disk-only triage would have seen encrypted files but would likely have missed the short-lived helper processes
+that only remain as exited remnants in RAM. The Stuxnet image shows advanced persistence: kernel drivers and
+fake credential-service processes that look like normal Windows names. Disk tools that only list running
+processes by name would under-detect this. \textbf{Recommendation:} Add memory acquisition to Meridian's IR
+playbook for ransomware and suspected credential/kernel compromise on legacy Windows assets, with hash
+verification and dual process listing (active list plus pool scan) as mandatory steps.
+
+\subsubsection*{What each image showed}
+\textbf{WannaCry (\texttt{wcry.vmem}).}
+ Interactive detonation under the user desktop process, staging under
+\texttt{C:\textbackslash Intel\textbackslash\ldots}, encryptor process \texttt{@WanaDecryptor@}, and exited recovery-inhibition helpers.
+SMB port~445 was listening on the system process (MS17-010 exposure). Capture time: 2017-05-12 21:26:32~UTC.
+
+\textbf{Stuxnet (\texttt{stuxnet.vmem}).}
+ One genuine Local Security Authority process (PID~680) versus two counterfeits
+(PIDs~868 and~1928) created on 2011-06-03 under \texttt{services.exe}, with injected executable regions and
+kernel drivers MRxCls/MRxNet registered seconds earlier. Capture time: 2011-06-03 04:31:36~UTC.
+
+\subsubsection*{What memory found that disk-only triage would miss}
+\begin{itemize}
+  \item Exited WannaCry helpers (\texttt{taskse}/\texttt{taskdl}) with ExitTime still recoverable via pool scanning.
+  \item Counterfeit \texttt{lsass.exe} instances that reuse a trusted name but fail parent/DLL/injection checks.
+  \item Unlinked injected PE images (ldrmodules False/False/False) and RWX private VADs (malfind).
+  \item Kernel driver load order relative to user-mode counterfeit process creation.
+\end{itemize}
+
+\subsubsection*{Consolidated IOC table (defanged)}
+{\small
+\begin{tabularx}{\textwidth}{@{}P{0.75in} Y P{0.95in} P{0.7in}@{}}
+\toprule
+Type & Indicator (defanged) & Source plugin & Conf. \\
+\midrule
+Process & tasksche.exe under \texttt{C:/Intel/.../tasksche.exe} & cmdline & High \\
+Process & @WanaDecryptor@.exe & pslist/pstree & High \\
+Process & taskse.exe / taskdl.exe (exited) & psscan/psxview & High \\
+Network & TCP 445 listener (System PID~4) & sockets & High \\
+Network & 192.168[.]56[.]101 & sockets & High \\
+URL & hxxp://www[.]iuqerfsodp9ifjaposdfjhgosurijfaewrwergwea[.]com & strings/intel & Med \\
+BTC & 12t9YDPgwueZ9NyMgw519p7AA8isjr6SMw & strings/intel & Med \\
+Driver & mrxcls.sys / mrxnet.sys & driverscan & High \\
+Hash & 2b2945f7\ldots ffe6d (malfind 0x80000) & malfind dump & High \\
+Hash & 10f07b9f\ldots 3586 (VT Stuxnet/Duqu) & malfind + VT & Med \\
+\bottomrule
+\end{tabularx}}
+
+\noindent\textbf{Investigated and assessed as benign (not dropped silently):}
+{\small
+\begin{tabularx}{\textwidth}{@{}P{1.35in} Y P{1.7in}@{}}
+\toprule
+Item & Why reviewed & Assessment \\
+\midrule
+Procmon (PID~660) & Unusual monitor on infection-day image & Lab tooling; not Stuxnet TTP \\
+cmd / ipconfig (short-lived) & Appear on infection day & Ambiguous; not primary IOC \\
+wuauclt / VMware tools & Present in trees & Expected guest/tools noise \\
+Genuine lsass PID~680 & Name collision with counterfeits & Benign LSA (parent/dlllist/malfind) \\
+\bottomrule
+\end{tabularx}}
+
+\subsubsection*{ATT\&CK table: Memory-observed vs Intel-sourced}
+Technique IDs verified against attack.mitre.org software pages S0366 and S0603.
+
+{\small
+\begin{tabularx}{\textwidth}{@{}P{1.35in} P{0.55in} P{1.05in} Y@{}}
+\toprule
+Technique & ID & Evidence Source & Notes \\
+\midrule
+Data Encrypted for Impact & T1486 & Memory-observed & @WanaDecryptor@ / tasksche in wcry.vmem \\
+Inhibit System Recovery & T1490 & Memory-observed & taskse/taskdl ExitTime (S0366) \\
+Process Injection & T1055 & Memory-observed & malfind RWX MZ in fake lsass (S0603) \\
+Rootkit & T1014 & Memory-observed & MRxCls/MRxNet loaded (S0603) \\
+Exploitation for Client Execution & T1203 & Intel-sourced & MS17-010 not reconstructed from this RAM \\
+Remote Services: SMB Admin Shares & T1021.002 & Intel-sourced & S0366 SMB worming; connscan empty here \\
+\bottomrule
+\end{tabularx}}
+
+\subsubsection*{Three detection or prevention controls for Meridian}
+\begin{enumerate}
+\item \textbf{SMB isolation (signal: TCP/445 on System PID~4).}
+ Detect/block at Meridian OT firewall and network ACL
+between maintenance VLAN and plant HMIs. \textit{Limitation:} Host-only lab images prove exposure, not successful
+lateral movement; empty connscan means this control must not wait for live C2 evidence.
+\item \textbf{Dual process listing on IR (signal: pslist vs psscan ExitTime on taskse/taskdl).}
+ Place in Meridian SOC
+memory-triage playbook before rootkit escalation. \textit{Limitation:} Distinguishes exited helpers from DKOM hiding
+only when ExitTime is checked; psxview False/True alone is insufficient.
+\item \textbf{Module~02 WinPmem + Volatility~3 workflow.} Acquire with WinPmem, hash the raw dump, then run
+\texttt{windows.info} $\rightarrow$ \texttt{windows.pslist} / \texttt{windows.psscan} $\rightarrow$ \texttt{windows.malfind} $\rightarrow$
+\texttt{windows.dlllist} on candidate lsass PIDs and map hits to ATT\&CK. Place on Meridian IR workstation after isolation.
+\textit{Limitation:} Symbol/profile coverage for XP-era images may force fallback to Volatility~2 profiles (as used here
+with WinXPSP2x86).
+\end{enumerate}
+
+\subsubsection*{Business impact, legal, detection engineering, remediation}
+For Meridian Energy, WannaCry-style ransomware in a host-only lab VLAN mirrors contractor laptops bridging
+OT maintenance networks to corporate Wi-Fi. Encryption within minutes of execution (21:22 to 21:26~UTC) implies
+backup and recovery playbooks must assume a blast radius under five minutes on unpatched SMB endpoints.
+Stuxnet-style counterfeit lsass demonstrates credential subsystem compromise without obvious Process Explorer
+anomalies; memory review is mandatory when EDR misses kernel-assisted injection.
+
+Defanged IOCs in this report are suitable for external sharing; full paths under
+\winpath{C:/Intel/...} remain internal. BTC addresses and onion endpoints are financial/extortion artifacts:
+coordinate with law enforcement before blockchain tracing. Do not upload malfind dumps to public
+multi-scanners from OT environments (B9 OPSEC).
+
+Priority detection candidates: (1)~child process explorer $\rightarrow$ unsigned tasksche in a non-standard directory;
+(2)~multiple lsass.exe with the same ImageFileName but divergent dlllist counts;
+(3)~kernel driver load MRxCls+MRxNet paired with new lsass instances;
+(4)~RWX VADs with MZ headers inside lsass (malfind signature).
+
+\textbf{Remediation sequence:} Isolate $\rightarrow$ image memory $\rightarrow$ hash verify $\rightarrow$ Volatility profile $\rightarrow$
+pslist/psscan delta $\rightarrow$ cmdline/dlllist on suspicious PIDs $\rightarrow$ malfind dump $\rightarrow$ hash-only VT $\rightarrow$
+reimage from known-good baseline. For ICS, validate PLC project backups out-of-band; RAM artifacts do not
+prove PLC payload delivery (C1 claim~6).
+
+\textbf{Open questions:} (1)~Whether wcry.vmem captured before or after full disk encryption completion;
+(2)~provenance of missing PPID~1608; (3)~whether Procmon in stuxnet.vmem alters timing of counterfeit lsass;
+(4)~services.exe malfind region 0x13f0000 needs deeper PE carve for attribution to Stuxnet versus tooling.
+
+\subsection*{D2. Knowledge check: True/False with corrections}
+{\footnotesize
+\begin{tabularx}{\textwidth}{@{}c l >{\RaggedRight\arraybackslash}Y@{}}
+\toprule
+\# & Verdict & Correction / rationale \\
+\midrule
+1 & Correct & pslist walks the linked EPROCESS list; psscan searches pool tags (different visibility). \\
+2 & Incorrect & psxview False/True for taskse/taskdl is ExitTime exited helpers, not DKOM rootkit hiding. \\
+3 & Incorrect & connscan/sockets are point-in-time; empty WannaCry PID rows do not prove no SMB spread. \\
+4 & Incorrect & imageinfo +0530 is victim host TZ configuration, not attacker geolocation (India). \\
+5 & Incorrect & PID~680 owning UDP 500/4500 is corroborative only; genuineness needs parent/dlllist/malfind. \\
+6 & Incorrect & \texttt{dlllist | wc -l} counts banners/headers; scoped 0x-row counts are 57 (680) / 8 (868) / 28 (1928). \\
+7 & Incorrect & DEC EBP; POP EDX; NOP is MZ/PE header mis-disassembly, not Stuxnet injection shellcode. \\
+8 & Incorrect & malfind -D yields one file per VAD; six unique SHA-256s; VT 61/71 Stuxnet vs 48/70 Duqu. \\
+9 & Correct (nuance) & WinXPSP2x86 is the validated Volatility~2 profile even when Image Type reports SP3. \\
+10 & Correct & Create/Exit fields print UTC+0000; imageinfo separately shows host-local offset. \\
+\bottomrule
+\end{tabularx}}
+
+\section*{Analytical Standards}
+Evidence tiers: \textbf{Tier~1} direct Volatility plugin output; \textbf{Tier~2} multi-plugin agreement
+(pslist/psscan/ExitTime); \textbf{Tier~3} dossier/ATT\&CK not independently observed in RAM.
+Profile discipline: imageinfo $\rightarrow$ instantiate WinXPSP2x86 $\rightarrow$ validate with pslist.
+WannaCry focus: exited versus hidden (ExitTime). Stuxnet focus: counterfeit lsass via parent, dlllist, malfind, sockets.
+Hygiene: defanged IOCs, hash-only VT, UTC timelines, attribution limits.
+
+
+\section*{Evidence Appendix}
+\subsection*{Evidence log (summary)}
+Intake and final hashes match (see intake table). Full START/DONE command log with timestamps is retained under
+\texttt{work/output/command\_log.txt}. SIFT confirmation outputs are under \texttt{work/output/sift/}.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.98\textwidth]{figures/fig_SIFT_login.png}
+\caption{SIFT Workstation login (sansforensics) after OVA import into VirtualBox.}
+\end{figure}\begin{figure}[H]
+\centering
+\includegraphics[width=0.98\textwidth]{figures/fig_SIFT_wcry_pslist.png}
+\caption{SIFT GUI terminal: vol.py pslist on wcry.vmem showing tasksche.exe (PID 1940) and @WanaDecryptor@ (PID 740).}
+\end{figure}\begin{figure}[H]
+\centering
+\includegraphics[width=0.98\textwidth]{figures/fig_SIFT_stux_lsass.png}
+\caption{SIFT vol.py pslist on stuxnet.vmem (lsass.exe rows) confirming the triple-lsass process set.}
+\end{figure}
+\noindent\textbf{Command log (excerpt)}
+\begin{lstlisting}
+MIDTERM VOL2 ANALYSIS 2026-10-05T16:28:31.4407818-04:00
+[2026-10-05T16:28:31.4653891-04:00] START C:\temp\midterm\tools\vol26.exe -f C:\temp\midterm\dumps\wcry.vmem imageinfo
+[2026-10-05T16:28:31.4653891-04:00] DONE lines=12
+[2026-10-05T16:28:45.7628248-04:00] START C:\temp\midterm\tools\vol26.exe -f C:\temp\midterm\dumps\wcry.vmem kdbgscan
+[2026-10-05T16:28:45.7628248-04:00] DONE lines=32
+[2026-10-05T16:28:57.9841232-04:00] START C:\temp\midterm\tools\vol26.exe -f C:\temp\midterm\dumps\stuxnet.vmem imageinfo
+[2026-10-05T16:28:57.9841232-04:00] DONE lines=12
+[2026-10-05T16:29:22.1335656-04:00] START C:\temp\midterm\tools\vol26.exe -f C:\temp\midterm\dumps\stuxnet.vmem kdbgscan
+[2026-10-05T16:29:22.1335656-04:00] DONE lines=32
+[2026-10-05T16:29:40.4588895-04:00] START C:\temp\midterm\tools\vol26.exe -f C:\temp\midterm\dumps\wcry.vmem --profile WinXPSP2x86 pslist
+[2026-10-05T16:29:40.4588895-04:00] DONE lines=22
+[2026-10-05T16:29:42.3355904-04:00] START C:\temp\midterm\tools\vol26.exe -f C:\temp\midterm\dumps\wcry.vmem --profile WinXPSP2x86 pstree
+[2026-10-05T16:29:42.3355904-04:00] DONE lines=22
+[2026-10-05T16:29:44.4015077-04:00] START C:\temp\midterm\tools\vol26.exe -f C:\temp\midterm\dumps\wcry.vmem --profile WinXPSP2x86 psscan
+[2026-10-05T16:29:44.4015077-04:00] DONE lines=27
+[2026-10-05T16:29:46.4772117-04:00] START C:\temp\midterm\tools\vol26.exe -f C:\temp\midterm\dumps\wcry.vmem --profile WinXPSP2x86 psxview
+[2026-10-05T16:29:46.4772117-04:00] DONE lines=27
+[2026-10-05T16:29:49.7528941-04:00] START C:\temp\midterm\tools\vol26.exe -f C:\temp\midterm\dumps\wcry.vmem --profile WinXPSP2x86 connections
+[2026-10-05T16:29:49.7528941-04:00] DONE lines=2
+[2026-10-05T16:29:51.4218671-04:00] START C:\temp\midterm\tools\vol26.exe -f C:\temp\midterm\dumps\wcry.vmem --profile WinXPSP2x86 connscan
+[2026-10-05T16:29:51.4218671-04:00] DONE lines=2
+[2026-10-05T16:29:53.9006297-04:00] START C:\temp\midterm\tools\vol26.exe -f C:\temp\midterm\dumps\wcry.vmem --profile WinXPSP2x86 sockets
+[2026-10-05T16:29:53.9006297-04:00] DONE lines=19
+[2026-10-05T16:29:55.5530276-04:00] START C:\temp\midterm\tools\vol26.exe -f C:\temp\midterm\dumps\wcry.vmem --profile WinXPSP2x86 sockscan
+[2026-10-05T16:29:55.5530276-04:00] DONE lines=19
+[2026-10-05T16:29:57.7298516-04:00] START C:\temp\midterm\tools\vol26.exe -f C:\temp\midterm\dumps\wcry.vmem --profile WinXPSP2x86 cmdline
+[2026-10-05T16:29:57.7298516-04:00] DONE lines=59
+[2026-10-05T16:29:59.5509123-04:00] START C:\temp\midterm\tools\vol26.exe -f C:\temp\midterm\dumps\wcry.vmem --profile WinXPSP2x86 consoles
+[2026-10-05T16:29:59.5509123-04:00] DONE lines=30
+[2026-10-05T16:30:01.9208025-04:00] START C:\temp\midterm\tools\vol26.exe -f C:\temp\midterm\dumps\wcry.vmem --profile WinXPSP2x86 envars
+[2026-10-05T16:30:01.9208025-04:00] DONE lines=414
+[2026-10-05T16:30:03.9072806-04:00] START C:\temp\midterm\tools\vol26.exe -f C:\temp\midterm\dumps\wcry.vmem --profile WinXPSP2x86 dlllist
+[2026-10-05T16:30:03.9072806-04:00] DONE lines=1020
+[2026-10-05T16:30:05.8255541-04:00] START C:\temp\midterm\tools\vol26.exe -f C:\temp\midterm\dumps\stuxnet.vmem --profile WinXPSP2x86 pslist
+[2026-10-05T16:30:05.8255541-04:00] DONE lines=33
+... (82 lines total; truncated)
+\end{lstlisting}
+
+\noindent\textbf{WannaCry psscan (exited helpers)}
+\begin{lstlisting}
+Offset(P)          Name                PID   PPID PDB        Time created                   Time exited
+------------------ ---------------- ------ ------ ---------- ------------------------------ ------------------------------
+0x0000000001f4daf0 taskdl.exe          860   1940 0x199f6000 2017-05-12 21:26:23 UTC+0000   2017-05-12 21:26:23 UTC+0000
+0x0000000001f53d18 taskse.exe          536   1940 0x1986c000 2017-05-12 21:26:22 UTC+0000   2017-05-12 21:26:23 UTC+0000
+0x0000000001f69b50 @WanaDecryptor@     424   1940 0x18fa2000 2017-05-12 21:25:52 UTC+0000   2017-05-12 21:25:53 UTC+0000
+0x0000000001f747c0 wuauclt.exe        1768   1024 0x11629000 2017-05-12 21:22:52 UTC+0000
+0x0000000001f8ba58 @WanaDecryptor@     576   1940 0x19671000 2017-05-12 21:26:22 UTC+0000   2017-05-12 21:26:23 UTC+0000
+0x0000000001fb95d8 svchost.exe         260    664 0x0ce48000 2017-05-12 21:22:18 UTC+0000
+0x0000000001fde308 @WanaDecryptor@     740   1940 0x0de3a000 2017-05-12 21:22:22 UTC+0000
+0x0000000001fea8a0 wscntfy.exe        1168   1024 0x12217000 2017-05-12 21:22:56 UTC+0000
+0x0000000001ffa710                       0      0 0x17d3f000
+0x0000000002010020 alg.exe             544    664 0x1238d000 2017-05-12 21:22:55 UTC+0000
+0x000000000203b7a8 svchost.exe        1084    664 0x0838c000 2017-05-12 21:22:03 UTC+0000
+0x0000000002161da0 csrss.exe           596    348 0x07752000 2017-05-12 21:22:00 UTC+0000
+0x0000000002169020 smss.exe            348      4 0x0683e000 2017-05-12 21:21:55 UTC+0000
+0x000000000216e020 winlogon.exe        620    348 0x07957000 2017-05-12 21:22:01 UTC+0000
+0x0000000002191658 lsass.exe           676    620 0x07bb7000 2017-05-12 21:22:01 UTC+0000
+... (27 lines total; truncated)
+\end{lstlisting}
+
+\noindent\textbf{Stuxnet dlllist PID 868}
+\begin{lstlisting}
+************************************************************************
+lsass.exe pid:    868
+Command line : "C:\WINDOWS\\system32\\lsass.exe"
+Service Pack 3
+
+Base             Size  LoadCount Path
+---------- ---------- ---------- ----
+0x01000000     0x6000     0xffff C:\WINDOWS\system32\lsass.exe
+0x7c900000    0xaf000     0xffff C:\WINDOWS\system32\ntdll.dll
+0x7c800000    0xf6000     0xffff C:\WINDOWS\system32\kernel32.dll
+0x77dd0000    0x9b000     0xffff C:\WINDOWS\system32\ADVAPI32.dll
+0x77e70000    0x92000     0xffff C:\WINDOWS\system32\RPCRT4.dll
+0x77fe0000    0x11000     0xffff C:\WINDOWS\system32\Secur32.dll
+0x7e410000    0x91000     0xffff C:\WINDOWS\system32\USER32.dll
+0x77f10000    0x49000     0xffff C:\WINDOWS\system32\GDI32.dll
+\end{lstlisting}
+
+\noindent\textbf{Stuxnet malfind PID 1928}
+\begin{lstlisting}
+Process: lsass.exe Pid: 1928 Address: 0x80000
+Vad Tag: Vad  Protection: PAGE_EXECUTE_READWRITE
+Flags: Protection: 6
+
+0x00080000  4d 5a 90 00 03 00 00 00 04 00 00 00 ff ff 00 00   MZ..............
+0x00080010  b8 00 00 00 00 00 00 00 40 00 00 00 00 00 00 00   ........@.......
+0x00080020  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0x00080030  00 00 00 00 00 00 00 00 00 00 00 00 08 01 00 00   ................
+
+0x00080000 4d               DEC EBP
+0x00080001 5a               POP EDX
+0x00080002 90               NOP
+0x00080003 0003             ADD [EBX], AL
+0x00080005 0000             ADD [EAX], AL
+0x00080007 000400           ADD [EAX+EAX], AL
+0x0008000a 0000             ADD [EAX], AL
+0x0008000c ff               DB 0xff
+... (197 lines total; truncated)
+\end{lstlisting}
+
+\noindent\textbf{Stuxnet modules (mrx*)}
+\begin{lstlisting}
+Offset(V)  Name                 Base             Size File
+---------- -------------------- ---------- ---------- ----
+0x823fc3a0 ntoskrnl.exe         0x804d7000   0x1f8580 \WINDOWS\system32\ntkrnlpa.exe
+0x823fc338 hal.dll              0x806d0000    0x20300 \WINDOWS\system32\hal.dll
+0x823fc2d0 kdcom.dll            0xf8b9a000     0x2000 \WINDOWS\system32\KDCOM.DLL
+0x823fc260 BOOTVID.dll          0xf8aaa000     0x3000 \WINDOWS\system32\BOOTVID.dll
+0x823fc1f8 ACPI.sys             0xf856b000    0x2e000 ACPI.sys
+0x823fc188 WMILIB.SYS           0xf8b9c000     0x2000 \WINDOWS\system32\DRIVERS\WMILIB.SYS
+0x823fc120 pci.sys              0xf855a000    0x11000 pci.sys
+0x823fc0b0 isapnp.sys           0xf869a000     0xa000 isapnp.sys
+0x823fc040 compbatt.sys         0xf8aae000     0x3000 compbatt.sys
+0x823ed008 BATTC.SYS            0xf8ab2000     0x4000 \WINDOWS\system32\DRIVERS\BATTC.SYS
+0x823edf98 intelide.sys         0xf8b9e000     0x2000 intelide.sys
+0x823edf28 PCIIDEX.SYS          0xf891a000     0x7000 \WINDOWS\system32\DRIVERS\PCIIDEX.SYS
+0x823edeb8 MountMgr.sys         0xf86aa000     0xb000 MountMgr.sys
+... (124 lines total; truncated)
+\end{lstlisting}
+
+\section*{Method Map (six-step workflow, course slide 17)}
+One-page map placing Part~A/~B findings under the six investigation stages.
+
+{\footnotesize
+\begin{tabularx}{\textwidth}{@{}c l >{\RaggedRight\arraybackslash}Y@{}}
+\toprule
+Step & Stage & Findings placed here \\
+\midrule
+1 & Acquire \& hash & Intake SHA-256 for wcry.vmem, stuxnet.vmem, zip, dossier; chain of custody \\
+2 & Profile & A1/B1 imageinfo; WinXPSP2x86; PAE difference (wcry No / stuxnet Yes); KDBG/DTB \\
+3 & Process review & A2 pstree lineage; A3/A4 psxview ExitTime; B2/B3 genuine vs counterfeit lsass; B5/B6 dlllist \\
+4 & Network & A5 sockets/connscan (445 / empty WannaCry rows); B4 UDP 500/4500 on PID 680 only \\
+5 & Deep dive & A7 cmdline paths; B7 malfind; B8 dumps/hashes; B9 VT hash-only; B10 ldrmodules/drivers \\
+6 & Correlate \& report & A4/A8 and D1 ATT\&CK Memory-observed vs Intel-sourced; C1 to C3 dossier trial; D1 memo \\
+\bottomrule
+\end{tabularx}}
+
+\section*{AI Disclosure}
+Generative AI assisted with report drafting, LaTeX structuring, VirtualBox/SIFT bring-up, and Volatility
+command-syntax sanity checks. All forensic values (hashes, PIDs, timestamps, malfind regions, dll counts,
+socket bindings, and Volatility excerpts) originate from the analyst's own Volatility~2.6 runs
+(\texttt{vol26.exe} on the host and \texttt{vol.py} inside SIFT) on local copies of \texttt{wcry.vmem} and
+\texttt{stuxnet.vmem} captured October~5, 2026. AI did not replace hands-on plugin execution or hash verification.
+
+\section*{References (APA 7)}
+\begin{enumerate}[leftmargin=1.6em,itemsep=0.35em]
+\item Ligh, M.~H., Case, A., Levy, J., \& Walters, M. (2014). \textit{The art of memory forensics: Detecting malware and threats in Windows, Linux, and Mac memory}. Wiley.
+\item MITRE ATT\&CK. (n.d.). \textit{WannaCry} (Software S0366). \url{https://attack.mitre.org/software/S0366/}
+\item MITRE ATT\&CK. (n.d.). \textit{Stuxnet} (Software S0603). \url{https://attack.mitre.org/software/S0603/}
+\item Microsoft. (2017). Microsoft security bulletin MS17-010. \url{https://learn.microsoft.com/en-us/security-updates/SecurityBulletins/2017/ms17-010}
+\item Symantec Security Response. (2011). \textit{W32.Stuxnet Dossier} (Version 1.3). Symantec Corp. (Sections cited: Executive Summary; Injection Technique; Installation; Load Point; Bypassing Behavior Blocking When Loading DLLs; Windows Rootkit Functionality.)
+\item The Volatility Foundation. (n.d.). Volatility 2.6 documentation.
+\item VirusTotal. (2026). Hash intelligence lookups performed 2026-10-05 (query-only, no sample upload).
+\end{enumerate}
+
+\end{document}

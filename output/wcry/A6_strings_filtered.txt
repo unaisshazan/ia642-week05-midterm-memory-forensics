@@ -1,0 +1,500 @@
+http://ipxe.org
+iPXE (http://ipxe.org) 
+system vendor or visit http://www.hardware-update.com for an updated BIOS.
+taskdl.exe
+taskse.exe
+@WanaDecryptor@
+tasksche.exe
+Windows Movie Maker.lnk=@C:\PROGRA~1\MOVIEM~1\wmm2res.dll,-61446
+EfsDecryptFek
+LEGACY_MSSECSVC2.0
+ xmlns:xs="http://www.w3.org/2001/XMLSchema"
+Remote Desktop Connection.lnk=@C:\WINDOWS\system32\en-US\MSTSCE~1.MUI,-4000
+Component Services.lnk=@C:\WINDOWS\system32\comres.dll,-661
+Setup could not register the OLE Control C:\WINDOWS\system32\msrating.dll because of the following error:
+<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+"C:\Program Files\Outlook Express\msimn.exe" /reg
+URL=https://ieonline.microsoft.com/#ieslice
+FeedUrl=https://ieonline.microsoft.com/#ieslice
+C:\Python27\Doc\python27.chm
+C:\Documents and Settings\donny\Desktop\agent.py.txt
+C:\WINDOWS\system32\DRIVERS\pcntpci5.sys[NdisMofResource]
+C:\WINDOWS\system32\mshta.exe#
+WANACRY!
+    mapfileurl = 'http://people.freebsd.org/~perky/i18n/BIG5HKSCS-2004.TXT'
+C:\WINDOWS\System32\Drivers\HTTP.sys[UlMofResource]
+DecryptMessage
+HttpSendRequestExW
+HttpSendRequestW
+HttpAddRequestHeadersW
+HttpOpenRequestW
+HttpQueryInfoW
+HttpEndRequestA
+HttpQueryInfoA
+2Terms of use at https://www.verisign.com/rpa (c)011'0%
+$http://ocsp.verisign.com/ocsp/status0
+https://www.verisign.com/rpa0
+8http://crl.microsoft.com/download/msprod/CodeSignPCA.crl0
+$http://www.microsoft.com/typography/0
+http://ocsp.verisign.com0
+0http://crl.verisign.com/ThawteTimestampingCA.crl0
+"http://crl.verisign.com/tss-ca.crl0
+SpDecryptMessage
+CPDecrypt
+C:\WINDOWS\system32\cmd.exe
+C:\WINDOWS\system32\setup.exe
+C:\WINDOWS\system32\rundll32.exe
+@C:\WINDOWS\system32\en-US\MSTSCE~1.MUI,-4000
+@C:\WINDOWS\system32\comres.dll,-661
+@C:\PROGRA~1\MSNGAM~1\Windows\hrtzres.dll,-1212
+@C:\PROGRA~1\MSNGAM~1\Windows\chkrres.dll,-1212
+@C:\PROGRA~1\MSNGAM~1\Windows\rvseres.dll,-1212
+@C:\PROGRA~1\MSNGAM~1\Windows\shvlres.dll,-1212
+@C:\PROGRA~1\MSNGAM~1\Windows\bckgres.dll,-1212
+C:\Program Files\MSN Gaming Zone\Windows\zclientm.exe
+@C:\PROGRA~1\MOVIEM~1\wmm2res.dll,-61446
+C:\WINDOWS\system32\mmc.exe
+C:\WINDOWS\system32\regsvr32.exe
+C:\WINDOWS\system32\wbem\mofcomp.exe
+C:\WINDOWS\System32\msiexec.exe
+C:\WINDOWS\system32\REG.exe
+C:\WINDOWS\system32\nhelper.exe
+C:\WINDOWS\system32\fixmapi.exe
+C:\WINDOWS\system32\odbcconf.exe
+C:\WINDOWS\system32\mstinit.exe
+C:\Program Files\Outlook Express\setup50.exep
+C:\WINDOWS\system32\logagent.exe
+C:\WINDOWS\INF\unregmp2.exe
+C:\WINDOWS\pchealth\uploadlb\binaries\uploadm.exe
+C:\Program Files\Windows Media Player\migrate.exe
+C:\WINDOWS\system32\grpconv.exe
+"C:\PROGRA~1\WINDOW~2\wmplayer.exe"
+C:\PROGRA~1\WINDOW~2\wmplayer.exe
+"C:\Program Files\Windows Media Player\wmplayer.exe"
+C:\Program Files\Windows Media Player\wmplayer.exe
+CSCEncryptDecryptDatabase
+@C:\WINDOWS\system32\xpsp1res.dll,-10077
+@C:\WINDOWS\system32\usmt\migwiz.exe,-202M
+@C:\WINDOWS\system32\restore\rstrui.exe,-2048M
+@C:\WINDOWS\system32\mshearts.exe,-413
+@C:\WINDOWS\system32\spider.exe,-56
+C:\WINDOWS\system32\shell32.dll7
+C:\WINDOWS\PCHealth\HelpCtr\Binaries\MSConfig.exe
+@C:\WINDOWS\system32\SHELL32.dll,-30520
+C:\WINDOWS\regedit.exe
+C:\Intel\ivecuqmanpnirkt615\tasksche.exe
+@C:\WINDOWS\system32\compatUI.dll,-115
+@C:\WINDOWS\System32\xpsp2res.dll,-16201
+@C:\WINDOWS\system32\netshell.dll,-1010
+@C:\WINDOWS\system32\hnetwiz.dll,-3085
+@C:\WINDOWS\System32\xpsp2res.dll,-6103
+@C:\WINDOWS\system32\SHELL32.dll,-9227
+@C:\Program Files\Internet Explorer\iexplore.exe.mui,-702O
+@C:\WINDOWS\system32\SHELL32.dll,-9216
+@C:\WINDOWS\system32\ieframe.dll.mui,-39229
+C:\WINDOWS\system32\logon.scr
+@C:\WINDOWS\ime\sptip.dll,-600
+@C:\WINDOWS\system32\zipfldr.dll,-10195
+@C:\WINDOWS\system32\SHELL32.dll,-9217
+@C:\WINDOWS\System32\msi.dll,-34
+.C:\WINDOWS\system32\NOTEPAD.EXE
+C:\Program Files\Windows NT\Accessories\WORDPAD.EXE
+@C:\WINDOWS\system32\rcbdyctl.dll,-152
+@C:\WINDOWS\system32\tourstart.exe,-1
+@C:\WINDOWS\system32\netshell.dll,-1200
+@C:\WINDOWS\system32\usmt\migwiz.exe,-202
+@C:\WINDOWS\system32\restore\rstrui.exe,-2048
+EnableHttp1_1
+@C:\WINDOWS\inf\unregmp2.exe,-9912
+@C:\WINDOWS\inf\unregmp2.exe,-9920
+@C:\WINDOWS\system32\shimgvw.dll,-307_
+@C:\WINDOWS\inf\unregmp2.exe,-9915
+@C:\WINDOWS\inf\unregmp2.exe,-9914
+@C:\WINDOWS\system32\shimgvw.dll,-303
+@C:\WINDOWS\System32\wshext.dll,-4804It
+@C:\WINDOWS\System32\wshext.dll,-4805B
+s@C:\WINDOWS\system32\notepad.exe,-469
+@C:\WINDOWS\inf\unregmp2.exe,-9902k
+@C:\WINDOWS\inf\unregmp2.exe,-9926a
+L@C:\WINDOWS\system32\ieframe.dll.mui,-913p
+t@C:\WINDOWS\inf\unregmp2.exe,-9907
+@C:\WINDOWS\inf\unregmp2.exe,-9925m
+@C:\WINDOWS\system32\mmcbase.dll,-130
+t@C:\WINDOWS\System32\msi.dll,-35
+@C:\WINDOWS\System32\RCBdyctl.dll,-150
+@C:\Program Files\Movie Maker\wmm2res.dll,-63097
+2@C:\WINDOWS\PCHealth\HelpCtr\Binaries\msinfo.dll,-391r
+,-@C:\Program Files\NetMeeting\nmwb.dll,-1234t
+@C:\WINDOWS\System32\cryptext.dll,-6111
+@C:\WINDOWS\System32\cryptext.dll,-6113
+@C:\WINDOWS\system32\shimgvw.dll,-305o
+ui@C:\WINDOWS\system32\msrating.dll.mui,-3001R
+@C:\WINDOWS\system32\msrating.dll.mui,-3000I'
+@"C:\Program Files\Windows NT\Accessories\WORDPAD.EXE",-190
+l@C:\WINDOWS\System32\scrobj.dll,-8192ERF
+05@C:\WINDOWS\system32\shscrap.dll,-258
+@C:\WINDOWS\System32\cryptext.dll,-6112
+m@C:\WINDOWS\System32\cryptext.dll,-6109
+,-@C:\WINDOWS\system32\shimgvw.dll,-306It
+LN@C:\WINDOWS\system32\ieframe.dll.mui,-10046e
+@C:\WINDOWS\System32\wshext.dll,-4803 
+@C:\WINDOWS\inf\unregmp2.exe,-9916
+@C:\WINDOWS\inf\unregmp2.exe,-9923
+@"C:\Program Files\Windows NT\Accessories\WORDPAD.EXE",-208
+@C:\WINDOWS\System32\wshext.dll,-4801b
+@C:\WINDOWS\System32\wshext.dll,-4800}
+@C:\WINDOWS\inf\unregmp2.exe,-9913m
+k@C:\WINDOWS\system32\msxml3r.dll,-1
+\@C:\WINDOWS\system32\msxml3r.dll,-2X
+@C:\WINDOWS\System32\wshext.dll,-4802
+2@C:\WINDOWS\inf\unregmp2.exe,-9908It
+s@C:\WINDOWS\inf\unregmp2.exe,-9911
+C:\Intel\ivecuqmanpnirkt615\@WanaDecryptor@.exe
+reC:\WINDOWS\system32\cmd.exe
+C:\Program Files\Internet Explorer\iexplore.exe
+@C:\WINDOWS\system32\SHELL32.dll,-9319
+@C:\WINDOWS\system32\SHELL32.dll,-32517
+@C:\WINDOWS\system32\SHELL32.dll,-22985
+@C:\WINDOWS\system32\SHELL32.dll,-22981
+@C:\WINDOWS\system32\SHELL32.dll,-22982
+@C:\WINDOWS\system32\mstask.dll,-3408
+@C:\WINDOWS\system32\wiashext.dll,-331
+C:\Program Files\Outlook Express\setup50.exe
+C:\WINDOWS\system32\shmgrate.exe
+@C:\WINDOWS\system32\SHELL32.dll,-8964
+@C:\WINDOWS\system32\tourstart.exe,-1M
+l,C:\Documents and Settings\donny\Desktop\PIL-1.1.7.win32-py2.7.exeo
+C:\WINDOWS\Network Diagnostic\xpnetdiag.exe
+C:\Documents and Settings\donny\Local Settings\Temporary Internet Files\Content.IE5\E5TENF3J\7z1602[1].exe
+@C:\Program Files\NetMeeting\conf.exe,-12345
+R@C:\WINDOWS\system32\accwiz.exe,-16r
+@C:\WINDOWS\inf\unregmp2.exe,-9905
+@C:\WINDOWS\system32\SHELL32.dll,-22978
+@C:\WINDOWS\System32\ntbackup.exe,-40
+@C:\WINDOWS\System32\pdh.dll,-10023
+@C:\WINDOWS\system32\shimgvw.dll,-304
+@C:\WINDOWS\inf\unregmp2.exe,-9903ll,-21
+i@C:\WINDOWS\inf\unregmp2.exe,-9909
+e@C:\WINDOWS\inf\unregmp2.exe,-9910
+CE@C:\WINDOWS\inf\unregmp2.exe,-9904s
+@C:\WINDOWS\System32\cryptext.dll,-6145
+@C:\WINDOWS\inf\unregmp2.exe,-9918
+@C:\WINDOWS\System32\cryptext.dll,-6108
+@C:\Program Files\NetMeeting\conf.exe,-12346
+@C:\WINDOWS\System32\cryptext.dll,-6110
+@"C:\Program Files\Windows NT\Accessories\WORDPAD.EXE",-209
+@C:\WINDOWS\system32\netshell.dll,-1300
+@C:\WINDOWS\inf\unregmp2.exe,-9927
+@C:\WINDOWS\system32\shimgvw.dll,-301
+@C:\WINDOWS\system32\shimgvw.dll,-3021
+@C:\WINDOWS\system32\mshta.exe.mui,-6412
+@C:\WINDOWS\system32\ieframe.dll.mui,-912
+@C:\Program Files\NetMeeting\conf.exe,-12347
+@C:\WINDOWS\System32\setupapi.dll,-2000
+@C:\Program Files\Internet Explorer\Connection Wizard\icwres.dll,-20003
+@C:\WINDOWS\system32\mycomput.dll,-400-4
+C:\WINDOWS\Explorer.EXEt
+@C:\WINDOWS\system32\SHELL32.dll,-22913l
+n@C:\WINDOWS\system32\SHELL32.dll,-31361B
+@C:\WINDOWS\system32\SHELL32.dll,-12695
+@C:\WINDOWS\system32\SHELL32.dll,-22914
+@C:\WINDOWS\system32\SHELL32.dll,-8503
+B@C:\WINDOWS\system32\SHELL32.dll,-22912
+C:\WINDOWS\system32\ctfmon.exe
+@C:\WINDOWS\system32\netshell.dll,-1201
+@C:\WINDOWS\system32\localsec.dll,-5026
+C:\Python27\python.exe
+C:\Documents and Settings\donny\Desktop\office2007sp3-kb2526086-fullfile-en-us.exe
+=http://crl.microsoft.com/msprod/enforcedlic/clearinghouse.crl0
+;http://crl.microsoft.com/msprod/enforcedlic/enforcedlic.crl0
+ihttp://cpecwba12.one.microsoft.com/CertEnroll/Microsoft%20Clearing%20House%20Registration%20Authority.crl0q
+http://cpecwba12.one.microsoft.com/CertEnroll/cpecwba12.one.microsoft.com_Microsoft%20Clearing%20House%20Registration%20Authority.crt0
+?http://crl.microsoft.com/pki/crl/products/MSEnforcedLicCHCA.crl0
+>http://crl.microsoft.com/pki/crl/products/MSEnforcedLicPCA.crl0
+yhttp://tkecwbap62.ecity-inetres.microsoft.com/CertEnroll/Microsoft%20Clearing%20House%20Registration%20Authority%2062.crl0
+http://tkecwbap62.ecity-inetres.microsoft.com/CertEnroll/tkecwbap62.ecity-inetres.microsoft.com_Microsoft%20Clearing%20House%20Registration%20Authority%2062.crt0
+MICOMMONCONFIG_DISPID_WANACCESSTYPEWW
+KICOMMONCONFIG_DISPID_WANACCESSPROVIDERWW
+4WANAccessTypeWWW
+pWANAccessTypeWW,
+r&WANAccessProviderWWW
+~pWANAccessProviderWW,
+WANAccessTypeW
+WANAccessProviderW
+DecryptData done.
+DecryptData
+HttpRequest
+HttpDeliverRequest
+HTTP Delivers the Request to UMode
+HttpSendComplete
+HTTP Completes Send to Caller
+HttpStatus
+Http Status
+HttpCachedSend
+HTTP Completes CachedSend to Caller
+HttpCachedNoModSend
+HTTP Completes Cached 304 to Caller
+HttpEtwTrace
+HttpReceiveRequest
+HttpParseRequest
+HttpReceiveResponse
+C:\WINDOWS\System32\GroupPolicy\Machine
+WinHttpCrackUrl
+OMWinHttpCreateUrl
+OMWinHttpOpen
+OMWinHttpConnect
+WinHttpSetStatusCallback
+OMWinHttpCrackUrlA
+WinHttpCreateUrlA
+OMWinHttpWriteData
+WinHttpCloseHandle
+OMWinHttpReadData
+WinHttpQueryDataAvailable
+OMWinHttpDetectAutoProxyConfigUrl
+WinHttpGetProxyForUrl
+WinHttpQueryAuthSchemes
+WinHttpSetCredentialsA
+WinHttpSetCredentials
+OMWinHttpQueryOption
+OMWinHttpSetTimeouts
+WinHttpSetOption
+OMWinHttpSendRequest
+PMWinHttpReceiveResponse
+ShareCredsWithWinHttp
+C:\WINDOWS\system32\WBEM
+TasksExecuted
+httpProxyServer
+HTTP proxy server address and port.
+HTTP Proxy Server
+     <dpiAware  xmlns="http://schemas.microsoft.com/SMI/2005/WindowsSettings">true</dpiAware>
+Internet Hearts.lnk=@C:\PROGRA~1\MSNGAM~1\Windows\hrtzres.dll,-1212
+Internet Spades.lnk=@C:\PROGRA~1\MSNGAM~1\Windows\shvlres.dll,-1212
+Internet Checkers.lnk=@C:\PROGRA~1\MSNGAM~1\Windows\chkrres.dll,-1212
+Internet Reversi.lnk=@C:\PROGRA~1\MSNGAM~1\Windows\rvseres.dll,-1212
+Internet Backgammon.lnk=@C:\PROGRA~1\MSNGAM~1\Windows\bckgres.dll,-1212
+WINHTTP.dll
+HTTP/1.1
+d:\nt\net\http\sys\ultdi.c
+HTTP/?.?
+HTTP/0.9
+HTTP/1.0
+d:\nt\net\http\sys\logutil.h
+HTTP/1.1 304 Not Modified
+HTTP/1.1 204 No Content
+HTTP/1.1 100 Continue
+<h1>HTTP Version Not Supported</h1>
+HTTP Version Not Supported
+d:\nt\net\http\sys\ulparse.c
+d:\nt\net\http\sys\sendresponsep.h
+d:\nt\net\http\common\c14n.c
+http.pdb
+HTTP/1.1 200 OK
+Callback: <http://%s:%d/upnp/eventing/%s>
+CryptDecrypt
+DecryptFileA
+DecryptFileW
+ncacn_http
+ HTTP/1.1
+ http://
+httpproxy
+ HTTP/1.0
+https: Asychronous Pluggable Protocol Handler
+http: Asychronous Pluggable Protocol Handler
+<ie8tldlistdescription xmlns="http://www.microsoft.com/schemas/ie8tldlistdescription/1.0">
+HttpAddRequestHeadersA
+HttpCheckDavCompliance
+HttpEndRequestW
+HttpOpenRequestA
+HttpSendRequestA
+HttpSendRequestExA
+MaxHttpRedirects
+EnableHttpTrace
+BypassHTTPNoCacheCheck
+HttpDefaultExpiryTimeSecs
+WarnOnHTTPSToHTTPRedirect
+%s\Http Filters\RPA
+    <asmv3:windowsSettings xmlns="http://schemas.microsoft.com/SMI/2005/WindowsSettings"> 
+CryptDecryptMessage
+CryptDecryptAndVerifyMessageSignature
+HTTPSCertificateTrust
+HTTPSFinalProv
+Failed to decrypt AP reply: 0x%x. %ws, line %d
+Failed to decrypt workstation ticket. %ws, line %d
+Failed to decrypt workstation ticket: 0x%x. %ws, line %d
+Exception occurred during RPC_ScHelperDecryptMessage - %lx
+winhttp.dll
+AES_UNWRAP: CryptDecrypt FAILed %ld
+HTTP_USER_AGENT
+http\DefaultIcon
+http\shell\open\command
+http\shell\open\ddeexec
+http\shell\open\ddeexec\Topic
+http\shell\open\ddeexec\Application
+https\DefaultIcon
+https\shell\open\command
+https\shell\open\ddeexec
+https\shell\open\ddeexec\Topic
+https\shell\open\ddeexec\Application
+NetpManageAltComputerName: JoinpDecryptPasswordWithKey failed: 0x%lx
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/">
+P<soap:Body soap:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+WinHttpAddRequestHeaders
+WinHttpCheckPlatform
+WinHttpConnect
+WinHttpCreateUrl
+WinHttpDetectAutoProxyConfigUrl
+WinHttpGetDefaultProxyConfiguration
+WinHttpGetIEProxyConfigForCurrentUser
+WinHttpOpen
+WinHttpOpenRequest
+WinHttpQueryHeaders
+WinHttpQueryOption
+WinHttpReadData
+WinHttpReceiveResponse
+WinHttpSendRequest
+WinHttpSetDefaultProxyConfiguration
+WinHttpSetTimeouts
+WinHttpTimeFromSystemTime
+WinHttpTimeToSystemTime
+WinHttpWriteData
+AddReg=WinHttpRequest.Reg
+DelReg=WinHttpRequest.Reg,Cleanup.Reg
+[WinHttpRequest.Reg]
+HKCR,CLSID\%CLSID_WinHttpRequest%,,,"%NAME_WinHttpRequest%"
+HKCR,CLSID\%CLSID_WinHttpRequest%\InProcServer32,,131072,%_SYS_MOD_PATH%
+HKCR,CLSID\%CLSID_WinHttpRequest%\InProcServer32,"ThreadingModel",,"Apartment"
+HKCR,CLSID\%CLSID_WinHttpRequest%\ProgID,,,"WinHttp.WinHttpRequest.5.1"
+HKCR,CLSID\%CLSID_WinHttpRequest%\TypeLib,,,%TypeLibID%
+HKCR,WinHttp.WinHttpRequest.5.1,,,"%NAME_WinHttpRequest%"
+HKCR,WinHttp.WinHttpRequest.5.1\CLSID,,,%CLSID_WinHttpRequest%
+HKCR,CLSID\%CLSID_WinHttpRequest%
+HKCR,WinHttp.WinHttpRequest.5.1
+CLSID_WinHttpRequest ="{2087c2f4-2cef-4953-a8ab-66779b670495}"
+NAME_WinHttpRequest = "WinHttpRequest Component version 5.1"
+WinHttpSettings
+WINHTTP_CALLBACK_STATUS_RESOLVING_NAME
+WINHTTP_CALLBACK_STATUS_NAME_RESOLVED
+WINHTTP_CALLBACK_STATUS_CONNECTING_TO_SERVER
+WINHTTP_CALLBACK_STATUS_CONNECTED_TO_SERVER
+WINHTTP_CALLBACK_STATUS_SENDING_REQUEST
+SOFTWARE\Microsoft\Windows\CurrentVersion\Internet Settings\WinHttp\Tracing
+<<<<-------- HTTP headers follow below ----------------------------------------------->>>>
+<<<<-------- HTTP stream follows below ----------------------------------------------->>>>
+>>>> WinHttp Version %d.%d Build %s.%d Nov 16 2011 17:55:22>>>>Process %s [%d (%#x)] started at %02d:%02d:%02d.%03d %02d/%02d/%d
+M7QMa7QMHTTP/%d.%d
+DQMWinHttpQueryHeaders
+WinHttpTimeFromSystemTimeW
+]TQMqTQMWinHttpTimeFromSystemTime
+http://%s/%s
+winhttp.pdb
+LsCsp_DecryptEnvelopedData
+HttpReceiveHttpRequest
+HttpSendResponseEntityBody
+HttpSendHttpResponse
+HttpReceiveRequestEntityBody
+HttpRemoveUrl
+HttpTerminate
+HttpAddUrl
+HttpCreateHttpHandle
+HttpInitialize
+StrgC:\WINDOWS
+http://*:2869/
+@WANADECRYPTOR@.EXE
+C:\WINDOWS\system32\win32k.sys
+C:\WINDOWS\system32\psxss.exe
+C:\WINDOWS\system32\csrss.exe ObjectDirectory=\Windows SharedSection=1024,3072,512 Windows=On SubSystemType=Windows ServerDll=basesrv,1 ServerDll=winsrv:UserServerDllInitialization,3 ServerDll=winsrv:ConServerDllInitialization,2 ProfileControl=Off MaxRequestThreads=16
+C:\WINDOWS\system32\drivers\ac97intc.sys[MofResourceName].Msi\5b
+webchecker.DEFROOT = "http://www.python.org/python/"
+http://ns.adobe.com/xap/1.0/
+Decrypt/Tag
+C:\WINDOWS\PCHealth\HelpCtr\Binaries\HelpCtr.exe
+Microsoft.XMLHTTP
+Microsoft.XMLHTTP.1
+Microsoft.XMLHTTP.1.0
+MSSOAP.HttpConnector
+MSSOAP.HttpConnector.1
+Msxml2.ServerXMLHTTP
+Msxml2.ServerXMLHTTP.3.0
+Msxml2.ServerXMLHTTP.4.0
+Msxml2.ServerXMLHTTP.6.0
+Msxml2.XMLHTTP
+Msxml2.XMLHTTP.2.6
+Msxml2.XMLHTTP.3.0
+Msxml2.XMLHTTP.4.0yQy
+Msxml2.XMLHTTP.6.0
+application/set-payment-initiation
+WinHttp.WinHttpRequest.5.1
+WMSDKHTTPSourcePlugin.HTTPSource
+WMSDKHTTPSourcePlugin.HTTPSource.2Y
+WMSHTTPSourcePlugin.HTTPSource
+WMSHTTPSourcePlugin.HTTPSource.1
+BackgroundTaskScheduler
+HTTP Mail Enabled
+HTTP Mail Server
+WanaCrypt0r
+ncacn_http9
+C:\Program Files\Windows NT\Accessories\wordpad.exe
+bFIGYELEM! Ezen tanusitvany a NetLock Kft. Minositett Szolgaltatasi Szabalyzataban leirt eljarasok alapjan keszult. A minositett elektronikus alairas joghatas ervenyesulesenek, valamint elfogadasanak feltetele a Minositett Szolgaltatasi Szabalyzatban, az Altalanos Szerzodesi Feltetelekben eloirt ellenorzesi eljaras megtetele. A dokumentumok megtalalhatok a https://www.netlock.hu/docs/ cimen vagy kerhetok az info@netlock.net e-mail cimen. WARNING! The issuance and the use of this certificate are subject to the NetLock Qualified CPS available at https://www.netlock.hu/docs/ or by e-mail at info@netlock.net0
+http://www.e-me.lv/repository0
+8http://crl.sgtrustservices.com/racine-GroupeSG/LatestCRL0
+http://www.ancert.com/cps0
+Agencia Notarial de Certificacion. La declaracion de practicas de certifiacion que rige el funcionamiento de la presente autoridad se encuentra disponible en http://www.ancert.com/cps0
+.http://www.pkioverheid.nl/policies/root-policy0
+)http://www.datev.de/zertifikat-policy-std0
+!http://www.quovadisglobal.com/cps0
+0http://pki.registradores.org/normativa/index.htm0
+'http://www.certplus.com/CRL/class3P.crl0
+#http://logo.verisign.com/vslogo.gif0
+https://rca.e-szigno.hu/ocsp0-
+!http://www.e-szigno.hu/RootCA.crt0
+http://www.e-szigno.hu/SZSZ/0
+!http://www.e-szigno.hu/RootCA.crl
+http://www.ssc.lt/cps03
+"http://crl.ssc.lt/root-c/cacrl.crl0
+Dhttp://www.informatik.admin.ch/PKI/links/CPS_2_16_756_1_17_3_1_0.pdf0
+,Vegeu https://www.catcert.net/verarrel (c)031503
+ https://www.catcert.net/verarrel05
+'Vegeu https://www.catcert.net/verarrel 0
+,http://www.a-cert.at/certificate-policy.html0;
+,http://www.a-cert.at/certificate-policy.html0
+http://www.a-cert.at0E
+4https://secure.a-cert.at/cgi-bin/a-cert-advanced.cgi0
+http://www.globaltrust.info0=
+http://www.globaltrust.info0
+ http://repository.swisssign.com/0
+C:\Python27\
+http://www.usertrust.com1
+,http://crl.usertrust.com/UTN-DATACorpSGC.crl0*
+=http://www.d-trust.net/crl/d-trust_root_class_3_ca_2_2009.crl0
+ZC:\Python27\Lib\
+&http://cps.siths.se/sithsrootcav1.html0
+)http://www.datev.de/zertifikat-policy-int0
+*http://ca.sia.it/secsrv/repository/CRL.der0J
+'https://ca.sia.it/secsrv/repository/CPS0
+http://www.usertrust.com1+0)
+>http://crl.usertrust.com/UTN-USERFirst-NetworkApplications.crl0
+.http://www2.public-trust.com/crl/ct/ctroot.crl0
+C:\Python27\Lib\xml\dom\
+http://www.valicert.com/1 0
+&http://www.certplus.com/CRL/class1.crl0
+,https://cesam.natixis.com/PC/PC_CESAM_V1.pdf0
+(http://ocsp.infonotary.com/responder.cgi0V
+.http://repository.infonotary.com/cps/qcps.html0$
+http://www.crc.bg0
+3http://crl.usertrust.com/UTN-USERFirst-Hardware.crl01
+"http://www.e-trust.be/CPS/QNcerts 0
+&http://www.certplus.com/CRL/class2.crl0
+C:\Python27\tcl\
+C:\Python27\Lib\xml\
+&http://www.agesic.gub.uy/acrn/acrn.crl0)
+#http://www.uce.gub.uy/acrn/acrn.crl0
+?http://www.uce.gub.uy/informacion-tecnica/politicas/cp_acrn.pdf0G
+*http://www.agesic.gub.uy/acrn/cps_acrn.pdf0
+/C:\Python27\Doc\
+5http://www.trustcenter.de/crl/v2/tc_class_3_ca_II.crl
+<http://fedir.comsign.co.il/crl/ComSignAdvancedSecurityCA.crl0
+http://www.comsign.co.il/cps0[
+?http://fedir.comsign.co.il/cacert/ComSignAdvancedSecurityCA.crt0
+$http://www.trustcenter.de/guidelines0
+http://www.defence.gov.au/pki0
+#http://crl.securetrust.com/STCA.crl0

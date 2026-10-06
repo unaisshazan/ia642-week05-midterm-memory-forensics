@@ -1,0 +1,31 @@
+﻿Pid      Process              Base       InLoad InInit InMem MappedPath
+-------- -------------------- ---------- ------ ------ ----- ----------
+    1928 lsass.exe            0x00080000 False  False  False 
+    1928 lsass.exe            0x7c900000 True   True   True  \WINDOWS\system32\ntdll.dll
+    1928 lsass.exe            0x773d0000 True   True   True  \WINDOWS\WinSxS\x86_Microsoft.Windows.Common-Controls_6595b64144ccf1df_6.0.2600.5512_x-ww_35d4ce83\comctl32.dll
+    1928 lsass.exe            0x77f60000 True   True   True  \WINDOWS\system32\shlwapi.dll
+    1928 lsass.exe            0x771b0000 True   True   True  \WINDOWS\system32\wininet.dll
+    1928 lsass.exe            0x77a80000 True   True   True  \WINDOWS\system32\crypt32.dll
+    1928 lsass.exe            0x77fe0000 True   True   True  \WINDOWS\system32\secur32.dll
+    1928 lsass.exe            0x77c00000 True   True   True  \WINDOWS\system32\version.dll
+    1928 lsass.exe            0x01000000 True   False  True  
+    1928 lsass.exe            0x5b860000 True   True   True  \WINDOWS\system32\netapi32.dll
+    1928 lsass.exe            0x77e70000 True   True   True  \WINDOWS\system32\rpcrt4.dll
+    1928 lsass.exe            0x71ab0000 True   True   True  \WINDOWS\system32\ws2_32.dll
+    1928 lsass.exe            0x71ad0000 True   True   True  \WINDOWS\system32\wsock32.dll
+    1928 lsass.exe            0x774e0000 True   True   True  \WINDOWS\system32\ole32.dll
+    1928 lsass.exe            0x7e410000 True   True   True  \WINDOWS\system32\user32.dll
+    1928 lsass.exe            0x77f10000 True   True   True  \WINDOWS\system32\gdi32.dll
+    1928 lsass.exe            0x77120000 True   True   True  \WINDOWS\system32\oleaut32.dll
+    1928 lsass.exe            0x76d60000 True   True   True  \WINDOWS\system32\iphlpapi.dll
+    1928 lsass.exe            0x769c0000 True   True   True  \WINDOWS\system32\userenv.dll
+    1928 lsass.exe            0x7c800000 True   True   True  \WINDOWS\system32\kernel32.dll
+    1928 lsass.exe            0x76bf0000 True   True   True  \WINDOWS\system32\psapi.dll
+    1928 lsass.exe            0x77c10000 True   True   True  \WINDOWS\system32\msvcrt.dll
+    1928 lsass.exe            0x77dd0000 True   True   True  \WINDOWS\system32\advapi32.dll
+    1928 lsass.exe            0x7c9c0000 True   True   True  \WINDOWS\system32\shell32.dll
+    1928 lsass.exe            0x00870000 True   True   True  
+    1928 lsass.exe            0x76f20000 True   True   True  \WINDOWS\system32\dnsapi.dll
+    1928 lsass.exe            0x5d090000 True   True   True  \WINDOWS\system32\comctl32.dll
+    1928 lsass.exe            0x71aa0000 True   True   True  \WINDOWS\system32\ws2help.dll
+    1928 lsass.exe            0x77b20000 True   True   True  \WINDOWS\system32\msasn1.dll

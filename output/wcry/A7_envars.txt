@@ -1,0 +1,414 @@
+﻿Pid      Process              Block      Variable                       Value
+-------- -------------------- ---------- ------------------------------ -----
+     348 smss.exe             0x00100000 CommonProgramFiles             
+     348 smss.exe             0x00100000 Path                           C:\WINDOWS\System32
+     348 smss.exe             0x00100000 ProgramFiles                   
+     348 smss.exe             0x00100000 SystemDrive                    C:
+     348 smss.exe             0x00100000 SystemRoot                     C:\WINDOWS
+     596 csrss.exe            0x00100000 ComSpec                        C:\WINDOWS\system32\cmd.exe
+     596 csrss.exe            0x00100000 FP_NO_HOST_CHECK               NO
+     596 csrss.exe            0x00100000 NUMBER_OF_PROCESSORS           1
+     596 csrss.exe            0x00100000 OS                             Windows_NT
+     596 csrss.exe            0x00100000 Path                           C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem
+     596 csrss.exe            0x00100000 PATHEXT                        .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH
+     596 csrss.exe            0x00100000 PROCESSOR_ARCHITECTURE         x86
+     596 csrss.exe            0x00100000 PROCESSOR_IDENTIFIER           x86 Family 6 Model 78 Stepping 3, GenuineIntel
+     596 csrss.exe            0x00100000 PROCESSOR_LEVEL                6
+     596 csrss.exe            0x00100000 PROCESSOR_REVISION             4e03
+     596 csrss.exe            0x00100000 SystemDrive                    C:
+     596 csrss.exe            0x00100000 SystemRoot                     C:\WINDOWS
+     596 csrss.exe            0x00100000 TEMP                           C:\WINDOWS\TEMP
+     596 csrss.exe            0x00100000 TMP                            C:\WINDOWS\TEMP
+     596 csrss.exe            0x00100000 windir                         C:\WINDOWS
+     620 winlogon.exe         0x00010000 ALLUSERSPROFILE                C:\Documents and Settings\All Users
+     620 winlogon.exe         0x00010000 APPDATA                        C:\Documents and Settings\donny\Application Data
+     620 winlogon.exe         0x00010000 CommonProgramFiles             C:\Program Files\Common Files
+     620 winlogon.exe         0x00010000 COMPUTERNAME                   INFOSECL-5A7C18
+     620 winlogon.exe         0x00010000 ComSpec                        C:\WINDOWS\system32\cmd.exe
+     620 winlogon.exe         0x00010000 FP_NO_HOST_CHECK               NO
+     620 winlogon.exe         0x00010000 LOGONSERVER                    \\INFOSECL-5A7C18
+     620 winlogon.exe         0x00010000 NUMBER_OF_PROCESSORS           1
+     620 winlogon.exe         0x00010000 OS                             Windows_NT
+     620 winlogon.exe         0x00010000 Path                           C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem
+     620 winlogon.exe         0x00010000 PATHEXT                        .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH
+     620 winlogon.exe         0x00010000 PROCESSOR_ARCHITECTURE         x86
+     620 winlogon.exe         0x00010000 PROCESSOR_IDENTIFIER           x86 Family 6 Model 78 Stepping 3, GenuineIntel
+     620 winlogon.exe         0x00010000 PROCESSOR_LEVEL                6
+     620 winlogon.exe         0x00010000 PROCESSOR_REVISION             4e03
+     620 winlogon.exe         0x00010000 ProgramFiles                   C:\Program Files
+     620 winlogon.exe         0x00010000 SystemDrive                    C:
+     620 winlogon.exe         0x00010000 SystemRoot                     C:\WINDOWS
+     620 winlogon.exe         0x00010000 TEMP                           C:\WINDOWS\TEMP
+     620 winlogon.exe         0x00010000 TMP                            C:\WINDOWS\TEMP
+     620 winlogon.exe         0x00010000 USERPROFILE                    C:\Documents and Settings\donny
+     620 winlogon.exe         0x00010000 windir                         C:\WINDOWS
+     664 services.exe         0x00010000 ALLUSERSPROFILE                C:\Documents and Settings\All Users
+     664 services.exe         0x00010000 CommonProgramFiles             C:\Program Files\Common Files
+     664 services.exe         0x00010000 COMPUTERNAME                   INFOSECL-5A7C18
+     664 services.exe         0x00010000 ComSpec                        C:\WINDOWS\system32\cmd.exe
+     664 services.exe         0x00010000 FP_NO_HOST_CHECK               NO
+     664 services.exe         0x00010000 NUMBER_OF_PROCESSORS           1
+     664 services.exe         0x00010000 OS                             Windows_NT
+     664 services.exe         0x00010000 Path                           C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem
+     664 services.exe         0x00010000 PATHEXT                        .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH
+     664 services.exe         0x00010000 PROCESSOR_ARCHITECTURE         x86
+     664 services.exe         0x00010000 PROCESSOR_IDENTIFIER           x86 Family 6 Model 78 Stepping 3, GenuineIntel
+     664 services.exe         0x00010000 PROCESSOR_LEVEL                6
+     664 services.exe         0x00010000 PROCESSOR_REVISION             4e03
+     664 services.exe         0x00010000 ProgramFiles                   C:\Program Files
+     664 services.exe         0x00010000 SystemDrive                    C:
+     664 services.exe         0x00010000 SystemRoot                     C:\WINDOWS
+     664 services.exe         0x00010000 TEMP                           C:\WINDOWS\TEMP
+     664 services.exe         0x00010000 TMP                            C:\WINDOWS\TEMP
+     664 services.exe         0x00010000 USERPROFILE                    C:\Documents and Settings\LocalService
+     664 services.exe         0x00010000 windir                         C:\WINDOWS
+     676 lsass.exe            0x00010000 ALLUSERSPROFILE                C:\Documents and Settings\All Users
+     676 lsass.exe            0x00010000 CommonProgramFiles             C:\Program Files\Common Files
+     676 lsass.exe            0x00010000 COMPUTERNAME                   INFOSECL-5A7C18
+     676 lsass.exe            0x00010000 ComSpec                        C:\WINDOWS\system32\cmd.exe
+     676 lsass.exe            0x00010000 FP_NO_HOST_CHECK               NO
+     676 lsass.exe            0x00010000 NUMBER_OF_PROCESSORS           1
+     676 lsass.exe            0x00010000 OS                             Windows_NT
+     676 lsass.exe            0x00010000 Path                           C:\WINDOWS\System32
+     676 lsass.exe            0x00010000 PATHEXT                        .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH
+     676 lsass.exe            0x00010000 PROCESSOR_ARCHITECTURE         x86
+     676 lsass.exe            0x00010000 PROCESSOR_IDENTIFIER           x86 Family 6 Model 78 Stepping 3, GenuineIntel
+     676 lsass.exe            0x00010000 PROCESSOR_LEVEL                6
+     676 lsass.exe            0x00010000 PROCESSOR_REVISION             4e03
+     676 lsass.exe            0x00010000 ProgramFiles                   C:\Program Files
+     676 lsass.exe            0x00010000 SystemDrive                    C:
+     676 lsass.exe            0x00010000 SystemRoot                     C:\WINDOWS
+     676 lsass.exe            0x00010000 TEMP                           C:\WINDOWS\TEMP
+     676 lsass.exe            0x00010000 TMP                            C:\WINDOWS\TEMP
+     676 lsass.exe            0x00010000 USERPROFILE                    C:\WINDOWS\system32\config\systemprofile
+     676 lsass.exe            0x00010000 windir                         C:\WINDOWS
+     836 svchost.exe          0x00010000 ALLUSERSPROFILE                C:\Documents and Settings\All Users
+     836 svchost.exe          0x00010000 CommonProgramFiles             C:\Program Files\Common Files
+     836 svchost.exe          0x00010000 COMPUTERNAME                   INFOSECL-5A7C18
+     836 svchost.exe          0x00010000 ComSpec                        C:\WINDOWS\system32\cmd.exe
+     836 svchost.exe          0x00010000 FP_NO_HOST_CHECK               NO
+     836 svchost.exe          0x00010000 NUMBER_OF_PROCESSORS           1
+     836 svchost.exe          0x00010000 OS                             Windows_NT
+     836 svchost.exe          0x00010000 Path                           C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem
+     836 svchost.exe          0x00010000 PATHEXT                        .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH
+     836 svchost.exe          0x00010000 PROCESSOR_ARCHITECTURE         x86
+     836 svchost.exe          0x00010000 PROCESSOR_IDENTIFIER           x86 Family 6 Model 78 Stepping 3, GenuineIntel
+     836 svchost.exe          0x00010000 PROCESSOR_LEVEL                6
+     836 svchost.exe          0x00010000 PROCESSOR_REVISION             4e03
+     836 svchost.exe          0x00010000 ProgramFiles                   C:\Program Files
+     836 svchost.exe          0x00010000 SystemDrive                    C:
+     836 svchost.exe          0x00010000 SystemRoot                     C:\WINDOWS
+     836 svchost.exe          0x00010000 TEMP                           C:\WINDOWS\TEMP
+     836 svchost.exe          0x00010000 TMP                            C:\WINDOWS\TEMP
+     836 svchost.exe          0x00010000 USERPROFILE                    C:\WINDOWS\system32\config\systemprofile
+     836 svchost.exe          0x00010000 windir                         C:\WINDOWS
+     904 svchost.exe          0x00010000 ALLUSERSPROFILE                C:\Documents and Settings\All Users
+     904 svchost.exe          0x00010000 CommonProgramFiles             C:\Program Files\Common Files
+     904 svchost.exe          0x00010000 COMPUTERNAME                   INFOSECL-5A7C18
+     904 svchost.exe          0x00010000 ComSpec                        C:\WINDOWS\system32\cmd.exe
+     904 svchost.exe          0x00010000 FP_NO_HOST_CHECK               NO
+     904 svchost.exe          0x00010000 NUMBER_OF_PROCESSORS           1
+     904 svchost.exe          0x00010000 OS                             Windows_NT
+     904 svchost.exe          0x00010000 Path                           C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem
+     904 svchost.exe          0x00010000 PATHEXT                        .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH
+     904 svchost.exe          0x00010000 PROCESSOR_ARCHITECTURE         x86
+     904 svchost.exe          0x00010000 PROCESSOR_IDENTIFIER           x86 Family 6 Model 78 Stepping 3, GenuineIntel
+     904 svchost.exe          0x00010000 PROCESSOR_LEVEL                6
+     904 svchost.exe          0x00010000 PROCESSOR_REVISION             4e03
+     904 svchost.exe          0x00010000 ProgramFiles                   C:\Program Files
+     904 svchost.exe          0x00010000 SystemDrive                    C:
+     904 svchost.exe          0x00010000 SystemRoot                     C:\WINDOWS
+     904 svchost.exe          0x00010000 TEMP                           C:\DOCUME~1\NETWOR~1\LOCALS~1\Temp
+     904 svchost.exe          0x00010000 TMP                            C:\DOCUME~1\NETWOR~1\LOCALS~1\Temp
+     904 svchost.exe          0x00010000 USERDOMAIN                     NT AUTHORITY
+     904 svchost.exe          0x00010000 USERNAME                       NETWORK SERVICE
+     904 svchost.exe          0x00010000 USERPROFILE                    C:\Documents and Settings\NetworkService
+     904 svchost.exe          0x00010000 windir                         C:\WINDOWS
+    1024 svchost.exe          0x00010000 ALLUSERSPROFILE                C:\Documents and Settings\All Users
+    1024 svchost.exe          0x00010000 CommonProgramFiles             C:\Program Files\Common Files
+    1024 svchost.exe          0x00010000 COMPUTERNAME                   INFOSECL-5A7C18
+    1024 svchost.exe          0x00010000 ComSpec                        C:\WINDOWS\system32\cmd.exe
+    1024 svchost.exe          0x00010000 FP_NO_HOST_CHECK               NO
+    1024 svchost.exe          0x00010000 NUMBER_OF_PROCESSORS           1
+    1024 svchost.exe          0x00010000 OS                             Windows_NT
+    1024 svchost.exe          0x00010000 Path                           C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem
+    1024 svchost.exe          0x00010000 PATHEXT                        .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH
+    1024 svchost.exe          0x00010000 PROCESSOR_ARCHITECTURE         x86
+    1024 svchost.exe          0x00010000 PROCESSOR_IDENTIFIER           x86 Family 6 Model 78 Stepping 3, GenuineIntel
+    1024 svchost.exe          0x00010000 PROCESSOR_LEVEL                6
+    1024 svchost.exe          0x00010000 PROCESSOR_REVISION             4e03
+    1024 svchost.exe          0x00010000 ProgramFiles                   C:\Program Files
+    1024 svchost.exe          0x00010000 SystemDrive                    C:
+    1024 svchost.exe          0x00010000 SystemRoot                     C:\WINDOWS
+    1024 svchost.exe          0x00010000 TEMP                           C:\WINDOWS\TEMP
+    1024 svchost.exe          0x00010000 TMP                            C:\WINDOWS\TEMP
+    1024 svchost.exe          0x00010000 USERPROFILE                    C:\Documents and Settings\NetworkService
+    1024 svchost.exe          0x00010000 windir                         C:\WINDOWS
+    1084 svchost.exe          0x00010000 ALLUSERSPROFILE                C:\Documents and Settings\All Users
+    1084 svchost.exe          0x00010000 CommonProgramFiles             C:\Program Files\Common Files
+    1084 svchost.exe          0x00010000 COMPUTERNAME                   INFOSECL-5A7C18
+    1084 svchost.exe          0x00010000 ComSpec                        C:\WINDOWS\system32\cmd.exe
+    1084 svchost.exe          0x00010000 FP_NO_HOST_CHECK               NO
+    1084 svchost.exe          0x00010000 NUMBER_OF_PROCESSORS           1
+    1084 svchost.exe          0x00010000 OS                             Windows_NT
+    1084 svchost.exe          0x00010000 Path                           C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem
+    1084 svchost.exe          0x00010000 PATHEXT                        .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH
+    1084 svchost.exe          0x00010000 PROCESSOR_ARCHITECTURE         x86
+    1084 svchost.exe          0x00010000 PROCESSOR_IDENTIFIER           x86 Family 6 Model 78 Stepping 3, GenuineIntel
+    1084 svchost.exe          0x00010000 PROCESSOR_LEVEL                6
+    1084 svchost.exe          0x00010000 PROCESSOR_REVISION             4e03
+    1084 svchost.exe          0x00010000 ProgramFiles                   C:\Program Files
+    1084 svchost.exe          0x00010000 SystemDrive                    C:
+    1084 svchost.exe          0x00010000 SystemRoot                     C:\WINDOWS
+    1084 svchost.exe          0x00010000 TEMP                           C:\DOCUME~1\NETWOR~1\LOCALS~1\Temp
+    1084 svchost.exe          0x00010000 TMP                            C:\DOCUME~1\NETWOR~1\LOCALS~1\Temp
+    1084 svchost.exe          0x00010000 USERDOMAIN                     NT AUTHORITY
+    1084 svchost.exe          0x00010000 USERNAME                       NETWORK SERVICE
+    1084 svchost.exe          0x00010000 USERPROFILE                    C:\Documents and Settings\NetworkService
+    1084 svchost.exe          0x00010000 windir                         C:\WINDOWS
+    1152 svchost.exe          0x00010000 ALLUSERSPROFILE                C:\Documents and Settings\All Users
+    1152 svchost.exe          0x00010000 CommonProgramFiles             C:\Program Files\Common Files
+    1152 svchost.exe          0x00010000 COMPUTERNAME                   INFOSECL-5A7C18
+    1152 svchost.exe          0x00010000 ComSpec                        C:\WINDOWS\system32\cmd.exe
+    1152 svchost.exe          0x00010000 FP_NO_HOST_CHECK               NO
+    1152 svchost.exe          0x00010000 NUMBER_OF_PROCESSORS           1
+    1152 svchost.exe          0x00010000 OS                             Windows_NT
+    1152 svchost.exe          0x00010000 Path                           C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem
+    1152 svchost.exe          0x00010000 PATHEXT                        .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH
+    1152 svchost.exe          0x00010000 PROCESSOR_ARCHITECTURE         x86
+    1152 svchost.exe          0x00010000 PROCESSOR_IDENTIFIER           x86 Family 6 Model 78 Stepping 3, GenuineIntel
+    1152 svchost.exe          0x00010000 PROCESSOR_LEVEL                6
+    1152 svchost.exe          0x00010000 PROCESSOR_REVISION             4e03
+    1152 svchost.exe          0x00010000 ProgramFiles                   C:\Program Files
+    1152 svchost.exe          0x00010000 SystemDrive                    C:
+    1152 svchost.exe          0x00010000 SystemRoot                     C:\WINDOWS
+    1152 svchost.exe          0x00010000 TEMP                           C:\DOCUME~1\LOCALS~1\LOCALS~1\Temp
+    1152 svchost.exe          0x00010000 TMP                            C:\DOCUME~1\LOCALS~1\LOCALS~1\Temp
+    1152 svchost.exe          0x00010000 USERDOMAIN                     NT AUTHORITY
+    1152 svchost.exe          0x00010000 USERNAME                       LOCAL SERVICE
+    1152 svchost.exe          0x00010000 USERPROFILE                    C:\Documents and Settings\LocalService
+    1152 svchost.exe          0x00010000 windir                         C:\WINDOWS
+    1484 spoolsv.exe          0x00010000 ALLUSERSPROFILE                C:\Documents and Settings\All Users
+    1484 spoolsv.exe          0x00010000 CommonProgramFiles             C:\Program Files\Common Files
+    1484 spoolsv.exe          0x00010000 COMPUTERNAME                   INFOSECL-5A7C18
+    1484 spoolsv.exe          0x00010000 ComSpec                        C:\WINDOWS\system32\cmd.exe
+    1484 spoolsv.exe          0x00010000 FP_NO_HOST_CHECK               NO
+    1484 spoolsv.exe          0x00010000 NUMBER_OF_PROCESSORS           1
+    1484 spoolsv.exe          0x00010000 OS                             Windows_NT
+    1484 spoolsv.exe          0x00010000 Path                           C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem
+    1484 spoolsv.exe          0x00010000 PATHEXT                        .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH
+    1484 spoolsv.exe          0x00010000 PROCESSOR_ARCHITECTURE         x86
+    1484 spoolsv.exe          0x00010000 PROCESSOR_IDENTIFIER           x86 Family 6 Model 78 Stepping 3, GenuineIntel
+    1484 spoolsv.exe          0x00010000 PROCESSOR_LEVEL                6
+    1484 spoolsv.exe          0x00010000 PROCESSOR_REVISION             4e03
+    1484 spoolsv.exe          0x00010000 ProgramFiles                   C:\Program Files
+    1484 spoolsv.exe          0x00010000 SystemDrive                    C:
+    1484 spoolsv.exe          0x00010000 SystemRoot                     C:\WINDOWS
+    1484 spoolsv.exe          0x00010000 TEMP                           C:\WINDOWS\TEMP
+    1484 spoolsv.exe          0x00010000 TMP                            C:\WINDOWS\TEMP
+    1484 spoolsv.exe          0x00010000 USERPROFILE                    C:\Documents and Settings\LocalService
+    1484 spoolsv.exe          0x00010000 windir                         C:\WINDOWS
+    1636 explorer.exe         0x00010000 ALLUSERSPROFILE                C:\Documents and Settings\All Users
+    1636 explorer.exe         0x00010000 APPDATA                        C:\Documents and Settings\donny\Application Data
+    1636 explorer.exe         0x00010000 CLIENTNAME                     Console
+    1636 explorer.exe         0x00010000 CommonProgramFiles             C:\Program Files\Common Files
+    1636 explorer.exe         0x00010000 COMPUTERNAME                   INFOSECL-5A7C18
+    1636 explorer.exe         0x00010000 ComSpec                        C:\WINDOWS\system32\cmd.exe
+    1636 explorer.exe         0x00010000 FP_NO_HOST_CHECK               NO
+    1636 explorer.exe         0x00010000 HOMEDRIVE                      C:
+    1636 explorer.exe         0x00010000 HOMEPATH                       \Documents and Settings\donny
+    1636 explorer.exe         0x00010000 LOGONSERVER                    \\INFOSECL-5A7C18
+    1636 explorer.exe         0x00010000 NUMBER_OF_PROCESSORS           1
+    1636 explorer.exe         0x00010000 OS                             Windows_NT
+    1636 explorer.exe         0x00010000 Path                           C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem
+    1636 explorer.exe         0x00010000 PATHEXT                        .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH
+    1636 explorer.exe         0x00010000 PROCESSOR_ARCHITECTURE         x86
+    1636 explorer.exe         0x00010000 PROCESSOR_IDENTIFIER           x86 Family 6 Model 78 Stepping 3, GenuineIntel
+    1636 explorer.exe         0x00010000 PROCESSOR_LEVEL                6
+    1636 explorer.exe         0x00010000 PROCESSOR_REVISION             4e03
+    1636 explorer.exe         0x00010000 ProgramFiles                   C:\Program Files
+    1636 explorer.exe         0x00010000 SESSIONNAME                    Console
+    1636 explorer.exe         0x00010000 SystemDrive                    C:
+    1636 explorer.exe         0x00010000 SystemRoot                     C:\WINDOWS
+    1636 explorer.exe         0x00010000 TEMP                           C:\DOCUME~1\donny\LOCALS~1\Temp
+    1636 explorer.exe         0x00010000 TMP                            C:\DOCUME~1\donny\LOCALS~1\Temp
+    1636 explorer.exe         0x00010000 USERDOMAIN                     INFOSECL-5A7C18
+    1636 explorer.exe         0x00010000 USERNAME                       donny
+    1636 explorer.exe         0x00010000 USERPROFILE                    C:\Documents and Settings\donny
+    1636 explorer.exe         0x00010000 windir                         C:\WINDOWS
+    1940 tasksche.exe         0x00010000 ALLUSERSPROFILE                C:\Documents and Settings\All Users
+    1940 tasksche.exe         0x00010000 APPDATA                        C:\Documents and Settings\donny\Application Data
+    1940 tasksche.exe         0x00010000 CLIENTNAME                     Console
+    1940 tasksche.exe         0x00010000 CommonProgramFiles             C:\Program Files\Common Files
+    1940 tasksche.exe         0x00010000 COMPUTERNAME                   INFOSECL-5A7C18
+    1940 tasksche.exe         0x00010000 ComSpec                        C:\WINDOWS\system32\cmd.exe
+    1940 tasksche.exe         0x00010000 FP_NO_HOST_CHECK               NO
+    1940 tasksche.exe         0x00010000 HOMEDRIVE                      C:
+    1940 tasksche.exe         0x00010000 HOMEPATH                       \Documents and Settings\donny
+    1940 tasksche.exe         0x00010000 LOGONSERVER                    \\INFOSECL-5A7C18
+    1940 tasksche.exe         0x00010000 NUMBER_OF_PROCESSORS           1
+    1940 tasksche.exe         0x00010000 OS                             Windows_NT
+    1940 tasksche.exe         0x00010000 Path                           C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem
+    1940 tasksche.exe         0x00010000 PATHEXT                        .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH
+    1940 tasksche.exe         0x00010000 PROCESSOR_ARCHITECTURE         x86
+    1940 tasksche.exe         0x00010000 PROCESSOR_IDENTIFIER           x86 Family 6 Model 78 Stepping 3, GenuineIntel
+    1940 tasksche.exe         0x00010000 PROCESSOR_LEVEL                6
+    1940 tasksche.exe         0x00010000 PROCESSOR_REVISION             4e03
+    1940 tasksche.exe         0x00010000 ProgramFiles                   C:\Program Files
+    1940 tasksche.exe         0x00010000 SESSIONNAME                    Console
+    1940 tasksche.exe         0x00010000 SystemDrive                    C:
+    1940 tasksche.exe         0x00010000 SystemRoot                     C:\WINDOWS
+    1940 tasksche.exe         0x00010000 TEMP                           C:\DOCUME~1\donny\LOCALS~1\Temp
+    1940 tasksche.exe         0x00010000 TMP                            C:\DOCUME~1\donny\LOCALS~1\Temp
+    1940 tasksche.exe         0x00010000 USERDOMAIN                     INFOSECL-5A7C18
+    1940 tasksche.exe         0x00010000 USERNAME                       donny
+    1940 tasksche.exe         0x00010000 USERPROFILE                    C:\Documents and Settings\donny
+    1940 tasksche.exe         0x00010000 windir                         C:\WINDOWS
+    1956 ctfmon.exe           0x00010000 ALLUSERSPROFILE                C:\Documents and Settings\All Users
+    1956 ctfmon.exe           0x00010000 APPDATA                        C:\Documents and Settings\donny\Application Data
+    1956 ctfmon.exe           0x00010000 CLIENTNAME                     Console
+    1956 ctfmon.exe           0x00010000 CommonProgramFiles             C:\Program Files\Common Files
+    1956 ctfmon.exe           0x00010000 COMPUTERNAME                   INFOSECL-5A7C18
+    1956 ctfmon.exe           0x00010000 ComSpec                        C:\WINDOWS\system32\cmd.exe
+    1956 ctfmon.exe           0x00010000 FP_NO_HOST_CHECK               NO
+    1956 ctfmon.exe           0x00010000 HOMEDRIVE                      C:
+    1956 ctfmon.exe           0x00010000 HOMEPATH                       \Documents and Settings\donny
+    1956 ctfmon.exe           0x00010000 LOGONSERVER                    \\INFOSECL-5A7C18
+    1956 ctfmon.exe           0x00010000 NUMBER_OF_PROCESSORS           1
+    1956 ctfmon.exe           0x00010000 OS                             Windows_NT
+    1956 ctfmon.exe           0x00010000 Path                           C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem
+    1956 ctfmon.exe           0x00010000 PATHEXT                        .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH
+    1956 ctfmon.exe           0x00010000 PROCESSOR_ARCHITECTURE         x86
+    1956 ctfmon.exe           0x00010000 PROCESSOR_IDENTIFIER           x86 Family 6 Model 78 Stepping 3, GenuineIntel
+    1956 ctfmon.exe           0x00010000 PROCESSOR_LEVEL                6
+    1956 ctfmon.exe           0x00010000 PROCESSOR_REVISION             4e03
+    1956 ctfmon.exe           0x00010000 ProgramFiles                   C:\Program Files
+    1956 ctfmon.exe           0x00010000 SESSIONNAME                    Console
+    1956 ctfmon.exe           0x00010000 SystemDrive                    C:
+    1956 ctfmon.exe           0x00010000 SystemRoot                     C:\WINDOWS
+    1956 ctfmon.exe           0x00010000 TEMP                           C:\DOCUME~1\donny\LOCALS~1\Temp
+    1956 ctfmon.exe           0x00010000 TMP                            C:\DOCUME~1\donny\LOCALS~1\Temp
+    1956 ctfmon.exe           0x00010000 USERDOMAIN                     INFOSECL-5A7C18
+    1956 ctfmon.exe           0x00010000 USERNAME                       donny
+    1956 ctfmon.exe           0x00010000 USERPROFILE                    C:\Documents and Settings\donny
+    1956 ctfmon.exe           0x00010000 windir                         C:\WINDOWS
+     260 svchost.exe          0x00010000 ALLUSERSPROFILE                C:\Documents and Settings\All Users
+     260 svchost.exe          0x00010000 CommonProgramFiles             C:\Program Files\Common Files
+     260 svchost.exe          0x00010000 COMPUTERNAME                   INFOSECL-5A7C18
+     260 svchost.exe          0x00010000 ComSpec                        C:\WINDOWS\system32\cmd.exe
+     260 svchost.exe          0x00010000 FP_NO_HOST_CHECK               NO
+     260 svchost.exe          0x00010000 NUMBER_OF_PROCESSORS           1
+     260 svchost.exe          0x00010000 OS                             Windows_NT
+     260 svchost.exe          0x00010000 Path                           C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem
+     260 svchost.exe          0x00010000 PATHEXT                        .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH
+     260 svchost.exe          0x00010000 PROCESSOR_ARCHITECTURE         x86
+     260 svchost.exe          0x00010000 PROCESSOR_IDENTIFIER           x86 Family 6 Model 78 Stepping 3, GenuineIntel
+     260 svchost.exe          0x00010000 PROCESSOR_LEVEL                6
+     260 svchost.exe          0x00010000 PROCESSOR_REVISION             4e03
+     260 svchost.exe          0x00010000 ProgramFiles                   C:\Program Files
+     260 svchost.exe          0x00010000 SystemDrive                    C:
+     260 svchost.exe          0x00010000 SystemRoot                     C:\WINDOWS
+     260 svchost.exe          0x00010000 TEMP                           C:\DOCUME~1\LOCALS~1\LOCALS~1\Temp
+     260 svchost.exe          0x00010000 TMP                            C:\DOCUME~1\LOCALS~1\LOCALS~1\Temp
+     260 svchost.exe          0x00010000 USERDOMAIN                     NT AUTHORITY
+     260 svchost.exe          0x00010000 USERNAME                       LOCAL SERVICE
+     260 svchost.exe          0x00010000 USERPROFILE                    C:\Documents and Settings\LocalService
+     260 svchost.exe          0x00010000 windir                         C:\WINDOWS
+     740 @WanaDecryptor@      0x00010000 ALLUSERSPROFILE                C:\Documents and Settings\All Users
+     740 @WanaDecryptor@      0x00010000 APPDATA                        C:\Documents and Settings\donny\Application Data
+     740 @WanaDecryptor@      0x00010000 CLIENTNAME                     Console
+     740 @WanaDecryptor@      0x00010000 CommonProgramFiles             C:\Program Files\Common Files
+     740 @WanaDecryptor@      0x00010000 COMPUTERNAME                   INFOSECL-5A7C18
+     740 @WanaDecryptor@      0x00010000 ComSpec                        C:\WINDOWS\system32\cmd.exe
+     740 @WanaDecryptor@      0x00010000 FP_NO_HOST_CHECK               NO
+     740 @WanaDecryptor@      0x00010000 HOMEDRIVE                      C:
+     740 @WanaDecryptor@      0x00010000 HOMEPATH                       \Documents and Settings\donny
+     740 @WanaDecryptor@      0x00010000 LOGONSERVER                    \\INFOSECL-5A7C18
+     740 @WanaDecryptor@      0x00010000 NUMBER_OF_PROCESSORS           1
+     740 @WanaDecryptor@      0x00010000 OS                             Windows_NT
+     740 @WanaDecryptor@      0x00010000 Path                           C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem
+     740 @WanaDecryptor@      0x00010000 PATHEXT                        .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH
+     740 @WanaDecryptor@      0x00010000 PROCESSOR_ARCHITECTURE         x86
+     740 @WanaDecryptor@      0x00010000 PROCESSOR_IDENTIFIER           x86 Family 6 Model 78 Stepping 3, GenuineIntel
+     740 @WanaDecryptor@      0x00010000 PROCESSOR_LEVEL                6
+     740 @WanaDecryptor@      0x00010000 PROCESSOR_REVISION             4e03
+     740 @WanaDecryptor@      0x00010000 ProgramFiles                   C:\Program Files
+     740 @WanaDecryptor@      0x00010000 SESSIONNAME                    Console
+     740 @WanaDecryptor@      0x00010000 SystemDrive                    C:
+     740 @WanaDecryptor@      0x00010000 SystemRoot                     C:\WINDOWS
+     740 @WanaDecryptor@      0x00010000 TEMP                           C:\DOCUME~1\donny\LOCALS~1\Temp
+     740 @WanaDecryptor@      0x00010000 TMP                            C:\DOCUME~1\donny\LOCALS~1\Temp
+     740 @WanaDecryptor@      0x00010000 USERDOMAIN                     INFOSECL-5A7C18
+     740 @WanaDecryptor@      0x00010000 USERNAME                       donny
+     740 @WanaDecryptor@      0x00010000 USERPROFILE                    C:\Documents and Settings\donny
+     740 @WanaDecryptor@      0x00010000 windir                         C:\WINDOWS
+    1768 wuauclt.exe          0x00010000 ALLUSERSPROFILE                C:\Documents and Settings\All Users
+    1768 wuauclt.exe          0x00010000 CommonProgramFiles             C:\Program Files\Common Files
+    1768 wuauclt.exe          0x00010000 COMPUTERNAME                   INFOSECL-5A7C18
+    1768 wuauclt.exe          0x00010000 ComSpec                        C:\WINDOWS\system32\cmd.exe
+    1768 wuauclt.exe          0x00010000 FP_NO_HOST_CHECK               NO
+    1768 wuauclt.exe          0x00010000 NUMBER_OF_PROCESSORS           1
+    1768 wuauclt.exe          0x00010000 OS                             Windows_NT
+    1768 wuauclt.exe          0x00010000 Path                           C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem
+    1768 wuauclt.exe          0x00010000 PATHEXT                        .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH
+    1768 wuauclt.exe          0x00010000 PROCESSOR_ARCHITECTURE         x86
+    1768 wuauclt.exe          0x00010000 PROCESSOR_IDENTIFIER           x86 Family 6 Model 78 Stepping 3, GenuineIntel
+    1768 wuauclt.exe          0x00010000 PROCESSOR_LEVEL                6
+    1768 wuauclt.exe          0x00010000 PROCESSOR_REVISION             4e03
+    1768 wuauclt.exe          0x00010000 ProgramFiles                   C:\Program Files
+    1768 wuauclt.exe          0x00010000 SystemDrive                    C:
+    1768 wuauclt.exe          0x00010000 SystemRoot                     C:\WINDOWS
+    1768 wuauclt.exe          0x00010000 TEMP                           C:\WINDOWS\TEMP
+    1768 wuauclt.exe          0x00010000 TMP                            C:\WINDOWS\TEMP
+    1768 wuauclt.exe          0x00010000 USERPROFILE                    C:\Documents and Settings\NetworkService
+    1768 wuauclt.exe          0x00010000 windir                         C:\WINDOWS
+     544 alg.exe              0x00010000 ALLUSERSPROFILE                C:\Documents and Settings\All Users
+     544 alg.exe              0x00010000 CommonProgramFiles             C:\Program Files\Common Files
+     544 alg.exe              0x00010000 COMPUTERNAME                   INFOSECL-5A7C18
+     544 alg.exe              0x00010000 ComSpec                        C:\WINDOWS\system32\cmd.exe
+     544 alg.exe              0x00010000 FP_NO_HOST_CHECK               NO
+     544 alg.exe              0x00010000 NUMBER_OF_PROCESSORS           1
+     544 alg.exe              0x00010000 OS                             Windows_NT
+     544 alg.exe              0x00010000 Path                           C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem
+     544 alg.exe              0x00010000 PATHEXT                        .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH
+     544 alg.exe              0x00010000 PROCESSOR_ARCHITECTURE         x86
+     544 alg.exe              0x00010000 PROCESSOR_IDENTIFIER           x86 Family 6 Model 78 Stepping 3, GenuineIntel
+     544 alg.exe              0x00010000 PROCESSOR_LEVEL                6
+     544 alg.exe              0x00010000 PROCESSOR_REVISION             4e03
+     544 alg.exe              0x00010000 ProgramFiles                   C:\Program Files
+     544 alg.exe              0x00010000 SystemDrive                    C:
+     544 alg.exe              0x00010000 SystemRoot                     C:\WINDOWS
+     544 alg.exe              0x00010000 TEMP                           C:\DOCUME~1\LOCALS~1\LOCALS~1\Temp
+     544 alg.exe              0x00010000 TMP                            C:\DOCUME~1\LOCALS~1\LOCALS~1\Temp
+     544 alg.exe              0x00010000 USERDOMAIN                     NT AUTHORITY
+     544 alg.exe              0x00010000 USERNAME                       LOCAL SERVICE
+     544 alg.exe              0x00010000 USERPROFILE                    C:\Documents and Settings\LocalService
+     544 alg.exe              0x00010000 windir                         C:\WINDOWS
+    1168 wscntfy.exe          0x00010000 ALLUSERSPROFILE                C:\Documents and Settings\All Users
+    1168 wscntfy.exe          0x00010000 APPDATA                        C:\Documents and Settings\donny\Application Data
+    1168 wscntfy.exe          0x00010000 CLIENTNAME                     Console
+    1168 wscntfy.exe          0x00010000 CommonProgramFiles             C:\Program Files\Common Files
+    1168 wscntfy.exe          0x00010000 COMPUTERNAME                   INFOSECL-5A7C18
+    1168 wscntfy.exe          0x00010000 ComSpec                        C:\WINDOWS\system32\cmd.exe
+    1168 wscntfy.exe          0x00010000 FP_NO_HOST_CHECK               NO
+    1168 wscntfy.exe          0x00010000 HOMEDRIVE                      C:
+    1168 wscntfy.exe          0x00010000 HOMEPATH                       \Documents and Settings\donny
+    1168 wscntfy.exe          0x00010000 LOGONSERVER                    \\INFOSECL-5A7C18
+    1168 wscntfy.exe          0x00010000 NUMBER_OF_PROCESSORS           1
+    1168 wscntfy.exe          0x00010000 OS                             Windows_NT
+    1168 wscntfy.exe          0x00010000 Path                           C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem
+    1168 wscntfy.exe          0x00010000 PATHEXT                        .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH
+    1168 wscntfy.exe          0x00010000 PROCESSOR_ARCHITECTURE         x86
+    1168 wscntfy.exe          0x00010000 PROCESSOR_IDENTIFIER           x86 Family 6 Model 78 Stepping 3, GenuineIntel
+    1168 wscntfy.exe          0x00010000 PROCESSOR_LEVEL                6
+    1168 wscntfy.exe          0x00010000 PROCESSOR_REVISION             4e03
+    1168 wscntfy.exe          0x00010000 ProgramFiles                   C:\Program Files
+    1168 wscntfy.exe          0x00010000 SESSIONNAME                    Console
+    1168 wscntfy.exe          0x00010000 SystemDrive                    C:
+    1168 wscntfy.exe          0x00010000 SystemRoot                     C:\WINDOWS
+    1168 wscntfy.exe          0x00010000 TEMP                           C:\DOCUME~1\donny\LOCALS~1\Temp
+    1168 wscntfy.exe          0x00010000 TMP                            C:\DOCUME~1\donny\LOCALS~1\Temp
+    1168 wscntfy.exe          0x00010000 USERDOMAIN                     INFOSECL-5A7C18
+    1168 wscntfy.exe          0x00010000 USERNAME                       donny
+    1168 wscntfy.exe          0x00010000 USERPROFILE                    C:\Documents and Settings\donny
+    1168 wscntfy.exe          0x00010000 windir                         C:\WINDOWS

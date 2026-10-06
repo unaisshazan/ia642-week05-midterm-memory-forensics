@@ -1,0 +1,82 @@
+MIDTERM VOL2 ANALYSIS 2026-10-05T16:28:31.4407818-04:00
+[2026-10-05T16:28:31.4653891-04:00] START C:\temp\midterm\tools\vol26.exe -f C:\temp\midterm\dumps\wcry.vmem imageinfo
+[2026-10-05T16:28:31.4653891-04:00] DONE lines=12
+[2026-10-05T16:28:45.7628248-04:00] START C:\temp\midterm\tools\vol26.exe -f C:\temp\midterm\dumps\wcry.vmem kdbgscan
+[2026-10-05T16:28:45.7628248-04:00] DONE lines=32
+[2026-10-05T16:28:57.9841232-04:00] START C:\temp\midterm\tools\vol26.exe -f C:\temp\midterm\dumps\stuxnet.vmem imageinfo
+[2026-10-05T16:28:57.9841232-04:00] DONE lines=12
+[2026-10-05T16:29:22.1335656-04:00] START C:\temp\midterm\tools\vol26.exe -f C:\temp\midterm\dumps\stuxnet.vmem kdbgscan
+[2026-10-05T16:29:22.1335656-04:00] DONE lines=32
+[2026-10-05T16:29:40.4588895-04:00] START C:\temp\midterm\tools\vol26.exe -f C:\temp\midterm\dumps\wcry.vmem --profile WinXPSP2x86 pslist
+[2026-10-05T16:29:40.4588895-04:00] DONE lines=22
+[2026-10-05T16:29:42.3355904-04:00] START C:\temp\midterm\tools\vol26.exe -f C:\temp\midterm\dumps\wcry.vmem --profile WinXPSP2x86 pstree
+[2026-10-05T16:29:42.3355904-04:00] DONE lines=22
+[2026-10-05T16:29:44.4015077-04:00] START C:\temp\midterm\tools\vol26.exe -f C:\temp\midterm\dumps\wcry.vmem --profile WinXPSP2x86 psscan
+[2026-10-05T16:29:44.4015077-04:00] DONE lines=27
+[2026-10-05T16:29:46.4772117-04:00] START C:\temp\midterm\tools\vol26.exe -f C:\temp\midterm\dumps\wcry.vmem --profile WinXPSP2x86 psxview
+[2026-10-05T16:29:46.4772117-04:00] DONE lines=27
+[2026-10-05T16:29:49.7528941-04:00] START C:\temp\midterm\tools\vol26.exe -f C:\temp\midterm\dumps\wcry.vmem --profile WinXPSP2x86 connections
+[2026-10-05T16:29:49.7528941-04:00] DONE lines=2
+[2026-10-05T16:29:51.4218671-04:00] START C:\temp\midterm\tools\vol26.exe -f C:\temp\midterm\dumps\wcry.vmem --profile WinXPSP2x86 connscan
+[2026-10-05T16:29:51.4218671-04:00] DONE lines=2
+[2026-10-05T16:29:53.9006297-04:00] START C:\temp\midterm\tools\vol26.exe -f C:\temp\midterm\dumps\wcry.vmem --profile WinXPSP2x86 sockets
+[2026-10-05T16:29:53.9006297-04:00] DONE lines=19
+[2026-10-05T16:29:55.5530276-04:00] START C:\temp\midterm\tools\vol26.exe -f C:\temp\midterm\dumps\wcry.vmem --profile WinXPSP2x86 sockscan
+[2026-10-05T16:29:55.5530276-04:00] DONE lines=19
+[2026-10-05T16:29:57.7298516-04:00] START C:\temp\midterm\tools\vol26.exe -f C:\temp\midterm\dumps\wcry.vmem --profile WinXPSP2x86 cmdline
+[2026-10-05T16:29:57.7298516-04:00] DONE lines=59
+[2026-10-05T16:29:59.5509123-04:00] START C:\temp\midterm\tools\vol26.exe -f C:\temp\midterm\dumps\wcry.vmem --profile WinXPSP2x86 consoles
+[2026-10-05T16:29:59.5509123-04:00] DONE lines=30
+[2026-10-05T16:30:01.9208025-04:00] START C:\temp\midterm\tools\vol26.exe -f C:\temp\midterm\dumps\wcry.vmem --profile WinXPSP2x86 envars
+[2026-10-05T16:30:01.9208025-04:00] DONE lines=414
+[2026-10-05T16:30:03.9072806-04:00] START C:\temp\midterm\tools\vol26.exe -f C:\temp\midterm\dumps\wcry.vmem --profile WinXPSP2x86 dlllist
+[2026-10-05T16:30:03.9072806-04:00] DONE lines=1020
+[2026-10-05T16:30:05.8255541-04:00] START C:\temp\midterm\tools\vol26.exe -f C:\temp\midterm\dumps\stuxnet.vmem --profile WinXPSP2x86 pslist
+[2026-10-05T16:30:05.8255541-04:00] DONE lines=33
+[2026-10-05T16:30:07.4412247-04:00] START C:\temp\midterm\tools\vol26.exe -f C:\temp\midterm\dumps\stuxnet.vmem --profile WinXPSP2x86 pstree
+[2026-10-05T16:30:07.4412247-04:00] DONE lines=33
+[2026-10-05T16:30:09.1977854-04:00] START C:\temp\midterm\tools\vol26.exe -f C:\temp\midterm\dumps\stuxnet.vmem --profile WinXPSP2x86 psscan
+[2026-10-05T16:30:09.1977854-04:00] DONE lines=33
+[2026-10-05T16:30:11.8454862-04:00] START C:\temp\midterm\tools\vol26.exe -f C:\temp\midterm\dumps\stuxnet.vmem --profile WinXPSP2x86 psxview
+[2026-10-05T16:30:11.8454862-04:00] DONE lines=33
+[2026-10-05T16:30:15.5184850-04:00] START C:\temp\midterm\tools\vol26.exe -f C:\temp\midterm\dumps\stuxnet.vmem --profile WinXPSP2x86 connections
+[2026-10-05T16:30:15.5184850-04:00] DONE lines=2
+[2026-10-05T16:30:17.1413148-04:00] START C:\temp\midterm\tools\vol26.exe -f C:\temp\midterm\dumps\stuxnet.vmem --profile WinXPSP2x86 connscan
+[2026-10-05T16:30:17.1413148-04:00] DONE lines=2
+[2026-10-05T16:30:19.1009382-04:00] START C:\temp\midterm\tools\vol26.exe -f C:\temp\midterm\dumps\stuxnet.vmem --profile WinXPSP2x86 sockets
+[2026-10-05T16:30:19.1009382-04:00] DONE lines=14
+[2026-10-05T16:30:20.8884109-04:00] START C:\temp\midterm\tools\vol26.exe -f C:\temp\midterm\dumps\stuxnet.vmem --profile WinXPSP2x86 sockscan
+[2026-10-05T16:30:20.8884109-04:00] DONE lines=14
+[2026-10-05T16:30:22.8433832-04:00] START C:\temp\midterm\tools\vol26.exe -f C:\temp\midterm\dumps\stuxnet.vmem --profile WinXPSP2x86 dlllist
+[2026-10-05T16:30:22.8433832-04:00] DONE lines=1457
+[2026-10-05T16:30:25.4237833-04:00] START C:\temp\midterm\tools\vol26.exe -f C:\temp\midterm\dumps\stuxnet.vmem --profile WinXPSP2x86 ldrmodules
+[2026-10-05T16:30:25.4237833-04:00] DONE lines=1136
+[2026-10-05T16:30:29.8780217-04:00] START C:\temp\midterm\tools\vol26.exe -f C:\temp\midterm\dumps\stuxnet.vmem --profile WinXPSP2x86 malfind
+[2026-10-05T16:30:29.8780217-04:00] DONE lines=560
+[2026-10-05T16:30:32.8196080-04:00] START C:\temp\midterm\tools\vol26.exe -f C:\temp\midterm\dumps\stuxnet.vmem --profile WinXPSP2x86 modules
+[2026-10-05T16:30:32.8196080-04:00] DONE lines=124
+[2026-10-05T16:30:34.3562953-04:00] START C:\temp\midterm\tools\vol26.exe -f C:\temp\midterm\dumps\stuxnet.vmem --profile WinXPSP2x86 modscan
+[2026-10-05T16:30:34.3562953-04:00] DONE lines=126
+[2026-10-05T16:30:36.1773217-04:00] START C:\temp\midterm\tools\vol26.exe -f C:\temp\midterm\dumps\stuxnet.vmem --profile WinXPSP2x86 driverscan
+[2026-10-05T16:30:36.1773217-04:00] DONE lines=103
+[2026-10-05T16:30:38.4346816-04:00] START C:\temp\midterm\tools\vol26.exe -f C:\temp\midterm\dumps\stuxnet.vmem --profile WinXPSP2x86 svcscan
+[2026-10-05T16:30:38.4346816-04:00] DONE lines=2680
+[2026-10-05T16:30:40.4949488-04:00] START C:\temp\midterm\tools\vol26.exe -f C:\temp\midterm\dumps\stuxnet.vmem --profile WinXPSP2x86 getsids
+[2026-10-05T16:30:40.4949488-04:00] DONE lines=196
+[2026-10-05T16:30:45.7326389-04:00] START C:\temp\midterm\tools\vol26.exe -f C:\temp\midterm\dumps\stuxnet.vmem --profile WinXPSP2x86 cmdline
+[2026-10-05T16:30:45.7326389-04:00] DONE lines=90
+[2026-10-05T16:30:47.3851009-04:00] START C:\temp\midterm\tools\vol26.exe -f C:\temp\midterm\dumps\stuxnet.vmem --profile WinXPSP2x86 -K ControlSet001\Services\MRxCls printkey
+[2026-10-05T16:30:47.3851009-04:00] DONE lines=47
+[2026-10-05T16:30:52.6773791-04:00] START C:\temp\midterm\tools\vol26.exe -f C:\temp\midterm\dumps\stuxnet.vmem --profile WinXPSP2x86 -K ControlSet001\Services\MRxNet printkey
+[2026-10-05T16:30:52.6773791-04:00] DONE lines=18
+[2026-10-05T16:30:58.0494207-04:00] START C:\temp\midterm\tools\vol26.exe -f C:\temp\midterm\dumps\stuxnet.vmem --profile WinXPSP2x86 -K ControlSet001\Services\MRXCLS printkey
+[2026-10-05T16:30:58.0494207-04:00] DONE lines=47
+[2026-10-05T16:31:03.0595780-04:00] START C:\temp\midterm\tools\vol26.exe -f C:\temp\midterm\dumps\stuxnet.vmem --profile WinXPSP2x86 -K ControlSet001\Services\MRXNET printkey
+[2026-10-05T16:31:03.0595780-04:00] DONE lines=18
+[2026-10-05T16:31:08.4118891-04:00] START C:\temp\midterm\tools\vol26.exe -f C:\temp\midterm\dumps\stuxnet.vmem --profile WinXPSP2x86 -D C:\temp\midterm\output\dumps_malfind malfind
+[2026-10-05T16:31:08.4118891-04:00] DONE lines=560
+[2026-10-05T16:31:11.8885195-04:00] START C:\temp\midterm\tools\vol26.exe -f C:\temp\midterm\dumps\wcry.vmem --profile WinXPSP3x86 pslist
+[2026-10-05T16:31:11.8885195-04:00] DONE lines=22
+[2026-10-05T16:31:14.9596800-04:00] START C:\temp\midterm\tools\vol26.exe -f C:\temp\midterm\dumps\stuxnet.vmem --profile WinXPSP3x86 pslist
+[2026-10-05T16:31:14.9596800-04:00] DONE lines=33
+ANALYSIS_BATCH_DONE
